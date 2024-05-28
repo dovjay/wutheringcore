@@ -16,6 +16,9 @@ export default function TopNav() {
       <Button variant="ghost" asChild>
         <Link href="/tierlist">Tierlist</Link>
       </Button>
+      <Button variant="ghost" asChild>
+        <Link href="/characters">Characters</Link>
+      </Button>
     </nav>
   );
 }
