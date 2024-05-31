@@ -4,7 +4,7 @@ import Filters from "./Filters";
 export default function Characters() {
   return (
     <main>
-      <section className="container mx-auto my-10">
+      <section className="container my-10">
         <div className="flex gap-4">
           <Filters />
           <CharacterList />

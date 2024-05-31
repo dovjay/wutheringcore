@@ -32,7 +32,7 @@ export default function CharacterProfile() {
     <div className="flex flex-col gap-10">
       <h1 className="text-6xl font-bold text-center">Character Profile</h1>
 
-      <div className="border border-zinc-600 bg-zinc-800 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
+      <div className="border border-zinc-600 bg-zinc-900 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
         <h2 className="text-xl font-bold">Skills</h2>
 
         <Tabs defaultValue="active" className="flex flex-col">
@@ -65,7 +65,7 @@ export default function CharacterProfile() {
         </Tabs>
       </div>
 
-      <div className="border border-zinc-600 bg-zinc-800 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
+      <div className="border border-zinc-600 bg-zinc-900 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
         <h2 className="text-xl font-bold">Resonance Chain (Dupes)</h2>
 
         <div className="grid grid-cols-[repeat(auto-fill,minmax(20rem,max-content))] gap-2">
@@ -77,7 +77,7 @@ export default function CharacterProfile() {
         </div>
       </div>
 
-      <div className="border border-zinc-600 bg-zinc-800 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
+      <div className="border border-zinc-600 bg-zinc-900 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
         <h2 className="text-xl font-bold">Minor Fortes (Total)</h2>
 
         <div className="flex gap-2">
@@ -95,7 +95,7 @@ export default function CharacterProfile() {
         </div>
       </div>
 
-      <div className="border border-zinc-600 bg-zinc-800 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
+      <div className="border border-zinc-600 bg-zinc-900 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
         <h2 className="text-xl font-bold">Voice Actors</h2>
 
         <div className="grid grid-cols-[repeat(auto-fill,minmax(19rem,max-content))] gap-6">

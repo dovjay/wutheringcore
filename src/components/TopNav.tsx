@@ -38,7 +38,7 @@ function NavLink({
 
 export default function TopNav() {
   return (
-    <nav className="px-8 py-4 flex gap-6 items-center bg-zinc-800">
+    <nav className="px-8 py-4 flex gap-6 items-center bg-zinc-900">
       <Link href="/" passHref>
         <div className="font-bold text-3xl mr-2 group">
           <span className="">Wuthering</span>

@@ -3,7 +3,7 @@ export default function Review() {
     <div className="flex flex-col gap-10">
       <h1 className="text-6xl font-bold text-center">Review</h1>
 
-      <div className="border border-zinc-600 bg-zinc-800 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
+      <div className="border border-zinc-600 bg-zinc-900 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
         <h2 className="text-xl font-bold">Quick Summary</h2>
 
         <div className="flex flex-col gap-5">
@@ -15,7 +15,7 @@ export default function Review() {
         </div>
       </div>
 
-      <div className="border border-zinc-600 bg-zinc-800 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
+      <div className="border border-zinc-600 bg-zinc-900 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
         <h2 className="text-xl font-bold">Pros & Cons</h2>
 
         <div className="flex gap-2">
@@ -41,10 +41,10 @@ export default function Review() {
         </div>
       </div>
 
-      <div className="border border-zinc-600 bg-zinc-800 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
+      <div className="border border-zinc-600 bg-zinc-900 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
         <h2 className="text-xl font-bold">Damage Profile</h2>
 
-        <div className="mx-auto w-64 aspect-square rounded-full bg-zinc-300" />
+        <div className="w-64 aspect-square rounded-full bg-zinc-300" />
 
         <div className="flex flex-wrap gap-6 mx-auto">
           <div className="flex gap-2 items-center">

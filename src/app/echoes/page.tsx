@@ -34,8 +34,8 @@ function EchoCard() {
 export default function Echoes() {
   return (
     <main>
-      <section className="container mx-auto my-10">
-        <div className="border border-zinc-700 bg-zinc-800 p-6 rounded-xl">
+      <section className="container my-10">
+        <div className="border border-zinc-700 bg-zinc-900 p-6 rounded-xl">
           <div className="flex flex-col gap-3">
             <h1 className="text-5xl font-bold">Echoes</h1>
             <Filters />

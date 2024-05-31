@@ -6,11 +6,11 @@ import NextBanner from "./NextBanner";
 export default function Tierlist() {
   return (
     <main>
-      <section className="container mx-auto my-10">
+      <section className="container my-10">
         <NextBanner />
       </section>
-      <section className="container mx-auto my-10">
-        <div className="border border-zinc-700 bg-zinc-800 p-6 rounded-xl">
+      <section className="container my-10">
+        <div className="border border-zinc-700 bg-zinc-900 p-6 rounded-xl">
           <div className="flex flex-col gap-3">
             <h1 className="text-5xl font-bold">Tierlist Overview</h1>
             <Filters />

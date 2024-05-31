@@ -32,11 +32,11 @@ export default function CharacterOverview() {
           style={{ backgroundImage: "url('/mock/kakarot_card.webp')" }}
         />
 
-        <section className="max-xl:container px-48 mx-auto my-24 relative">
+        <section className="max-xl:container px-48 my-24 relative">
           <Overview />
         </section>
 
-        <section className="container mx-auto my-10 relative">
+        <section className="container my-10 relative">
           {openTab === OverviewTab.Build && <BuildGuide />}
           {openTab === OverviewTab.Profile && <CharacterProfile />}
           {openTab === OverviewTab.Review && <Review />}

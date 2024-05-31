@@ -76,7 +76,7 @@ export default function BuildGuide() {
     <div className="flex flex-col gap-10">
       <h1 className="text-6xl font-bold text-center">Build Guide</h1>
 
-      <div className="border border-zinc-600 bg-zinc-800 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
+      <div className="border border-zinc-600 bg-zinc-900 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
         <h2 className="text-xl font-bold">Build Materials</h2>
 
         <div className="flex gap-4">
@@ -148,7 +148,7 @@ export default function BuildGuide() {
         </Button>
       </div>
 
-      <div className="min-w-48 border border-zinc-600 bg-zinc-800 p-5 rounded-xl flex flex-col gap-4">
+      <div className="min-w-48 border border-zinc-600 bg-zinc-900 p-5 rounded-xl flex flex-col gap-4">
         <h2 className="text-xl font-bold">Ability Priority</h2>
         <div className="flex gap-4 overflow-x-auto pb-2 items-center justify-center flex-wrap">
           {
@@ -162,7 +162,7 @@ export default function BuildGuide() {
         </div>
       </div>
 
-      <div className="border border-zinc-600 bg-zinc-800 p-5 rounded-xl flex flex-col gap-4">
+      <div className="border border-zinc-600 bg-zinc-900 p-5 rounded-xl flex flex-col gap-4">
         <h2 className="text-xl font-bold">Best Weapon</h2>
         <div className="flex gap-4 overflow-x-auto pb-2">
           {
@@ -173,7 +173,7 @@ export default function BuildGuide() {
         </div>
       </div>
 
-      <div className="border border-zinc-600 bg-zinc-800 p-5 rounded-xl flex flex-col gap-4">
+      <div className="border border-zinc-600 bg-zinc-900 p-5 rounded-xl flex flex-col gap-4">
         <h2 className="text-xl font-bold">Echo Set</h2>
 
         <div className="flex gap-4 max-md:flex-col">
@@ -239,7 +239,7 @@ export default function BuildGuide() {
         </div>
       </div>
 
-      <div className="border border-zinc-600 bg-zinc-800 p-5 rounded-xl flex flex-col gap-4">
+      <div className="border border-zinc-600 bg-zinc-900 p-5 rounded-xl flex flex-col gap-4">
         <h2 className="text-xl font-bold">Synergies</h2>
 
         <div className="flex gap-4 overflow-x-auto pb-2">
