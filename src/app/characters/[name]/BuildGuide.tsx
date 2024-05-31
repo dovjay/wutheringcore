@@ -7,6 +7,7 @@ import { Button } from "~/components/ui/button";
 import { Separator } from "~/components/ui/separator";
 import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow } from "~/components/ui/table";
 import { cn } from "~/lib/utils";
+import { CharacterCard } from "../CharacterList";
 
 function WeaponCard() {
   return (
@@ -76,17 +77,32 @@ export default function BuildGuide() {
       <h1 className="text-6xl font-bold text-center">Build Guide</h1>
 
       <div className="border border-zinc-600 bg-zinc-800 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
-        <h2 className="text-xl font-bold">Ascension Materials</h2>
+        <h2 className="text-xl font-bold">Build Materials</h2>
 
-        <div className="flex gap-4 p-4 bg-zinc-700/50 rounded-xl">
-          <div className="flex flex-col gap-2">
-            <h3 className="font-bold">Total Material Needed</h3>
-            <div className="flex gap-2 flex-wrap">
-              {
-                Array.from({ length: 11 }).map((material, i) => (
-                  <MaterialCard total={25} key={i} />
-                ))
-              }
+        <div className="flex gap-4">
+          <div className="flex gap-4 p-4 bg-zinc-700/50 rounded-xl">
+            <div className="flex flex-col gap-2">
+              <h3 className="font-bold">Total Ascencion Materials</h3>
+              <div className="flex gap-2 flex-wrap">
+                {
+                  Array.from({ length: 11 }).map((material, i) => (
+                    <MaterialCard total={25} key={i} />
+                  ))
+                }
+              </div>
+            </div>
+          </div>
+
+          <div className="flex gap-4 p-4 bg-zinc-700/50 rounded-xl">
+            <div className="flex flex-col gap-2">
+              <h3 className="font-bold">Total Skills Materials</h3>
+              <div className="flex gap-2 flex-wrap">
+                {
+                  Array.from({ length: 11 }).map((material, i) => (
+                    <MaterialCard total={25} key={i} />
+                  ))
+                }
+              </div>
             </div>
           </div>
         </div>
@@ -180,14 +196,7 @@ export default function BuildGuide() {
             <div className="flex flex-col gap-2">
               <h3 className="font-bold">Sub Statistic</h3>
               <div className="flex flex-wrap gap-2">
-                {
-                  Array.from({ length: 3 }).map((_, i) => (
-                    <div className="px-3 py-2 border border-zinc-500 rounded-xl">
-                      <p className="text-sm text-zinc-400">Cost {4 - i}</p>
-                      <p className="font-bold">Crit DMG/Rate</p>
-                    </div>
-                  ))
-                }
+                {`Energy Regeneration (Until Breakpoint) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK > Liberation DMG% > Basic DMG%`}
               </div>
             </div>
             <Separator />
@@ -230,6 +239,17 @@ export default function BuildGuide() {
         </div>
       </div>
 
+      <div className="border border-zinc-600 bg-zinc-800 p-5 rounded-xl flex flex-col gap-4">
+        <h2 className="text-xl font-bold">Synergies</h2>
+
+        <div className="flex gap-4 overflow-x-auto pb-2">
+          {
+            Array.from({ length: 4 }).map((_, i) => (
+              <CharacterCard key={i} />
+            ))
+          }
+        </div>
+      </div>
     </div>
   );
 }

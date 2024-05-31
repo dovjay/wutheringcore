@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Badge } from "~/components/ui/badge";
 import { cn } from "~/lib/utils";
 
-function CharacterCard() {
+export function CharacterCard() {
   return (
     <Link href="/characters/calcharo" passHref>
       <div className={cn(

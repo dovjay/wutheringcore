@@ -46,7 +46,7 @@ export default function Review() {
 
         <div className="mx-auto w-64 aspect-square rounded-full bg-zinc-300" />
 
-        <div className="flex flex-wrap gap-6">
+        <div className="flex flex-wrap gap-6 mx-auto">
           <div className="flex gap-2 items-center">
             <div className="w-4 h-4 bg-lime-400 rounded-full" />
             <div>Basic</div>
