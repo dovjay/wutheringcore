@@ -41,21 +41,21 @@ export default function CharacterProfile() {
             <TabsTrigger value="passive">Passive</TabsTrigger>
             <TabsTrigger value="concerto">Concerto</TabsTrigger>
           </TabsList>
-          <TabsContent value="active" className="grid grid-cols-[repeat(auto-fill,minmax(20rem,max-content))] gap-2">
+          <TabsContent value="active" className="grid grid-cols-[repeat(auto-fill,minmax(20rem,max-content))] gap-2 data-[state=inactive]:hidden">
             {
               Array.from({ length: 4 }).map((_, i) => (
                 <SkillCard key={i} />
               ))
             }
           </TabsContent>
-          <TabsContent value="passive" className="grid grid-cols-[repeat(auto-fill,minmax(20rem,max-content))] gap-2">
+          <TabsContent value="passive" className="grid grid-cols-[repeat(auto-fill,minmax(20rem,max-content))] gap-2 data-[state=inactive]:hidden">
             {
               Array.from({ length: 3 }).map((_, i) => (
                 <SkillCard key={i} />
               ))
             }
           </TabsContent>
-          <TabsContent value="concerto" className="grid grid-cols-[repeat(auto-fill,minmax(20rem,max-content))] gap-2">
+          <TabsContent value="concerto" className="grid grid-cols-[repeat(auto-fill,minmax(20rem,max-content))] gap-2 data-[state=inactive]:hidden">
             {
               Array.from({ length: 2 }).map((_, i) => (
                 <SkillCard key={i} />
