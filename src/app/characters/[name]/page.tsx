@@ -1,24 +1,49 @@
+"use client";
+
+import { createContext, Dispatch, SetStateAction, useState } from "react";
 import BottomNav from "./BottomNav";
 import BuildGuide from "./BuildGuide";
 import Overview from "./Overview";
+import CharacterProfile from "./CharacterProfile";
+import Review from "./Review";
+
+export enum OverviewTab {
+  Build = "build",
+  Profile = "profile",
+  Review = "review",
+};
+
+export const TabContext = createContext<{
+  openTab: OverviewTab,
+  setOpenTab: Dispatch<SetStateAction<OverviewTab>>,
+}>({
+  openTab: OverviewTab.Build,
+  setOpenTab: () => { },
+});
 
 export default function CharacterOverview() {
+  const [openTab, setOpenTab] = useState(OverviewTab.Build);
+
   return (
-    <main className="relative">
-      <div
-        className="bg-cover w-full h-screen bg-center absolute bg-blend-luminosity opacity-20 gradient-mask-b-20"
-        style={{ backgroundImage: "url('/mock/kakarot_card.webp')" }}
-      />
+    <TabContext.Provider value={{ openTab, setOpenTab }}>
+      <main className="relative">
+        <div
+          className="bg-cover w-full h-screen bg-center absolute bg-blend-luminosity opacity-20 gradient-mask-b-20"
+          style={{ backgroundImage: "url('/mock/kakarot_card.webp')" }}
+        />
 
-      <section className="max-xl:container px-48 mx-auto my-24 relative">
-        <Overview />
-      </section>
+        <section className="max-xl:container px-48 mx-auto my-24 relative">
+          <Overview />
+        </section>
 
-      <section className="container mx-auto my-10 relative">
-        <BuildGuide />
-      </section>
+        <section className="container mx-auto my-10 relative">
+          {openTab === OverviewTab.Build && <BuildGuide />}
+          {openTab === OverviewTab.Profile && <CharacterProfile />}
+          {openTab === OverviewTab.Review && <Review />}
+        </section>
 
-      <BottomNav />
-    </main>
+        <BottomNav />
+      </main>
+    </TabContext.Provider>
   );
 }

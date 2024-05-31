@@ -196,7 +196,7 @@ export default function BuildGuide() {
               <div className="flex flex-wrap gap-2">
                 {
                   Array.from({ length: 3 }).map((_, i) => (
-                    <div className="w-8 aspect-square bg-zinc-400 rounded-full" />
+                    <div className="w-8 aspect-square bg-zinc-400 rounded-full" key={i} />
                   ))
                 }
               </div>
