@@ -22,6 +22,10 @@ const Links = [
     href: "/tierlist",
     text: "Tierlist",
   },
+  {
+    href: "/items",
+    text: "Items",
+  },
 ];
 
 function NavLink({
