@@ -24,7 +24,7 @@ function WeaponCard() {
   );
 }
 
-function MaterialCard({
+export function MaterialCard({
   total,
   size = "lg",
 }: {
