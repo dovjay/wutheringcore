@@ -83,7 +83,7 @@ export default function CharacterProfile() {
         <div className="flex gap-2">
           {
             Array.from({ length: 2 }).map((_, i) => (
-              <div className="w-full flex gap-2 items-center bg-zinc-700 rounded-xl p-3 justify-between">
+              <div className="w-full flex gap-2 items-center bg-zinc-700 rounded-xl p-3 justify-between" key={i}>
                 <div className="flex gap-3 items-center">
                   <div className="w-8 aspect-square rounded-full bg-zinc-300" />
                   <span>CRIT DMG</span>
@@ -101,7 +101,7 @@ export default function CharacterProfile() {
         <div className="grid grid-cols-[repeat(auto-fill,minmax(19rem,max-content))] gap-6">
           {
             Array.from({ length: 4 }).map((_, i) => (
-              <div className="w-full flex gap-2 items-center bg-zinc-700 rounded-xl p-3 justify-between">
+              <div className="w-full flex gap-2 items-center bg-zinc-700 rounded-xl p-3 justify-between" key={i}>
                 <div className="flex gap-3 items-center">
                   <div className="w-8 aspect-square rounded-full bg-zinc-300" />
                   <span>JP</span>

@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { ToggleGroup, ToggleGroupItem } from "~/components/ui/toggle-group";
-import { OverviewTab, TabContext } from "./page";
+import { OverviewTab, TabContext } from "~/contexts/CharacterTabContext";
 
 export default function BottomNav() {
   const tabCtx = useContext(TabContext);

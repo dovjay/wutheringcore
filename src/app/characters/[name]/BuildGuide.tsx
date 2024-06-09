@@ -153,10 +153,10 @@ export default function BuildGuide() {
         <div className="flex gap-4 overflow-x-auto pb-2 items-center justify-center flex-wrap">
           {
             Array.from({ length: 5 }).map((_, i) => (
-              <>
+              <div key={i}>
                 {i > 0 && <ArrowRightIcon className="w-10 h-10" />}
-                <AbilityCard key={i} />
-              </>
+                <AbilityCard />
+              </div>
             ))
           }
         </div>
