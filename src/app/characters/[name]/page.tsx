@@ -34,7 +34,7 @@ export default function CharacterOverview() {
   );
 }
 
-export enum OverviewTab {
+export const enum OverviewTab {
   Build = "build",
   Profile = "profile",
   Review = "review",
