@@ -7,7 +7,7 @@ import Overview from "./Overview";
 import CharacterProfile from "./CharacterProfile";
 import Review from "./Review";
 
-export default function CharacterOverview() {
+export default function Page() {
   const [openTab, setOpenTab] = useState(OverviewTab.Build);
 
   return (
