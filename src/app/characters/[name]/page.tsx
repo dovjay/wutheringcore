@@ -1,13 +1,14 @@
 "use client";
 
-import { createContext, Dispatch, SetStateAction, useState } from "react";
+import { useState } from "react";
 import BottomNav from "./BottomNav";
 import BuildGuide from "./BuildGuide";
 import Overview from "./Overview";
 import CharacterProfile from "./CharacterProfile";
 import Review from "./Review";
+import { OverviewTab, TabContext } from "~/contexts/CharacterTabContext";
 
-export default function Page() {
+export default function CharacterOverview() {
   const [openTab, setOpenTab] = useState(OverviewTab.Build);
 
   return (
@@ -33,17 +34,3 @@ export default function Page() {
     </TabContext.Provider>
   );
 }
-
-export const enum OverviewTab {
-  Build = "build",
-  Profile = "profile",
-  Review = "review",
-};
-
-export const TabContext = createContext<{
-  openTab: OverviewTab,
-  setOpenTab: Dispatch<SetStateAction<OverviewTab>>,
-}>({
-  openTab: OverviewTab.Build,
-  setOpenTab: () => { },
-});
