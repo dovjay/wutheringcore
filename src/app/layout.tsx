@@ -4,6 +4,7 @@ import { GeistSans } from "geist/font/sans";
 
 import { ThemeProvider } from "~/components/theme-provider";
 import TopNav from "~/components/TopNav";
+import { Toaster } from "~/components/ui/toaster";
 
 export const metadata = {
   title: "WutheringCore",
@@ -26,6 +27,7 @@ export default function RootLayout({
         >
           <TopNav />
           {children}
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>
