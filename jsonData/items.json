@@ -1,0 +1,4802 @@
+[
+  {
+    "name": "Union EXP",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_AccountExp_UI.png",
+    "type": "",
+    "subtype": "EXP",
+    "description": "Union Level EXP. Obtained from exploration.",
+    "rarity": 5
+  },
+  {
+    "name": "Shell Credit",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_hsb_UI.png",
+    "type": "",
+    "subtype": "Universal Currency",
+    "description": "The universal currency issued by Huanglong, officially recognized across many regions.",
+    "rarity": 3
+  },
+  {
+    "name": "Astrite",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_zcpq_UI.png",
+    "type": "",
+    "subtype": "Premium Currency",
+    "description": "The precious remnants of the civilization reverberate within... Perhaps they hold infinite possibilities.",
+    "rarity": 5
+  },
+  {
+    "name": "Lunite",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_cdtq_UI.png",
+    "type": "",
+    "subtype": "Premium Currency",
+    "description": "Within the changing Lunite lies a treasure known as truth... Perhaps it reveals everything about the past and the future.",
+    "rarity": 5
+  },
+  {
+    "name": "Waveplate",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_yml_UI.png",
+    "type": "",
+    "subtype": "Consumable",
+    "description": "Waveplates gradually restores over time and there is a storage limit.\nAstrites can be consumed to exchange for Waveplates.",
+    "rarity": 4
+  },
+  {
+    "name": "Crystal Solvent",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_mlf_UI.png",
+    "type": "Valuables",
+    "subtype": "Consumable",
+    "description": "Obtain 60 Waveplates after use.",
+    "rarity": 4
+  },
+  {
+    "name": "Sanhua's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1102_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 4
+  },
+  {
+    "name": "Baizhi's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1103_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 4
+  },
+  {
+    "name": "Chixia's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1202_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 4
+  },
+  {
+    "name": "Encore's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1203_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 5
+  },
+  {
+    "name": "Yangyang's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1402_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 4
+  },
+  {
+    "name": "Verina's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1503_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 5
+  },
+  {
+    "name": "Taoqi's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1601_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 4
+  },
+  {
+    "name": "Danjin's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1602_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 4
+  },
+  {
+    "name": "Mysterious Code",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_L_002_1_UI.png",
+    "type": "Development Materials",
+    "subtype": "Resonator Ascension Material",
+    "description": "Used for Rover breakthrough.",
+    "rarity": 5
+  },
+  {
+    "name": "Strife Tacet Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_L_004_1_UI.png",
+    "type": "Development Materials",
+    "subtype": "Resonator Ascension Material",
+    "description": "Crownless's drop, Resonator breakthrough item.",
+    "rarity": 4
+  },
+  {
+    "name": "Thundering Tacet Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_L_001_1_UI.png",
+    "type": "Development Materials",
+    "subtype": "Resonator Ascension Material",
+    "description": "Tempest Mephis's drop, Resonator breakthrough item.",
+    "rarity": 4
+  },
+  {
+    "name": "Elegy Tacet Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_L_006_UI.png",
+    "type": "Development Materials",
+    "subtype": "Resonator Ascension Material",
+    "description": "Mourning Aix's drop, Resonator breakthrough item.",
+    "rarity": 4
+  },
+  {
+    "name": "Rage Tacet Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_L_008_UI.png",
+    "type": "Development Materials",
+    "subtype": "Resonator Ascension Material",
+    "description": "Inferno Rider's drop, Resonator breakthrough item.",
+    "rarity": 4
+  },
+  {
+    "name": "Roaring Rock Fist",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_L_011_UI.png",
+    "type": "Development Materials",
+    "subtype": "Resonator Ascension Material",
+    "description": "Feilian Beringal's drop, Resonator breakthrough item.",
+    "rarity": 4
+  },
+  {
+    "name": "Gold-Dissolving Feather",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_L_010_UI.png",
+    "type": "Development Materials",
+    "subtype": "Resonator Ascension Material",
+    "description": "Impermanence Heron's drop, Resonator breakthrough item.",
+    "rarity": 4
+  },
+  {
+    "name": "Sound-Keeping Tacet Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_L_007_UI.png",
+    "type": "Development Materials",
+    "subtype": "Resonator Ascension Material",
+    "description": "Lampylumen Myriad's drop, Resonator breakthrough item.",
+    "rarity": 4
+  },
+  {
+    "name": "Group Abomination Tacet Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_L_009_UI.png",
+    "type": "Development Materials",
+    "subtype": "Resonator Ascension Material",
+    "description": "Mech Abomination's drop, Resonator breakthrough item.",
+    "rarity": 4
+  },
+  {
+    "name": "LF Whisperin Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_O_002_1_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 2
+  },
+  {
+    "name": "MF Whisperin Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_O_002_2_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 3
+  },
+  {
+    "name": "HF Whisperin Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_O_002_3_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 4
+  },
+  {
+    "name": "FF Whisperin Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_O_002_4_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 5
+  },
+  {
+    "name": "LF Howler Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_E_002_1_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 2
+  },
+  {
+    "name": "MF Howler Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_E_002_2_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 3
+  },
+  {
+    "name": "HF Howler Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_E_002_3_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 4
+  },
+  {
+    "name": "FF Howler Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_E_002_4_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 5
+  },
+  {
+    "name": "Crude Ring",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_O_003_1_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 2
+  },
+  {
+    "name": "Basic Ring",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_O_003_2_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 3
+  },
+  {
+    "name": "Improved Ring",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_O_003_3_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 4
+  },
+  {
+    "name": "Tailored Ring",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_O_003_4_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 5
+  },
+  {
+    "name": "Mask of Constraint",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_001_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 2
+  },
+  {
+    "name": "Mask of Erosion",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_002_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 3
+  },
+  {
+    "name": "Mask of Distortion",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_003_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 4
+  },
+  {
+    "name": "Mask of Insanity",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_004_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon &amp; Skill Material",
+    "description": "A material used to break through weapons, ascend Resonators, and upgrade skills.",
+    "rarity": 5
+  },
+  {
+    "name": "Monument Bell",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_L_003_1_UI.png",
+    "type": "Development Materials",
+    "subtype": "Skill Upgrade Material",
+    "description": "Drop from Bell-Borne Geochelone, used for skill upgrade.",
+    "rarity": 4
+  },
+  {
+    "name": "Wave-Cutting Tooth",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_L_005_UI.png",
+    "type": "Development Materials",
+    "subtype": "Skill Upgrade Material",
+    "description": "Drop from Seatrail Narwhal, used for skill upgrade.",
+    "rarity": 4
+  },
+  {
+    "name": "Unending Destruction",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_L_014_UI.png",
+    "type": "Development Materials",
+    "subtype": "Skill Upgrade Material",
+    "description": "Drop from Scar, used for skill upgrade.",
+    "rarity": 4
+  },
+  {
+    "name": "unwarranted feather",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_L_013_UI.png",
+    "type": "Development Materials",
+    "subtype": "Skill Upgrade Material",
+    "description": "Drop Objects of the Undeluded for skill upgrades.",
+    "rarity": 4
+  },
+  {
+    "name": "Vitality Drink",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_Com_002_1_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "After drinking, it restores 20% of the maximum health and 160 fixed health for the current Resonator.",
+    "rarity": 2
+  },
+  {
+    "name": "Single Revival Agent",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_Com_003_1_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Instantly revives designated Resonator. Can only be used once every 60 seconds. Only effective on your own Resonator in Co-op mode.",
+    "rarity": 2
+  },
+  {
+    "name": "Lotus Seeds",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_Sep_021_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "Material for cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Climbing Fig",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_SM_Gat_23A_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient - Herb",
+    "description": "A material used for Cooking and Synthesis.",
+    "rarity": 1
+  },
+  {
+    "name": "Iris",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_SM_Gat_33A_UI.png",
+    "type": "Resources",
+    "subtype": "Ascension Material",
+    "description": "A material used for Resonator Ascension.",
+    "rarity": 1
+  },
+  {
+    "name": "Terraspawn Fungus",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_HuiYanGu_UI.png",
+    "type": "Resources",
+    "subtype": "Ascension Material",
+    "description": "A material used for Resonator Ascension.",
+    "rarity": 1
+  },
+  {
+    "name": "Lanternberry",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_denglongguo_UI.png",
+    "type": "Resources",
+    "subtype": "Ascension Material",
+    "description": "A material used for Resonator Ascension.",
+    "rarity": 1
+  },
+  {
+    "name": "Pecok Flower",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_SM_Gat_18A_UI.png",
+    "type": "Resources",
+    "subtype": "Ascension Material",
+    "description": "A material used for Resonator Ascension.",
+    "rarity": 1
+  },
+  {
+    "name": "Belle Poppy",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_SM_Gat_29A_UI.png",
+    "type": "Resources",
+    "subtype": "Ascension Material",
+    "description": "A material used for Resonator Ascension.",
+    "rarity": 1
+  },
+  {
+    "name": "Coriolus",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_SM_Gat_30A_UI.png",
+    "type": "Resources",
+    "subtype": "Ascension Material",
+    "description": "A material used for Resonator Ascension.",
+    "rarity": 1
+  },
+  {
+    "name": "Wintry Bell",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_SM_Gat_31A_UI.png",
+    "type": "Resources",
+    "subtype": "Ascension Material",
+    "description": "A material used for Resonator Ascension.",
+    "rarity": 1
+  },
+  {
+    "name": "Violet Coral",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_Sep_061_UI.png",
+    "type": "Resources",
+    "subtype": "Ascension Material",
+    "description": "A material used for Resonator Ascension.",
+    "rarity": 1
+  },
+  {
+    "name": "Bittberry",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_SM_Gat_32A_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient - Herb",
+    "description": "A material used for Cooking and Synthesis.",
+    "rarity": 1
+  },
+  {
+    "name": "Coral Oats",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_028_UI.png",
+    "type": "Resources",
+    "subtype": "Ascension Material",
+    "description": "A material used for Resonator Ascension.",
+    "rarity": 1
+  },
+  {
+    "name": "Pearl Leaf",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_06A_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient - Herb - Consumable",
+    "description": "A material used for Cooking and Synthesis.",
+    "rarity": 1
+  },
+  {
+    "name": "Dewvetch",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_08A_UI.png",
+    "type": "Resources",
+    "subtype": "Herb - Consumable",
+    "description": "A material used for Synthesis.",
+    "rarity": 1
+  },
+  {
+    "name": "Noctemint",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_09A_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient - Herb",
+    "description": "A material used for Cooking and Synthesis.",
+    "rarity": 1
+  },
+  {
+    "name": "Honeysuckle",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_10A_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient - Herb",
+    "description": "A material used for Cooking and Synthesis.",
+    "rarity": 1
+  },
+  {
+    "name": "Perilla",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_01B_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient - Herb",
+    "description": "A material used for Cooking and Synthesis.",
+    "rarity": 1
+  },
+  {
+    "name": "Angelica",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_07A_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient - Herb",
+    "description": "A material used for Cooking and Synthesis.",
+    "rarity": 1
+  },
+  {
+    "name": "Lemongrass",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_25A_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient - Herb",
+    "description": "A material used for Cooking and Synthesis.",
+    "rarity": 1
+  },
+  {
+    "name": "Erodorchid",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_fuguyoulan_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "A material used for cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Waterlamp",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_01A_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "A material used for synthesis.",
+    "rarity": 1
+  },
+  {
+    "name": "Bunnywort",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_yuezao_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "A material used for cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Caltrop",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_Com_004_1_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Chromeshell",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_26A_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "A material used for cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Dripsnail",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_27A_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "A material used for cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Viola",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_24A_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Cliffrecluse",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_12A_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "A material used for cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Umbragricus",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_13A_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient - Herb",
+    "description": "A material used for Cooking and Synthesis.",
+    "rarity": 1
+  },
+  {
+    "name": "Gemberry",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_14A_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "A material used for cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Edodes",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_15A_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient - Herb",
+    "description": "A material used for Cooking and Synthesis.",
+    "rarity": 1
+  },
+  {
+    "name": "Gloom Slough",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_28A_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "A material used for cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Fowl Meat",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_29A_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Crane feathers",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_30A_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "Material for crafting.",
+    "rarity": 1
+  },
+  {
+    "name": "Raw Meat",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_Sep_071_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Phoenix Butterfly",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_025_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "Material for crafting.",
+    "rarity": 1
+  },
+  {
+    "name": "Red Feather Butterfly",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_027_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "Material for crafting.",
+    "rarity": 1
+  },
+  {
+    "name": "Blue Feather Butterfly",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_026_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "Material for crafting.",
+    "rarity": 1
+  },
+  {
+    "name": "Chrysopa",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_yechiling_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "Material for crafting.",
+    "rarity": 1
+  },
+  {
+    "name": "Golden-ringed Dragonfly",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_jinhuanting_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "Material for crafting.",
+    "rarity": 1
+  },
+  {
+    "name": "Fish",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_yurou_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Silver-Banded Lizard",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_020_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "Material for crafting.",
+    "rarity": 1
+  },
+  {
+    "name": "Azure Lizard",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_021_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "Material for crafting.",
+    "rarity": 1
+  },
+  {
+    "name": "Green Pit Lizard",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_022_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "Material for crafting.",
+    "rarity": 1
+  },
+  {
+    "name": "Black-Striped Frog",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_023_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "Material for cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Goldenback Frog",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_024_UI.png",
+    "type": "Resources",
+    "subtype": "Herb",
+    "description": "Material for cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Scarletthorn",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_22A_UI.png",
+    "type": "Resources",
+    "subtype": "Crafting Material",
+    "description": "A material used for Crafting.",
+    "rarity": 1
+  },
+  {
+    "name": "Lampylumen",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_21A_UI.png",
+    "type": "Resources",
+    "subtype": "Crafting Material",
+    "description": "A material used for Crafting.",
+    "rarity": 1
+  },
+  {
+    "name": "Fragipurple",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_20A_UI.png",
+    "type": "Resources",
+    "subtype": "Crafting Material",
+    "description": "A material used for Crafting.",
+    "rarity": 1
+  },
+  {
+    "name": "Floramber",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_19A_UI.png",
+    "type": "Resources",
+    "subtype": "Crafting Material",
+    "description": "A material used for Crafting.",
+    "rarity": 1
+  },
+  {
+    "name": "Bird Egg",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_niaodan_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Basic Resonance Potion",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_exp_1_UI.png",
+    "type": "Development Materials",
+    "subtype": "Resonator EXP Material",
+    "description": "Provides 1,000 Resonator EXP.",
+    "rarity": 2
+  },
+  {
+    "name": "Medium Resonance Potion",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_exp_2_UI.png",
+    "type": "Development Materials",
+    "subtype": "Resonator EXP Material",
+    "description": "Provides 3,000 Resonator EXP.",
+    "rarity": 3
+  },
+  {
+    "name": "Advanced Resonance Potion",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_exp_3_UI.png",
+    "type": "Development Materials",
+    "subtype": "Resonator EXP Material",
+    "description": "Provides 8,000 Resonator EXP.",
+    "rarity": 4
+  },
+  {
+    "name": "Premium Resonance Potion",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_exp_4_UI.png",
+    "type": "Development Materials",
+    "subtype": "Resonator EXP Material",
+    "description": "Provides 20,000 Resonator EXP.",
+    "rarity": 5
+  },
+  {
+    "name": "Basic Energy Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_Exp_1_UI.png",
+    "type": "",
+    "subtype": "Weapon EXP Material",
+    "description": "Provides 1,000 Weapon EXP.",
+    "rarity": 2
+  },
+  {
+    "name": "Medium Energy Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_Exp_2_UI.png",
+    "type": "",
+    "subtype": "Weapon EXP Material",
+    "description": "Provides 3,000 Weapon EXP.",
+    "rarity": 3
+  },
+  {
+    "name": "Advanced Energy Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_Exp_3_UI.png",
+    "type": "",
+    "subtype": "Weapon EXP Material",
+    "description": "Provides 8,000 Weapon EXP.",
+    "rarity": 4
+  },
+  {
+    "name": "Premium Energy Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_Exp_4_UI.png",
+    "type": "",
+    "subtype": "Weapon EXP Material",
+    "description": "Provides 20,000 Weapon EXP.",
+    "rarity": 5
+  },
+  {
+    "name": "Inert Metallic Drip",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_Setpup_004_1_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "A basic material used to break through weapons and upgrade skills for Sword Resonators.",
+    "rarity": 2
+  },
+  {
+    "name": "Reactive Metallic Drip",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_Setpup_004_2_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "A medium material used to break through weapons and upgrade skills for Sword Resonators.",
+    "rarity": 3
+  },
+  {
+    "name": "Polarized Metallic Drip",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_Setpup_004_3_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "An advanced material used to break through weapons and upgrade skills for Sword Resonators.",
+    "rarity": 4
+  },
+  {
+    "name": "Heterized Metallic Drip",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_Setpup_004_4_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "A premium material used to break through weapons and upgrade skills for Sword Resonators.",
+    "rarity": 5
+  },
+  {
+    "name": "Impure Phlogiston",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_01_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "A basic material used to break through weapons and upgrade skills for Pistols Resonators.",
+    "rarity": 2
+  },
+  {
+    "name": "Extracted Phlogiston",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_02_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "A medium material used to break through weapons and upgrade skills for Pistols Resonators.",
+    "rarity": 3
+  },
+  {
+    "name": "Refined Phlogiston",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_03_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "An advanced material used to break through weapons and upgrade skills for Pistols Resonators.",
+    "rarity": 4
+  },
+  {
+    "name": "Flawless Phlogiston",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_04_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "A premium material used to break through weapons and upgrade skills for Pistols Resonators.",
+    "rarity": 5
+  },
+  {
+    "name": "Lento Helix",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_005_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "A basic material used to break through weapons and upgrade skills for Rectifier Resonators.",
+    "rarity": 2
+  },
+  {
+    "name": "Adagio Helix",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_006_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "A medium material used to break through weapons and upgrade skills for Rectifier Resonators.",
+    "rarity": 3
+  },
+  {
+    "name": "Andante Helix",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_007_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "An advanced material used to break through weapons and upgrade skills for Rectifier Resonators.",
+    "rarity": 4
+  },
+  {
+    "name": "Presto Helix",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_008_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "A premium material used to break through weapons and upgrade skills for Rectifier Resonators.",
+    "rarity": 5
+  },
+  {
+    "name": "Waveworn Residue 210",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_009_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "A basic material used to break through weapons and upgrade skills for Broadblade Resonators.",
+    "rarity": 2
+  },
+  {
+    "name": "Waveworn Residue 226",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_010_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "A medium material used to break through weapons and upgrade skills for Broadblade Resonators.",
+    "rarity": 3
+  },
+  {
+    "name": "Waveworn Residue 235",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_011_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "An advanced material used to break through weapons and upgrade skills for Broadblade Resonators.",
+    "rarity": 4
+  },
+  {
+    "name": "Waveworn Residue 239",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_012_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "A premium material used to break through weapons and upgrade skills for Broadblade Resonators.",
+    "rarity": 5
+  },
+  {
+    "name": "Cadence Seed",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_013_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "A basic material used to break through weapons and upgrade skills for Gauntlets Resonators.",
+    "rarity": 2
+  },
+  {
+    "name": "Cadence Bud",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_014_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "A medium material used to break through weapons and upgrade skills for Gauntlets Resonators.",
+    "rarity": 3
+  },
+  {
+    "name": "Cadence Leaf",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_015_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "An advanced material used to break through weapons and upgrade skills for Gauntlets Resonators.",
+    "rarity": 4
+  },
+  {
+    "name": "Cadence Blossom",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_016_UI.png",
+    "type": "Development Materials",
+    "subtype": "Weapon and Skill Material",
+    "description": "A premium material used to break through weapons and upgrade skills for Gauntlets Resonators.",
+    "rarity": 5
+  },
+  {
+    "name": "Wood-textured Shard",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_currency_4_UI.png",
+    "type": "Valuables",
+    "subtype": "Special Token",
+    "description": "Special drops from the Huanglong region, which can be used to exchange for various items in the Souvenir Store.",
+    "rarity": 4
+  },
+  {
+    "name": "Lustrous Tide",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_qpmy_UI.png",
+    "type": "Valuables",
+    "subtype": "Lustrous Tide",
+    "description": "Used to Convene one time in Tidal Chorus.",
+    "rarity": 5
+  },
+  {
+    "name": "Radiant Tide",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_jzmy_UI.png",
+    "type": "Valuables",
+    "subtype": "Lustrous Tide",
+    "description": "Used to Convene one time in Character Event.",
+    "rarity": 5
+  },
+  {
+    "name": "Oscillate Coral",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_czsh_UI.png",
+    "type": "Valuables",
+    "subtype": "Convene Exchange Token",
+    "description": "Token for redeeming items from the Store.",
+    "rarity": 4
+  },
+  {
+    "name": "Afterglow Coral",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_ybsh_UI.png",
+    "type": "Valuables",
+    "subtype": "Convene Exchange Token",
+    "description": "Token for redeeming items from the Store.",
+    "rarity": 5
+  },
+  {
+    "name": "Lunite Subscription",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_yk_03_UI.png",
+    "type": "Valuables",
+    "subtype": "Lunite Subscription Token",
+    "description": "Provides daily Astrites for 30 days.",
+    "rarity": 5
+  },
+  {
+    "name": "Lunite Subscription",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_yk_03_UI.png",
+    "type": "",
+    "subtype": "Lunite Subscription Token",
+    "description": "Provides daily Astrites for 30 days.",
+    "rarity": 5
+  },
+  {
+    "name": "Force Release Component",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_018_UI.png",
+    "type": "Supplies",
+    "subtype": "Consumable",
+    "description": "Increases Max Stamina by 10 points.\n\nCan be obtained from upgrading the Data Bank.",
+    "rarity": 5
+  },
+  {
+    "name": "Sonance Casket",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMst_006_UI.png",
+    "type": "Resources",
+    "subtype": "Material",
+    "description": "Can be exchanged for resources after being handed over to the relic merchant.",
+    "rarity": 5
+  },
+  {
+    "name": "Resonator Experience",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_AccountExp_UI.png",
+    "type": "Echoes",
+    "subtype": "EXP",
+    "description": "Level up your Resonators by gaining experience through daily explorations and reaching a certain value threshold.",
+    "rarity": 1
+  },
+  {
+    "name": "Basic Sealed Tube",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_10_UI.png",
+    "type": "Development Materials",
+    "subtype": "Echo Development Material",
+    "description": "Basic Echo EXP item. Provides 500 EXP.",
+    "rarity": 2
+  },
+  {
+    "name": "Medium Sealed Tube",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_11_UI.png",
+    "type": "Development Materials",
+    "subtype": "Echo Development Material",
+    "description": "Medium Echo EXP item. Provides 1,000 EXP.",
+    "rarity": 3
+  },
+  {
+    "name": "Advanced Sealed Tube",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_12_UI.png",
+    "type": "Development Materials",
+    "subtype": "Echo Development Material",
+    "description": "Advanced Echo EXP item. Provides 2,000 EXP.",
+    "rarity": 4
+  },
+  {
+    "name": "Premium Sealed Tube",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_13_UI.png",
+    "type": "Development Materials",
+    "subtype": "Echo Development Material",
+    "description": "Premium Echo EXP item. Provides 5,000 EXP.",
+    "rarity": 5
+  },
+  {
+    "name": "Dagger with Special Symbols",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_Mo_014_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A small knife given by Mr. Zi.",
+    "rarity": 3
+  },
+  {
+    "name": "\"Lingo Collection - Part One\"",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_002_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Industry Lingo provided by Mr. Zi.",
+    "rarity": 3
+  },
+  {
+    "name": "Heat Absorption Device",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_022_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A device that can mitigate the negative effects of the Sea of Flames.",
+    "rarity": 3
+  },
+  {
+    "name": "Soundproof Device",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_023_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A device that can mitigate the negative effects of the Sea of Flames.",
+    "rarity": 3
+  },
+  {
+    "name": "Photo: Shuyun in the Refinery",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_002_4_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Digital image recorded by the Terminal.",
+    "rarity": 3
+  },
+  {
+    "name": "Photo: Shu Yun in the Mine",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_002_4_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Digital image recorded by the Terminal.",
+    "rarity": 3
+  },
+  {
+    "name": "Photo: Shu Yun in the Port",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_002_4_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Digital image recorded by the Terminal.",
+    "rarity": 3
+  },
+  {
+    "name": "\"Instruction Manual For Left-handers\"",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_002_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "An Instruction Manual given by Shuyun.",
+    "rarity": 3
+  },
+  {
+    "name": "Water Quality Sample",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_26A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Squeaky Express new site preparation environmental sampling.",
+    "rarity": 3
+  },
+  {
+    "name": "Soil Sample",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_15A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Squeaky Express new site preparation environmental sampling.",
+    "rarity": 3
+  },
+  {
+    "name": "Biological Sample",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_niaodan_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Squeaky Express new site preparation environmental sampling.",
+    "rarity": 3
+  },
+  {
+    "name": "Locked Box",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_010_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A box left by Jiaping, with an electronic lock on it.",
+    "rarity": 3
+  },
+  {
+    "name": "Jiaping's Diary",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_003_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Jiaping's Diary.",
+    "rarity": 3
+  },
+  {
+    "name": "Qingru's Reward",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_010_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "\"The Precious\" given by Qingru.",
+    "rarity": 3
+  },
+  {
+    "name": "Metal key.",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_012_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Key obtained from the Hoochief group.",
+    "rarity": 3
+  },
+  {
+    "name": "Tacet Field Geological Data",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_003_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Geological data collected from the Tacet Field.",
+    "rarity": 3
+  },
+  {
+    "name": "Active Tacetite Sample",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_004_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Active Tacetite sample collected from the Tacet Field.",
+    "rarity": 3
+  },
+  {
+    "name": "Delivery Box",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Delivery box from Squeaky Quick Delivery.",
+    "rarity": 3
+  },
+  {
+    "name": "Delivery Box",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_2_UI.png",
+    "type": "",
+    "subtype": "Quest Item",
+    "description": "Delivery box from Squeaky Quick Delivery.",
+    "rarity": 3
+  },
+  {
+    "name": "Delivery Box",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "",
+    "subtype": "Quest Item",
+    "description": "Delivery box from Squeaky Quick Delivery.",
+    "rarity": 3
+  },
+  {
+    "name": "Dim Forest Ecological Survey 1.",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Missions",
+    "subtype": "Remnant Shard",
+    "description": "A data chip, contents can be accessed through the Terminal.",
+    "rarity": 3
+  },
+  {
+    "name": "Dim Forest Ecological Survey 2.",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Missions",
+    "subtype": "Remnant Shard",
+    "description": "A data chip, contents can be accessed through the Terminal.",
+    "rarity": 3
+  },
+  {
+    "name": "Dim Forest Ecological Survey III",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Missions",
+    "subtype": "Remnant Shard",
+    "description": "A data chip, contents can be accessed through the Terminal.",
+    "rarity": 3
+  },
+  {
+    "name": "Dim Forest Ecological Survey IV",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Missions",
+    "subtype": "Remnant Shard",
+    "description": "A data chip, contents can be accessed through the Terminal.",
+    "rarity": 3
+  },
+  {
+    "name": "Dim Forest Ecological Survey V",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Missions",
+    "subtype": "Remnant Shard",
+    "description": "A data chip, contents can be accessed through the Terminal.",
+    "rarity": 3
+  },
+  {
+    "name": "Dim Forest Ecological Survey Summary",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Missions",
+    "subtype": "Remnant Shard",
+    "description": "A data chip, contents can be accessed through the Terminal.",
+    "rarity": 3
+  },
+  {
+    "name": "Jinzhou Skewers",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_001_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' ATK by 100, lasting for 15m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 2
+  },
+  {
+    "name": "Helmet Flatbread",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_002_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' DEF by 200, lasting for 15m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 2
+  },
+  {
+    "name": "Perilla Salad",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_003_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' Crit. Rate by 10%, lasting for 15m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 2
+  },
+  {
+    "name": "Spicy Pulled Chicken",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_004_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Reduce Wall Dash and swimming stamina consumption for all Resonators in the team by 15% for 15 minutes. This effect only applies on your own characters in Co-op Mode.",
+    "rarity": 2
+  },
+  {
+    "name": "Jinzhou Skewers Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Jinzhou Skewers.",
+    "rarity": 2
+  },
+  {
+    "name": "Helmet Flatbread Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Helmet Flatbread.",
+    "rarity": 2
+  },
+  {
+    "name": "Perilla Salad Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Perilla Salad.",
+    "rarity": 2
+  },
+  {
+    "name": "Spicy Pulled Chicken Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Spicy Pulled Chicken.",
+    "rarity": 2
+  },
+  {
+    "name": "Hot Pot Base",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A01_UI.png",
+    "type": "Resources",
+    "subtype": "Processed Item - Cooking Ingredient",
+    "description": "Ingredients that need to be obtained through food research.",
+    "rarity": 4
+  },
+  {
+    "name": "Clear Soup",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A02_UI.png",
+    "type": "Resources",
+    "subtype": "Processed Item - Cooking Ingredient",
+    "description": "Ingredients that need to be obtained through food research.",
+    "rarity": 3
+  },
+  {
+    "name": "Braising Sauce",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A03_UI.png",
+    "type": "Resources",
+    "subtype": "Processed Item - Cooking Ingredient",
+    "description": "Ingredients obtained through culinary research.",
+    "rarity": 2
+  },
+  {
+    "name": "Sweet and Sour Sauce",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A15_UI.png",
+    "type": "Resources",
+    "subtype": "Processed Item - Cooking Ingredient",
+    "description": "Ingredients obtained through culinary research.",
+    "rarity": 1
+  },
+  {
+    "name": "Intimacy",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_hgd_UI.png",
+    "type": "Development Materials",
+    "subtype": "Intimacy",
+    "description": "",
+    "rarity": 4
+  },
+  {
+    "name": "Intimacy",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_hgd_UI.png",
+    "type": "",
+    "subtype": "Intimacy",
+    "description": "",
+    "rarity": 4
+  },
+  {
+    "name": "Intimacy",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_hgd_UI.png",
+    "type": "",
+    "subtype": "Intimacy",
+    "description": "",
+    "rarity": 4
+  },
+  {
+    "name": "Loong Whiskers Crisp",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_005_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Restores 80 Stamina.",
+    "rarity": 3
+  },
+  {
+    "name": "Food Ration Bar",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_006_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases the DEF of all Resonators in the team by 36% for 15 minutes. In multiplayer games, it only affects your own characters.",
+    "rarity": 3
+  },
+  {
+    "name": "Refreshment Tea",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_007_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' max HP by 1000, lasting for 15m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 2
+  },
+  {
+    "name": "Salted Milk Tea",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_008_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Restores the health of the selected Resonator, the amount of health restored is equivalent to 20% of its maximum health.",
+    "rarity": 4
+  },
+  {
+    "name": "Angelica Tea",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_009_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' max HP by 25% of their max HP, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Shuyun Herbal Tea",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_010_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' ATK by 12% and Crit. Rate by 10%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Poached Chicken",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_011_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Reduce Grapple Cooldown of the designated Resonator in the team by 15% for 15 minutes. This effect only applies on your own characters in Co-op Mode.",
+    "rarity": 2
+  },
+  {
+    "name": "Spicy Meat Slices",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_012_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' ATK by 25%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Loong Buns",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_013_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' DEF by 25%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Iron Shovel Edodes",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_014_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' Crit. Rate by 16%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Jinzhou Stew",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_015_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' ATK by 8% and Crit. Rate by 6%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Candied Caltrops",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_016_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' DEF by 18% and max HP by 15%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Wuthercake",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_017_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' ATK by 30%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Aureate Fried Rice",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_018_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Reduce Wall Dash and swimming stamina consumption for all Resonators in the team by 20% for 30 minutes. This effect only applies on your own characters in Co-op Mode.",
+    "rarity": 3
+  },
+  {
+    "name": "Lemon-Braised Pork",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_019_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases the DEF of all Resonators in the team by 28% for 30 minutes. In multiplayer games, it only affects your own characters.",
+    "rarity": 4
+  },
+  {
+    "name": "Milky Fish Soup",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_020_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Restore 40 stamina.",
+    "rarity": 2
+  },
+  {
+    "name": "Kudzu Congee",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_021_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' Crit. Rate by 22%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Star Flakes",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_022_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' DEF by 35%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Caltrop Stir Fry",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_023_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases the attack of all Resonators in the team by 24% and the Crit. Rate by 15% for 30 minutes, only effective for the player's Character in multiplayer games.",
+    "rarity": 4
+  },
+  {
+    "name": "Caltrop Soup",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_024_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' max HP by 30%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Crispy Squab",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_025_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' DEF by 50%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 5
+  },
+  {
+    "name": "Jinzhou Maocai",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_026_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' Crit. Rate by 28%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 5
+  },
+  {
+    "name": "Rising Loong",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_027_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' max HP by 40%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 5
+  },
+  {
+    "name": "Sweet &amp; Sour Pork",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_028_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increase the ATK of all Resonators in the team by 135 points and 12% Crit. Rate for 30 minutes. In multiplayer games, it only affects your own characters.",
+    "rarity": 5
+  },
+  {
+    "name": "Chili Sauce Tofu",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_029_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increase the ATK of all Resonators in the team by 180 points and 16% Crit. Rate for 30 minutes. In multiplayer games, it only affects your own characters.",
+    "rarity": 5
+  },
+  {
+    "name": "Morri Pot",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_030_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' ATK by 40%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 5
+  },
+  {
+    "name": "Stuffed Tofu",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_031_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increase the ATK of all Resonators in the team by 110 points and 25% Crit. Rate for 30 minutes. In multiplayer games, it only affects your own characters.",
+    "rarity": 5
+  },
+  {
+    "name": "Loong Whiskers Crisp Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Loong Whiskers Crisp.",
+    "rarity": 3
+  },
+  {
+    "name": "Food Ration Bar Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Food Ration Bar.",
+    "rarity": 3
+  },
+  {
+    "name": "Refreshment Tea Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Refreshment Tea.",
+    "rarity": 2
+  },
+  {
+    "name": "Salted Milk Tea Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Salted Milk Tea.",
+    "rarity": 4
+  },
+  {
+    "name": "Angelica Tea Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Angelica Tea.",
+    "rarity": 3
+  },
+  {
+    "name": "Shuyun Herbal Tea Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Shuyun Herbal Tea.",
+    "rarity": 4
+  },
+  {
+    "name": "Poached Chicken Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Poached Chicken.",
+    "rarity": 2
+  },
+  {
+    "name": "Spicy Meat Slices Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Spicy Meat Slices.",
+    "rarity": 3
+  },
+  {
+    "name": "Loong Buns Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Loong Buns.",
+    "rarity": 3
+  },
+  {
+    "name": "Edodes Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Edodes.",
+    "rarity": 3
+  },
+  {
+    "name": "Jinzhou Stew Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Jinzhou Stew.",
+    "rarity": 3
+  },
+  {
+    "name": "Candied Caltrops Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Candied Caltrops.",
+    "rarity": 4
+  },
+  {
+    "name": "Wuthercake Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Wuthercake.",
+    "rarity": 4
+  },
+  {
+    "name": "Aureate Fried Rice Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Aureate Fried Rice.",
+    "rarity": 3
+  },
+  {
+    "name": "Lemon-Braised Pork Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Lemon-Braised Pork.",
+    "rarity": 4
+  },
+  {
+    "name": "Milky Fish Soup Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Milky Fish Soup.",
+    "rarity": 2
+  },
+  {
+    "name": "Kudzu Congee Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Kudzu Congee.",
+    "rarity": 4
+  },
+  {
+    "name": "Star Flakes Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Star Flakes.",
+    "rarity": 4
+  },
+  {
+    "name": "Caltrop Stir Fry Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Caltrop Stir Fry.",
+    "rarity": 4
+  },
+  {
+    "name": "Caltrop Soup Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Caltrop Soup.",
+    "rarity": 4
+  },
+  {
+    "name": "Crispy Squab Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Crispy Squab.",
+    "rarity": 5
+  },
+  {
+    "name": "Jinzhou Maocai Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Jinzhou Maocai.",
+    "rarity": 5
+  },
+  {
+    "name": "Rising Loong Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Rising Loong.",
+    "rarity": 5
+  },
+  {
+    "name": "Sweet &amp; Sour Pork Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Sweet &amp; Sour Pork.",
+    "rarity": 5
+  },
+  {
+    "name": "Chili Sauce Tofu Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Chili Sauce Tofu.",
+    "rarity": 5
+  },
+  {
+    "name": "Morri Pot Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Morri Pot.",
+    "rarity": 5
+  },
+  {
+    "name": "Stuffed Tofu Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Stuffed Tofu.",
+    "rarity": 5
+  },
+  {
+    "name": "Tofu",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A04_UI.png",
+    "type": "Resources",
+    "subtype": "Processed Item - Cooking Ingredient",
+    "description": "Ingredients obtained through culinary research.",
+    "rarity": 1
+  },
+  {
+    "name": "Rover's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1500_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 5
+  },
+  {
+    "name": "Aalto's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1403_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 4
+  },
+  {
+    "name": "Jiyan's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1404_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 5
+  },
+  {
+    "name": "Mortefi's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1204_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 4
+  },
+  {
+    "name": "Calcharo's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1301_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 5
+  },
+  {
+    "name": "Yinlin's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1302_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 5
+  },
+  {
+    "name": "Yuanwu's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1303_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 4
+  },
+  {
+    "name": "Battlefield Record 6010: Autumn",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Development Materials",
+    "subtype": "Remnant Shard",
+    "description": "An ancient data chip, contents can be accessed through the Terminal.",
+    "rarity": 3
+  },
+  {
+    "name": "Battlefield Record 6010: 91.7 Highland Contest",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Development Materials",
+    "subtype": "Remnant Shard",
+    "description": "An ancient data chip, contents can be accessed through the Terminal.",
+    "rarity": 3
+  },
+  {
+    "name": "Battlefield Record 6010: Reorganization",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Development Materials",
+    "subtype": "Remnant Shard",
+    "description": "An ancient data chip, contents can be accessed through the Terminal.",
+    "rarity": 3
+  },
+  {
+    "name": "Battlefield Record 6010: Setting Off Again",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Development Materials",
+    "subtype": "Remnant Shard",
+    "description": "An ancient data chip, contents can be accessed through the Terminal.",
+    "rarity": 3
+  },
+  {
+    "name": "Battlefield Record 6010: This Might Be the Last",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Development Materials",
+    "subtype": "Remnant Shard",
+    "description": "An ancient data chip, contents can be accessed through the Terminal.",
+    "rarity": 3
+  },
+  {
+    "name": "Crude voice material.",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_010_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A crude voice material made by the Exiles.",
+    "rarity": 3
+  },
+  {
+    "name": "Map drawn by Hoochief.",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_013_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A map that marks the locations of the cages in the eastern forest and the Hoochief camp.",
+    "rarity": 3
+  },
+  {
+    "name": "A strangely shaped key",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_014_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A key that can open the hidden passage of the Dim Forest.",
+    "rarity": 3
+  },
+  {
+    "name": "A rusted data card",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_016_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A data card in the Dim Forest camp.",
+    "rarity": 3
+  },
+  {
+    "name": "Special Waterlamp.",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_01A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Waterlamp that blooms during the day.",
+    "rarity": 3
+  },
+  {
+    "name": "Star-shaped Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_O_002_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Core dropped by the Tacet Discord.",
+    "rarity": 3
+  },
+  {
+    "name": "Mature Cliffrecluse.",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_12A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Daily Quests Item",
+    "rarity": 3
+  },
+  {
+    "name": "Rescue team badge",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_12A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A badge that seems to have been weathered.",
+    "rarity": 3
+  },
+  {
+    "name": "Special Dewvetch",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_08A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A Dewvetch flower that represents a woman named \"Dewvetch\" from the Danjin family.",
+    "rarity": 3
+  },
+  {
+    "name": "Half of a jade pendant",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_08A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A half of a jade pendant held by Dewvetch's sister, it seems to match the jade pendant held by Dewvetch.",
+    "rarity": 3
+  },
+  {
+    "name": "Mechanical box",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_08A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A mechanical box left by Dewvetch to the old man.",
+    "rarity": 3
+  },
+  {
+    "name": "Dewvetch's diary",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_08A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A record of Dewvetch's own voice left before her death.",
+    "rarity": 3
+  },
+  {
+    "name": "Chixia's father's diary",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_002_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Chixia's father's diary.",
+    "rarity": 3
+  },
+  {
+    "name": "Worn-out Box",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_006_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A box given to the Rover by the boss of the Boar Gang.",
+    "rarity": 3
+  },
+  {
+    "name": "Exiles' Weapon",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_006_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Weapons confiscated from the Exiles.",
+    "rarity": 3
+  },
+  {
+    "name": "Court of Savantae's Data Chip",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_cdtq_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "The chip given by the Dragon Lord Jinhsi.",
+    "rarity": 3
+  },
+  {
+    "name": "Suspicious Audio Sound Material",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_08A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "The sound material that can reproduce the scene after use.",
+    "rarity": 3
+  },
+  {
+    "name": "Qiong Xue's Original Manuscript",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_08A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "The original manuscript stored in the information device.",
+    "rarity": 3
+  },
+  {
+    "name": "\"Fire in the Wilderness\" Excerpt",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_08A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "The novel excerpt stored in the information device.",
+    "rarity": 3
+  },
+  {
+    "name": "Scenic Photo",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_08A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "The scenic photo near the camp of the Ninth Investigation Corps of the Central Plains.",
+    "rarity": 3
+  },
+  {
+    "name": "Asos's Information Touchpad",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_08A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Return the information touchpad to Asos.",
+    "rarity": 3
+  },
+  {
+    "name": "Icefield Honor Medal",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_019_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "The medal lost by Zhi Zhi.",
+    "rarity": 3
+  },
+  {
+    "name": "Data source to be analyzed",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_08A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Ancient laboratory data source.",
+    "rarity": 3
+  },
+  {
+    "name": "Universal repair box",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_011_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Toolbox that can handle various repair work.",
+    "rarity": 3
+  },
+  {
+    "name": "Sound catcher",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_017_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Strange Court of Savantae device.",
+    "rarity": 3
+  },
+  {
+    "name": "Recorder",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_018_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Strange Court of Savantae device.",
+    "rarity": 3
+  },
+  {
+    "name": "Failed Attempt",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_035_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' ATK by 50, lasting for 15m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 1
+  },
+  {
+    "name": "Flour",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A05_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Edible oil",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A06_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Chili",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A07_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Sugar",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A08_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Tea",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A09_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Milk",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A10_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Rice",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A11_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Kudzu root",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A12_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Salt",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A13_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Beans",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A14_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Vinegar",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A15_UI.png",
+    "type": "Resources",
+    "subtype": "Cooking Ingredient",
+    "description": "A material used for Cooking.",
+    "rarity": 1
+  },
+  {
+    "name": "Influence",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_sw_UI.png",
+    "type": "Development Materials",
+    "subtype": "Influence",
+    "description": "",
+    "rarity": 4
+  },
+  {
+    "name": "Influence",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_sw_UI.png",
+    "type": "",
+    "subtype": "Influence",
+    "description": "",
+    "rarity": 4
+  },
+  {
+    "name": "Influence",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_sw_UI.png",
+    "type": "",
+    "subtype": "Influence",
+    "description": "",
+    "rarity": 4
+  },
+  {
+    "name": "Influence",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_sw_UI.png",
+    "type": "",
+    "subtype": "Influence",
+    "description": "",
+    "rarity": 4
+  },
+  {
+    "name": "Podcast Experience",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_zl_01_UI.png",
+    "type": "",
+    "subtype": "EXP",
+    "description": "Experience obtained from completing Pioneer Podcast tasks can be used to upgrade the Pioneer Podcast level.",
+    "rarity": 3
+  },
+  {
+    "name": "Insider Channel",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_cdtq_UI.png",
+    "type": "Valuables",
+    "subtype": "Pioneer Podcast",
+    "description": "Unlocks the Insider Channel of the Pioneer Podcast.\n\nComplete the Podcast Tasks for various rewards.",
+    "rarity": 5
+  },
+  {
+    "name": "Connoisseur",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_cdtq_UI.png",
+    "type": "Valuables",
+    "subtype": "Pioneer Podcast",
+    "description": "Unlocks the Insider Channel of the Pioneer Podcast and get additional privilege rewards.\n\nComplete the Podcast Tasks for various rewards.",
+    "rarity": 5
+  },
+  {
+    "name": "Purchase Connoisseur Channel",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_cdtq_UI.png",
+    "type": "Valuables",
+    "subtype": "Pioneer Podcast",
+    "description": "Unlocks the Insider Channel of the Pioneer Podcast.\n\nComplete the Podcast Tasks for various rewards.",
+    "rarity": 5
+  },
+  {
+    "name": "Insider Channel Key",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_zl_02_UI.png",
+    "type": "Valuables",
+    "subtype": "Pioneer Podcast",
+    "description": "Unlocks the Insider Channel of the Pioneer Podcast.\n\nComplete the Podcast Tasks for various rewards.",
+    "rarity": 5
+  },
+  {
+    "name": "Lost Key",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A key in the style of the Lament.",
+    "rarity": 3
+  },
+  {
+    "name": "Remaining Key",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A key in the style of the Lament.",
+    "rarity": 3
+  },
+  {
+    "name": "Records",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_mlf_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Threnodian \"noise\" that remains in the target object.",
+    "rarity": 3
+  },
+  {
+    "name": "Photo of the Snow Crane",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_002_4_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Deliver the photo to Hanxiang, to fulfill her wish.",
+    "rarity": 3
+  },
+  {
+    "name": "Wooden training sword",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWeapon21020011_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Deliver the wooden sword to Hanxiang, to inspire her courage.",
+    "rarity": 3
+  },
+  {
+    "name": "Time Footnote: IX",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_003_1_UI.png",
+    "type": "Development Materials",
+    "subtype": "Remnant Shard",
+    "description": "Data materials picked up in the Port City of Guixu.",
+    "rarity": 3
+  },
+  {
+    "name": "Time Footnote: X",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_003_1_UI.png",
+    "type": "Development Materials",
+    "subtype": "Remnant Shard",
+    "description": "Data materials picked up in the Port City of Guixu.",
+    "rarity": 3
+  },
+  {
+    "name": "Time Footnote: XI",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_003_1_UI.png",
+    "type": "Development Materials",
+    "subtype": "Remnant Shard",
+    "description": "Data materials picked up in the Port City of Guixu.",
+    "rarity": 3
+  },
+  {
+    "name": "Time Footnote: XII",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_003_1_UI.png",
+    "type": "Development Materials",
+    "subtype": "Remnant Shard",
+    "description": "Data materials picked up in the Port City of Guixu.",
+    "rarity": 3
+  },
+  {
+    "name": "Time Footnote: XIII",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_003_1_UI.png",
+    "type": "Development Materials",
+    "subtype": "Remnant Shard",
+    "description": "Data materials picked up in the Port City of Guixu.",
+    "rarity": 3
+  },
+  {
+    "name": "Primitive tide stone",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_006_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Weapon energy of the Exile Leader.",
+    "rarity": 3
+  },
+  {
+    "name": "Old Booklet",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_003_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A broken old booklet recording the moon nursery rhyme",
+    "rarity": 3
+  },
+  {
+    "name": "Survival code",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_pad_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "For Exiles to read and acquire wilderness survival skills and experience.",
+    "rarity": 1
+  },
+  {
+    "name": "Jiaolong Gang's delivery box",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A delivery box invented by the Jiaolong Gang.",
+    "rarity": 1
+  },
+  {
+    "name": "Inscription Device",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_mlf_UI.png",
+    "type": "Valuables",
+    "subtype": "Utility",
+    "description": "Leave a Memo using the Memo system.",
+    "rarity": 4
+  },
+  {
+    "name": "Tacetite ore",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_006_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Energy ore.",
+    "rarity": 3
+  },
+  {
+    "name": "Lingyang's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1104_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 5
+  },
+  {
+    "name": "\"Dream Return Song III: Stone Leaf Tears\"",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_003_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "The tenth anniversary collector's edition of the storybook \"Stone Leaf Tear\".",
+    "rarity": 1
+  },
+  {
+    "name": "Dropped key",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_014_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "The key dropped by Blobfly.",
+    "rarity": 1
+  },
+  {
+    "name": "Crystallized Leaf",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_01A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "The leaf with a completely crystallized surface.",
+    "rarity": 1
+  },
+  {
+    "name": "Philosophical Notes",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_003_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "The information touchpad of Sizhe, returning it may have a reward.",
+    "rarity": 1
+  },
+  {
+    "name": "The lost weapon",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWeapon20002001_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "The lost weapon.",
+    "rarity": 3
+  },
+  {
+    "name": "Revival Elixir Combination",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Skup_006_4_UI.png",
+    "type": "Valuables",
+    "subtype": "Consumable",
+    "description": "Using this item can instantly restore consciousness to all Resonators in the team, and can only be used once every 60 minutes (only effective for your own Character in multiplayer games).",
+    "rarity": 4
+  },
+  {
+    "name": "Old Sketch",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_024_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A sketch appears faded due to ages. It constitutes a past memory and a treasure to a child.",
+    "rarity": 3
+  },
+  {
+    "name": "Dried Flower",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_025_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A dried flower, well preserved in an old storage box.",
+    "rarity": 3
+  },
+  {
+    "name": "The singing section of the Song of the Empty Dawn",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_020_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "The sound material of the Song of the Empty Dawn sung by Qianxin.",
+    "rarity": 1
+  },
+  {
+    "name": "Power System Notes",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_003_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Notes related to the power system of the Dim Forest",
+    "rarity": 3
+  },
+  {
+    "name": "Sound Emulator Repair Tool",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_011_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Repairs the damaged Sound Emulator",
+    "rarity": 3
+  },
+  {
+    "name": "Rusty Data Chip",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_051_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Rusty Data Chip",
+    "rarity": 3
+  },
+  {
+    "name": "Hidden Thunder Tacet Core",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconMout_L_012_UI.png",
+    "type": "Development Materials",
+    "subtype": "Resonator Ascension Material",
+    "description": "Tempest Mephis's drop, Resonator breakthrough item.",
+    "rarity": 4
+  },
+  {
+    "name": "Test/Camellya's group photo 1",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_013_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Starlight",
+    "rarity": 3
+  },
+  {
+    "name": "Test/Camellya's group photo 2",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_013_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Bright Moon",
+    "rarity": 3
+  },
+  {
+    "name": "Test/Camellya's group photo 3",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_013_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Deep Sea",
+    "rarity": 3
+  },
+  {
+    "name": "Modunasha",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_013_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Modunasha - Serialization",
+    "rarity": 3
+  },
+  {
+    "name": "\"The Modunasha\"",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_013_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "\"Modunasha: The Finale\"",
+    "rarity": 3
+  },
+  {
+    "name": "Jiyan copy prop 1",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_013_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "manual",
+    "rarity": 3
+  },
+  {
+    "name": "Auspicious Bell",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_059_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "The bell that Lingyang wore during the performance. As a thank you for the journey, Lingyang gave it to you.",
+    "rarity": 5
+  },
+  {
+    "name": "Wood for making a Plum Blossom Pole",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_12A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Wood for making a Plum Blossom Pole, sturdy and hard.",
+    "rarity": 1
+  },
+  {
+    "name": "Lingyang's picture book",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_002_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A picture book made by Lingyang based on her own experiences.",
+    "rarity": 1
+  },
+  {
+    "name": "Key to the Petri Dish",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A strange-looking key that seems like it can fit into a certain keyhole.",
+    "rarity": 3
+  },
+  {
+    "name": "Key to the Rock Ruins",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A strange-looking key that seems like it can fit into a certain keyhole.",
+    "rarity": 3
+  },
+  {
+    "name": "A beautiful necklace.",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_019_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A necklace that looks very valuable.",
+    "rarity": 3
+  },
+  {
+    "name": "The gem on the necklace.",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_01A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "The gem on the necklace pendant, which seems to be inlaid somewhere.",
+    "rarity": 1
+  },
+  {
+    "name": "Special Operation Diary D12547",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_cdtq_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Special Operation Diary D12547",
+    "rarity": 3
+  },
+  {
+    "name": "Broken shackles",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_SM_Gat_01A_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A damaged anklet, with a string of text engraved on the inside. After a long time, only the word \"Institute\" can be distinguished.",
+    "rarity": 1
+  },
+  {
+    "name": "Activity Points",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_currency_01_UI.png",
+    "type": "",
+    "subtype": "Activity Points",
+    "description": "Item obtained from dailies, can be collected to receive daily rewards.",
+    "rarity": 5
+  },
+  {
+    "name": "Level Delivery Test Item - Spear Tip",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Level Delivery Test Item - Spear Tip Function Description",
+    "rarity": 3
+  },
+  {
+    "name": "Level Delivery Test Item - Spear Breech",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_2_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Level Delivery Test Item - Spear Breech Function Description",
+    "rarity": 3
+  },
+  {
+    "name": "Level Delivery Test Item - Gun Body",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_005_3_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Level Delivery Test Item - Gun Body Function Description",
+    "rarity": 3
+  },
+  {
+    "name": "Boost Part",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_Setpup_001_1_UI.png",
+    "type": "Resources",
+    "subtype": "Material",
+    "description": "A material used for Crafting.",
+    "rarity": 1
+  },
+  {
+    "name": "Echo Frequency Chip",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Ele_UI.png",
+    "type": "Resources",
+    "subtype": "Material",
+    "description": "A material used for Crafting.",
+    "rarity": 1
+  },
+  {
+    "name": "Temporary Team Photo",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_024_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Wenshu gave you this commemorative photo. You can enlarge it for details.",
+    "rarity": 5
+  },
+  {
+    "name": "Temporary Team Photo",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_024_UI.png",
+    "type": "",
+    "subtype": "Quest Item",
+    "description": "Wenshu gave you this commemorative photo. You can enlarge it for details.",
+    "rarity": 5
+  },
+  {
+    "name": "Mangosteen",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_denglongguo_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Mangosteen",
+    "rarity": 3
+  },
+  {
+    "name": "Sundial",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_A09_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Sundial",
+    "rarity": 3
+  },
+  {
+    "name": "Robot Spare Parts",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_045_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Spare parts for Huanglong military robots, for drivers to repair when the robot breaks down.",
+    "rarity": 3
+  },
+  {
+    "name": "Robot Battery Pack",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_046_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Battery pack for Huanglong military robots, providing power for the entire robot.",
+    "rarity": 3
+  },
+  {
+    "name": "Robot Engine",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_047_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "The engine of the Huanglong military robot, which looks ordinary, but is the most important part of the robot.",
+    "rarity": 3
+  },
+  {
+    "name": "Driver's Recording Card",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_044_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "An ordinary-looking recording card that can be used to play the recorded content.",
+    "rarity": 3
+  },
+  {
+    "name": "Zoom Camera",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_029_UI.png",
+    "type": "Valuables",
+    "subtype": "Quest Item",
+    "description": "Capture moments with a portable camera.",
+    "rarity": 4
+  },
+  {
+    "name": "scavenger hunt note",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_cdtq_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "TEST/TEXT: At 7:00 a.m., where the shadow of the spire of the lighthouse in Central Plains lies, there is treasure that only the brave and the strong can open.",
+    "rarity": 3
+  },
+  {
+    "name": "Connoisseur Key",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_zl_03_UI.png",
+    "type": "Valuables",
+    "subtype": "Pioneer Podcast",
+    "description": "Unlocks the Insider Channel of the Pioneer Podcast and get additional privilege rewards.\n\nComplete the Podcast Tasks for various rewards.",
+    "rarity": 5
+  },
+  {
+    "name": "fantastic-tasting rice",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_021_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Aureate Fried Rice turns into rice after sitting in the Backpack for a day.",
+    "rarity": 3
+  },
+  {
+    "name": "Explosive Charge",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_048_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A natural fruit with explosive properties that can be used as a substitute for a bomb.",
+    "rarity": 3
+  },
+  {
+    "name": "Waypoint",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_04_UI.png",
+    "type": "Valuables",
+    "subtype": "Utility",
+    "description": "A temporary Resonance Beacon that can be flexibly placed, it needs to be placed by consuming the core module.",
+    "rarity": 4
+  },
+  {
+    "name": "Casket Sonar",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_02_UI.png",
+    "type": "Valuables",
+    "subtype": "Utility",
+    "description": "A portable instrument for locating uncollected Sonance Casket, it needs to be repeatedly activated by consuming the Casket Scan component.",
+    "rarity": 4
+  },
+  {
+    "name": "Lootmapper",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_03_UI.png",
+    "type": "Valuables",
+    "subtype": "Utility",
+    "description": "Used to find the undiscovered treasures around the drop point.",
+    "rarity": 4
+  },
+  {
+    "name": "Casket Sonar Use Permit: Jinzhou",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_06_UI.png",
+    "type": "Valuables",
+    "subtype": "Consumable",
+    "description": "Grants the bearer of this permit the access to Casket Sonar in given regions.",
+    "rarity": 4
+  },
+  {
+    "name": "Lootmapper Use Permit: Jinzhou",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_07_UI.png",
+    "type": "Valuables",
+    "subtype": "Consumable",
+    "description": "Grants the bearer of this permit the access to the Lootmapper in given regions.",
+    "rarity": 4
+  },
+  {
+    "name": "Sonar Circuit",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_08_UI.png",
+    "type": "Valuables",
+    "subtype": "Consumable",
+    "description": "Used to activate the search and positioning functions of Casket Sonar for Sonance Casket.",
+    "rarity": 4
+  },
+  {
+    "name": "Waypoint Module",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_09_UI.png",
+    "type": "Valuables",
+    "subtype": "Consumable",
+    "description": "Used to activate the search funcion of Waypoint.",
+    "rarity": 4
+  },
+  {
+    "name": "Basic Tuner",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_txq_01_UI.png",
+    "type": "Development Materials",
+    "subtype": "Echo Development Material",
+    "description": "A device used to tune 2-star Echoes. Used to unlock one Consonant Attribute.",
+    "rarity": 2
+  },
+  {
+    "name": "Medium Tuner",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_txq_01_UI.png",
+    "type": "Development Materials",
+    "subtype": "Echo Development Material",
+    "description": "A device used to tune 3-star Echoes. Used to unlock one Consonant Attribute.",
+    "rarity": 3
+  },
+  {
+    "name": "Advanced Tuner",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_txq_02_UI.png",
+    "type": "Development Materials",
+    "subtype": "Echo Development Material",
+    "description": "A device used to tune 4-star Echoes. Used to unlock one Consonant Attribute.",
+    "rarity": 4
+  },
+  {
+    "name": "Premium Tuner",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_txq_03_UI.png",
+    "type": "Development Materials",
+    "subtype": "Echo Development Material",
+    "description": "A device used to tune 5-star Echoes. Used to unlock one Consonant Attribute.",
+    "rarity": 5
+  },
+  {
+    "name": "Bell-Borne Geochelone's Child",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_057_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A rare material from the Bell-Borne Geochelone, which only resonates at a specific frequency. It's said that in the hands of a skilled apothecary, it can be refined into a miraculous medicine.",
+    "rarity": 1
+  },
+  {
+    "name": "all Echo with blind box",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_01_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "can get an Echo that is already unlocked in the iconography",
+    "rarity": 5
+  },
+  {
+    "name": "Lord Echo Blind Box",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_01_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "can get a lord, boss level Echo that has been unlocked in the artbook",
+    "rarity": 5
+  },
+  {
+    "name": "wind tagEcho blind box",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_01_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "can get an Echo that has been unlocked in the iconography, and that Echo is able to spawn wind tags",
+    "rarity": 5
+  },
+  {
+    "name": "fire tagEcho blind box",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_01_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "can get an Echo that has been unlocked in the iconography, and that Echo can spawn fire tags",
+    "rarity": 5
+  },
+  {
+    "name": "拐tagEcho blind box",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_01_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "can get an Echo that has been unlocked in the iconography, and that Echo is able to spawn inflection tags",
+    "rarity": 5
+  },
+  {
+    "name": "settlement tagEcho blind box",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_01_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "can get an Echo that has been unlocked in the iconography, and that Echo is able to produce the settlement tag",
+    "rarity": 5
+  },
+  {
+    "name": "milk tagEcho blind box",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_01_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "can get an Echo that has been unlocked in the iconography, and that Echo is able to spawn a milk tag",
+    "rarity": 5
+  },
+  {
+    "name": "Seaside Arena Access Card",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_066_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A proof of free access to the Exiles camp.",
+    "rarity": 3
+  },
+  {
+    "name": "Badge of Courage",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_064_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A proof of challenge needed to get a Seaside Arena ticket.",
+    "rarity": 3
+  },
+  {
+    "name": "Badge of Speed",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_063_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A challenge proof required to get the Seaside Arena ticket.",
+    "rarity": 3
+  },
+  {
+    "name": "Badge of Strength",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_065_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A challenge proof required to get the Seaside Arena ticket.",
+    "rarity": 3
+  },
+  {
+    "name": "Echo component Synthesis recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Constructing",
+    "description": "Used to learn how to synthesize Sonar Circuit.",
+    "rarity": 4
+  },
+  {
+    "name": "Waypoint Module Synthesis Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Constructing",
+    "description": "Used to learn how to synthesize Waypoint Module.",
+    "rarity": 4
+  },
+  {
+    "name": "Jianxin's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1405_UI.png",
+    "type": "Valuables",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 5
+  },
+  {
+    "name": "Lv.10 Supply Pack",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_dj_01_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Reach designated Union Levels to claim this Supply Pack.",
+    "rarity": 4
+  },
+  {
+    "name": "Lv.20 Supply Pack",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_dj_02_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Reach designated Union Levels to claim this Supply Pack.",
+    "rarity": 4
+  },
+  {
+    "name": "Lv.30 Supply Pack",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_dj_03_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Reach designated Union Levels to claim this Supply Pack.",
+    "rarity": 4
+  },
+  {
+    "name": "Lv.40 Supply Pack",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_dj_04_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Reach designated Union Levels to claim this Supply Pack.",
+    "rarity": 4
+  },
+  {
+    "name": "Lv.50 Supply Pack",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_dj_05_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Reach designated Union Levels to claim this Supply Pack.",
+    "rarity": 4
+  },
+  {
+    "name": "Lv.60 Supply Pack",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_dj_06_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Reach designated Union Levels to claim this Supply Pack.",
+    "rarity": 4
+  },
+  {
+    "name": "Lv.65 Supply Pack",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_dj_07_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Reach designated Union Levels to claim this Supply Pack.",
+    "rarity": 4
+  },
+  {
+    "name": "Lv.70 Supply Pack",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_dj_08_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Reach designated Union Levels to claim this Supply Pack.",
+    "rarity": 4
+  },
+  {
+    "name": "Lv.75 Supply Pack",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_dj_09_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Reach designated Union Levels to claim this Supply Pack.",
+    "rarity": 4
+  },
+  {
+    "name": "Lv.80 Supply Pack",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_dj_10_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Reach designated Union Levels to claim this Supply Pack.",
+    "rarity": 4
+  },
+  {
+    "name": "Ultrasonic Pulse Chip",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_041_UI.png",
+    "type": "Valuables",
+    "subtype": "Quest Item",
+    "description": "Release a powerful vortex to cleanse muds and the mud shield of Tacet Discords.",
+    "rarity": 3
+  },
+  {
+    "name": "A player that contains Qianxin's singing voice.",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_016_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "After use, it can play the \"Dawn Ballad\" sung by Qianxin before her voice was damaged.",
+    "rarity": 3
+  },
+  {
+    "name": "Data Bank experience",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_GourdExp_UI.png",
+    "type": "",
+    "subtype": "Activity Points",
+    "description": "The experience used to upgrade the Data Bank level can be obtained by unlocking new Echo.",
+    "rarity": 5
+  },
+  {
+    "name": "\"Suppressor Tower I - Maintenance Log\"",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_027_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Maintenance log of Court of Savantae's No. I fog suppressor.",
+    "rarity": 3
+  },
+  {
+    "name": "\"Suppressor Tower II - Maintenance Log\"",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_027_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Maintenance log of Court of Savantae's No. II fog suppressor.",
+    "rarity": 3
+  },
+  {
+    "name": "Unsent electronic communication.",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_027_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "An electronic communication from a member of the SR-461 research team.",
+    "rarity": 3
+  },
+  {
+    "name": "Guide Crystal",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_043_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A precise experimental device",
+    "rarity": 3
+  },
+  {
+    "name": "Unfinished Frost of the Night",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_07_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Melted Mountain Rift",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_08_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Thunder of the Void",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_09_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Wind of the Valley",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_10_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Floating Star of the Dark",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_06_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Sun of the Day",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_05_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Hidden World of the Light",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_11_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Light Cloud of the Moon",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_12_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Residual Sound",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_13_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Jinzhou Sunrise Photo",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_028_UI.png",
+    "type": "Valuables",
+    "subtype": "Quest Item",
+    "description": "A commemorative photo from Shixia.",
+    "rarity": 3
+  },
+  {
+    "name": "A Photograph Stained with Blood",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_053_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A photograph indicating the location of treasures.",
+    "rarity": 3
+  },
+  {
+    "name": "A Photograph Covered with Scratches",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_053_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A photograph indicating the location of treasures.",
+    "rarity": 3
+  },
+  {
+    "name": "A Brand New Photograph",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_053_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A photograph indicating the location of treasures.",
+    "rarity": 3
+  },
+  {
+    "name": "Lunite Subscription (7 days)",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_yk_01_UI.png",
+    "type": "Valuables",
+    "subtype": "Lunite Subscription Token",
+    "description": "Provides daily Astrites for 7 days.",
+    "rarity": 5
+  },
+  {
+    "name": "Lunite Subscription (15 days)",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_yk_02_UI.png",
+    "type": "Valuables",
+    "subtype": "Lunite Subscription Token",
+    "description": "Provides daily Astrites for 15 days.",
+    "rarity": 5
+  },
+  {
+    "name": "Data Set",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_B1_UI.png",
+    "type": "",
+    "subtype": "Special Token",
+    "description": "The combat data obtained from the Tactical Hologram: Calamity can be exchanged for various rewards in the Simulation Training Store.",
+    "rarity": 5
+  },
+  {
+    "name": "Incomplete Overlord Class Echo",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_02_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "Obtain collected Overlord Class Echo.",
+    "rarity": 5
+  },
+  {
+    "name": "Incomplete Elite Class Echo",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_03_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "Obtain collected Elite Class Echo.",
+    "rarity": 5
+  },
+  {
+    "name": "Incomplete Common Class Echo",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_04_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "Obtain collected Common Class Echo.",
+    "rarity": 5
+  },
+  {
+    "name": "Pioneer Podcast Weapon Chest",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_003_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Provides a Golden Eternal series weapon of your choice.",
+    "rarity": 4
+  },
+  {
+    "name": "Pioneer Association Basic Supply",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_004_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Open to choose one of the following basic materials for weapon breakthrough and skill upgrade:\n&lt;color=Rare2&gt;Inert Metallic Drip *1&lt;/color&gt;\n&lt;color=Rare2&gt;Impure Phlogiston *1&lt;/color&gt;\n&lt;color=Rare2&gt;Lento Helix *1&lt;/color&gt;\n&lt;color=Rare2&gt;Waveworn Residue 210 *1&lt;/color&gt;\n&lt;color=Rare2&gt;Cadence Seed *1&lt;/color&gt;",
+    "rarity": 3
+  },
+  {
+    "name": "Pioneer Association Medium Supply",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_004_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Open to choose one of the following medium materials for weapon breakthrough and skill upgrade:\n&lt;color=Rare3&gt;Reactive Metallic Drip *1&lt;/color&gt;\n&lt;color=Rare3&gt;Extracted Phlogiston *1&lt;/color&gt;\n&lt;color=Rare3&gt;Adagio Helix *1&lt;/color&gt;\n&lt;color=Rare3&gt;Waveworn Residue 226 *1&lt;/color&gt;\n&lt;color=Rare3&gt;Cadence Bud *1&lt;/color&gt;",
+    "rarity": 3
+  },
+  {
+    "name": "Pioneer Association Advanced Supply",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_005_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Open to choose one of the following advanced materials for weapon breakthrough and skill upgrade:\n&lt;color=Rare4&gt;Polarized Metallic Drip *1&lt;/color&gt;\n&lt;color=Rare4&gt;Refined Phlogiston *1&lt;/color&gt;\n&lt;color=Rare4&gt;Andante Helix *1&lt;/color&gt;\n&lt;color=Rare4&gt;Waveworn Residue 235 *1&lt;/color&gt;\n&lt;color=Rare4&gt;Cadence Leaf *1&lt;/color&gt;",
+    "rarity": 4
+  },
+  {
+    "name": "Pioneer Association Premium Supply",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_006_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Open to choose one of the following premium materials for weapon breakthrough and skill upgrade:\n&lt;color=Rare5&gt;Heterized Metallic Drip *1&lt;/color&gt;\n&lt;color=Rare5&gt;Flawless Phlogiston *1&lt;/color&gt;\n&lt;color=Rare5&gt;Presto Helix *1&lt;/color&gt;\n&lt;color=Rare5&gt;Waveworn Residue 239 *1&lt;/color&gt;\n&lt;color=Rare5&gt;Cadence Blossom*1&lt;/color&gt;",
+    "rarity": 5
+  },
+  {
+    "name": "Hazard Record",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_B2_UI.png",
+    "type": "",
+    "subtype": "Special Token",
+    "description": "The precious experimental records brought back from the Tower of Adversity can be exchanged for various rewards in the Adversity Exchange.",
+    "rarity": 5
+  },
+  {
+    "name": "Record Fragment",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_055_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A broken old record, it is unclear what specific use it has",
+    "rarity": 3
+  },
+  {
+    "name": "Sheet Music Fragment",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_056_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A broken old sheet music, it is unclear what specific use it has",
+    "rarity": 3
+  },
+  {
+    "name": "Grand Library Route Map",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_042_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Top left corner of the map carries a highlight mark. This may indicate the location of the puzzle.",
+    "rarity": 3
+  },
+  {
+    "name": "Wooden Plaque: Left",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_039_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A Wooden Plaque for some kind of ancient rituals.",
+    "rarity": 3
+  },
+  {
+    "name": "Wooden Plaque: Right",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_040_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A Wooden Plaque for some kind of ancient rituals.",
+    "rarity": 3
+  },
+  {
+    "name": "Restored Wooden Plaque",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_038_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Restored Wooden Plaque",
+    "rarity": 3
+  },
+  {
+    "name": "A Diary",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_031_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A Strange Diary",
+    "rarity": 3
+  },
+  {
+    "name": "Black Fruit",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_026_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Jinhsi's Token: I",
+    "rarity": 3
+  },
+  {
+    "name": "Mangosteen",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_026_UI.png",
+    "type": "",
+    "subtype": "Quest Item",
+    "description": "Jinhsi's Token: I",
+    "rarity": 5
+  },
+  {
+    "name": "Leaf",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_050_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Jinhsi's Token: II",
+    "rarity": 3
+  },
+  {
+    "name": "Leaf affected by \"Waveworn\"",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_050_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Jinhsi's Token: II",
+    "rarity": 5
+  },
+  {
+    "name": "Small Device",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_035_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Jinhsi's Token: III",
+    "rarity": 3
+  },
+  {
+    "name": "Sundial",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_036_UI.png",
+    "type": "",
+    "subtype": "Quest Item",
+    "description": "Jinhsi's Token: III",
+    "rarity": 4
+  },
+  {
+    "name": "The Unlocked Sundial",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_037_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Jinhsi's Token: III",
+    "rarity": 5
+  },
+  {
+    "name": "Sugar Pearl",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_030_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Jinhsi's Token: IV",
+    "rarity": 3
+  },
+  {
+    "name": "Sugar Pearl",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_030_UI.png",
+    "type": "",
+    "subtype": "Quest Item",
+    "description": "Jinhsi's Token: IV",
+    "rarity": 5
+  },
+  {
+    "name": "Candy",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_067_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A small gift from a child. She hopes you enjoy a sweet time in Jinzhou.",
+    "rarity": 3
+  },
+  {
+    "name": "Archive: Tacet Discord",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_033_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Open the information interface after use",
+    "rarity": 3
+  },
+  {
+    "name": "Archive: Huaxu Academy, Jinzhou Campus",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_033_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Open the information interface after use",
+    "rarity": 3
+  },
+  {
+    "name": "Archive: Sugar Pearl Vaccine and Tacet Discord Outbreak",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_033_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Open the information interface after use",
+    "rarity": 3
+  },
+  {
+    "name": "Archive: \"The First Resonator\"",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_033_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Open the information interface after use",
+    "rarity": 3
+  },
+  {
+    "name": "Rover's Waveband",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconRup_Part_1700_UI.png",
+    "type": "",
+    "subtype": "Waveband",
+    "description": "Used to activate the corresponding Resonator's Sequences.",
+    "rarity": 5
+  },
+  {
+    "name": "Pioneer Association Sigil Supply",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_005_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Provides the Pioneer Podcast's exclusive Sigil.",
+    "rarity": 4
+  },
+  {
+    "name": "Ginkgo: Syntonize Supply",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_003_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Provides an exclusive Syntonize Material for the Golden Eternal series weapon.",
+    "rarity": 4
+  },
+  {
+    "name": "Forging Tide",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_jzmy_01_UI.png",
+    "type": "Valuables",
+    "subtype": "Lustrous Tide",
+    "description": "Used to Convene one time in Weapon Event.",
+    "rarity": 5
+  },
+  {
+    "name": "Yellowed Sketch",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_061_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Sketch Obtained in the camp of the Séance Society.",
+    "rarity": 5
+  },
+  {
+    "name": "Blake Bloom in Strange Shape",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_049_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Blake Bloom in Strange Shape",
+    "rarity": 5
+  },
+  {
+    "name": "Originite Weapon Supply Chest",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_012_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Provides a weapon from the Originite series.",
+    "rarity": 4
+  },
+  {
+    "name": "Standard weapon mold",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_040_UI.png",
+    "type": "Resources",
+    "subtype": "Material",
+    "description": "Used for weapon crafting.",
+    "rarity": 4
+  },
+  {
+    "name": "Happiness Tea",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_034_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' DEF by 12% and max HP by 10%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Xi Ling Tea Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Resources",
+    "subtype": "Recipe",
+    "description": "Used to learn how to cook Xi Ling Tea.",
+    "rarity": 3
+  },
+  {
+    "name": "Liondance Companion",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_14_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' ATK by 120, lasting for 15m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 2
+  },
+  {
+    "name": "Iced Perilla",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_01_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' Crit. Rate by 12%, lasting for 15m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 2
+  },
+  {
+    "name": "Loong Whiskers Crisp",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_08_UI.png",
+    "type": "",
+    "subtype": "Dish",
+    "description": "Restore 50 points of Stamina.",
+    "rarity": 3
+  },
+  {
+    "name": "Ration Bar",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_12_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases the DEF of all Resonators in the team by 36% for 15 minutes. In multiplayer games, it only affects your own characters.",
+    "rarity": 3
+  },
+  {
+    "name": "Sanqing Tea",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_13_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' max HP by 28%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Crystal Clear Buns",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_10_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' DEF by 28%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Yesterday in Jinzhou",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_02_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' ATK by 10% and Crit. Rate by 8%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Fluffy Wuthercake",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_03_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' ATK by 33%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Golden Fried Rice",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_11_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increase the DEF of all Resonators in the team by 28%, lasting 30 minutes. In multiplayer games, it only affects the player's own Character.",
+    "rarity": 3
+  },
+  {
+    "name": "Floral Porridge",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_09_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' Crit. Rate by 24%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Baa Baa Crisp",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_16_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' DEF by 40%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Lotus Seed Soup",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_15_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' max HP by 20%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Smoked Pigeon",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_07_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' DEF by 55%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 5
+  },
+  {
+    "name": "Champion Hotpot",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_04_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' Crit. Rate by 30%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 5
+  },
+  {
+    "name": "Green Field Pot",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_06_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' ATK by 44%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 5
+  },
+  {
+    "name": "Misty Tea",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_SP_05_UI.png",
+    "type": "Supplies",
+    "subtype": "Dish",
+    "description": "Increases all party members' DEF by 14% and max HP by 12%, lasting for 30m. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Fusion Resistance Spray",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_001_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Increases all party members' Fusion DMG RES by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Aero Resistance Spray",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_006_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Increases all party members' Aero DMG RES by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Electro Resistance Spray",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_005_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Increases all party members' Electro DMG RES by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Glacio Resistance Spray",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_004_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Increases all party members' Glacio DMG RES by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Spectro Resistance Spray",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_002_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Increases all party members' Spectro DMG RES by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Havoc Resistance Spray",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_003_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Increases all party members' Havoc DMG RES by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Fusion Petrol",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_007_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Increases all party members' Fusion DMG Bonus by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Aero Petrol",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_012_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Increases all party members' Aero DMG Bonus by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Electro Petrol",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_011_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Increases all party members' Electro DMG Bonus by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Glacio Petrol",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_010_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Increases all party members' Glacio DMG Bonus by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Spectro Petrol",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_008_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Increases all party members' Spectro DMG Bonus by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Havoc Petrol",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_009_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Increases all party members' Havoc DMG Bonus by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Basic Revival Inhaler",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_013_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Used to immediately heal a selected downed Resonator for 100 HP. This item can only be used once every 60s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 2
+  },
+  {
+    "name": "Medium Revival Inhaler",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_014_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Used to immediately heal a selected downed Resonator for 10% of their max HP. This item can only be used once every 60s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Advanced Revival Inhaler",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_015_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Used to immediately heal a selected downed Resonator for 25% of their max HP. This item can only be used once every 60s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Premium Revival Inhaler",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_016_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Used to immediately heal a selected downed Resonator for 100% of their max HP. This item can only be used once every 60s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 5
+  },
+  {
+    "name": "Basic Nutrient Block",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_017_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Used to heal a selected Resonator for 10% of their max HP plus 500 extra HP. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 2
+  },
+  {
+    "name": "Medium Nutrient Block",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_018_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Used to heal a selected Resonator for 15% of their max HP plus 1,000 extra HP. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Advanced Nutrient Block",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_019_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Used to heal a selected Resonator for 20% of their max HP plus 1,500 extra HP. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Premium Nutrient Block",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_020_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Used to heal a selected Resonator for 30% of their max HP plus 2,000 extra HP. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 5
+  },
+  {
+    "name": "Basic Energy Bag",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_021_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Used to heal a selected Resonator for 100 HP per second over 30s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 2
+  },
+  {
+    "name": "Medium Energy Bag",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_022_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Used to heal a selected Resonator for 150 HP per second over 30s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Advanced Energy Bag",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_023_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Used to heal a selected Resonator for 2% of their max HP plus 200 extra HP per second over 30s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Premium Energy Bag",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_024_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Used to heal a selected Resonator for 3% of their max HP plus 300 extra HP per second over 30s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 5
+  },
+  {
+    "name": "Trainer Solvent",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_025_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Reduces the cooldown of all Resonator's Echo skills in the team by 30% for 180 seconds, effective only on your own Character in multiplayer.",
+    "rarity": 4
+  },
+  {
+    "name": "Supersonic Solvent",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_026_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Increases the damage of Echo skills released by all Resonators in the party by 40% for 180 seconds, effective only on your own Character in multiplayer.",
+    "rarity": 4
+  },
+  {
+    "name": "String Solvent",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_027_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Allows all Resonators in the party to regain 1 Concordance point per second for 180 seconds, effective in multiplayer only on your own Character.",
+    "rarity": 4
+  },
+  {
+    "name": "Drummer Solvent",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_028_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Boosts the Energy Regen of all Resonators in the party by 30% for 180 seconds, effective only on your own Character in multiplayer.",
+    "rarity": 4
+  },
+  {
+    "name": "Potion No. 5",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconC_Com_002_1_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "After drinking, it restores 20% of the maximum health and 160 fixed health for the current Resonator.",
+    "rarity": 4
+  },
+  {
+    "name": "Morale Tablets",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_029_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Allows all Resonators in the party to inflict an additional percentage of Toughness Sharpening when they trigger Counterstrike for 60 seconds, only on their Character in multiplayer.",
+    "rarity": 5
+  },
+  {
+    "name": "Harmony Tablets",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_029_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Allows all Resonators in the party to regain 20 points of Concerto Energy for 60 seconds after releasing Concerto Skill, which only works on their Character in multiplayer.",
+    "rarity": 5
+  },
+  {
+    "name": "Passion Tablets",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_030_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Allows all Resonators in the party to regain 20 points of Resonance Energy when they successfully Dodge, lasts 60 seconds, and only works on your own Character in multiplayer.",
+    "rarity": 5
+  },
+  {
+    "name": "Vigor Tablets",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_030_UI.png",
+    "type": "Supplies",
+    "subtype": "Medicine",
+    "description": "Used to grant selected Resonators immunity to a fatal damage and heal the Resonator for 25% of their max HP, lasting for 60s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 5
+  },
+  {
+    "name": "Incomplete Echo",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_01_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "Obtain collected random Echo.",
+    "rarity": 5
+  },
+  {
+    "name": "5-star Weapon Supply Chest",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_014_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Provides a 5-star Winter Brume series weapon.",
+    "rarity": 5
+  },
+  {
+    "name": "Gilded Ginkgo",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconWup_017_UI.png",
+    "type": "Resources",
+    "subtype": "Material",
+    "description": "Increases the Syntonize levels of Golden Eternal Weapons.",
+    "rarity": 4
+  },
+  {
+    "name": "Obscure Recipes",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_036_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "A recipe detailing the ingredients and method for Jade Treasure Soup.",
+    "rarity": 2
+  },
+  {
+    "name": "Mahe Special Ingredient Pack",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_007_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Special ingredient pack for cooking Jade Treasure Soup.",
+    "rarity": 2
+  },
+  {
+    "name": "Koko's special \"Luohan Clearwater\"",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_007_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Special potion used for cooking Jade Treasure Soup.",
+    "rarity": 2
+  },
+  {
+    "name": "Traveler's EXP Aid",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_007_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Basic Experience Gift Pack",
+    "rarity": 4
+  },
+  {
+    "name": "Sage's EXP Support",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_008_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Advanced Experience Package",
+    "rarity": 5
+  },
+  {
+    "name": "Gardener's Aid",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_009_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Basic Weapon Skill Breakthrough Material Bundle",
+    "rarity": 4
+  },
+  {
+    "name": "Blake Bloom's Aid",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_010_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Advanced Weapon Skill Breakthrough Material Bundle",
+    "rarity": 5
+  },
+  {
+    "name": "Blake Bloom's Data Aid",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_011_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Echo Development Bundle",
+    "rarity": 5
+  },
+  {
+    "name": "Abandoned Data Chip in Norfall Barrens",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_051_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Data Chip collected from Norfall Barrens",
+    "rarity": 3
+  },
+  {
+    "name": "Torn Pages in Port City of Guixu",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_052_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Torn pages collected from Port City of Guixu",
+    "rarity": 3
+  },
+  {
+    "name": "Torn Pages in Gorges of Spirits",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_052_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Torn pages collected from Gorges of Spirits",
+    "rarity": 3
+  },
+  {
+    "name": "Torn Pages in Central Plains",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_052_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Torn Pages collected in Central Plains.",
+    "rarity": 3
+  },
+  {
+    "name": "Abandoned Data Chip from Whining Aix's Mire",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_051_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Torn pages collected from Whining Aix's Mire",
+    "rarity": 3
+  },
+  {
+    "name": "Torn Pages in Desorock Highland",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_052_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Torn pages collected from Desorock Highland",
+    "rarity": 3
+  },
+  {
+    "name": "Abandoned Data Chip from Tiger's Maw",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_051_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Data Chip collected from Tiger's Maw",
+    "rarity": 3
+  },
+  {
+    "name": "Aircraft Accident Report",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_pad_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Data Chip collected from Norfall Barrens",
+    "rarity": 3
+  },
+  {
+    "name": "As the Express through the Rain",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_003_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Torn pages collected from Port City of Guixu.",
+    "rarity": 3
+  },
+  {
+    "name": "Jinzhou Folklore Journal",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_003_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Torn pages collected from Gorges of Spirits.",
+    "rarity": 3
+  },
+  {
+    "name": "Study on Mythical Beasts in Huanglong",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_003_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Torn Pages collected from Central Plains.",
+    "rarity": 3
+  },
+  {
+    "name": "Lo, Lo, Lollo Logistics!",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_pad_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Data Chip collected from Whining Aix's Mire.",
+    "rarity": 3
+  },
+  {
+    "name": "Untitled Family Letters",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Level_003_1_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Torn pages collected from around Desorock Highland.",
+    "rarity": 3
+  },
+  {
+    "name": "Strange Messages",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_pad_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Data Chip collected from Tiger's Maw.",
+    "rarity": 3
+  },
+  {
+    "name": "Dim Forest Data",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconTask_Task_051_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Data Chip collected from Dim Forest",
+    "rarity": 3
+  },
+  {
+    "name": "Dim Forest Survey Team Diary",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_pad_UI.png",
+    "type": "Missions",
+    "subtype": "Quest Item",
+    "description": "Data collected in Dim Forest.",
+    "rarity": 3
+  },
+  {
+    "name": "Spectro Resistance Spray Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Increases all party members' Fusion DMG RES by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Havoc Resistance Spray Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Increases all party members' Aero DMG RES by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Fusion Resistance Spray Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Increases all party members' Electro DMG RES by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Glacio Resistance Spray Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Increases all party members' Glacio DMG RES by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Aero Resistance Spray Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Increases all party members' Spectro DMG RES by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Electro Resistance Spray Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Increases all party members' Havoc DMG RES by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Spectro Petrol Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Increases all party members' Fusion DMG Bonus by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Havoc Petrol Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Increases all party members' Aero DMG Bonus by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Fusion Petrol Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Increases all party members' Electro DMG Bonus by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Glacio Petrol Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Increases all party members' Glacio DMG Bonus by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Aero Petrol Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Increases all party members' Spectro DMG Bonus by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Electro Petrol Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Increases all party members' Havoc DMG Bonus by 15%, lasting for 180s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Basic Revival Inhaler Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Used to immediately heal a selected downed Resonator for 100 HP. This item can only be used once every 60s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 2
+  },
+  {
+    "name": "Medium Revival Inhaler Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Used to immediately heal a selected downed Resonator for 10% of their max HP. This item can only be used once every 60s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Advanced Revival Inhaler Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Used to immediately heal a selected downed Resonator for 25% of their max HP. This item can only be used once every 60s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Premium Revival Inhaler Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Used to immediately heal a selected downed Resonator for 100% of their max HP. This item can only be used once every 60s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 5
+  },
+  {
+    "name": "Basic Nutrient Block Formula",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Used to heal a selected Resonator for 10% of their max HP plus 500 extra HP. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 2
+  },
+  {
+    "name": "Medium Nutrient Block Formula",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Used to heal a selected Resonator for 15% of their max HP plus 1,000 extra HP. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Advanced Nutrient Block Formula",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Used to heal a selected Resonator for 20% of their max HP plus 1,500 extra HP. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Premium Nutrient Block Formula",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Used to heal a selected Resonator for 30% of their max HP plus 2,000 extra HP. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 5
+  },
+  {
+    "name": "Basic Energy Bag Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Used to heal a selected Resonator for 100 HP per second over 30s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 2
+  },
+  {
+    "name": "Medium Energy Bag Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Used to heal a selected Resonator for 150 HP per second over 30s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 3
+  },
+  {
+    "name": "Advanced Energy Bag Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Used to heal a selected Resonator for 2% of their max HP plus 200 extra HP per second over 30s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 4
+  },
+  {
+    "name": "Premium Energy Bag Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Used to heal a selected Resonator for 3% of their max HP plus 300 extra HP per second over 30s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 5
+  },
+  {
+    "name": "Trainer Solvent Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Reduces the cooldown of all Resonator's Echo skills in the team by 30% for 180 seconds, effective only on your own Character in multiplayer.",
+    "rarity": 4
+  },
+  {
+    "name": "Supersonic Solvent Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Increases the damage of Echo skills released by all Resonators in the party by 40% for 180 seconds, effective only on your own Character in multiplayer.",
+    "rarity": 4
+  },
+  {
+    "name": "String Solvent Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Allows all Resonators in the party to regain 1 Concordance point per second for 180 seconds, effective in multiplayer only on your own Character.",
+    "rarity": 4
+  },
+  {
+    "name": "Drummer Solvent Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Boosts the Energy Regen of all Resonators in the party by 30% for 180 seconds, effective only on your own Character in multiplayer.",
+    "rarity": 4
+  },
+  {
+    "name": "Potion No.5 Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Instantly revives designated Resonator. Can only be used once every 60 seconds. Only effective on your own Resonator in Co-op mode.",
+    "rarity": 2
+  },
+  {
+    "name": "Morale Tablets Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Allows all Resonators in the party to inflict an additional percentage of Toughness Sharpening when they trigger Counterstrike for 60 seconds, only on their Character in multiplayer.",
+    "rarity": 5
+  },
+  {
+    "name": "Harmony Tablets Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Allows all Resonators in the party to regain 20 points of Concerto Energy for 60 seconds after releasing Concerto Skill, which only works on their Character in multiplayer.",
+    "rarity": 5
+  },
+  {
+    "name": "Passion Tablets Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Allows all Resonators in the party to regain 20 points of Resonance Energy when they successfully Dodge, lasts 60 seconds, and only works on your own Character in multiplayer.",
+    "rarity": 5
+  },
+  {
+    "name": "Vigor Tablets Recipe",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_039_UI.png",
+    "type": "Resources",
+    "subtype": "Synthesis Recipe: Potion Making",
+    "description": "Used to grant selected Resonators immunity to a fatal damage and heal the Resonator for 25% of their max HP, lasting for 60s. (This effect only applies to your own Resonator(s) in Co-op Mode)",
+    "rarity": 5
+  },
+  {
+    "name": "Base Fluid",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_032_UI.png",
+    "type": "Resources",
+    "subtype": "Processed Item",
+    "description": "Material for Synthesis",
+    "rarity": 2
+  },
+  {
+    "name": "Fluid Catalyst",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_033_UI.png",
+    "type": "Resources",
+    "subtype": "Processed Item",
+    "description": "Material for Synthesis",
+    "rarity": 3
+  },
+  {
+    "name": "Strong Fluid Catalyst",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_034_UI.png",
+    "type": "Resources",
+    "subtype": "Processed Item",
+    "description": "Material for Synthesis",
+    "rarity": 4
+  },
+  {
+    "name": "Fluid Stabilizer",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_035_UI.png",
+    "type": "Resources",
+    "subtype": "Processed Item",
+    "description": "Material for Synthesis",
+    "rarity": 3
+  },
+  {
+    "name": "Strong Fluid Stabilizer",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_036_UI.png",
+    "type": "Resources",
+    "subtype": "Processed Item",
+    "description": "Material for Synthesis",
+    "rarity": 4
+  },
+  {
+    "name": "Premium Incense Oil",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_037_UI.png",
+    "type": "Resources",
+    "subtype": "Processed Item",
+    "description": "Material for Synthesis",
+    "rarity": 4
+  },
+  {
+    "name": "Premium Gold Incense Oil",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconCook_YJ_038_UI.png",
+    "type": "Resources",
+    "subtype": "Processed Item",
+    "description": "Material for Synthesis",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Frost of the Night",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_07_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Melted Mountain Rift",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_08_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Thunder of the Void",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_09_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Wind of the Valley",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_10_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Floating Star of the Dark",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_06_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Sun of the Day",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_05_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Hidden World of the Light",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_11_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Light Cloud of the Moon",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_12_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Residual Sound",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_13_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Frost of the Night",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_07_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Melted Mountain Rift",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_08_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Thunder of the Void",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_09_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Wind of the Valley",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_10_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Floating Star of the Dark",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_06_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Sun of the Day",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_05_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Hidden World of the Light",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_11_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Light Cloud of the Moon",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_12_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Unfinished Residual Sound",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_13_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "",
+    "rarity": 5
+  },
+  {
+    "name": "Malleable Elite Class Echo I",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_03_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "Open to claim one &lt;color=Rare5&gt;5-Star Elite Class Echo&lt;/color&gt; of your choice.\n\nList of Echoes:\nFreezing Frost Set - Autopuppet Scout - Glacio DMG Bonus\nMolten Rift Set - Viridblaze Saurian - Fusion DMG Bonus\nVoid Thunder Set - Violet-Feathered Heron - Electro DMG Bonus\nSierra Gale Set - Hoochief - Aero DMG Bonus\nCelestial Light Set - Rocksteady Guardian - Spectro DMG Bonus\nHavoc Eclipse Set - Havoc Dreadmane - Havoc DMG Bonus",
+    "rarity": 5
+  },
+  {
+    "name": "Malleable Elite Class Echo II",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_03_UI.png",
+    "type": "Valuables",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "Open to claim one &lt;color=Rare5&gt;5-Star Elite Class Echo&lt;/color&gt; of your choice.\n\nList of Echoes:\nFreezing Frost Set - Roseshroom - Glacio DMG Bonus\nMolten Rift Set - Havoc Dreadmane - Fusion DMG Bonus\nVoid Thunder Set - Flautist - Electro DMG Bonus\nSierra Gale Set - Carapace - Aero DMG Bonus\nCelestial Light Set - Cyan-Feathered Heron - Spectro DMG Bonus\nHavoc Eclipse Set - Tambourinist - Havoc DMG Bonus",
+    "rarity": 5
+  },
+  {
+    "name": "Originite Weapon Supply Chest",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_012_UI.png",
+    "type": "",
+    "subtype": "Supply Pack",
+    "description": "Provides a weapon from the Originite series.",
+    "rarity": 4
+  },
+  {
+    "name": "Originite Weapon Supply Chest",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_012_UI.png",
+    "type": "",
+    "subtype": "Supply Pack",
+    "description": "Provides a weapon from the Originite series.",
+    "rarity": 4
+  },
+  {
+    "name": "Originite Weapon Supply Chest",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_012_UI.png",
+    "type": "",
+    "subtype": "Supply Pack",
+    "description": "Provides a weapon from the Originite series.",
+    "rarity": 4
+  },
+  {
+    "name": "Originite Weapon Supply Chest",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_012_UI.png",
+    "type": "",
+    "subtype": "Supply Pack",
+    "description": "Provides a weapon from the Originite series.",
+    "rarity": 4
+  },
+  {
+    "name": "Survey Points",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_currency_6_UI.png",
+    "type": "",
+    "subtype": "Activity Points",
+    "description": "Obtained from completing survey tasks. Collect to obtain the corresponding rewards in the Tide Seeker event.",
+    "rarity": 5
+  },
+  {
+    "name": "Rangers' Series Weapon Supply Chest",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconGiftPack_012_UI.png",
+    "type": "Valuables",
+    "subtype": "Supply Pack",
+    "description": "Open to to claim one Rangers' Series Weapon of your choice:\n&lt;color=Rare4&gt;Dauntless Evernight*1&lt;/color&gt;\n&lt;color=Rare4&gt;Commando of Conviction*1&lt;/color&gt;\n&lt;color=Rare4&gt;Undying Flame*1&lt;/color&gt;\n&lt;color=Rare4&gt;Amity Accord*1&lt;/color&gt;\n&lt;color=Rare4&gt;Jinzhou Keeper*1&lt;/color&gt;\"",
+    "rarity": 4
+  },
+  {
+    "name": "Incomplete Overlord Class Echo",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_02_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "Obtain collected Overlord Class Echo.",
+    "rarity": 5
+  },
+  {
+    "name": "Incomplete Elite Class Echo",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_03_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "Obtain collected Elite Class Echo.",
+    "rarity": 5
+  },
+  {
+    "name": "Incomplete Common Class Echo",
+    "image": "https://wuthering.gg/_ipx/q_70&s_50x50/images/Items/T_IconA_shlb_04_UI.png",
+    "type": "",
+    "subtype": "Random Echo Item - Supply Pack",
+    "description": "Obtain collected Common Class Echo.",
+    "rarity": 5
+  }
+]

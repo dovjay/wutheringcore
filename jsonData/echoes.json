@@ -1,0 +1,839 @@
+[
+  {
+    "name": "Vanguard Junrock",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_011_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Vanguard Junrock that charges forward, dealing <span>23.00%+46</span> Physical DMG to enemies in its path.\n\nCD: <span>8</span>s",
+      "Summon a Vanguard Junrock that charges forward, dealing <span>26.00%+52</span> Physical DMG to enemies in its path.\n\nCD: <span>8</span>s",
+      "Summon a Vanguard Junrock that charges forward, dealing <span>29.00%+58</span> Physical DMG to enemies in its path.\n\nCD: <span>8</span>s",
+      "Summon a Vanguard Junrock that charges forward, dealing <span>32.00%+64</span> Physical DMG to enemies in its path.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Rejuvenating Glow",
+      "Void Thunder",
+      "Lingering Tunes"
+    ]
+  },
+  {
+    "name": "Fission Junrock",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_021_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Fission Junrock. Generate a Resonance Effect that restores <span>2%</span> HP for friendly units each time. If not in combat, you can pick up minerals or plants nearby.\n\nCD: <span>15</span>s",
+      "Summon a Fission Junrock. Generate a Resonance Effect that restores <span>2%</span> HP for friendly units each time. If not in combat, you can pick up minerals or plants nearby.\n\nCD: <span>15</span>s",
+      "Summon a Fission Junrock. Generate a Resonance Effect that restores <span>2%</span> HP for friendly units each time. If not in combat, you can pick up minerals or plants nearby.\n\nCD: <span>15</span>s",
+      "Summon a Fission Junrock. Generate a Resonance Effect that restores <span>2%</span> HP for friendly units each time. If not in combat, you can pick up minerals or plants nearby.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Moonlit Clouds",
+      "Void Thunder",
+      "Rejuvenating Glow"
+    ]
+  },
+  {
+    "name": "Electro Predator",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_031_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals <span>12.42%</span> Electro DMG, and the last deals <span>33.12%</span> Electro DMG.\n\nCD: <span>8</span>s",
+      "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals <span>14.04%</span> Electro DMG, and the last deals <span>37.44%</span> Electro DMG.\n\nCD: <span>8</span>s",
+      "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals <span>15.66%</span> Electro DMG, and the last deals <span>41.76%</span> Electro DMG.\n\nCD: <span>8</span>s",
+      "Summon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals <span>17.28%</span> Electro DMG, and the last deals <span>46.08%</span> Electro DMG.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Molten Rift",
+      "Void Thunder"
+    ]
+  },
+  {
+    "name": "Fusion Warrior",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_041_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Transform into Fusion Warrior to perform a Counterattack. If the Counterattack is successful, the cooldown time of this skill will be reduced by <span>70.00%</span>, and <span>207.00%</span> Fusion DMG will be dealt.\n\nCD: <span>15</span>s",
+      "Transform into Fusion Warrior to perform a Counterattack. If the Counterattack is successful, the cooldown time of this skill will be reduced by <span>70.00%</span>, and <span>234.00%</span> Fusion DMG will be dealt.\n\nCD: <span>15</span>s",
+      "Transform into Fusion Warrior to perform a Counterattack. If the Counterattack is successful, the cooldown time of this skill will be reduced by <span>70.00%</span>, and <span>261.00%</span> Fusion DMG will be dealt.\n\nCD: <span>15</span>s",
+      "Transform into Fusion Warrior to perform a Counterattack. If the Counterattack is successful, the cooldown time of this skill will be reduced by <span>70.00%</span>, and <span>288.00%</span> Fusion DMG will be dealt.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Sierra Gale",
+      "Void Thunder",
+      "Molten Rift"
+    ]
+  },
+  {
+    "name": "Havoc Warrior",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_051_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Transform into Havoc Warrior to attack up to 3 times, dealing <span>123.43%</span> Havoc DMG each time.\n \nCD: <span>15</span>s",
+      "Transform into Havoc Warrior to attack up to 3 times, dealing <span>139.53%</span> Havoc DMG each time.\n \nCD: <span>15</span>s",
+      "Transform into Havoc Warrior to attack up to 3 times, dealing <span>155.63%</span> Havoc DMG each time.\n \nCD: <span>15</span>s",
+      "Transform into Havoc Warrior to attack up to 3 times, dealing <span>171.73%</span> Havoc DMG each time.\n \nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Celestial Light",
+      "Sun-sinking Eclipse"
+    ]
+  },
+  {
+    "name": "Snip Snap",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_061_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Snip Snap that throws fireballs at the enemy, dealing <span>23.00%+46</span> Fusion DMG on-hit.\n\nCD: <span>8</span>s",
+      "Summon a Snip Snap that throws fireballs at the enemy, dealing <span>26.00%+52</span> Fusion DMG on-hit.\n\nCD: <span>8</span>s",
+      "Summon a Snip Snap that throws fireballs at the enemy, dealing <span>29.00%+58</span> Fusion DMG on-hit.\n\nCD: <span>8</span>s",
+      "Summon a Snip Snap that throws fireballs at the enemy, dealing <span>32.00%+64</span> Fusion DMG on-hit.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Lingering Tunes",
+      "Rejuvenating Glow",
+      "Molten Rift"
+    ]
+  },
+  {
+    "name": "Zig Zag",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_071_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Zig Zag that denotates Spectro energy, dealing <span>34.50%+69</span> Spectro DMG and creating a Stagnation Zone that lasts 1.8s.\n\nCD: <span>15</span>s",
+      "Summon a Zig Zag that denotates Spectro energy, dealing <span>39.00%+78</span> Spectro DMG and creating a Stagnation Zone that lasts 1.8s.\n\nCD: <span>15</span>s",
+      "Summon a Zig Zag that denotates Spectro energy, dealing <span>43.50%+87</span> Spectro DMG and creating a Stagnation Zone that lasts 1.8s.\n\nCD: <span>15</span>s",
+      "Summon a Zig Zag that denotates Spectro energy, dealing <span>48.00%+96</span> Spectro DMG and creating a Stagnation Zone that lasts 1.8s.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Moonlit Clouds",
+      "Lingering Tunes",
+      "Celestial Light"
+    ]
+  },
+  {
+    "name": "Whiff Whaff",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_081_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Whiff Whaff that triggers an air explosion, dealing <span>36.92%</span> Aero DMG and produce a Low-pressure Zone. The Low-pressure Zone continuously pulls enemies nearby towards the center for <span>2</span>s, dealing <span>14.35%</span> Aero DMG up to 6 times.\n\nCD: <span>15</span>s",
+      "Summon a Whiff Whaff that triggers an air explosion, dealing <span>41.73%</span> Aero DMG and produce a Low-pressure Zone. The Low-pressure Zone continuously pulls enemies nearby towards the center for <span>2</span>s, dealing <span>16.22%</span> Aero DMG up to 6 times.\n\nCD: <span>15</span>s",
+      "Summon a Whiff Whaff that triggers an air explosion, dealing <span>46.55%</span> Aero DMG and produce a Low-pressure Zone. The Low-pressure Zone continuously pulls enemies nearby towards the center for <span>2</span>s, dealing <span>18.10%</span> Aero DMG up to 6 times.\n\nCD: <span>15</span>s",
+      "Summon a Whiff Whaff that triggers an air explosion, dealing <span>51.36%</span> Aero DMG and produce a Low-pressure Zone. The Low-pressure Zone continuously pulls enemies nearby towards the center for <span>2</span>s, dealing <span>19.97%</span> Aero DMG up to 6 times.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Rejuvenating Glow",
+      "Moonlit Clouds",
+      "Sierra Gale"
+    ]
+  },
+  {
+    "name": "Tick Tack",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_091_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal <span>49.22%</span> Havoc DMG to the enemy, and the bite will deal <span>73.83%</span> Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to <span>5.00%</span> during <span>5</span>s.\n\nCD: <span>15</span>s",
+      "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal <span>55.64%</span> Havoc DMG to the enemy, and the bite will deal <span>83.46%</span> Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to <span>5.00%</span> during <span>5</span>s.\n\nCD: <span>15</span>s",
+      "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal <span>62.06%</span> Havoc DMG to the enemy, and the bite will deal <span>93.09%</span> Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to <span>5.00%</span> during <span>5</span>s.\n\nCD: <span>15</span>s",
+      "Summon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal <span>68.48%</span> Havoc DMG to the enemy, and the bite will deal <span>102.72%</span> Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to <span>5.00%</span> during <span>5</span>s.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Lingering Tunes",
+      "Rejuvenating Glow",
+      "Sun-sinking Eclipse"
+    ]
+  },
+  {
+    "name": "Glacio Predator",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_101_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Glacio Predator that throws an ice spear, dealing <span>33.12%</span> Glacio DMG on hit. Deal <span>3.31%</span> Glacio DMG up to 10 times during the charging time, and <span>16.56%</span> Glacio DMG when the spear explodes.\n\nCD: <span>8</span>s",
+      "Summon a Glacio Predator that throws an ice spear, dealing <span>37.44%</span> Glacio DMG on hit. Deal <span>3.74%</span> Glacio DMG up to 10 times during the charging time, and <span>18.72%</span> Glacio DMG when the spear explodes.\n\nCD: <span>8</span>s",
+      "Summon a Glacio Predator that throws an ice spear, dealing <span>41.76%</span> Glacio DMG on hit. Deal <span>4.18%</span> Glacio DMG up to 10 times during the charging time, and <span>20.88%</span> Glacio DMG when the spear explodes.\n\nCD: <span>8</span>s",
+      "Summon a Glacio Predator that throws an ice spear, dealing <span>46.08%</span> Glacio DMG on hit. Deal <span>4.61%</span> Glacio DMG up to 10 times during the charging time, and <span>23.04%</span> Glacio DMG when the spear explodes.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Celestial Light",
+      "Freezing Frost"
+    ]
+  },
+  {
+    "name": "Gulpuff",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_111_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Gulpuff that blows bubbles <span>5</span> times, each time dealing <span>16.56%</span> Glacio DMG.\n\nCD: <span>8</span>s",
+      "Summon a Gulpuff that blows bubbles <span>5</span> times, each time dealing <span>18.72%</span> Glacio DMG.\n\nCD: <span>8</span>s",
+      "Summon a Gulpuff that blows bubbles <span>5</span> times, each time dealing <span>20.88%</span> Glacio DMG.\n\nCD: <span>8</span>s",
+      "Summon a Gulpuff that blows bubbles <span>5</span> times, each time dealing <span>23.04%</span> Glacio DMG.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Celestial Light",
+      "Freezing Frost"
+    ]
+  },
+  {
+    "name": "Violet-Feathered Heron",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_121_UI.png",
+    "tier": "Elite",
+    "cost": "3",
+    "ability": [
+      "Transform into Violet-Feathered Heron and enter a Parry Stance. Counterattack when the Parry stance is over, dealing <span>207.00%</span> Electro DMG. If attacked during Parry Stance, you can counterattack in advance and additionally recover <span>5</span> Concerto Energy.\n\nCD: <span>15</span>s",
+      "Transform into Violet-Feathered Heron and enter a Parry Stance. Counterattack when the Parry stance is over, dealing <span>234.00%</span> Electro DMG. If attacked during Parry Stance, you can counterattack in advance and additionally recover <span>5</span> Concerto Energy.\n\nCD: <span>15</span>s",
+      "Transform into Violet-Feathered Heron and enter a Parry Stance. Counterattack when the Parry stance is over, dealing <span>261.00%</span> Electro DMG. If attacked during Parry Stance, you can counterattack in advance and additionally recover <span>5</span> Concerto Energy.\n\nCD: <span>15</span>s",
+      "Transform into Violet-Feathered Heron and enter a Parry Stance. Counterattack when the Parry stance is over, dealing <span>288.00%</span> Electro DMG. If attacked during Parry Stance, you can counterattack in advance and additionally recover <span>5</span> Concerto Energy.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Molten Rift",
+      "Void Thunder"
+    ]
+  },
+  {
+    "name": "Cyan-Feathered Heron",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_131_UI.png",
+    "tier": "Elite",
+    "cost": "3",
+    "ability": [
+      "Transform into Cyan-Feathered Heron and charge at the enemies, dealing <span>170.20%</span> Aero DMG; This Echo Skill interrupts enemy <color=highlight>Special Skills upon dealing damage.\n \nCD: <span>15</span>s</color=highlight>",
+      "Transform into Cyan-Feathered Heron and charge at the enemies, dealing <span>192.40%</span> Aero DMG; This Echo Skill interrupts enemy <color=highlight>Special Skills upon dealing damage.\n \nCD: <span>15</span>s</color=highlight>",
+      "Transform into Cyan-Feathered Heron and charge at the enemies, dealing <span>214.60%</span> Aero DMG; This Echo Skill interrupts enemy <color=highlight>Special Skills upon dealing damage.\n \nCD: <span>15</span>s</color=highlight>",
+      "Transform into Cyan-Feathered Heron and charge at the enemies, dealing <span>236.80%</span> Aero DMG; This Echo Skill interrupts enemy <color=highlight>Special Skills upon dealing damage.\n \nCD: <span>15</span>s</color=highlight>"
+    ],
+    "sonatas": [
+      "Sierra Gale",
+      "Celestial Light"
+    ]
+  },
+  {
+    "name": "Glacio Prism",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_141_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Glacio Prism that continuously fires three crystal shards, each dealing <span>27.60%</span> Glacio DMG.\n\nCD: <span>8</span>s",
+      "Summon a Glacio Prism that continuously fires three crystal shards, each dealing <span>31.20%</span> Glacio DMG.\n\nCD: <span>8</span>s",
+      "Summon a Glacio Prism that continuously fires three crystal shards, each dealing <span>34.80%</span> Glacio DMG.\n\nCD: <span>8</span>s",
+      "Summon a Glacio Prism that continuously fires three crystal shards, each dealing <span>38.40%</span> Glacio DMG.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Sun-sinking Eclipse",
+      "Moonlit Clouds",
+      "Freezing Frost"
+    ]
+  },
+  {
+    "name": "Fusion Prism",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_151_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Fusion Prism to fire a crystal shard, dealing <span>23.00%+46</span> Fusion DMG.\n\nCD: <span>8</span>s",
+      "Summon a Fusion Prism to fire a crystal shard, dealing <span>26.00%+52</span> Fusion DMG.\n\nCD: <span>8</span>s",
+      "Summon a Fusion Prism to fire a crystal shard, dealing <span>29.00%+58</span> Fusion DMG.\n\nCD: <span>8</span>s",
+      "Summon a Fusion Prism to fire a crystal shard, dealing <span>32.00%+64</span> Fusion DMG.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Freezing Frost",
+      "Lingering Tunes",
+      "Molten Rift"
+    ]
+  },
+  {
+    "name": "Spectro Prism",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_161_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Spectro Prism to emit a laser that hits the enemy up to <span>8</span> times, dealing <span>10.35%</span> Spectro DMG each time.\n\nCD: <span>8</span>s",
+      "Summon a Spectro Prism to emit a laser that hits the enemy up to <span>8</span> times, dealing <span>11.70%</span> Spectro DMG each time.\n\nCD: <span>8</span>s",
+      "Summon a Spectro Prism to emit a laser that hits the enemy up to <span>8</span> times, dealing <span>13.05%</span> Spectro DMG each time.\n\nCD: <span>8</span>s",
+      "Summon a Spectro Prism to emit a laser that hits the enemy up to <span>8</span> times, dealing <span>14.40%</span> Spectro DMG each time.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Molten Rift",
+      "Void Thunder",
+      "Celestial Light"
+    ]
+  },
+  {
+    "name": "Havoc Prism",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_171_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Havoc Prism to fire five crystal shards, each dealing <span>16.56%</span> Havoc DMG.\n\nCD: <span>8</span>s",
+      "Summon a Havoc Prism to fire five crystal shards, each dealing <span>18.72%</span> Havoc DMG.\n\nCD: <span>8</span>s",
+      "Summon a Havoc Prism to fire five crystal shards, each dealing <span>20.88%</span> Havoc DMG.\n\nCD: <span>8</span>s",
+      "Summon a Havoc Prism to fire five crystal shards, each dealing <span>23.04%</span> Havoc DMG.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Void Thunder",
+      "Celestial Light",
+      "Sun-sinking Eclipse"
+    ]
+  },
+  {
+    "name": "Stonewall Bracer",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_181_UI.png",
+    "tier": "Elite",
+    "cost": "3",
+    "ability": [
+      "Transform into Stonewall Bracer and charge forward, dealing <span>80.96%</span> Physical DMG on-hit, then smash to deal <span>121.44%</span> Physical DMG, and gain a shield of <span>10.00%</span> of current character's Max HP. Use the Echo skill again to exit the transformation state.\n\nCD: <span>15</span>s",
+      "Transform into Stonewall Bracer and charge forward, dealing <span>91.52%</span> Physical DMG on-hit, then smash to deal <span>137.28%</span> Physical DMG, and gain a shield of <span>10.00%</span> of current character's Max HP. Use the Echo skill again to exit the transformation state.\n\nCD: <span>15</span>s",
+      "Transform into Stonewall Bracer and charge forward, dealing <span>102.08%</span> Physical DMG on-hit, then smash to deal <span>153.12%</span> Physical DMG, and gain a shield of <span>10.00%</span> of current character's Max HP. Use the Echo skill again to exit the transformation state.\n\nCD: <span>15</span>s",
+      "Transform into Stonewall Bracer and charge forward, dealing <span>112.64%</span> Physical DMG on-hit, then smash to deal <span>168.96%</span> Physical DMG, and gain a shield of <span>10.00%</span> of current character's Max HP. Use the Echo skill again to exit the transformation state.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Rejuvenating Glow",
+      "Moonlit Clouds"
+    ]
+  },
+  {
+    "name": "Flautist",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_191_UI.png",
+    "tier": "Elite",
+    "cost": "3",
+    "ability": [
+      "Transform into Flautist, continuously emitting Electro lasers, dealing <span>38.30%</span> Electro DMG for a total of 10 times. Gain <span>1</span> Concerto Energy every time a hit lands.\n\nCD: <span>15</span>s",
+      "Transform into Flautist, continuously emitting Electro lasers, dealing <span>43.29%</span> Electro DMG for a total of 10 times. Gain <span>1</span> Concerto Energy every time a hit lands.\n\nCD: <span>15</span>s",
+      "Transform into Flautist, continuously emitting Electro lasers, dealing <span>48.29%</span> Electro DMG for a total of 10 times. Gain <span>1</span> Concerto Energy every time a hit lands.\n\nCD: <span>15</span>s",
+      "Transform into Flautist, continuously emitting Electro lasers, dealing <span>53.28%</span> Electro DMG for a total of 10 times. Gain <span>1</span> Concerto Energy every time a hit lands.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Lingering Tunes",
+      "Void Thunder"
+    ]
+  },
+  {
+    "name": "Tambourinist",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_201_UI.png",
+    "tier": "Elite",
+    "cost": "3",
+    "ability": [
+      "Summon a Tambourinist that periodically emits Melodies of Annihilation. Friendly units hit with Melodies of Annihilation deal an extra Havoc DMG of <span>10.35%</span> with their attacks, up to 10 times.\n\nCD: <span>15</span>s",
+      "Summon a Tambourinist that periodically emits Melodies of Annihilation. Friendly units hit with Melodies of Annihilation deal an extra Havoc DMG of <span>11.70%</span> with their attacks, up to 10 times.\n\nCD: <span>15</span>s",
+      "Summon a Tambourinist that periodically emits Melodies of Annihilation. Friendly units hit with Melodies of Annihilation deal an extra Havoc DMG of <span>13.05%</span> with their attacks, up to 10 times.\n\nCD: <span>15</span>s",
+      "Summon a Tambourinist that periodically emits Melodies of Annihilation. Friendly units hit with Melodies of Annihilation deal an extra Havoc DMG of <span>14.40%</span> with their attacks, up to 10 times.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Freezing Frost",
+      "Sun-sinking Eclipse"
+    ]
+  },
+  {
+    "name": "Chasm Guardian",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_211_UI.png",
+    "tier": "Elite",
+    "cost": "3",
+    "ability": [
+      "Transform into Chasm Guardian to perform a Leap Strike that deals <span>196.65%</span> Havoc DMG on hit. Current character loses <span>10.00%</span> HP after the hit lands. Periodically restore current character's HP after <span>5</span>s for up to <span>10.00%</span> of their Max HP.\n\nCD: <span>15</span>s",
+      "Transform into Chasm Guardian to perform a Leap Strike that deals <span>222.30%</span> Havoc DMG on hit. Current character loses <span>10.00%</span> HP after the hit lands. Periodically restore current character's HP after <span>5</span>s for up to <span>10.00%</span> of their Max HP.\n\nCD: <span>15</span>s",
+      "Transform into Chasm Guardian to perform a Leap Strike that deals <span>247.95%</span> Havoc DMG on hit. Current character loses <span>10.00%</span> HP after the hit lands. Periodically restore current character's HP after <span>5</span>s for up to <span>10.00%</span> of their Max HP.\n\nCD: <span>15</span>s",
+      "Transform into Chasm Guardian to perform a Leap Strike that deals <span>273.60%</span> Havoc DMG on hit. Current character loses <span>10.00%</span> HP after the hit lands. Periodically restore current character's HP after <span>5</span>s for up to <span>10.00%</span> of their Max HP.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Lingering Tunes",
+      "Rejuvenating Glow"
+    ]
+  },
+  {
+    "name": "Thundering Mephis",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_222_UI.png",
+    "tier": "Overlord",
+    "cost": "4",
+    "ability": [
+      "Transform into Thundering Mephis, engaging in a rapid assault of up to 6 strikes. The first 5 strikes deal <span>95.31%</span> Electro DMG each, while the final strike inflicts <span>136.16%</span> Electro DMG, with an additional <span>22.69%</span> Electro DMG from the thunder.\n\nAfter the final hit, increase the current character’s Electro DMG by <span>12.00%</span> and Resonance Liberation DMG by <span>12.00%</span> for <span>15</span>s.\n\nCD: <span>20</span>s",
+      "Transform into Thundering Mephis, engaging in a rapid assault of up to 6 strikes. The first 5 strikes deal <span>107.74%</span> Electro DMG each, while the final strike inflicts <span>153.92%</span> Electro DMG, with an additional <span>25.65%</span> Electro DMG from the thunder.\n\nAfter the final hit, increase the current character’s Electro DMG by <span>12.00%</span> and Resonance Liberation DMG by <span>12.00%</span> for <span>15</span>s.\n\nCD: <span>20</span>s",
+      "Transform into Thundering Mephis, engaging in a rapid assault of up to 6 strikes. The first 5 strikes deal <span>120.18%</span> Electro DMG each, while the final strike inflicts <span>171.68%</span> Electro DMG, with an additional <span>28.61%</span> Electro DMG from the thunder.\n\nAfter the final hit, increase the current character’s Electro DMG by <span>12.00%</span> and Resonance Liberation DMG by <span>12.00%</span> for <span>15</span>s.\n\nCD: <span>20</span>s",
+      "Transform into Thundering Mephis, engaging in a rapid assault of up to 6 strikes. The first 5 strikes deal <span>132.61%</span> Electro DMG each, while the final strike inflicts <span>189.44%</span> Electro DMG, with an additional <span>31.57%</span> Electro DMG from the thunder.\n\nAfter the final hit, increase the current character’s Electro DMG by <span>12.00%</span> and Resonance Liberation DMG by <span>12.00%</span> for <span>15</span>s.\n\nCD: <span>20</span>s"
+    ],
+    "sonatas": [
+      "Void Thunder"
+    ]
+  },
+  {
+    "name": "Aero Predator",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_231_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon an Aero Predator that throws a dart forward. The dart will bounce between enemies up to three times, dealing <span>20.70%</span> Aero DMG each time it hits.\n\nCD: <span>8</span>s",
+      "Summon an Aero Predator that throws a dart forward. The dart will bounce between enemies up to three times, dealing <span>23.40%</span> Aero DMG each time it hits.\n\nCD: <span>8</span>s",
+      "Summon an Aero Predator that throws a dart forward. The dart will bounce between enemies up to three times, dealing <span>26.10%</span> Aero DMG each time it hits.\n\nCD: <span>8</span>s",
+      "Summon an Aero Predator that throws a dart forward. The dart will bounce between enemies up to three times, dealing <span>28.80%</span> Aero DMG each time it hits.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Void Thunder",
+      "Sierra Gale"
+    ]
+  },
+  {
+    "name": "Rocksteady Guardian",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_241_UI.png",
+    "tier": "Elite",
+    "cost": "3",
+    "ability": [
+      "Transform into Rocksteady Guardian and enter a Parry State. Upon being attacked, deal Spectro DMG equal to <span>5.96%</span> of the current character's Max HP, and perform a follow-up attack that deals Spectro DMG equal to <span>5.96%</span> of the current character's Max HP.\n \nUse the Echo skill again to exit the transformation.\n \nIf the attack received is a <color=highlight>Special Skill attack, interrupt the enemy's <color=highlight>Special Skill and perform a two-stage follow-up attack, each inflicting Spectro DMG equal to <span>3.97%</span> of the current character's max HP. These follow-up attacks simultaneously launch three ground-breaking waves, each inflicting Spectro DMG equal to <span>3.30%</span> of the current character's Max HP.\n \nCD: <span>15</span>s</color=highlight></color=highlight>",
+      "Transform into Rocksteady Guardian and enter a Parry State. Upon being attacked, deal Spectro DMG equal to <span>6.73%</span> of the current character's Max HP, and perform a follow-up attack that deals Spectro DMG equal to <span>6.73%</span> of the current character's Max HP.\n \nUse the Echo skill again to exit the transformation.\n \nIf the attack received is a <color=highlight>Special Skill attack, interrupt the enemy's <color=highlight>Special Skill and perform a two-stage follow-up attack, each inflicting Spectro DMG equal to <span>4.49%</span> of the current character's max HP. These follow-up attacks simultaneously launch three ground-breaking waves, each inflicting Spectro DMG equal to <span>3.73%</span> of the current character's Max HP.\n \nCD: <span>15</span>s</color=highlight></color=highlight>",
+      "Transform into Rocksteady Guardian and enter a Parry State. Upon being attacked, deal Spectro DMG equal to <span>7.51%</span> of the current character's Max HP, and perform a follow-up attack that deals Spectro DMG equal to <span>7.51%</span> of the current character's Max HP.\n \nUse the Echo skill again to exit the transformation.\n \nIf the attack received is a <color=highlight>Special Skill attack, interrupt the enemy's <color=highlight>Special Skill and perform a two-stage follow-up attack, each inflicting Spectro DMG equal to <span>5.00%</span> of the current character's max HP. These follow-up attacks simultaneously launch three ground-breaking waves, each inflicting Spectro DMG equal to <span>4.16%</span> of the current character's Max HP.\n \nCD: <span>15</span>s</color=highlight></color=highlight>",
+      "Transform into Rocksteady Guardian and enter a Parry State. Upon being attacked, deal Spectro DMG equal to <span>8.29%</span> of the current character's Max HP, and perform a follow-up attack that deals Spectro DMG equal to <span>8.29%</span> of the current character's Max HP.\n \nUse the Echo skill again to exit the transformation.\n \nIf the attack received is a <color=highlight>Special Skill attack, interrupt the enemy's <color=highlight>Special Skill and perform a two-stage follow-up attack, each inflicting Spectro DMG equal to <span>5.52%</span> of the current character's max HP. These follow-up attacks simultaneously launch three ground-breaking waves, each inflicting Spectro DMG equal to <span>4.59%</span> of the current character's Max HP.\n \nCD: <span>15</span>s</color=highlight></color=highlight>"
+    ],
+    "sonatas": [
+      "Rejuvenating Glow",
+      "Celestial Light"
+    ]
+  },
+  {
+    "name": "Cruisewing",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_251_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Cruisewing that restores HP for all current team characters by <span>1.20%</span> of their Max HPs plus an additional <span>80</span> points of HP, up to 4 times.\n\nCD: <span>8</span>s",
+      "Summon a Cruisewing that restores HP for all current team characters by <span>1.40%</span> of their Max HPs plus an additional <span>80</span> points of HP, up to 4 times.\n\nCD: <span>8</span>s",
+      "Summon a Cruisewing that restores HP for all current team characters by <span>1.60%</span> of their Max HPs plus an additional <span>80</span> points of HP, up to 4 times.\n\nCD: <span>8</span>s",
+      "Summon a Cruisewing that restores HP for all current team characters by <span>1.80%</span> of their Max HPs plus an additional <span>80</span> points of HP, up to 4 times.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Rejuvenating Glow",
+      "Moonlit Clouds",
+      "Celestial Light"
+    ]
+  },
+  {
+    "name": "Sabyr Boar",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_261_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Sabyr Boar to headbutt the enemy into the air, dealing <span>23.00%+46</span> Physical DMG.\n\nCD: <span>8</span>s",
+      "Summon a Sabyr Boar to headbutt the enemy into the air, dealing <span>26.00%+52</span> Physical DMG.\n\nCD: <span>8</span>s",
+      "Summon a Sabyr Boar to headbutt the enemy into the air, dealing <span>29.00%+58</span> Physical DMG.\n\nCD: <span>8</span>s",
+      "Summon a Sabyr Boar to headbutt the enemy into the air, dealing <span>32.00%+64</span> Physical DMG.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Moonlit Clouds",
+      "Sierra Gale",
+      "Freezing Frost"
+    ]
+  },
+  {
+    "name": "Excarat",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_271_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Transform into an Excarat and tunnel underground to advance. In this state, you have the ability to change your direction and are immune to damage.\n\nCD: <span>undefined</span>s",
+      "Transform into an Excarat and tunnel underground to advance. In this state, you have the ability to change your direction and are immune to damage.\n\nCD: <span>undefined</span>s",
+      "Transform into an Excarat and tunnel underground to advance. In this state, you have the ability to change your direction and are immune to damage.\n\nCD: <span>undefined</span>s",
+      "Transform into an Excarat and tunnel underground to advance. In this state, you have the ability to change your direction and are immune to damage.\n\nCD: <span>undefined</span>s"
+    ],
+    "sonatas": [
+      "Freezing Frost",
+      "Sun-sinking Eclipse"
+    ]
+  },
+  {
+    "name": "Young Geohide Saurian",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_281_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Transform into Baby Viridblaze Saurian to rest in place, and slowly restore HP.\n\nCD: <span>undefined</span>s",
+      "Transform into Baby Viridblaze Saurian to rest in place, and slowly restore HP.\n\nCD: <span>undefined</span>s",
+      "Transform into Baby Viridblaze Saurian to rest in place, and slowly restore HP.\n\nCD: <span>undefined</span>s",
+      "Transform into Baby Viridblaze Saurian to rest in place, and slowly restore HP.\n\nCD: <span>undefined</span>s"
+    ],
+    "sonatas": [
+      "Lingering Tunes",
+      "Void Thunder",
+      "Molten Rift"
+    ]
+  },
+  {
+    "name": "Geohide Saurian",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_291_UI.png",
+    "tier": "Elite",
+    "cost": "3",
+    "ability": [
+      "Summon a Viridblaze Saurian to continuously spit fire, dealing <span>12.31%</span> Fusion DMG 10 times.\n\nCD: <span>15</span>s",
+      "Summon a Viridblaze Saurian to continuously spit fire, dealing <span>13.91%</span> Fusion DMG 10 times.\n\nCD: <span>15</span>s",
+      "Summon a Viridblaze Saurian to continuously spit fire, dealing <span>15.52%</span> Fusion DMG 10 times.\n\nCD: <span>15</span>s",
+      "Summon a Viridblaze Saurian to continuously spit fire, dealing <span>17.12%</span> Fusion DMG 10 times.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Moonlit Clouds",
+      "Molten Rift"
+    ]
+  },
+  {
+    "name": "Young Roseshroom",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_301_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Baby Roseshroom that fires a laser, dealing <span>23.00%+46</span> Havoc DMG.\n\nCD: <span>8</span>s",
+      "Summon a Baby Roseshroom that fires a laser, dealing <span>26.00%+52</span> Havoc DMG.\n\nCD: <span>8</span>s",
+      "Summon a Baby Roseshroom that fires a laser, dealing <span>29.00%+58</span> Havoc DMG.\n\nCD: <span>8</span>s",
+      "Summon a Baby Roseshroom that fires a laser, dealing <span>32.00%+64</span> Havoc DMG.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Sierra Gale",
+      "Sun-sinking Eclipse"
+    ]
+  },
+  {
+    "name": "Roseshroom",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_311_UI.png",
+    "tier": "Elite",
+    "cost": "3",
+    "ability": [
+      "Summon a Roseshroom that fires a laser, dealing <span>41.02%</span> Havoc DMG up to <span>3</span> times.\n \nCD: <span>15</span>s",
+      "Summon a Roseshroom that fires a laser, dealing <span>46.37%</span> Havoc DMG up to <span>3</span> times.\n \nCD: <span>15</span>s",
+      "Summon a Roseshroom that fires a laser, dealing <span>51.72%</span> Havoc DMG up to <span>3</span> times.\n \nCD: <span>15</span>s",
+      "Summon a Roseshroom that fires a laser, dealing <span>57.07%</span> Havoc DMG up to <span>3</span> times.\n \nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Freezing Frost",
+      "Sun-sinking Eclipse"
+    ]
+  },
+  {
+    "name": "Inferno Rider",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_321_UI.png",
+    "tier": "Overlord",
+    "cost": "4",
+    "ability": [
+      "Transform into Inferno Rider to launch up to 3 consecutive slashes in a row, each slash dealing <span>174.23%</span>, <span>203.26%</span>, and <span>203.26%</span> Fusion DMG respectively.\n\nAfter the final hit, increase the current character’s Fusion DMG by <span>12.00%</span> and Basic Attack DMG by <span>12.00%</span> for <span>15</span>s.\n\nLong press the Echo Skill to transform into Inferno Rider and enter the Riding Mode. When exiting the Riding Mode, deal <span>12.00%</span> Fusion DMG to enemies in front.\n\nCD: <span>20</span>s",
+      "Transform into Inferno Rider to launch up to 3 consecutive slashes in a row, each slash dealing <span>196.95%</span>, <span>229.78%</span>, and <span>229.78%</span> Fusion DMG respectively.\n\nAfter the final hit, increase the current character’s Fusion DMG by <span>12.00%</span> and Basic Attack DMG by <span>12.00%</span> for <span>15</span>s.\n\nLong press the Echo Skill to transform into Inferno Rider and enter the Riding Mode. When exiting the Riding Mode, deal <span>12.00%</span> Fusion DMG to enemies in front.\n\nCD: <span>20</span>s",
+      "Transform into Inferno Rider to launch up to 3 consecutive slashes in a row, each slash dealing <span>219.68%</span>, <span>256.29%</span>, and <span>256.29%</span> Fusion DMG respectively.\n\nAfter the final hit, increase the current character’s Fusion DMG by <span>12.00%</span> and Basic Attack DMG by <span>12.00%</span> for <span>15</span>s.\n\nLong press the Echo Skill to transform into Inferno Rider and enter the Riding Mode. When exiting the Riding Mode, deal <span>12.00%</span> Fusion DMG to enemies in front.\n\nCD: <span>20</span>s",
+      "Transform into Inferno Rider to launch up to 3 consecutive slashes in a row, each slash dealing <span>242.40%</span>, <span>282.80%</span>, and <span>282.80%</span> Fusion DMG respectively.\n\nAfter the final hit, increase the current character’s Fusion DMG by <span>12.00%</span> and Basic Attack DMG by <span>12.00%</span> for <span>15</span>s.\n\nLong press the Echo Skill to transform into Inferno Rider and enter the Riding Mode. When exiting the Riding Mode, deal <span>12.00%</span> Fusion DMG to enemies in front.\n\nCD: <span>20</span>s"
+    ],
+    "sonatas": [
+      "Molten Rift"
+    ]
+  },
+  {
+    "name": "Spearback",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_986_UI.png",
+    "tier": "Elite",
+    "cost": "3",
+    "ability": [
+      "Summon a Spearback to perform 5 consecutive attacks. The first 4 attacks deal <span>21.53%</span> Physical DMG, and the last deals <span>36.92%</span> Physical DMG.\n\nCD: <span>15</span>s",
+      "Summon a Spearback to perform 5 consecutive attacks. The first 4 attacks deal <span>24.34%</span> Physical DMG, and the last deals <span>41.73%</span> Physical DMG.\n\nCD: <span>15</span>s",
+      "Summon a Spearback to perform 5 consecutive attacks. The first 4 attacks deal <span>27.15%</span> Physical DMG, and the last deals <span>46.55%</span> Physical DMG.\n\nCD: <span>15</span>s",
+      "Summon a Spearback to perform 5 consecutive attacks. The first 4 attacks deal <span>29.96%</span> Physical DMG, and the last deals <span>51.36%</span> Physical DMG.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Lingering Tunes",
+      "Moonlit Clouds"
+    ]
+  },
+  {
+    "name": "Hoartoise",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_969_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Transform into Hoartoise and slowly restore HP. Use the Echo skill again to exit the transformation state.\n\nCD: <span>undefined</span>s",
+      "Transform into Hoartoise and slowly restore HP. Use the Echo skill again to exit the transformation state.\n\nCD: <span>undefined</span>s",
+      "Transform into Hoartoise and slowly restore HP. Use the Echo skill again to exit the transformation state.\n\nCD: <span>undefined</span>s",
+      "Transform into Hoartoise and slowly restore HP. Use the Echo skill again to exit the transformation state.\n\nCD: <span>undefined</span>s"
+    ],
+    "sonatas": [
+      "Celestial Light",
+      "Freezing Frost"
+    ]
+  },
+  {
+    "name": "Havoc Dreadmane",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_984_UI.png",
+    "tier": "Elite",
+    "cost": "3",
+    "ability": [
+      "Transform into Havoc Dreadmane to perform tail strikes up to 2 times. Each strike deals <span>83.84%</span> Havoc DMG. An additional strike will be performed on hit, dealing <span>55.89%</span> Havoc DMG.\n\nCD: <span>15</span>s",
+      "Transform into Havoc Dreadmane to perform tail strikes up to 2 times. Each strike deals <span>94.77%</span> Havoc DMG. An additional strike will be performed on hit, dealing <span>63.18%</span> Havoc DMG.\n\nCD: <span>15</span>s",
+      "Transform into Havoc Dreadmane to perform tail strikes up to 2 times. Each strike deals <span>105.71%</span> Havoc DMG. An additional strike will be performed on hit, dealing <span>70.47%</span> Havoc DMG.\n\nCD: <span>15</span>s",
+      "Transform into Havoc Dreadmane to perform tail strikes up to 2 times. Each strike deals <span>116.64%</span> Havoc DMG. An additional strike will be performed on hit, dealing <span>77.76%</span> Havoc DMG.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Molten Rift",
+      "Sun-sinking Eclipse"
+    ]
+  },
+  {
+    "name": "Fusion Dreadmane",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_980_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Fusion Dreadmane that fiercely strikes the enemy, dealing <span>23.00%+46</span> Fusion DMG.\n\nCD: <span>8</span>s",
+      "Summon a Fusion Dreadmane that fiercely strikes the enemy, dealing <span>26.00%+52</span> Fusion DMG.\n\nCD: <span>8</span>s",
+      "Summon a Fusion Dreadmane that fiercely strikes the enemy, dealing <span>29.00%+58</span> Fusion DMG.\n\nCD: <span>8</span>s",
+      "Summon a Fusion Dreadmane that fiercely strikes the enemy, dealing <span>32.00%+64</span> Fusion DMG.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Rejuvenating Glow",
+      "Molten Rift"
+    ]
+  },
+  {
+    "name": "Bell-Borne Geochelone",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_992_UI.png",
+    "tier": "Calamity",
+    "cost": "4",
+    "ability": [
+      "Activate the protection of Bell-Borne Geochelone. Deal Glacio DMG based on <span>104.88%</span> of the current character's DEF to nearby enemies, and obtain a Bell-Borne Shield that lasts for <span>15</span>s\n\nThe Bell-Borne Shield provides <span>50.00%</span> DMG Reduction and <span>10.00%</span> DMG Boost for the current team members, and disappears after the current character is hit for <span>3</span> times.\n\nCD: <span>20</span>s",
+      "Activate the protection of Bell-Borne Geochelone. Deal Glacio DMG based on <span>118.56%</span> of the current character's DEF to nearby enemies, and obtain a Bell-Borne Shield that lasts for <span>15</span>s\n\nThe Bell-Borne Shield provides <span>50.00%</span> DMG Reduction and <span>10.00%</span> DMG Boost for the current team members, and disappears after the current character is hit for <span>3</span> times.\n\nCD: <span>20</span>s",
+      "Activate the protection of Bell-Borne Geochelone. Deal Glacio DMG based on <span>132.24%</span> of the current character's DEF to nearby enemies, and obtain a Bell-Borne Shield that lasts for <span>15</span>s\n\nThe Bell-Borne Shield provides <span>50.00%</span> DMG Reduction and <span>10.00%</span> DMG Boost for the current team members, and disappears after the current character is hit for <span>3</span> times.\n\nCD: <span>20</span>s",
+      "Activate the protection of Bell-Borne Geochelone. Deal Glacio DMG based on <span>145.92%</span> of the current character's DEF to nearby enemies, and obtain a Bell-Borne Shield that lasts for <span>15</span>s\n\nThe Bell-Borne Shield provides <span>50.00%</span> DMG Reduction and <span>10.00%</span> DMG Boost for the current team members, and disappears after the current character is hit for <span>3</span> times.\n\nCD: <span>20</span>s"
+    ],
+    "sonatas": [
+      "Moonlit Clouds",
+      "Rejuvenating Glow"
+    ]
+  },
+  {
+    "name": "Hooscamp",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_988_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Transform into Hooscamp Flinger and pounce at the enemies, dealing <span>34.50%+69</span> Aero DMG.\n\nCD: <span>8</span>s",
+      "Transform into Hooscamp Flinger and pounce at the enemies, dealing <span>39.00%+78</span> Aero DMG.\n\nCD: <span>8</span>s",
+      "Transform into Hooscamp Flinger and pounce at the enemies, dealing <span>43.50%+87</span> Aero DMG.\n\nCD: <span>8</span>s",
+      "Transform into Hooscamp Flinger and pounce at the enemies, dealing <span>48.00%+96</span> Aero DMG.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Lingering Tunes",
+      "Sierra Gale"
+    ]
+  },
+  {
+    "name": "Tempest Mephis",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_221_UI.png",
+    "tier": "Overlord",
+    "cost": "4",
+    "ability": [
+      "Transform into Tempest Mephis to perform tail swing attacks followed by a claw attack. The lightning strike summoned by the tail swing deals <span>73.66%</span> Electro DMG each time, while the claw attack deals <span>126.27%</span> Electro DMG.\n\nAfter the claw hit, increase the current character’s Electro DMG by <span>12.00%</span> and Heavy Attack DMG by <span>12.00%</span> for <span>15</span>s.\n\nCD: <span>20</span>s",
+      "Transform into Tempest Mephis to perform tail swing attacks followed by a claw attack. The lightning strike summoned by the tail swing deals <span>83.27%</span> Electro DMG each time, while the claw attack deals <span>142.74%</span> Electro DMG.\n\nAfter the claw hit, increase the current character’s Electro DMG by <span>12.00%</span> and Heavy Attack DMG by <span>12.00%</span> for <span>15</span>s.\n\nCD: <span>20</span>s",
+      "Transform into Tempest Mephis to perform tail swing attacks followed by a claw attack. The lightning strike summoned by the tail swing deals <span>92.87%</span> Electro DMG each time, while the claw attack deals <span>159.21%</span> Electro DMG.\n\nAfter the claw hit, increase the current character’s Electro DMG by <span>12.00%</span> and Heavy Attack DMG by <span>12.00%</span> for <span>15</span>s.\n\nCD: <span>20</span>s",
+      "Transform into Tempest Mephis to perform tail swing attacks followed by a claw attack. The lightning strike summoned by the tail swing deals <span>102.48%</span> Electro DMG each time, while the claw attack deals <span>175.68%</span> Electro DMG.\n\nAfter the claw hit, increase the current character’s Electro DMG by <span>12.00%</span> and Heavy Attack DMG by <span>12.00%</span> for <span>15</span>s.\n\nCD: <span>20</span>s"
+    ],
+    "sonatas": [
+      "Void Thunder"
+    ]
+  },
+  {
+    "name": "Hoochief",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_989_UI.png",
+    "tier": "Elite",
+    "cost": "3",
+    "ability": [
+      "Transform into Hoochief Cyclone and smack the enemies, dealing <span>178.80%</span> Aero DMG.\n\nCD: <span>15</span>s",
+      "Transform into Hoochief Cyclone and smack the enemies, dealing <span>208.60%</span> Aero DMG.\n\nCD: <span>15</span>s",
+      "Transform into Hoochief Cyclone and smack the enemies, dealing <span>238.40%</span> Aero DMG.\n\nCD: <span>15</span>s",
+      "Transform into Hoochief Cyclone and smack the enemies, dealing <span>268.20%</span> Aero DMG.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Rejuvenating Glow",
+      "Sierra Gale"
+    ]
+  },
+  {
+    "name": "Diamondclaw",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_987_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Transform into Crystal Scorpion and enter a Parry State. Counterattack when the  Parry State is over, dealing <span>34.50%+69</span> Physical DMG.\nCD: <span>8</span>s",
+      "Transform into Crystal Scorpion and enter a Parry State. Counterattack when the  Parry State is over, dealing <span>39.00%+78</span> Physical DMG.\nCD: <span>8</span>s",
+      "Transform into Crystal Scorpion and enter a Parry State. Counterattack when the  Parry State is over, dealing <span>43.50%+87</span> Physical DMG.\nCD: <span>8</span>s",
+      "Transform into Crystal Scorpion and enter a Parry State. Counterattack when the  Parry State is over, dealing <span>48.00%+96</span> Physical DMG.\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Moonlit Clouds",
+      "Lingering Tunes"
+    ]
+  },
+  {
+    "name": "Crownless",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_9991_UI.png",
+    "tier": "Overlord",
+    "cost": "4",
+    "ability": [
+      "Transform into Crownless and perform up to 4 consecutive attacks. The first 2 attacks deal <span>96.37%</span> Havoc DMG each, the 3rd attack deals <span>72.28%</span> Havoc DMG 2 times, and the 4th attack deals <span>48.19%</span> Havoc DMG 3 times.\n\nAfter the transformation, increase current character's Havoc DMG by <span>12.00%</span> and Resonance Skill DMG by <span>12.00%</span> for <span>15</span>s.\n\nCD: <span>20</span>s",
+      "Transform into Crownless and perform up to 4 consecutive attacks. The first 2 attacks deal <span>108.94%</span> Havoc DMG each, the 3rd attack deals <span>81.71%</span> Havoc DMG 2 times, and the 4th attack deals <span>54.47%</span> Havoc DMG 3 times.\n\nAfter the transformation, increase current character's Havoc DMG by <span>12.00%</span> and Resonance Skill DMG by <span>12.00%</span> for <span>15</span>s.\n\nCD: <span>20</span>s",
+      "Transform into Crownless and perform up to 4 consecutive attacks. The first 2 attacks deal <span>121.51%</span> Havoc DMG each, the 3rd attack deals <span>91.13%</span> Havoc DMG 2 times, and the 4th attack deals <span>60.76%</span> Havoc DMG 3 times.\n\nAfter the transformation, increase current character's Havoc DMG by <span>12.00%</span> and Resonance Skill DMG by <span>12.00%</span> for <span>15</span>s.\n\nCD: <span>20</span>s",
+      "Transform into Crownless and perform up to 4 consecutive attacks. The first 2 attacks deal <span>134.08%</span> Havoc DMG each, the 3rd attack deals <span>100.56%</span> Havoc DMG 2 times, and the 4th attack deals <span>67.04%</span> Havoc DMG 3 times.\n\nAfter the transformation, increase current character's Havoc DMG by <span>12.00%</span> and Resonance Skill DMG by <span>12.00%</span> for <span>15</span>s.\n\nCD: <span>20</span>s"
+    ],
+    "sonatas": [
+      "Sun-sinking Eclipse"
+    ]
+  },
+  {
+    "name": "Feilian Beringal",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_996_UI.png",
+    "tier": "Overlord",
+    "cost": "4",
+    "ability": [
+      "Transform into Feilian Beringal to perform a powerful kick. If the kick lands on an enemy, immediately perform a follow-up strike. The kick deals <span>166.64%</span> Aero DMG, and the follow-up strike deals <span>203.67%</span> Aero DMG.\n\nAfter the follow-up strike hits, the current character's Aero DMG increases by <span>12.00%</span>, and the Heavy Attack DMG increases by <span>12.00%</span> for <span>15</span>s\n\nCD: <span>20</span>s",
+      "Transform into Feilian Beringal to perform a powerful kick. If the kick lands on an enemy, immediately perform a follow-up strike. The kick deals <span>188.37%</span> Aero DMG, and the follow-up strike deals <span>230.23%</span> Aero DMG.\n\nAfter the follow-up strike hits, the current character's Aero DMG increases by <span>12.00%</span>, and the Heavy Attack DMG increases by <span>12.00%</span> for <span>15</span>s\n\nCD: <span>20</span>s",
+      "Transform into Feilian Beringal to perform a powerful kick. If the kick lands on an enemy, immediately perform a follow-up strike. The kick deals <span>210.11%</span> Aero DMG, and the follow-up strike deals <span>256.80%</span> Aero DMG.\n\nAfter the follow-up strike hits, the current character's Aero DMG increases by <span>12.00%</span>, and the Heavy Attack DMG increases by <span>12.00%</span> for <span>15</span>s\n\nCD: <span>20</span>s",
+      "Transform into Feilian Beringal to perform a powerful kick. If the kick lands on an enemy, immediately perform a follow-up strike. The kick deals <span>231.84%</span> Aero DMG, and the follow-up strike deals <span>283.36%</span> Aero DMG.\n\nAfter the follow-up strike hits, the current character's Aero DMG increases by <span>12.00%</span>, and the Heavy Attack DMG increases by <span>12.00%</span> for <span>15</span>s\n\nCD: <span>20</span>s"
+    ],
+    "sonatas": [
+      "Sierra Gale"
+    ]
+  },
+  {
+    "name": "Lampylumen Myriad",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_994_UI.png",
+    "tier": "Overlord",
+    "cost": "4",
+    "ability": [
+      "Transform into Lampylumen Myriad. Perform up to 3 consecutive attacks.\n\nUnleash a freezing shock by performing consecutive forward strikes, with the initial two strikes inflicting <span>143.87%</span> and <span>143.87%</span> Glacio DMG respectively, and the final strike dealing <span>191.82%</span> Glacio DMG. Enemies will be frozen on hit.\n\nEach shock increases the current character’s Glacio DMG by <span>4.00%</span> and Resonance Skill DMG dealt by <span>4.00%</span> for <span>15</span>s, stacking up to 3 times\n\nCD: <span>20</span>s",
+      "Transform into Lampylumen Myriad. Perform up to 3 consecutive attacks.\n\nUnleash a freezing shock by performing consecutive forward strikes, with the initial two strikes inflicting <span>162.63%</span> and <span>162.63%</span> Glacio DMG respectively, and the final strike dealing <span>216.84%</span> Glacio DMG. Enemies will be frozen on hit.\n\nEach shock increases the current character’s Glacio DMG by <span>4.00%</span> and Resonance Skill DMG dealt by <span>4.00%</span> for <span>15</span>s, stacking up to 3 times\n\nCD: <span>20</span>s",
+      "Transform into Lampylumen Myriad. Perform up to 3 consecutive attacks.\n\nUnleash a freezing shock by performing consecutive forward strikes, with the initial two strikes inflicting <span>181.40%</span> and <span>181.40%</span> Glacio DMG respectively, and the final strike dealing <span>241.86%</span> Glacio DMG. Enemies will be frozen on hit.\n\nEach shock increases the current character’s Glacio DMG by <span>4.00%</span> and Resonance Skill DMG dealt by <span>4.00%</span> for <span>15</span>s, stacking up to 3 times\n\nCD: <span>20</span>s",
+      "Transform into Lampylumen Myriad. Perform up to 3 consecutive attacks.\n\nUnleash a freezing shock by performing consecutive forward strikes, with the initial two strikes inflicting <span>200.16%</span> and <span>200.16%</span> Glacio DMG respectively, and the final strike dealing <span>266.88%</span> Glacio DMG. Enemies will be frozen on hit.\n\nEach shock increases the current character’s Glacio DMG by <span>4.00%</span> and Resonance Skill DMG dealt by <span>4.00%</span> for <span>15</span>s, stacking up to 3 times\n\nCD: <span>20</span>s"
+    ],
+    "sonatas": [
+      "Freezing Frost"
+    ]
+  },
+  {
+    "name": "Mourning Aix",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_997_UI.png",
+    "tier": "Overlord",
+    "cost": "4",
+    "ability": [
+      "Transform into Mourning Aix and perform 2 consecutive claw attacks, each attack dealing <span>113.16%</span> and <span>169.74%</span> Spectro DMG respectively.\n\nAfter the transformation, increase current character's Spectro DMG by <span>12.00%</span> and Resonance Liberation DMG by <span>12.00%</span> for <span>15</span>s\n\nCD: <span>20</span>s",
+      "Transform into Mourning Aix and perform 2 consecutive claw attacks, each attack dealing <span>127.92%</span> and <span>191.88%</span> Spectro DMG respectively.\n\nAfter the transformation, increase current character's Spectro DMG by <span>12.00%</span> and Resonance Liberation DMG by <span>12.00%</span> for <span>15</span>s\n\nCD: <span>20</span>s",
+      "Transform into Mourning Aix and perform 2 consecutive claw attacks, each attack dealing <span>142.68%</span> and <span>214.02%</span> Spectro DMG respectively.\n\nAfter the transformation, increase current character's Spectro DMG by <span>12.00%</span> and Resonance Liberation DMG by <span>12.00%</span> for <span>15</span>s\n\nCD: <span>20</span>s",
+      "Transform into Mourning Aix and perform 2 consecutive claw attacks, each attack dealing <span>157.44%</span> and <span>236.16%</span> Spectro DMG respectively.\n\nAfter the transformation, increase current character's Spectro DMG by <span>12.00%</span> and Resonance Liberation DMG by <span>12.00%</span> for <span>15</span>s\n\nCD: <span>20</span>s"
+    ],
+    "sonatas": [
+      "Celestial Light"
+    ]
+  },
+  {
+    "name": "Chaserazor",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_970_UI.png",
+    "tier": "Elite",
+    "cost": "3",
+    "ability": [
+      "Transform into Carapace to perform a spinning attack that deals <span>80.50%</span> Aero DMG, followed by a slash that deals <span>120.75%</span> Aero DMG.\n\nCD: <span>15</span>s",
+      "Transform into Carapace to perform a spinning attack that deals <span>91.00%</span> Aero DMG, followed by a slash that deals <span>136.50%</span> Aero DMG.\n\nCD: <span>15</span>s",
+      "Transform into Carapace to perform a spinning attack that deals <span>101.50%</span> Aero DMG, followed by a slash that deals <span>152.25%</span> Aero DMG.\n\nCD: <span>15</span>s",
+      "Transform into Carapace to perform a spinning attack that deals <span>112.00%</span> Aero DMG, followed by a slash that deals <span>168.00%</span> Aero DMG.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Moonlit Clouds",
+      "Sierra Gale"
+    ]
+  },
+  {
+    "name": "Chirpuff",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_971_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward <span>3</span> times. Each blast inflicts <span>27.60%</span> Aero DMG and pushes enemies backwards.\n\nCD: <span>8</span>s",
+      "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward <span>3</span> times. Each blast inflicts <span>31.20%</span> Aero DMG and pushes enemies backwards.\n\nCD: <span>8</span>s",
+      "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward <span>3</span> times. Each blast inflicts <span>34.80%</span> Aero DMG and pushes enemies backwards.\n\nCD: <span>8</span>s",
+      "Summon a Chirpuff that self-inflates and blasts a powerful gust of wind forward <span>3</span> times. Each blast inflicts <span>38.40%</span> Aero DMG and pushes enemies backwards.\n\nCD: <span>8</span>s"
+    ],
+    "sonatas": [
+      "Sun-sinking Eclipse",
+      "Sierra Gale"
+    ]
+  },
+  {
+    "name": "Mech Abomination",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterHead_993_UI.png",
+    "tier": "Overlord",
+    "cost": "4",
+    "ability": [
+      "Strike the enemies in front, dealing <span>34.96%</span> Electro DMG. Summon Mech Waste to attack enemies. Mech Waste deals <span>230.00%</span> Electro DMG on-hit and explode after a while to deal <span>115.00%</span> Electro DMG.\n\nAfter casting this Echo Skill, increase current character's ATK by <span>12.00%</span> for <span>15</span>s. \nDamage dealt by Mech Waste is considered Outro Skill DMG. \n\nCD: <span>15</span>s",
+      "Strike the enemies in front, dealing <span>39.52%</span> Electro DMG. Summon Mech Waste to attack enemies. Mech Waste deals <span>260.00%</span> Electro DMG on-hit and explode after a while to deal <span>130.00%</span> Electro DMG.\n\nAfter casting this Echo Skill, increase current character's ATK by <span>12.00%</span> for <span>15</span>s. \nDamage dealt by Mech Waste is considered Outro Skill DMG. \n\nCD: <span>15</span>s",
+      "Strike the enemies in front, dealing <span>44.08%</span> Electro DMG. Summon Mech Waste to attack enemies. Mech Waste deals <span>290.00%</span> Electro DMG on-hit and explode after a while to deal <span>145.00%</span> Electro DMG.\n\nAfter casting this Echo Skill, increase current character's ATK by <span>12.00%</span> for <span>15</span>s. \nDamage dealt by Mech Waste is considered Outro Skill DMG. \n\nCD: <span>15</span>s",
+      "Strike the enemies in front, dealing <span>48.64%</span> Electro DMG. Summon Mech Waste to attack enemies. Mech Waste deals <span>320.00%</span> Electro DMG on-hit and explode after a while to deal <span>160.00%</span> Electro DMG.\n\nAfter casting this Echo Skill, increase current character's ATK by <span>12.00%</span> for <span>15</span>s. \nDamage dealt by Mech Waste is considered Outro Skill DMG. \n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Lingering Tunes"
+    ]
+  },
+  {
+    "name": "Autopuppet Scout",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_9995_UI.png",
+    "tier": "Elite",
+    "cost": "3",
+    "ability": [
+      "Transform into Autopuppet Scout, dealing <span>195.50%</span> Glacio DMG to the surroundings, and generate up to 3 Ice Walls to block off the enemies.\n\nCD: <span>15</span>s",
+      "Transform into Autopuppet Scout, dealing <span>221.00%</span> Glacio DMG to the surroundings, and generate up to 3 Ice Walls to block off the enemies.\n\nCD: <span>15</span>s",
+      "Transform into Autopuppet Scout, dealing <span>246.50%</span> Glacio DMG to the surroundings, and generate up to 3 Ice Walls to block off the enemies.\n\nCD: <span>15</span>s",
+      "Transform into Autopuppet Scout, dealing <span>272.00%</span> Glacio DMG to the surroundings, and generate up to 3 Ice Walls to block off the enemies.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Celestial Light",
+      "Freezing Frost"
+    ]
+  },
+  {
+    "name": "Traffic Illuminator",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_9992_UI.png",
+    "tier": "Common",
+    "cost": "1",
+    "ability": [
+      "Summon a Traffic Illuminator, immobilizing enemies for up to <span>1</span>s. The immobilization will be lifted once the enemy is hit.\n\nCD: <span>15</span>s",
+      "Summon a Traffic Illuminator, immobilizing enemies for up to <span>1</span>s. The immobilization will be lifted once the enemy is hit.\n\nCD: <span>15</span>s",
+      "Summon a Traffic Illuminator, immobilizing enemies for up to <span>1</span>s. The immobilization will be lifted once the enemy is hit.\n\nCD: <span>15</span>s",
+      "Summon a Traffic Illuminator, immobilizing enemies for up to <span>1</span>s. The immobilization will be lifted once the enemy is hit.\n\nCD: <span>15</span>s"
+    ],
+    "sonatas": [
+      "Void Thunder",
+      "Sierra Gale",
+      "Molten Rift"
+    ]
+  },
+  {
+    "name": "Impermanence Heron",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_995_UI.png",
+    "tier": "Overlord",
+    "cost": "4",
+    "ability": [
+      "Transform into Impermanence Heron to fly up and smack down, dealing <span>223.22%</span> Havoc DMG.\n\nLong press to stay as Impermanence Heron and continuously spit flames, each attack dealing <span>40.05%</span> Havoc DMG.\n\nOnce the initial attack lands on any enemy, the current character regains 10 Resonance Energy. If the current character uses their Outro Skill within the next 15s, the next character’s damage dealt will be boosted by 12% for 15s.\n\nCD: <span>20</span>s",
+      "Transform into Impermanence Heron to fly up and smack down, dealing <span>252.33%</span> Havoc DMG.\n\nLong press to stay as Impermanence Heron and continuously spit flames, each attack dealing <span>45.28%</span> Havoc DMG.\n\nOnce the initial attack lands on any enemy, the current character regains 10 Resonance Energy. If the current character uses their Outro Skill within the next 15s, the next character’s damage dealt will be boosted by 12% for 15s.\n\nCD: <span>20</span>s",
+      "Transform into Impermanence Heron to fly up and smack down, dealing <span>281.45%</span> Havoc DMG.\n\nLong press to stay as Impermanence Heron and continuously spit flames, each attack dealing <span>50.50%</span> Havoc DMG.\n\nOnce the initial attack lands on any enemy, the current character regains 10 Resonance Energy. If the current character uses their Outro Skill within the next 15s, the next character’s damage dealt will be boosted by 12% for 15s.\n\nCD: <span>20</span>s",
+      "Transform into Impermanence Heron to fly up and smack down, dealing <span>310.56%</span> Havoc DMG.\n\nLong press to stay as Impermanence Heron and continuously spit flames, each attack dealing <span>55.73%</span> Havoc DMG.\n\nOnce the initial attack lands on any enemy, the current character regains 10 Resonance Energy. If the current character uses their Outro Skill within the next 15s, the next character’s damage dealt will be boosted by 12% for 15s.\n\nCD: <span>20</span>s"
+    ],
+    "sonatas": [
+      "Moonlit Clouds"
+    ]
+  },
+  {
+    "name": "Dreamless",
+    "image": "https://wuthering.gg/_ipx/q_70&s_160x160/images/IconMonsterGoods/T_IconMonsterGoods160_998_UI.png",
+    "tier": "Calamity",
+    "cost": "4",
+    "ability": [
+      "Transform into Dreamless and perform 6 consecutive attacks. The first 5 attacks deal <span>38.87%</span> Havoc DMG each, and the last attack deal <span>194.35%</span> Havoc DMG.\nThe DMG of this Echo Skill is increased by <span>5</span> during the first <span>50.00%</span>s after Rover-Havoc casts Resonance Liberation.\n\nCD: <span>20</span>s",
+      "Transform into Dreamless and perform 6 consecutive attacks. The first 5 attacks deal <span>43.94%</span> Havoc DMG each, and the last attack deal <span>219.70%</span> Havoc DMG.\nThe DMG of this Echo Skill is increased by <span>5</span> during the first <span>50.00%</span>s after Rover-Havoc casts Resonance Liberation.\n\nCD: <span>20</span>s",
+      "Transform into Dreamless and perform 6 consecutive attacks. The first 5 attacks deal <span>49.01%</span> Havoc DMG each, and the last attack deal <span>245.05%</span> Havoc DMG.\nThe DMG of this Echo Skill is increased by <span>5</span> during the first <span>50.00%</span>s after Rover-Havoc casts Resonance Liberation.\n\nCD: <span>20</span>s",
+      "Transform into Dreamless and perform 6 consecutive attacks. The first 5 attacks deal <span>54.08%</span> Havoc DMG each, and the last attack deal <span>270.40%</span> Havoc DMG.\nThe DMG of this Echo Skill is increased by <span>5</span> during the first <span>50.00%</span>s after Rover-Havoc casts Resonance Liberation.\n\nCD: <span>20</span>s"
+    ],
+    "sonatas": [
+      "Sun-sinking Eclipse"
+    ]
+  }
+]
