@@ -12,17 +12,158 @@ import { index, int, sqliteTableCreator, text } from "drizzle-orm/sqlite-core";
  */
 export const createTable = sqliteTableCreator((name) => `wutheringcore_${name}`);
 
-export const posts = createTable(
-  "post",
+export const items = createTable(
+  "item",
   {
     id: int("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
-    name: text("name", { length: 256 }),
-    createdAt: int("created_at", { mode: "timestamp" })
-      .default(sql`CURRENT_TIMESTAMP`)
-      .notNull(),
-    updatedAt: int("updatedAt", { mode: "timestamp" }),
+    name: text("name", { length: 256 }).notNull(),
+    image: text("image"),
+    type: text("type", { length: 256 }),
+    subtype: text("subtype", { length: 256 }).notNull(),
+    rarity: int("rarity").notNull(),
+    description: text("description").notNull(),
   },
-  (example) => ({
-    nameIndex: index("name_idx").on(example.name),
+  (table) => ({
+    nameIndex: index("name_idx").on(table.name),
   })
+)
+
+export const weapons = createTable(
+  "weapon",
+  {
+    id: int("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
+    name: text("name", { length: 256 }).notNull(),
+    image: text("image"),
+    type: text("type",
+      { enum: ["Broadblade", "Sword", "Pistols", "Gauntlets", "Rectifier"] }
+    ).notNull(),
+    rarity: int("rarity").notNull(),
+    about: text("about"),
+    ascensionGreater: text("ascension_greater",
+      { enum: ["Waveworn Residue", "Metallic Drip", "Phlogiston", "Cadence", "Helix"] }
+    ).notNull(),
+    ascensionLesser: text("ascension_lesser",
+      { enum: ["Whisperin Core", "Howler Core", "Ring"] }
+    ).notNull(),
+    mainStat: text("main_stat", { mode: "json" }).$type<string[]>().notNull(),
+    subStat: text("sub_stat", { mode: "json" }).$type<{ stat: string, value: string[] }>().notNull(),
+    skill: text("skill", { mode: "json" }).$type<{ name: string, description: string[] }>().notNull(),
+  }
+)
+
+export const echoes = createTable(
+  "echo",
+  {
+    id: int("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
+    name: text("name", { length: 256 }).notNull(),
+    image: text("image"),
+    tier: text("tier", { enum: ["Common", "Elite", "Overlord", "Calamity"] }).notNull(),
+    cost: int("cost").notNull(),
+    ability: text("ability", { mode: "json" }).$type<string[]>().notNull(),
+    sonatas: text("sonatas", { mode: "json" }).$type<string[]>().notNull(),
+  }
+)
+
+type CharacterMultiplier = {
+  name: string,
+  Lv1: string,
+  Lv2: string,
+  Lv3: string,
+  Lv4: string,
+  Lv5: string,
+  Lv6: string,
+  Lv7: string,
+  Lv8: string,
+  Lv9: string,
+  Lv10: string
+};
+
+type CharacterSkillDetail = {
+  type: string,
+  name: string,
+  icon: string,
+  description: string,
+  multiplier: CharacterMultiplier[]
+};
+
+type CharacterSkill = {
+  activeSkill: CharacterSkillDetail[],
+  passiveSkill: CharacterSkillDetail[],
+  concertoSkill: CharacterSkillDetail[],
+};
+
+export const characters = createTable(
+  "character",
+  {
+    // Profile
+    id: int("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
+    name: text("name", { length: 96 }).notNull(),
+    introduction: text("introduction").notNull(),
+    role: text("role"),
+    rarity: int("rarity").notNull(),
+    element: text("element", { enum: ["Aero", "Fusion", "Electro", "Spectro", "Havoc", "Glacio"] }).notNull(),
+    weapon: text("weapon", { enum: ["Broadblade", "Sword", "Pistols", "Gauntlets", "Rectifier"] }).notNull(),
+    imageCard: text("image_card"),
+    imageBanner: text("image_banner"),
+    imageProfile: text("image_profile"),
+    voiceActors: text("voice_actors", { mode: "json" }).$type<{ lang: string, name: string }[]>().notNull(),
+    released: int("released", { mode: "boolean" }).notNull(),
+    // Stats
+    sequence: text("sequence", { mode: "json" }).$type<{ value: string, icon: string }[]>().notNull(),
+    minorFortes: text("minor_fortes", { mode: "json" }).$type<{ stat: string, value: string }[]>().notNull(),
+    baseStats: text("base_stats", { mode: "json" }).$type<{ hp: number[], atk: number[], def: number[], maxEnergy: number }>().notNull(),
+    skills: text("skills", { mode: "json" }).$type<CharacterSkill>().notNull(),
+    // Builds
+    quickSummary: text("quick_summary").notNull(),
+    pros: text("pros", { mode: "json" }).$type<string[]>().notNull(),
+    cons: text("cons", { mode: "json" }).$type<string[]>().notNull(),
+    bestWeapons: text("best_weapons", { mode: "json" }).$type<string[]>().notNull(),
+    synergies: text("synergies", { mode: "json" }).$type<string[]>().notNull(),
+    damageProfiles: text("damage_profiles", { mode: "json" }).$type<{ stat: string, value: string }[]>().notNull(),
+  }
 );
+
+export const characterBuild = createTable(
+  "character_build",
+  {
+    id: int("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
+    buildName: text("build_name", { length: 96 }).notNull(),
+    characterId: int("character_id").references(() => characters.id),
+  }
+);
+
+export const characterAbilityPriority = createTable(
+  "character_ability_priority",
+  {
+    id: int("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
+    abilityPriority: text("ability_priority", { mode: "json" }).$type<{ name: string, equalNext: boolean }[]>().notNull(),
+    characterBuildId: int("character_build_id").references(() => characterBuild.id),
+  }
+)
+
+export const characterEchoes = createTable(
+  "character_echo",
+  {
+    id: int("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
+    sonataCombination: text("sonata_combination", { mode: "json" }).$type<string[]>().notNull(),
+    mainStats: text("main_stats", { mode: "json" }).$type<{ cost: string, stats: string[] }[]>().notNull(),
+    subStats: text("sub_stats").notNull(),
+    characterBuildId: int("character_build_id").references(() => characterBuild.id),
+  }
+)
+
+export const characterMaterials = createTable(
+  "character_material",
+  {
+    id: int("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
+    boss: text("boss").notNull(),
+    plant: text("plant").notNull(),
+    lesser: text("lesser",
+      { enum: ["Whisperin Core", "Howler Core", "Ring"] }
+    ).notNull(),
+    greater: text("greater",
+      { enum: ["Waveworn Residue", "Metallic Drip", "Phlogiston", "Cadence", "Helix"] }
+    ).notNull(),
+    characterId: int("character_id").references(() => characters.id),
+  }
+)

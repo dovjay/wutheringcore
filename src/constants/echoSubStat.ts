@@ -1,0 +1,80 @@
+export const EchoSubStat = [
+  {
+    stat: "HP",
+    flat: true,
+    min: 320,
+    max: 580,
+  },
+  {
+    stat: "ATK",
+    flat: true,
+    min: 30,
+    max: 70,
+  },
+  {
+    stat: "DEF",
+    flat: true,
+    min: 30,
+    max: 70,
+  },
+  {
+    stat: "HP%",
+    flat: false,
+    min: 6.4,
+    max: 11.6,
+  },
+  {
+    stat: "ATK%",
+    flat: false,
+    min: 6.4,
+    max: 11.6,
+  },
+  {
+    stat: "DEF%",
+    flat: false,
+    min: 8.1,
+    max: 14.7,
+  },
+  {
+    stat: "Crit. Rate",
+    flat: false,
+    min: 6.3,
+    max: 10.5,
+  },
+  {
+    stat: "Crit. DMG",
+    flat: false,
+    min: 12.6,
+    max: 21.0,
+  },
+  {
+    stat: "Energy Regen",
+    flat: false,
+    min: 5.6,
+    max: 14.9,
+  },
+  {
+    stat: "Resonance Skill DMG Bonus",
+    flat: false,
+    min: 6.4,
+    max: 12.4,
+  },
+  {
+    stat: "Basic Attack DMG Bonus",
+    flat: false,
+    min: 6.4,
+    max: 11.6,
+  },
+  {
+    stat: "Heavy Attack DMG Bonus",
+    flat: false,
+    min: 6.4,
+    max: 11.6,
+  },
+  {
+    stat: "Resonance Liberation DMG Bonus",
+    flat: false,
+    min: 6.4,
+    max: 11.6,
+  },
+];
