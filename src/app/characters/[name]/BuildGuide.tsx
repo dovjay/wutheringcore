@@ -111,7 +111,7 @@ export default function BuildGuide() {
           "flex-col p-4 bg-zinc-700/50 rounded-xl w-fit mx-auto",
           materialBreakdown ? "flex" : "hidden",
         )}>
-          <h3 className="font-bold">Material Breakdown</h3>
+          <h3 className="font-bold">Ascensions Material Breakdown</h3>
           <Table>
             <TableCaption>All material breakdown per level</TableCaption>
             <TableHeader>
@@ -153,10 +153,10 @@ export default function BuildGuide() {
         <div className="flex gap-4 overflow-x-auto pb-2 items-center justify-center flex-wrap">
           {
             Array.from({ length: 5 }).map((_, i) => (
-              <div key={i}>
+              <>
                 {i > 0 && <ArrowRightIcon className="w-10 h-10" />}
                 <AbilityCard />
-              </div>
+              </>
             ))
           }
         </div>
