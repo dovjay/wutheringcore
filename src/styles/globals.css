@@ -1,4 +1,25 @@
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-  
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .rarity-1 {
+    @apply bg-gradient-to-br from-neutral-300 to-zinc-400;
+  }
+
+  .rarity-2 {
+    @apply bg-gradient-to-br from-lime-300 to-emerald-400;
+  }
+
+  .rarity-3 {
+    @apply bg-gradient-to-br from-cyan-300 to-blue-400;
+  }
+
+  .rarity-4 {
+    @apply bg-gradient-to-br from-fuchsia-300 to-pink-500;
+  }
+
+  .rarity-5 {
+    @apply bg-gradient-to-br from-yellow-300 to-yellow-600;
+  }
+}

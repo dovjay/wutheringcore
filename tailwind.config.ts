@@ -38,6 +38,13 @@ const config = {
     require("tailwindcss-animate"),
     require("tailwind-gradient-mask-image")
   ],
+  safelist: [
+    "rarity-1",
+    "rarity-2",
+    "rarity-3",
+    "rarity-4",
+    "rarity-5"
+  ]
 } satisfies Config
 
 export default config
