@@ -8,6 +8,7 @@ import { Separator } from "~/components/ui/separator";
 import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow } from "~/components/ui/table";
 import { cn } from "~/lib/utils";
 import { CharacterCard } from "../CharacterList";
+import { Popover, PopoverContent, PopoverTrigger } from "~/components/ui/popover";
 
 function WeaponCard() {
   return (
@@ -25,20 +26,34 @@ function WeaponCard() {
 }
 
 export function MaterialCard({
+  material,
   total,
   size = "lg",
 }: {
+  material: {
+    name: string;
+    image: string;
+    rarity: number;
+  };
   total: number;
   size?: "sm" | "lg";
 }) {
   return (
-    <div className={cn(
-      "rounded-lg aspect-square bg-zinc-600 flex justify-end items-end p-1",
-      size === "lg" && "lg:w-24 w-16",
-      size === "sm" && "w-16",
-    )}>
-      <Badge>x{total}</Badge>
-    </div>
+    <Popover>
+      <PopoverTrigger
+        className={cn(
+          "rounded-lg aspect-square flex justify-end items-end p-1 relative",
+          size === "lg" && "lg:w-24 w-16",
+          size === "sm" && "w-16",
+          `rarity-${material?.rarity}`,
+        )}>
+        <img src={material?.image} className="w-full p-2 aspect-square rounded-lg absolute top-0 left-0" />
+        <Badge className="relative px-1.5">{total}</Badge>
+      </PopoverTrigger>
+      <PopoverContent>
+        {material?.name}
+      </PopoverContent>
+    </Popover>
   );
 }
 

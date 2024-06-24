@@ -3,7 +3,7 @@
     "name": "Lustrous Razor",
     "type": "Broadblade",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21010015_UI.png",
-    "quality": 5,
+    "rarity": 5,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -196,7 +196,7 @@
     },
     "skill": {
       "name": "Incision",
-      "desc": [
+      "description": [
         "Increases Energy Regen by <span>12.8%</span>. When Resonance Skill is released, increases Resonance Liberation DMG by <span>7%</span>, stacking up to 2 times. This effect lasts for <span>12</span>s.",
         "Increases Energy Regen by <span>16%</span>. When Resonance Skill is released, increases Resonance Liberation DMG by <span>8.75%</span>, stacking up to 2 times. This effect lasts for <span>12</span>s.",
         "Increases Energy Regen by <span>19.2%</span>. When Resonance Skill is released, increases Resonance Liberation DMG by <span>10.5%</span>, stacking up to 2 times. This effect lasts for <span>12</span>s.",
@@ -214,7 +214,7 @@
     "name": "Emerald of Genesis",
     "type": "Sword",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21020015_UI.png",
-    "quality": 5,
+    "rarity": 5,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -407,7 +407,7 @@
     },
     "skill": {
       "name": "Stormy Resolution",
-      "desc": [
+      "description": [
         "Increases Energy Regen by <span>12.8%</span>. When Resonance Skill is released, increases ATK by <span>6%</span>, stacking up to <span>2</span> time(s). This effect lasts for <span>10</span>s.",
         "Increases Energy Regen by <span>16%</span>. When Resonance Skill is released, increases ATK by <span>7.5%</span>, stacking up to <span>2</span> time(s). This effect lasts for <span>10</span>s.",
         "Increases Energy Regen by <span>19.2%</span>. When Resonance Skill is released, increases ATK by <span>9%</span>, stacking up to <span>2</span> time(s). This effect lasts for <span>10</span>s.",
@@ -425,7 +425,7 @@
     "name": "Static Mist",
     "type": "Pistols",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21030015_UI.png",
-    "quality": 5,
+    "rarity": 5,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -618,7 +618,7 @@
     },
     "skill": {
       "name": "Stormy Resolution",
-      "desc": [
+      "description": [
         "Increases Energy Regen by <span>12.8%</span>. When Outro Skill is released, increases the switched-in Resonator's ATK by <span>10%</span>, stacking up to <span>1</span> time(s). This effect lasts for <span>14</span>s.",
         "Increases Energy Regen by <span>16%</span>. When Outro Skill is released, increases the switched-in Resonator's ATK by <span>12.5%</span>, stacking up to <span>1</span> time(s). This effect lasts for <span>14</span>s.",
         "Increases Energy Regen by <span>19.2%</span>. When Outro Skill is released, increases the switched-in Resonator's ATK by <span>15%</span>, stacking up to <span>1</span> time(s). This effect lasts for <span>14</span>s.",
@@ -636,7 +636,7 @@
     "name": "Abyss Surges",
     "type": "Gauntlets",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21040015_UI.png",
-    "quality": 5,
+    "rarity": 5,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -829,7 +829,7 @@
     },
     "skill": {
       "name": "Stormy Resolution",
-      "desc": [
+      "description": [
         "Increases Energy Regen by <span>12.8%</span>. When hitting a target with Resonance Skill, increases Basic Attack DMG Bonus by <span>10%</span>, lasting for <span>8</span>s. When hitting a target with Basic Attacks, increases Resonance Skill DMG Bonus by <span>10%</span>, lasting for <span>8</span>s.",
         "Increases Energy Regen by <span>16%</span>. When hitting a target with Resonance Skill, increases Basic Attack DMG Bonus by <span>12.5%</span>, lasting for <span>8</span>s. When hitting a target with Basic Attacks, increases Resonance Skill DMG Bonus by <span>12.5%</span>, lasting for <span>8</span>s.",
         "Increases Energy Regen by <span>19.2%</span>. When hitting a target with Resonance Skill, increases Basic Attack DMG Bonus by <span>15%</span>, lasting for <span>8</span>s. When hitting a target with Basic Attacks, increases Resonance Skill DMG Bonus by <span>15%</span>, lasting for <span>8</span>s.",
@@ -847,7 +847,7 @@
     "name": "Cosmic Ripples",
     "type": "Rectifier",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21050015_UI.png",
-    "quality": 5,
+    "rarity": 5,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -1040,7 +1040,7 @@
     },
     "skill": {
       "name": "Stormy Resolution",
-      "desc": [
+      "description": [
         "Increases Energy Regen by <span>12.8%</span>. When hitting a target with Basic Attacks, increases Basic Attack DMG Bonus by <span>3.2%</span>, stacking up to <span>5</span> time(s). This effect lasts for <span>8</span>s and can be triggered <span>1</span> time(s) every <span>0.5</span>s.",
         "Increases Energy Regen by <span>16%</span>. When hitting a target with Basic Attacks, increases Basic Attack DMG Bonus by <span>4%</span>, stacking up to <span>5</span> time(s). This effect lasts for <span>8</span>s and can be triggered <span>1</span> time(s) every <span>0.5</span>s.",
         "Increases Energy Regen by <span>19.2%</span>. When hitting a target with Basic Attacks, increases Basic Attack DMG Bonus by <span>4.8%</span>, stacking up to <span>5</span> time(s). This effect lasts for <span>8</span>s and can be triggered <span>1</span> time(s) every <span>0.5</span>s.",
@@ -1058,7 +1058,7 @@
     "name": "Discord",
     "type": "Broadblade",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21010024_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -1251,7 +1251,7 @@
     },
     "skill": {
       "name": "Ceaseless Aria",
-      "desc": [
+      "description": [
         "When Resonance Skill is released, restores Concerto Energy by <span>8</span>. This effect can be triggered 1 time every <span>20</span>s.",
         "When Resonance Skill is released, restores Concerto Energy by <span>10</span>. This effect can be triggered 1 time every <span>20</span>s.",
         "When Resonance Skill is released, restores Concerto Energy by <span>12</span>. This effect can be triggered 1 time every <span>20</span>s.",
@@ -1269,7 +1269,7 @@
     "name": "Scale: Slasher",
     "type": "Sword",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21020024_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -1462,7 +1462,7 @@
     },
     "skill": {
       "name": "Ceaseless Aria",
-      "desc": [
+      "description": [
         "When Resonance Skill is released, restores Concerto Energy by <span>8</span>. This effect can be triggered 1 time every <span>20</span>s.",
         "When Resonance Skill is released, restores Concerto Energy by <span>10</span>. This effect can be triggered 1 time every <span>20</span>s.",
         "When Resonance Skill is released, restores Concerto Energy by <span>12</span>. This effect can be triggered 1 time every <span>20</span>s.",
@@ -1480,7 +1480,7 @@
     "name": "Cadenza",
     "type": "Pistols",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21030024_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -1673,7 +1673,7 @@
     },
     "skill": {
       "name": "Ceaseless Aria",
-      "desc": [
+      "description": [
         "When Resonance Skill is released, restores Concerto Energy by <span>8</span>. This effect can be triggered 1 time every <span>20</span>s.",
         "When Resonance Skill is released, restores Concerto Energy by <span>10</span>. This effect can be triggered 1 time every <span>20</span>s.",
         "When Resonance Skill is released, restores Concerto Energy by <span>12</span>. This effect can be triggered 1 time every <span>20</span>s.",
@@ -1691,7 +1691,7 @@
     "name": "Marcato",
     "type": "Gauntlets",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21040024_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -1884,7 +1884,7 @@
     },
     "skill": {
       "name": "Ceaseless Aria",
-      "desc": [
+      "description": [
         "When Resonance Skill is released, restores Concerto Energy by <span>8</span>. This effect can be triggered 1 time every <span>20</span>s.",
         "When Resonance Skill is released, restores Concerto Energy by <span>10</span>. This effect can be triggered 1 time every <span>20</span>s.",
         "When Resonance Skill is released, restores Concerto Energy by <span>12</span>. This effect can be triggered 1 time every <span>20</span>s.",
@@ -1902,7 +1902,7 @@
     "name": "Variation",
     "type": "Rectifier",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21050024_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -2095,7 +2095,7 @@
     },
     "skill": {
       "name": "Ceaseless Aria",
-      "desc": [
+      "description": [
         "When Resonance Skill is released, restores Concerto Energy by <span>8</span>. This effect can be triggered 1 time every <span>20</span>s.",
         "When Resonance Skill is released, restores Concerto Energy by <span>10</span>. This effect can be triggered 1 time every <span>20</span>s.",
         "When Resonance Skill is released, restores Concerto Energy by <span>12</span>. This effect can be triggered 1 time every <span>20</span>s.",
@@ -2113,7 +2113,7 @@
     "name": "Broadblade of Night",
     "type": "Broadblade",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21010013_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -2306,7 +2306,7 @@
     },
     "skill": {
       "name": "Arrival",
-      "desc": [
+      "description": [
         "When Intro Skill is released, increases ATK by <span>8%</span>, lasting for <span>10</span>s.",
         "When Intro Skill is released, increases ATK by <span>10%</span>, lasting for <span>10</span>s.",
         "When Intro Skill is released, increases ATK by <span>12%</span>, lasting for <span>10</span>s.",
@@ -2324,7 +2324,7 @@
     "name": "Sword of Night",
     "type": "Sword",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21020013_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -2517,7 +2517,7 @@
     },
     "skill": {
       "name": "Tenacity",
-      "desc": [
+      "description": [
         "When Intro Skill is released, increases ATK by <span>8%</span>, lasting for <span>10</span>s.",
         "When Intro Skill is released, increases ATK by <span>10%</span>, lasting for <span>10</span>s.",
         "When Intro Skill is released, increases ATK by <span>12%</span>, lasting for <span>10</span>s.",
@@ -2535,7 +2535,7 @@
     "name": "Pistols of Night",
     "type": "Pistols",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21030013_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -2728,7 +2728,7 @@
     },
     "skill": {
       "name": "Chivalry",
-      "desc": [
+      "description": [
         "When Intro Skill is released, increases ATK by <span>8%</span>, lasting for <span>10</span>s.",
         "When Intro Skill is released, increases ATK by <span>10%</span>, lasting for <span>10</span>s.",
         "When Intro Skill is released, increases ATK by <span>12%</span>, lasting for <span>10</span>s.",
@@ -2746,7 +2746,7 @@
     "name": "Gauntlets of Night",
     "type": "Gauntlets",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21040013_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -2939,7 +2939,7 @@
     },
     "skill": {
       "name": "Assemble",
-      "desc": [
+      "description": [
         "When Intro Skill is released, increases ATK by <span>8%</span>, lasting for <span>10</span>s.",
         "When Intro Skill is released, increases ATK by <span>10%</span>, lasting for <span>10</span>s.",
         "When Intro Skill is released, increases ATK by <span>12%</span>, lasting for <span>10</span>s.",
@@ -2957,7 +2957,7 @@
     "name": "Rectifier of Night",
     "type": "Rectifier",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21050013_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -3150,7 +3150,7 @@
     },
     "skill": {
       "name": "Valiance",
-      "desc": [
+      "description": [
         "When Intro Skill is released, increases ATK by <span>8%</span>, lasting for <span>10</span>s.",
         "When Intro Skill is released, increases ATK by <span>10%</span>, lasting for <span>10</span>s.",
         "When Intro Skill is released, increases ATK by <span>12%</span>, lasting for <span>10</span>s.",
@@ -3168,7 +3168,7 @@
     "name": "Tyro Broadblade",
     "type": "Broadblade",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21010012_UI.png",
-    "quality": 2,
+    "rarity": 2,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -3361,7 +3361,7 @@
     },
     "skill": {
       "name": "Prologue",
-      "desc": [
+      "description": [
         "Increases ATK by <span>5%</span>.",
         "Increases ATK by <span>6.25%</span>.",
         "Increases ATK by <span>7.5%</span>.",
@@ -3379,7 +3379,7 @@
     "name": "Tyro Sword",
     "type": "Sword",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21020012_UI.png",
-    "quality": 2,
+    "rarity": 2,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -3572,7 +3572,7 @@
     },
     "skill": {
       "name": "Prologue",
-      "desc": [
+      "description": [
         "Increases ATK by <span>5%</span>.",
         "Increases ATK by <span>6.25%</span>.",
         "Increases ATK by <span>7.5%</span>.",
@@ -3590,7 +3590,7 @@
     "name": "Tyro Pistols",
     "type": "Pistols",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21030012_UI.png",
-    "quality": 2,
+    "rarity": 2,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -3783,7 +3783,7 @@
     },
     "skill": {
       "name": "Prologue",
-      "desc": [
+      "description": [
         "Increases ATK by <span>5%</span>.",
         "Increases ATK by <span>6.25%</span>.",
         "Increases ATK by <span>7.5%</span>.",
@@ -3801,7 +3801,7 @@
     "name": "Tyro Gauntlets",
     "type": "Gauntlets",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21040012_UI.png",
-    "quality": 2,
+    "rarity": 2,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -3994,7 +3994,7 @@
     },
     "skill": {
       "name": "Prologue",
-      "desc": [
+      "description": [
         "Increases ATK by <span>5%</span>.",
         "Increases ATK by <span>6.25%</span>.",
         "Increases ATK by <span>7.5%</span>.",
@@ -4012,7 +4012,7 @@
     "name": "Tyro Rectifier",
     "type": "Rectifier",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21050012_UI.png",
-    "quality": 2,
+    "rarity": 2,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -4205,7 +4205,7 @@
     },
     "skill": {
       "name": "Prologue",
-      "desc": [
+      "description": [
         "Increases ATK by <span>5%</span>.",
         "Increases ATK by <span>6.25%</span>.",
         "Increases ATK by <span>7.5%</span>.",
@@ -4223,7 +4223,7 @@
     "name": "Training Broadblade",
     "type": "Broadblade",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21010011_UI.png",
-    "quality": 1,
+    "rarity": 1,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -4416,7 +4416,7 @@
     },
     "skill": {
       "name": "Persevere",
-      "desc": [
+      "description": [
         "Increases ATK by <span>4%</span>.",
         "Increases ATK by <span>5%</span>.",
         "Increases ATK by <span>6%</span>.",
@@ -4434,7 +4434,7 @@
     "name": "Training Sword",
     "type": "Sword",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21020011_UI.png",
-    "quality": 1,
+    "rarity": 1,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -4627,7 +4627,7 @@
     },
     "skill": {
       "name": "Persevere",
-      "desc": [
+      "description": [
         "Increases ATK by <span>4%</span>.",
         "Increases ATK by <span>5%</span>.",
         "Increases ATK by <span>6%</span>.",
@@ -4645,7 +4645,7 @@
     "name": "Training Pistols",
     "type": "Pistols",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21030011_UI.png",
-    "quality": 1,
+    "rarity": 1,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -4838,7 +4838,7 @@
     },
     "skill": {
       "name": "Persevere",
-      "desc": [
+      "description": [
         "Increases ATK by <span>4%</span>.",
         "Increases ATK by <span>5%</span>.",
         "Increases ATK by <span>6%</span>.",
@@ -4856,7 +4856,7 @@
     "name": "Training Gauntlets",
     "type": "Gauntlets",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21040011_UI.png",
-    "quality": 1,
+    "rarity": 1,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -5049,7 +5049,7 @@
     },
     "skill": {
       "name": "Persevere",
-      "desc": [
+      "description": [
         "Increases ATK by <span>4%</span>.",
         "Increases ATK by <span>5%</span>.",
         "Increases ATK by <span>6%</span>.",
@@ -5067,7 +5067,7 @@
     "name": "Training Rectifier",
     "type": "Rectifier",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21050011_UI.png",
-    "quality": 1,
+    "rarity": 1,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -5260,7 +5260,7 @@
     },
     "skill": {
       "name": "Persevere",
-      "desc": [
+      "description": [
         "Increases ATK by <span>4%</span>.",
         "Increases ATK by <span>5%</span>.",
         "Increases ATK by <span>6%</span>.",
@@ -5278,7 +5278,7 @@
     "name": "Originite: Type I",
     "type": "Broadblade",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21010023_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -5471,7 +5471,7 @@
     },
     "skill": {
       "name": "Temperance",
-      "desc": [
+      "description": [
         "When Resonance Skill is released, restores HP by <span>3%</span>. This effect can be triggered <span>1</span> time(s) every <span>12</span>s.",
         "When Resonance Skill is released, restores HP by <span>3.75%</span>. This effect can be triggered <span>1</span> time(s) every <span>12</span>s.",
         "When Resonance Skill is released, restores HP by <span>4.5%</span>. This effect can be triggered <span>1</span> time(s) every <span>12</span>s.",
@@ -5489,7 +5489,7 @@
     "name": "Originite: Type II",
     "type": "Sword",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21020023_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -5682,7 +5682,7 @@
     },
     "skill": {
       "name": "Vanquish",
-      "desc": [
+      "description": [
         "When Resonance Liberation is released, restores HP by <span>5%</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
         "When Resonance Liberation is released, restores HP by <span>6.25%</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
         "When Resonance Liberation is released, restores HP by <span>7.5%</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
@@ -5700,7 +5700,7 @@
     "name": "Originite: Type V",
     "type": "Rectifier",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21050023_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -5893,7 +5893,7 @@
     },
     "skill": {
       "name": "Augment",
-      "desc": [
+      "description": [
         "When Intro Skill is released, restores HP by <span>5%</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
         "When Intro Skill is released, restores HP by <span>6.25%</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
         "When Intro Skill is released, restores HP by <span>7.5%</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
@@ -5911,7 +5911,7 @@
     "name": "Broadblade#41",
     "type": "Broadblade",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21010034_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -6104,7 +6104,7 @@
     },
     "skill": {
       "name": "Veteran",
-      "desc": [
+      "description": [
         "When the Resonator's HP is above <span>80%</span>, increases ATK by <span>12%</span>. When the Resonator's HP is below <span>40%</span>, restores their HP by <span>5%</span> for dealing Basic Attack DMG or Heavy Attack DMG. This effect can be triggered <span>1</span> time(s) every <span>8</span>s.",
         "When the Resonator's HP is above <span>80%</span>, increases ATK by <span>15%</span>. When the Resonator's HP is below <span>50%</span>, restores their HP by <span>6.25%</span> for dealing Basic Attack DMG or Heavy Attack DMG. This effect can be triggered <span>1</span> time(s) every <span>8</span>s.",
         "When the Resonator's HP is above <span>80%</span>, increases ATK by <span>18%</span>. When the Resonator's HP is below <span>60%</span>, restores their HP by <span>7.5%</span> for dealing Basic Attack DMG or Heavy Attack DMG. This effect can be triggered <span>1</span> time(s) every <span>8</span>s.",
@@ -6122,7 +6122,7 @@
     "name": "Sword#18",
     "type": "Sword",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21020034_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -6315,7 +6315,7 @@
     },
     "skill": {
       "name": "Daybreak",
-      "desc": [
+      "description": [
         "When Equipped Resonator's HP drops below <span>40%</span>, increases Heavy Attack DMG by <span>18%</span> and restores HP by <span>5%</span> upon dealing Heavy Attack DMG. This effect can be triggered <span>1</span> time(s) every <span>8</span>s.",
         "When Equipped Resonator's HP drops below <span>50%</span>, increases Heavy Attack DMG by <span>22.5%</span> and restores HP by <span>6.25%</span> upon dealing Heavy Attack DMG. This effect can be triggered <span>1</span> time(s) every <span>8</span>s.",
         "When Equipped Resonator's HP drops below <span>60%</span>, increases Heavy Attack DMG by <span>27%</span> and restores HP by <span>7.5%</span> upon dealing Heavy Attack DMG. This effect can be triggered <span>1</span> time(s) every <span>8</span>s.",
@@ -6333,7 +6333,7 @@
     "name": "Rectifier#25",
     "type": "Rectifier",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21050034_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -6526,7 +6526,7 @@
     },
     "skill": {
       "name": "Dawnbringer",
-      "desc": [
+      "description": [
         "When Resonance Skill is released, if the Resonator's HP is below <span>60%</span>, restores their HP by <span>5%</span>. This effect can be triggered <span>1</span> time(s) every <span>8</span>s; if the Resonator's HP is above <span>60%</span>, increases ATK by <span>12%</span>, lasting for <span>10</span>s.",
         "When Resonance Skill is released, if the Resonator's HP is below <span>60%</span>, restores their HP by <span>6.25%</span>. This effect can be triggered <span>1</span> time(s) every <span>8</span>s; if the Resonator's HP is above <span>60%</span>, increases ATK by <span>15%</span>, lasting for <span>10</span>s.",
         "When Resonance Skill is released, if the Resonator's HP is below <span>60%</span>, restores their HP by <span>7.5%</span>. This effect can be triggered <span>1</span> time(s) every <span>8</span>s; if the Resonator's HP is above <span>60%</span>, increases ATK by <span>18%</span>, lasting for <span>10</span>s.",
@@ -6544,7 +6544,7 @@
     "name": "Dauntless Evernight",
     "type": "Broadblade",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21010044_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -6737,7 +6737,7 @@
     },
     "skill": {
       "name": "Battlebound",
-      "desc": [
+      "description": [
         "When Intro Skill is released, increases ATK by <span>8%</span> and DEF by <span>15%</span>, lasting for <span>15</span>s.",
         "When Intro Skill is released, increases ATK by <span>10%</span> and DEF by <span>18.75%</span>, lasting for <span>15</span>s.",
         "When Intro Skill is released, increases ATK by <span>12%</span> and DEF by <span>22.5%</span>, lasting for <span>15</span>s.",
@@ -6755,7 +6755,7 @@
     "name": "Commando of Conviction",
     "type": "Sword",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21020044_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -6948,7 +6948,7 @@
     },
     "skill": {
       "name": "Unyielding",
-      "desc": [
+      "description": [
         "When Intro Skill is released, increases ATK by <span>15%</span>, lasting for <span>15</span>s.",
         "When Intro Skill is released, increases ATK by <span>18.75%</span>, lasting for <span>15</span>s.",
         "When Intro Skill is released, increases ATK by <span>22.5%</span>, lasting for <span>15</span>s.",
@@ -6966,7 +6966,7 @@
     "name": "Undying Flame",
     "type": "Pistols",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21030044_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -7159,7 +7159,7 @@
     },
     "skill": {
       "name": "Loyalty",
-      "desc": [
+      "description": [
         "When Intro Skill is released, increases Resonance Skill DMG Bonus by <span>20%</span> for <span>15</span>s.",
         "When Intro Skill is released, increases Resonance Skill DMG Bonus by <span>25%</span> for <span>15</span>s.",
         "When Intro Skill is released, increases Resonance Skill DMG Bonus by <span>30%</span> for <span>15</span>s.",
@@ -7177,7 +7177,7 @@
     "name": "Amity Accord",
     "type": "Gauntlets",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21040044_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -7370,7 +7370,7 @@
     },
     "skill": {
       "name": "Camaraderie",
-      "desc": [
+      "description": [
         "When Intro Skill is released, increases Resonance Liberation DMG Bonus by <span>20%</span>, lasting for <span>15</span>s.",
         "When Intro Skill is released, increases Resonance Liberation DMG Bonus by <span>25%</span>, lasting for <span>15</span>s.",
         "When Intro Skill is released, increases Resonance Liberation DMG Bonus by <span>30%</span>, lasting for <span>15</span>s.",
@@ -7388,7 +7388,7 @@
     "name": "Jinzhou Keeper",
     "type": "Rectifier",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21050044_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -7581,7 +7581,7 @@
     },
     "skill": {
       "name": "Guardian",
-      "desc": [
+      "description": [
         "When Intro Skill is released, increases the caster's ATK by <span>8%</span> and HP by <span>10%</span>, lasting for <span>15</span>s.",
         "When Intro Skill is released, increases the caster's ATK by <span>10%</span> and HP by <span>12.5%</span>, lasting for <span>15</span>s.",
         "When Intro Skill is released, increases the caster's ATK by <span>12%</span> and HP by <span>15%</span>, lasting for <span>15</span>s.",
@@ -7599,7 +7599,7 @@
     "name": "Broadblade of Voyager",
     "type": "Broadblade",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21010043_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -7792,7 +7792,7 @@
     },
     "skill": {
       "name": "Long Journey",
-      "desc": [
+      "description": [
         "When Resonance Skill is released, restores Resonance Energy by <span>8</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
         "When Resonance Skill is released, restores Resonance Energy by <span>9</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
         "When Resonance Skill is released, restores Resonance Energy by <span>10</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
@@ -7810,7 +7810,7 @@
     "name": "Sword of Voyager",
     "type": "Sword",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21020043_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -8003,7 +8003,7 @@
     },
     "skill": {
       "name": "Crusade",
-      "desc": [
+      "description": [
         "When Resonance Skill is released, restores Resonance Energy by <span>8</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
         "When Resonance Skill is released, restores Resonance Energy by <span>9</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
         "When Resonance Skill is released, restores Resonance Energy by <span>10</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
@@ -8021,7 +8021,7 @@
     "name": "Rectifier of Voyager",
     "type": "Rectifier",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21050043_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -8214,7 +8214,7 @@
     },
     "skill": {
       "name": "Crusade",
-      "desc": [
+      "description": [
         "When Resonance Skill is released, restores Resonance Energy by <span>8</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
         "When Resonance Skill is released, restores Resonance Energy by <span>9</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
         "When Resonance Skill is released, restores Resonance Energy by <span>10</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
@@ -8232,7 +8232,7 @@
     "name": "Guardian Broadblade",
     "type": "Broadblade",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21010053_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -8425,7 +8425,7 @@
     },
     "skill": {
       "name": "Consensus",
-      "desc": [
+      "description": [
         "Increases Basic Attack DMG and Heavy Attack DMG by <span>12%</span>.",
         "Increases Basic Attack DMG and Heavy Attack DMG by <span>15%</span>.",
         "Increases Basic Attack DMG and Heavy Attack DMG by <span>18%</span>.",
@@ -8443,7 +8443,7 @@
     "name": "Guardian Sword",
     "type": "Sword",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21020053_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -8636,7 +8636,7 @@
     },
     "skill": {
       "name": "Unified",
-      "desc": [
+      "description": [
         "Increases Resonance Skill DMG by <span>12%</span>.",
         "Increases Resonance Skill DMG by <span>15%</span>.",
         "Increases Resonance Skill DMG by <span>18%</span>.",
@@ -8654,7 +8654,7 @@
     "name": "Guardian Pistols",
     "type": "Pistols",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21030053_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -8847,7 +8847,7 @@
     },
     "skill": {
       "name": "Unity",
-      "desc": [
+      "description": [
         "Increases Resonance Skill DMG Bonus by <span>12%</span>.",
         "Increases Resonance Skill DMG Bonus by <span>15%</span>.",
         "Increases Resonance Skill DMG Bonus by <span>18%</span>.",
@@ -8865,7 +8865,7 @@
     "name": "Guardian Gauntlets",
     "type": "Gauntlets",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21040053_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -9058,7 +9058,7 @@
     },
     "skill": {
       "name": "Collective Strength",
-      "desc": [
+      "description": [
         "Increases Resonance Liberation DMG Bonus by <span>12%</span>.",
         "Increases Resonance Liberation DMG Bonus by <span>15%</span>.",
         "Increases Resonance Liberation DMG Bonus by <span>18%</span>.",
@@ -9076,7 +9076,7 @@
     "name": "Guardian Rectifier",
     "type": "Rectifier",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21050053_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -9269,7 +9269,7 @@
     },
     "skill": {
       "name": "Companionship",
-      "desc": [
+      "description": [
         "Increases Basic Attack and Heavy Attack DMG Bonus by <span>12%</span>.",
         "Increases Basic Attack and Heavy Attack DMG Bonus by <span>15%</span>.",
         "Increases Basic Attack and Heavy Attack DMG Bonus by <span>18%</span>.",
@@ -9287,7 +9287,7 @@
     "name": "Helios Cleaver",
     "type": "Broadblade",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21010064_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -9480,7 +9480,7 @@
     },
     "skill": {
       "name": "Plasma Recoiler",
-      "desc": [
+      "description": [
         "Within <span>12</span>s after Resonance Skill is released, increases ATK by <span>3%</span> every <span>2</span>s, stacking up to <span>4</span> time(s). When the number of stacks reaches <span>12</span>, all stacks will be reset within <span>1</span>s.",
         "Within <span>12</span>s after Resonance Skill is released, increases ATK by <span>3.75%</span> every <span>2</span>s, stacking up to <span>4</span> time(s). When the number of stacks reaches <span>12</span>, all stacks will be reset within <span>1</span>s.",
         "Within <span>12</span>s after Resonance Skill is released, increases ATK by <span>4.5%</span> every <span>2</span>s, stacking up to <span>4</span> time(s). When the number of stacks reaches <span>12</span>, all stacks will be reset within <span>1</span>s.",
@@ -9498,7 +9498,7 @@
     "name": "Lunar Cutter",
     "type": "Sword",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21020064_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -9691,7 +9691,7 @@
     },
     "skill": {
       "name": "Preordained",
-      "desc": [
+      "description": [
         "Equipped Resonator gains <span>6</span> stack(s) of Oath upon entering the battlefield. Each stack increases ATK by <span>2%</span>, up to <span>6</span> stacks. This effect can be triggered <span>1</span> time(s) every <span>12</span>s.  Oath reduces by <span>1</span> stack(s) every <span>2</span>s. Equipped Resonator gains an additional <span>6</span> stack(s) of Oath upon defeating an enemy.",
         "Equipped Resonator gains <span>6</span> stack(s) of Oath upon entering the battlefield. Each stack increases ATK by <span>2.5%</span>, up to <span>6</span> stacks. This effect can be triggered <span>1</span> time(s) every <span>12</span>s.  Oath reduces by <span>1</span> stack(s) every <span>2</span>s. Equipped Resonator gains an additional <span>6</span> stack(s) of Oath upon defeating an enemy.",
         "Equipped Resonator gains <span>6</span> stack(s) of Oath upon entering the battlefield. Each stack increases ATK by <span>3%</span>, up to <span>6</span> stacks. This effect can be triggered <span>1</span> time(s) every <span>12</span>s.  Oath reduces by <span>1</span> stack(s) every <span>2</span>s. Equipped Resonator gains an additional <span>6</span> stack(s) of Oath upon defeating an enemy.",
@@ -9709,7 +9709,7 @@
     "name": "Novaburst",
     "type": "Pistols",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21030064_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -9902,7 +9902,7 @@
     },
     "skill": {
       "name": "Ever-changing",
-      "desc": [
+      "description": [
         "When the Resonator dashes or dodges, increases ATK by <span>4%</span>, stacking up to <span>3</span> time(s). This effect lasts for <span>8</span>s.",
         "When the Resonator dashes or dodges, increases ATK by <span>5%</span>, stacking up to <span>3</span> time(s). This effect lasts for <span>8</span>s.",
         "When the Resonator dashes or dodges, increases ATK by <span>6%</span>, stacking up to <span>3</span> time(s). This effect lasts for <span>8</span>s.",
@@ -9920,7 +9920,7 @@
     "name": "Comet Flare",
     "type": "Rectifier",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21050064_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -10113,7 +10113,7 @@
     },
     "skill": {
       "name": "Luminous Protection",
-      "desc": [
+      "description": [
         "When hitting a target with Basic Attacks or Heavy Attacks, increases Healing Bonus by <span>3%</span>, stacking up to <span>3</span> time(s). This effect lasts for <span>8</span>s and can be triggered <span>1</span> time(s) every <span>0.6</span>s.",
         "When hitting a target with Basic Attacks or Heavy Attacks, increases Healing Bonus by <span>3.5%</span>, stacking up to <span>3</span> time(s). This effect lasts for <span>8</span>s and can be triggered <span>1</span> time(s) every <span>0.6</span>s.",
         "When hitting a target with Basic Attacks or Heavy Attacks, increases Healing Bonus by <span>4%</span>, stacking up to <span>3</span> time(s). This effect lasts for <span>8</span>s and can be triggered <span>1</span> time(s) every <span>0.6</span>s.",
@@ -10131,7 +10131,7 @@
     "name": "Originite: Type III",
     "type": "Pistols",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21030023_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -10324,7 +10324,7 @@
     },
     "skill": {
       "name": "Alarcrity",
-      "desc": [
+      "description": [
         "When Counter Attack is released, restores HP by <span>1.6%</span>. This effect can be triggered <span>1</span> time(s) every <span>6</span>s.",
         "When Counter Attack is released, restores HP by <span>2%</span>. This effect can be triggered <span>1</span> time(s) every <span>6</span>s.",
         "When Counter Attack is released, restores HP by <span>2.4%</span>. This effect can be triggered <span>1</span> time(s) every <span>6</span>s.",
@@ -10342,7 +10342,7 @@
     "name": "Originite: Type IV",
     "type": "Gauntlets",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21040023_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -10535,7 +10535,7 @@
     },
     "skill": {
       "name": "Rejuvinate",
-      "desc": [
+      "description": [
         "When hitting a target with Basic Attacks, restores HP by <span>0.5%</span>. This effect can be triggered <span>1</span> time(s) every <span>3</span>s.",
         "When hitting a target with Basic Attacks, restores HP by <span>0.65%</span>. This effect can be triggered <span>1</span> time(s) every <span>3</span>s.",
         "When hitting a target with Basic Attacks, restores HP by <span>0.8%</span>. This effect can be triggered <span>1</span> time(s) every <span>3</span>s.",
@@ -10553,7 +10553,7 @@
     "name": "Pistols#26",
     "type": "Pistols",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21030034_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -10746,7 +10746,7 @@
     },
     "skill": {
       "name": "Omniscient",
-      "desc": [
+      "description": [
         "When the Resonator takes no damage, increases ATK by <span>6%</span> every <span>5</span>s, stacking up to <span>2</span> time(s). This effect lasts for <span>8</span>s. When the Resonator takes damage, reduces the number of stacks by <span>1</span> and restores their HP by <span>5%</span>.",
         "When the Resonator takes no damage, increases ATK by <span>7.5%</span> every <span>5</span>s, stacking up to <span>2</span> time(s). This effect lasts for <span>8</span>s. When the Resonator takes damage, reduces the number of stacks by <span>1</span> and restores their HP by <span>6.25%</span>.",
         "When the Resonator takes no damage, increases ATK by <span>9%</span> every <span>5</span>s, stacking up to <span>2</span> time(s). This effect lasts for <span>8</span>s. When the Resonator takes damage, reduces the number of stacks by <span>1</span> and restores their HP by <span>7.5%</span>.",
@@ -10764,7 +10764,7 @@
     "name": "Gauntlets#21D",
     "type": "Gauntlets",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21040034_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -10957,7 +10957,7 @@
     },
     "skill": {
       "name": "Mastermind",
-      "desc": [
+      "description": [
         "When the Resonator dashes or dodges, increases ATK by <span>8%</span>. Increases Counter Attack DMG by <span>50%</span>, lasting for <span>8</span>s. When Counter Attack is performed, restores the Resonator's HP by <span>5%</span>. This effect can be triggered <span>1</span> time(s) every <span>6</span>s.",
         "When the Resonator dashes or dodges, increases ATK by <span>10%</span>. Increases Counter Attack DMG by <span>62.5%</span>, lasting for <span>8</span>s. When Counter Attack is performed, restores the Resonator's HP by <span>6.25%</span>. This effect can be triggered <span>1</span> time(s) every <span>6</span>s.",
         "When the Resonator dashes or dodges, increases ATK by <span>12%</span>. Increases Counter Attack DMG by <span>75%</span>, lasting for <span>8</span>s. When Counter Attack is performed, restores the Resonator's HP by <span>7.5%</span>. This effect can be triggered <span>1</span> time(s) every <span>6</span>s.",
@@ -10975,7 +10975,7 @@
     "name": "Autumntrace",
     "type": "Broadblade",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21010074_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -11168,7 +11168,7 @@
     },
     "skill": {
       "name": "Edge Direction",
-      "desc": [
+      "description": [
         "Increases ATK by <span>4%</span> upon dealing Basic Attack DMG or Heavy Attack DMG, stacking up to <span>5</span> time(s). This effect lasts for <span>7</span>s and can be triggered <span>1</span> time(s) every <span>1</span>s.",
         "Increases ATK by <span>6.2%</span> upon dealing Basic Attack DMG or Heavy Attack DMG, stacking up to <span>5</span> time(s). This effect lasts for <span>7</span>s and can be triggered <span>1</span> time(s) every <span>1</span>s.",
         "Increases ATK by <span>8.4%</span> upon dealing Basic Attack DMG or Heavy Attack DMG, stacking up to <span>5</span> time(s). This effect lasts for <span>7</span>s and can be triggered <span>1</span> time(s) every <span>1</span>s.",
@@ -11186,7 +11186,7 @@
     "name": "Lumingloss",
     "type": "Sword",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21020074_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -11379,7 +11379,7 @@
     },
     "skill": {
       "name": "Pale Gale",
-      "desc": [
+      "description": [
         "When Resonance Skill is released, increases Basic Attack DMG and Heavy Attack DMG by <span>20%</span>, stacking up to <span>1</span> time(s). This effect lasts for <span>10</span>s and can be triggered <span>1</span> time(s) every <span>1</span>s.",
         "When Resonance Skill is released, increases Basic Attack DMG and Heavy Attack DMG by <span>31%</span>, stacking up to <span>1</span> time(s). This effect lasts for <span>10</span>s and can be triggered <span>1</span> time(s) every <span>1</span>s.",
         "When Resonance Skill is released, increases Basic Attack DMG and Heavy Attack DMG by <span>42%</span>, stacking up to <span>1</span> time(s). This effect lasts for <span>10</span>s and can be triggered <span>1</span> time(s) every <span>1</span>s.",
@@ -11397,7 +11397,7 @@
     "name": "Thunderbolt",
     "type": "Pistols",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21030074_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -11590,7 +11590,7 @@
     },
     "skill": {
       "name": "Unstoppable",
-      "desc": [
+      "description": [
         "When hitting a target with Basic Attacks or Heavy Attacks, increases Resonance Skill DMG Bonus by <span>7%</span>, stacking up to <span>3</span> time(s). This effect lasts for <span>10</span>s and can be triggered <span>1</span> time(s) every <span>1</span>s.",
         "When hitting a target with Basic Attacks or Heavy Attacks, increases Resonance Skill DMG Bonus by <span>11%</span>, stacking up to <span>3</span> time(s). This effect lasts for <span>10</span>s and can be triggered <span>1</span> time(s) every <span>1</span>s.",
         "When hitting a target with Basic Attacks or Heavy Attacks, increases Resonance Skill DMG Bonus by <span>15%</span>, stacking up to <span>3</span> time(s). This effect lasts for <span>10</span>s and can be triggered <span>1</span> time(s) every <span>1</span>s.",
@@ -11608,7 +11608,7 @@
     "name": "Stonard",
     "type": "Gauntlets",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21040074_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -11801,7 +11801,7 @@
     },
     "skill": {
       "name": "Wallbreaker",
-      "desc": [
+      "description": [
         "When Resonance Skill is released, increases the caster's Resonance Liberation DMG Bonus by <span>18%</span>, lasting for <span>15</span>s.",
         "When Resonance Skill is released, increases the caster's Resonance Liberation DMG Bonus by <span>27%</span>, lasting for <span>15</span>s.",
         "When Resonance Skill is released, increases the caster's Resonance Liberation DMG Bonus by <span>36%</span>, lasting for <span>15</span>s.",
@@ -11819,7 +11819,7 @@
     "name": "Augment",
     "type": "Rectifier",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21050074_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -12012,7 +12012,7 @@
     },
     "skill": {
       "name": "Forgiving Resilience",
-      "desc": [
+      "description": [
         "When Resonance Liberation is released, increases the caster's ATK by <span>15%</span>, lasting for <span>15</span>s.",
         "When Resonance Liberation is released, increases the caster's ATK by <span>23.25%</span>, lasting for <span>15</span>s.",
         "When Resonance Liberation is released, increases the caster's ATK by <span>31.5%</span>, lasting for <span>15</span>s.",
@@ -12030,7 +12030,7 @@
     "name": "Verdant Summit",
     "type": "Broadblade",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21010016_UI.png",
-    "quality": 5,
+    "rarity": 5,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -12223,7 +12223,7 @@
     },
     "skill": {
       "name": "Swordsworn",
-      "desc": [
+      "description": [
         "Increases the DMG Bonus of all Resonance Attributes by <span>12%</span>. Every time Intro Skill or Resonance Liberation is cast, increases Heavy Attack DMG Bonus by <span>24%</span>, stacking up to <span>2</span> time(s). This effect lasts for <span>14</span>s.",
         "Increases the DMG Bonus of all Resonance Attributes by <span>15%</span>. Every time Intro Skill or Resonance Liberation is cast, increases Heavy Attack DMG Bonus by <span>30%</span>, stacking up to <span>2</span> time(s). This effect lasts for <span>14</span>s.",
         "Increases the DMG Bonus of all Resonance Attributes by <span>18%</span>. Every time Intro Skill or Resonance Liberation is cast, increases Heavy Attack DMG Bonus by <span>36%</span>, stacking up to <span>2</span> time(s). This effect lasts for <span>14</span>s.",
@@ -12241,7 +12241,7 @@
     "name": "Stringmaster",
     "type": "Rectifier",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21050016_UI.png",
-    "quality": 5,
+    "rarity": 5,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -12434,7 +12434,7 @@
     },
     "skill": {
       "name": "Electric Amplification",
-      "desc": [
+      "description": [
         "Increases the DMG Bonus of all Resonance Attributes by <span>12%</span>. When Resonance Skill hits a target, increases ATK by <span>12%</span>, stacking up to <span>2</span>. When the equipped character is not on the field, increases their ATK by an additional <span>12%</span>.",
         "Increases the DMG Bonus of all Resonance Attributes by <span>15%</span>. When Resonance Skill hits a target, increases ATK by <span>15%</span>, stacking up to <span>2</span>. When the equipped character is not on the field, increases their ATK by an additional <span>15%</span>.",
         "Increases the DMG Bonus of all Resonance Attributes by <span>18%</span>. When Resonance Skill hits a target, increases ATK by <span>18%</span>, stacking up to <span>2</span>. When the equipped character is not on the field, increases their ATK by an additional <span>18%</span>.",
@@ -12452,7 +12452,7 @@
     "name": "Hollow Mirage",
     "type": "Gauntlets",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21040064_UI.png",
-    "quality": 4,
+    "rarity": 4,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -12645,7 +12645,7 @@
     },
     "skill": {
       "name": "Celestial Blessing",
-      "desc": [
+      "description": [
         "When Resonance Liberation is released, grants <span>3</span> stack(s) of Iron Armor. Each stack increases ATK and DEF by <span>3%</span>, stacking up to <span>3</span> time(s). When the Resonator takes damage, reduces the number of stacks by <span>1</span>.",
         "When Resonance Liberation is released, grants <span>3</span> stack(s) of Iron Armor. Each stack increases ATK and DEF by <span>3.5%</span>, stacking up to <span>3</span> time(s). When the Resonator takes damage, reduces the number of stacks by <span>1</span>.",
         "When Resonance Liberation is released, grants <span>3</span> stack(s) of Iron Armor. Each stack increases ATK and DEF by <span>4%</span>, stacking up to <span>3</span> time(s). When the Resonator takes damage, reduces the number of stacks by <span>1</span>.",
@@ -12663,7 +12663,7 @@
     "name": "Pistols of Voyager",
     "type": "Pistols",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21030043_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -12856,7 +12856,7 @@
     },
     "skill": {
       "name": "Long Journey",
-      "desc": [
+      "description": [
         "When Resonance Skill is released, restores Resonance Energy by <span>8</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
         "When Resonance Skill is released, restores Resonance Energy by <span>9</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
         "When Resonance Skill is released, restores Resonance Energy by <span>10</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
@@ -12874,7 +12874,7 @@
     "name": "Gauntlets of Voyager",
     "type": "Gauntlets",
     "image": "https://wuthering.gg/_ipx/q_70&s_120x120/images/Items/T_IconWeapon21040043_UI.png",
-    "quality": 3,
+    "rarity": 3,
     "mainStat": {
       "stat": "ATK",
       "value": [
@@ -13067,7 +13067,7 @@
     },
     "skill": {
       "name": "Crusade",
-      "desc": [
+      "description": [
         "When Resonance Skill is released, restores Resonance Energy by <span>8</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
         "When Resonance Skill is released, restores Resonance Energy by <span>9</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",
         "When Resonance Skill is released, restores Resonance Energy by <span>10</span>. This effect can be triggered <span>1</span> time(s) every <span>20</span>s.",

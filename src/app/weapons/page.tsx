@@ -1,47 +1,55 @@
 import { Separator } from "~/components/ui/separator";
 import Filters from "./Filters";
 import { Popover, PopoverContent, PopoverTrigger } from "~/components/ui/popover";
-import { Toggle } from "~/components/ui/toggle";
 import { Button } from "~/components/ui/button";
 import Link from "next/link";
+import { fetchWeapons } from "./actions";
+import { weapons } from "~/server/db/schema";
+import { cn } from "~/lib/utils";
+import { weaponTypes } from "~/constants/weaponType";
 
-function WeaponCard() {
+function WeaponCard({
+  weapon,
+}: {
+  weapon: typeof weapons.$inferSelect;
+}) {
   return (
     <Popover>
       <PopoverTrigger className="rounded-xl w-40 overflow-clip bg-zinc-800 border border-zinc-500 group">
-        <div className="w-full aspect-square bg-gradient-to-br from-green-400 to-green-500 relative overflow-clip">
-          <img src="/mock/sabyrboar.png" className="absolute w-full group-hover:scale-110 transition-transform" />
+        <div className={cn("w-full aspect-square relative overflow-clip", `rarity-${weapon.rarity}`)}>
+          <img src={weapon.image as string} className="absolute w-full group-hover:scale-110 transition-transform" />
           <div className="w-full h-full bg-zinc-900/20 relative group-hover:bg-zinc-900/0 transition" />
         </div>
-        <div className="px-1.5 py-1 flex flex-col gap-1 text-left">
-          <p className="font-bold">Abyss Surge</p>
+        <div className="p-2 flex flex-col gap-1 text-left">
+          <p className="font-bold text-md">{weapon.name}</p>
           <div className="flex gap-1.5 items-center">
-            <div className="w-4 h-4 bg-zinc-300 rounded-full" />
-            <p className="text-zinc-500 text-sm">• CRIT RATE</p>
+            <img
+              src={weaponTypes.find((type) => type.name === weapon.type)?.icon}
+              className="w-5 aspect-square"
+            />
+            <p className="text-zinc-400 text-sm">• {weapon.subStat.stat}</p>
           </div>
         </div>
       </PopoverTrigger>
       <PopoverContent className="flex flex-col gap-6 !pt-3 min-w-80">
         <div>
-          <p className="font-bold text-sm">Incision</p>
-          <p className="text-xs">
-            Increases Energy Regen by 12.8%. When hitting a target with Resonance Skill, increases Basic Attack DMG Bonus by 10%, lasting for 8. When hitting a target with Basic Attacks, increases Resonance Skill DMG Bonus by 10%, lasting for 8s.
-          </p>
+          <p className="font-bold text-sm">{weapon.skill.name}</p>
+          <p className="text-sm weapon-skill" dangerouslySetInnerHTML={{ __html: weapon.skill.description[4] as string }} />
         </div>
-        <div className="flex justify-between -m-4 text-xs px-4 py-2 bg-zinc-800/50 rounded-b-md">
+        <div className="flex justify-between -m-4 text-sm px-4 py-2 bg-zinc-800/50 rounded-b-md">
           <div className="flex gap-5">
             <div>
               <p>ATK</p>
-              <p className="font-bold">587</p>
+              <p className="font-bold">{Math.round(Number(weapon.mainStat[89]))}</p>
             </div>
             <div>
-              <p>CRIT RATE</p>
-              <p className="font-bold">24.3%</p>
+              <p>{weapon.subStat.stat}</p>
+              <p className="font-bold">{weapon.subStat.value[89]}</p>
             </div>
           </div>
-          <Button size="sm" variant="link" asChild>
-            <Link href="/weapons/abyss-surge">
-              See More
+          <Button size="sm" variant="secondary" asChild>
+            <Link href={`/weapons/${encodeURIComponent(weapon.name.toLowerCase().replaceAll(" ", "-"))}`}>
+              Overview
             </Link>
           </Button>
         </div>
@@ -50,7 +58,20 @@ function WeaponCard() {
   );
 }
 
-export default function Weapons() {
+export default async function Weapons({
+  searchParams,
+}: {
+  searchParams: { [key: string]: string | string[] | undefined };
+}) {
+  const weaponsFilter = {
+    q: searchParams.q as string ?? "",
+    types: (searchParams.types as string)?.split(",") as
+      typeof weapons.type.enumValues[number][] ?? [],
+    rarity: (searchParams.rarity as string)?.split(",")?.map((Number)) ?? [],
+  }
+
+  const weaponResponse = await fetchWeapons(weaponsFilter);
+
   return (
     <main>
       <section className="container my-10">
@@ -59,10 +80,15 @@ export default function Weapons() {
             <h1 className="text-5xl font-bold">Weapons</h1>
             <Filters />
             <Separator className="my-6" />
-            <div className="flex flex-wrap gap-4">
+            {
+              weaponResponse.total === 0 && (
+                <p className="text-center">No weapons found</p>
+              )
+            }
+            <div className="flex flex-wrap gap-4 items-start justify-center">
               {
-                Array.from({ length: 24 }).map((_, i) => (
-                  <WeaponCard key={i} />
+                weaponResponse.data.map((weapon) => (
+                  <WeaponCard key={weapon.id} weapon={weapon} />
                 ))
               }
             </div>

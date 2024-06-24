@@ -1,22 +1,22 @@
 export const weaponTypes = [
   {
-    type: "Broadblade",
-    icon: "/",
+    name: "Broadblade",
+    icon: "/images/weapons/Broadblade.webp",
   },
   {
-    type: "Sword",
-    icon: "/",
+    name: "Sword",
+    icon: "/images/weapons/Sword.webp",
   },
   {
-    type: "Pistols",
-    icon: "/",
+    name: "Pistols",
+    icon: "/images/weapons/Pistols.webp",
   },
   {
-    type: "Gauntlets",
-    icon: "/",
+    name: "Gauntlets",
+    icon: "/images/weapons/Gauntlets.webp",
   },
   {
-    type: "Rectifier",
-    icon: "/",
+    name: "Rectifier",
+    icon: "/images/weapons/Rectifier.webp",
   },
 ];
