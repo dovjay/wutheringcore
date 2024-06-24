@@ -2,7 +2,8 @@
 import { db } from "~/server/db";
 import itemsJson from "../../../jsonData/items.json";
 import weaponsJson from "../../../jsonData/weapons.json";
-import { items, weapons } from "~/server/db/schema";
+import echoesJson from "../../../jsonData/echoes.json";
+import { echoes, items, weapons } from "~/server/db/schema";
 
 export async function pushItems(category: string) {
   try {
@@ -41,6 +42,20 @@ export async function pushWeapons(category: string) {
     })
 
     await db.insert(weapons).values(payload as typeof weapons.$inferInsert[]);
+    return { message: "Pushed" };
+  } catch (e) {
+    return { message: "Failed to push" };
+  }
+}
+
+export async function pushEchoes(category: string) {
+  try {
+    const result = await db.query.echoes.findMany();
+    if (result.length > 0) {
+      return { message: "Already pushed" };
+    }
+
+    await db.insert(echoes).values(echoesJson as typeof echoes.$inferInsert[]);
     return { message: "Pushed" };
   } catch (e) {
     return { message: "Failed to push" };

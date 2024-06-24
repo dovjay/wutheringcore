@@ -1,37 +1,59 @@
 import { Separator } from "~/components/ui/separator";
 import Filters from "./Filters";
 import Link from "next/link";
+import { fetchEchoes } from "./actions";
+import { echoes } from "~/server/db/schema";
+import { cn } from "~/lib/utils";
+import { sonataEffects } from "~/constants/sonataEffects";
 
-function EchoCard() {
+function EchoCard({
+  echo,
+}: {
+  echo: typeof echoes.$inferSelect;
+}) {
   return (
     <Link href="/echoes/sabyr-boar" passHref>
       <div className="rounded-xl w-32 overflow-clip bg-zinc-800 border border-zinc-500 group">
-        <div className="w-full aspect-square bg-gradient-to-br from-green-400 to-green-500 relative overflow-clip">
-          <img src="/mock/sabyrboar.png" className="absolute w-full group-hover:scale-110 transition-transform" />
-          <div className="w-full h-full bg-zinc-900/20 relative group-hover:bg-zinc-900/0 transition" />
-          <div
-            className="w-6 h-6 bg-blue-500 rounded-full absolute left-1 top-[3.75rem]"
-          />
-          <div
-            className="w-6 h-6 bg-red-500 rounded-full absolute left-1 top-8"
-          />
-          <div
-            className="w-6 h-6 bg-zinc-100 rounded-full absolute left-1 top-1"
-          />
-          <div
-            className="w-6 h-6 bg-zinc-100/80 backdrop-blur rounded-full absolute right-1 top-1 flex justify-center items-center">
-            <span className="font-bold text-zinc-950">1</span>
+        <div className={
+          cn(
+            "w-full aspect-square relative overflow-clip",
+            `rarity-${echo.cost}`
+          )
+        }>
+          <img src={echo.image!} className="bottom-0 absolute w-full group-hover:scale-110 transition-transform" />
+          <div className="w-full h-full bg-zinc-900/30 relative group-hover:bg-zinc-900/0 transition" />
+          <div className="w-6 flex flex-col gap-.5 absolute top-1 left-1">
+            {
+              echo.sonatas.map((sonata, i) => (
+                <img key={i} src={sonataEffects.find((set) => set.name === sonata)?.icon} className="w-full aspect-square" />
+              ))
+            }
           </div>
         </div>
-        <div className="p-2 font-bold">
-          Sabyr Boar
+        <div className="p-2 font-bold text-sm">
+          {echo.name}
+        </div>
+        <div className="p-2 text-zinc-300 text-xs -mt-3">
+          {echo.tier}
         </div>
       </div>
     </Link>
   );
 }
 
-export default function Echoes() {
+export default async function Echoes({
+  searchParams,
+}: {
+  searchParams: { [key: string]: string | string[] | undefined };
+}) {
+  const echoesResponse = await fetchEchoes({
+    q: searchParams.q as string ?? "",
+    cost: searchParams.cost as "1" | "3" | "4" | "any" ?? "any",
+    sonatas: (searchParams.sonatas as string)?.split(",") ?? [],
+    tier: (searchParams.tier as string)?.split(",") as
+      typeof echoes.tier.enumValues[number][] ?? [],
+  });
+
   return (
     <main>
       <section className="container my-10">
@@ -42,9 +64,14 @@ export default function Echoes() {
             <Separator className="my-6" />
             <div className="flex flex-wrap gap-4">
               {
-                Array.from({ length: 58 }).map((_, i) => (
-                  <EchoCard key={i} />
+                echoesResponse.map((echo, i) => (
+                  <EchoCard echo={echo} key={i} />
                 ))
+              }
+              {
+                echoesResponse.length === 0 && (
+                  <div className="text-zinc-400 text-center mx-auto">No echoes found</div>
+                )
               }
             </div>
           </div>
