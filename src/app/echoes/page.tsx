@@ -12,7 +12,7 @@ function EchoCard({
   echo: typeof echoes.$inferSelect;
 }) {
   return (
-    <Link href="/echoes/sabyr-boar" passHref>
+    <Link href={`/echoes/${echo.name}`} passHref>
       <div className="rounded-xl w-32 overflow-clip bg-zinc-800 border border-zinc-500 group">
         <div className={
           cn(

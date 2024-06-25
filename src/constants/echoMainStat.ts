@@ -1,3 +1,7 @@
+export function getEchoMainStat(cost: number, rank: number) {
+  return EchoMainStat.filter((stat) => stat.cost === cost && stat.rank === rank);
+}
+
 export const EchoMainStat = [
   {
     rank: 5,
