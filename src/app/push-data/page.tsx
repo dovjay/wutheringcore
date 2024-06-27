@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "~/components/ui/button";
-import { pushEchoes, pushItems, pushWeapons } from "./actions";
+import { pushCharacters, pushEchoes, pushItems, pushWeapons } from "./actions";
 import { useToast } from "~/components/ui/use-toast";
 
 export default function PushData() {
@@ -27,6 +27,13 @@ export default function PushData() {
     });
   }
 
+  async function handlePushCharacters() {
+    const result = await pushCharacters("characters");
+    toast({
+      title: result.message,
+    });
+  }
+
   return (
     <main>
       <div className="flex flex-col gap-2 container py-4 mx-auto">
@@ -40,6 +47,10 @@ export default function PushData() {
       <div className="flex flex-col gap-2 container py-4 mx-auto">
         <h1>Push echoes to db</h1>
         <Button onClick={handlePushEchoes}>Push</Button>
+      </div>
+      <div className="flex flex-col gap-2 container py-4 mx-auto">
+        <h1>Push characters to db</h1>
+        <Button onClick={handlePushCharacters}>Push</Button>
       </div>
     </main>
   )

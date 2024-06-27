@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
 import { ToggleGroup, ToggleGroupItem } from "~/components/ui/toggle-group";
-import { weaponTypes } from "~/constants/weaponType";
+import { WeaponTypes } from "~/constants/weaponType";
 import useFilter from "~/hooks/useFilter";
 
 export default function Filters() {
@@ -53,7 +53,7 @@ export default function Filters() {
           value={searchParams.get("types")?.split(",") ?? []}
           onValueChange={(e) => handleFilter("types", e)}
         >
-          {weaponTypes.map((type, i) => (
+          {WeaponTypes.map((type, i) => (
             <ToggleGroupItem value={type.name} key={i}>
               {type.name}
             </ToggleGroupItem>

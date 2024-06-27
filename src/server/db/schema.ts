@@ -65,7 +65,7 @@ export const echoes = createTable(
 )
 
 type CharacterMultiplier = {
-  name: string,
+  Name: string,
   Lv1: string,
   Lv2: string,
   Lv3: string,

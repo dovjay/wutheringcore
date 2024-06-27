@@ -1,4 +1,4 @@
-export const weaponTypes = [
+export const WeaponTypes = [
   {
     name: "Broadblade",
     icon: "/images/weapons/Broadblade.webp",

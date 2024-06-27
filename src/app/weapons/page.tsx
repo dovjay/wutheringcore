@@ -6,7 +6,7 @@ import Link from "next/link";
 import { fetchWeapons } from "./actions";
 import { weapons } from "~/server/db/schema";
 import { cn } from "~/lib/utils";
-import { weaponTypes } from "~/constants/weaponType";
+import { WeaponTypes } from "~/constants/weaponType";
 
 function WeaponCard({
   weapon,
@@ -24,7 +24,7 @@ function WeaponCard({
           <p className="font-bold text-md">{weapon.name}</p>
           <div className="flex gap-1.5 items-center">
             <img
-              src={weaponTypes.find((type) => type.name === weapon.type)?.icon}
+              src={WeaponTypes.find((type) => type.name === weapon.type)?.icon}
               className="w-5 aspect-square"
             />
             <p className="text-zinc-400 text-sm">• {weapon.subStat.stat}</p>
@@ -82,7 +82,7 @@ export default async function Weapons({
             <Separator className="my-6" />
             {
               weaponResponse.total === 0 && (
-                <p className="text-center">No weapons found</p>
+                <p className="text-center text-zinc-400">No weapons found</p>
               )
             }
             <div className="flex flex-wrap gap-4 items-start justify-center">

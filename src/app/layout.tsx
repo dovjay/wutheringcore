@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
-      <body>
+      <body className="overflow-y-scroll">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

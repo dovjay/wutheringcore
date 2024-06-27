@@ -3,7 +3,8 @@ import { db } from "~/server/db";
 import itemsJson from "../../../jsonData/items.json";
 import weaponsJson from "../../../jsonData/weapons.json";
 import echoesJson from "../../../jsonData/echoes.json";
-import { echoes, items, weapons } from "~/server/db/schema";
+import charactersJson from "../../../jsonData/characters.json";
+import { characters, echoes, items, weapons } from "~/server/db/schema";
 
 export async function pushItems(category: string) {
   try {
@@ -56,6 +57,44 @@ export async function pushEchoes(category: string) {
     }
 
     await db.insert(echoes).values(echoesJson as typeof echoes.$inferInsert[]);
+    return { message: "Pushed" };
+  } catch (e) {
+    return { message: "Failed to push" };
+  }
+}
+
+export async function pushCharacters(category: string) {
+  try {
+    const result = await db.query.characters.findMany();
+    if (result.length > 0) {
+      return { message: "Already pushed" };
+    }
+
+    const payload = charactersJson.map(char => ({
+      name: char.name,
+      introduction: char.introduction,
+      role: 'Change Role',
+      rarity: Number(char.rarity),
+      element: char.element,
+      weapon: char.weapon,
+      imageCard: '',
+      imageBanner: '',
+      imageProfile: char.image,
+      voiceActors: char.voiceActors,
+      released: true,
+      sequence: char.sequence,
+      minorFortes: char.minorFortes,
+      baseStats: char.baseStats,
+      skills: char.skills,
+      quickSummary: char.quickSummary,
+      pros: char.pros,
+      cons: char.cons,
+      bestWeapons: char.bestWeapons,
+      synergies: char.synergies,
+      damageProfiles: char.damageProfiles,
+    }));
+
+    await db.insert(characters).values(payload as typeof characters.$inferInsert[]);
     return { message: "Pushed" };
   } catch (e) {
     return { message: "Failed to push" };

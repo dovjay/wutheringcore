@@ -58,7 +58,7 @@ export default async function Items({
             </Table>
             {
               items.data.length === 0 && (
-                <div className="text-center p-5">Item not found.</div>
+                <div className="text-center p-5 text-zinc-400">No items found</div>
               )
             }
           </div>
