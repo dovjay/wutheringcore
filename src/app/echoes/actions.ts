@@ -20,13 +20,13 @@ export async function fetchEchoes({
   sonatas.forEach((sonata, i) => {
     querySonatas.push(sql`${echoes.sonatas} like '%${sql.raw(`${sonata}`)}%'`);
     if (i !== sonatas.length - 1)
-      querySonatas.push(sql`and`);
+      querySonatas.push(sql`or`);
   });
 
   const filterBuilder = and(
     like(echoes.name, `%${q}%`),
     cost !== "any" ? eq(echoes.cost, Number(cost)) : sql`true`,
-    isTuple(sonatas) ? sql.join(querySonatas, sql.raw(` `)) : sql`true`,
+    isTuple(sonatas) ? sql`(${sql.join(querySonatas, sql.raw(` `))})` : sql`true`,
     isTuple(tier) ? inArray(echoes.tier, tier) : sql`true`
   )
 
