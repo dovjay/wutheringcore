@@ -4798,5 +4798,13 @@
     "subtype": "Random Echo Item - Supply Pack",
     "description": "Obtain collected Common Class Echo.",
     "rarity": 5
+  },
+  {
+    "name": "Dreamless Feather",
+    "image": "https://wuthering.gg/_ipx/q_70&s_100x100/images/Items/T_IconMout_L_013_UI.png",
+    "type": "Development Materials",
+    "subtype": "Skill Upgrade Material",
+    "description": "Dreamless drop item. Upgrades Resonator Skills.",
+    "rarity": 4
   }
 ]

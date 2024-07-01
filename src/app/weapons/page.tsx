@@ -8,7 +8,7 @@ import { weapons } from "~/server/db/schema";
 import { cn } from "~/lib/utils";
 import { WeaponTypes } from "~/constants/weaponType";
 
-function WeaponCard({
+export function WeaponCard({
   weapon,
 }: {
   weapon: typeof weapons.$inferSelect;

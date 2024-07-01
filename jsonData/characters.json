@@ -476,11 +476,11 @@
         "equalNext": false
       },
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": true
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -802,6 +802,13 @@
         1076
       ],
       "maxEnergy": 150
+    },
+    "materials": {
+      "lesser": "Howler Core",
+      "greater": "Phlogiston",
+      "plant": "Wintry Bell",
+      "overlord": "Roaring Rock Fist",
+      "calamity": "Monument Bell"
     }
   },
   {
@@ -1293,11 +1300,11 @@
     ],
     "abilityPriority": [
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -1593,6 +1600,13 @@
         1002
       ],
       "maxEnergy": 175
+    },
+    "materials": {
+      "lesser": "Howler Core",
+      "greater": "Helix",
+      "plant": "Lanternberry",
+      "overlord": "Sound-Keeping Tacet Core",
+      "calamity": "Monument Bell"
     }
   },
   {
@@ -2222,11 +2236,11 @@
         "equalNext": false
       },
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -2552,6 +2566,13 @@
         1186
       ],
       "maxEnergy": 125
+    },
+    "materials": {
+      "lesser": "Ring",
+      "greater": "Waveworn Residue",
+      "plant": "Iris",
+      "overlord": "Thundering Tacet Core",
+      "calamity": "Monument Bell"
     }
   },
   {
@@ -3001,7 +3022,7 @@
         "equalNext": false
       },
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
@@ -3009,7 +3030,7 @@
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -3330,6 +3351,13 @@
         953
       ],
       "maxEnergy": 150
+    },
+    "materials": {
+      "lesser": "Whisperin Core",
+      "greater": "Phlogiston",
+      "plant": "Belle Poppy",
+      "overlord": "Rage Tacet Core",
+      "calamity": "Monument Bell"
     }
   },
   {
@@ -3866,11 +3894,11 @@
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
@@ -4197,6 +4225,13 @@
         1149
       ],
       "maxEnergy": 100
+    },
+    "materials": {
+      "lesser": "Ring",
+      "greater": "Metallic Drip",
+      "plant": "Belle Poppy",
+      "overlord": "Strife Tacet Core",
+      "calamity": "Dreamless Feather"
     }
   },
   {
@@ -4795,7 +4830,7 @@
     ],
     "abilityPriority": [
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -4803,7 +4838,7 @@
         "equalNext": false
       },
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
@@ -4815,7 +4850,7 @@
         "equalNext": false
       },
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
@@ -4823,7 +4858,7 @@
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -5149,6 +5184,13 @@
         1247
       ],
       "maxEnergy": 125
+    },
+    "materials": {
+      "lesser": "Whisperin Core",
+      "greater": "Helix",
+      "plant": "Pecok Flower",
+      "overlord": "Rage Tacet Core",
+      "calamity": "Unending Destruction"
     }
   },
   {
@@ -5828,11 +5870,11 @@
     ],
     "abilityPriority": [
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -5852,7 +5894,7 @@
         "equalNext": false
       },
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
@@ -5860,7 +5902,7 @@
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -6180,6 +6222,13 @@
         1124
       ],
       "maxEnergy": 150
+    },
+    "materials": {
+      "lesser": "Whisperin Core",
+      "greater": "Cadence",
+      "plant": "Lanternberry",
+      "overlord": "Roaring Rock Fist",
+      "calamity": "Unending Destruction"
     }
   },
   {
@@ -6689,7 +6738,7 @@
     ],
     "abilityPriority": [
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
@@ -6697,7 +6746,7 @@
         "equalNext": true
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -7024,6 +7073,13 @@
         1186
       ],
       "maxEnergy": 125
+    },
+    "materials": {
+      "lesser": "Howler Core",
+      "greater": "Waveworn Residue",
+      "plant": "Pecok Flower",
+      "overlord": "Roaring Rock Fist",
+      "calamity": "Monument Bell"
     }
   },
   {
@@ -7550,7 +7606,7 @@
         "equalNext": false
       },
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
@@ -7558,7 +7614,7 @@
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": true
       },
       {
@@ -7880,6 +7936,13 @@
         1210
       ],
       "maxEnergy": 125
+    },
+    "materials": {
+      "lesser": "Whisperin Core",
+      "greater": "Cadence",
+      "plant": "Coriolus",
+      "overlord": "Sound-Keeping Tacet Core",
+      "calamity": "Unending Destruction"
     }
   },
   {
@@ -8340,7 +8403,7 @@
     ],
     "abilityPriority": [
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
@@ -8352,7 +8415,7 @@
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": true
       },
       {
@@ -8675,6 +8738,13 @@
         1137
       ],
       "maxEnergy": 125
+    },
+    "materials": {
+      "lesser": "Whisperin Core",
+      "greater": "Phlogiston",
+      "plant": "Coriolus",
+      "overlord": "Rage Tacet Core",
+      "calamity": "Monument Bell"
     }
   },
   {
@@ -9274,7 +9344,7 @@
     ],
     "abilityPriority": [
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
@@ -9282,7 +9352,7 @@
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -9298,11 +9368,11 @@
         "equalNext": false
       },
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -9637,6 +9707,13 @@
         1259
       ],
       "maxEnergy": 125
+    },
+    "materials": {
+      "lesser": "Whisperin Core",
+      "greater": "Metallic Drip",
+      "plant": "Pecok Flower",
+      "overlord": "Mysterious Code",
+      "calamity": "Unending Destruction"
     }
   },
   {
@@ -10130,7 +10207,7 @@
     ],
     "abilityPriority": [
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
@@ -10142,7 +10219,7 @@
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": true
       },
       {
@@ -10463,6 +10540,13 @@
         1369
       ],
       "maxEnergy": 125
+    },
+    "materials": {
+      "lesser": "Whisperin Core",
+      "greater": "Metallic Drip",
+      "plant": "Pecok Flower",
+      "overlord": "Mysterious Code",
+      "calamity": "Unending Destruction"
     }
   },
   {
@@ -11014,11 +11098,11 @@
         "equalNext": false
       },
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -11346,6 +11430,13 @@
         941
       ],
       "maxEnergy": 100
+    },
+    "materials": {
+      "lesser": "Whisperin Core",
+      "greater": "Metallic Drip",
+      "plant": "Wintry Bell",
+      "overlord": "Sound-Keeping Tacet Core",
+      "calamity": "Unending Destruction"
     }
   },
   {
@@ -11880,11 +11971,11 @@
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
@@ -11896,7 +11987,7 @@
         "equalNext": false
       },
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
@@ -11904,7 +11995,7 @@
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -12196,6 +12287,13 @@
         1564
       ],
       "maxEnergy": 125
+    },
+    "materials": {
+      "lesser": "Howler Core",
+      "greater": "Waveworn Residue",
+      "plant": "Iris",
+      "overlord": "Gold-Dissolving Feather",
+      "calamity": "Dreamless Feather"
     }
   },
   {
@@ -12781,11 +12879,11 @@
         "equalNext": false
       },
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -13077,6 +13175,13 @@
         1100
       ],
       "maxEnergy": 175
+    },
+    "materials": {
+      "lesser": "Howler Core",
+      "greater": "Helix",
+      "plant": "Belle Poppy",
+      "overlord": "Elegy Tacet Core",
+      "calamity": "Monument Bell"
     }
   },
   {
@@ -13524,11 +13629,11 @@
     ],
     "abilityPriority": [
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -13824,6 +13929,13 @@
         1100
       ],
       "maxEnergy": 100
+    },
+    "materials": {
+      "lesser": "Ring",
+      "greater": "Metallic Drip",
+      "plant": "Wintry Bell",
+      "overlord": "Roaring Rock Fist",
+      "calamity": "Unending Destruction"
     }
   },
   {
@@ -14310,11 +14422,11 @@
         "equalNext": false
       },
       {
-        "name": "Res. Liberation ",
+        "name": "Resonance Liberation ",
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -14642,6 +14754,13 @@
         1283
       ],
       "maxEnergy": 125
+    },
+    "materials": {
+      "lesser": "Whisperin Core",
+      "greater": "Helix",
+      "plant": "Coriolus",
+      "overlord": "Group Abomination Tacet Core",
+      "calamity": "Dreamless Feather"
     }
   },
   {
@@ -15256,11 +15375,11 @@
     ],
     "abilityPriority": [
       {
-        "name": "Res. Liberation",
+        "name": "Resonance Liberation",
         "equalNext": false
       },
       {
-        "name": "Res. Skill",
+        "name": "Resonance Skill",
         "equalNext": false
       },
       {
@@ -15589,6 +15708,13 @@
         1638
       ],
       "maxEnergy": 125
+    },
+    "materials": {
+      "lesser": "Ring",
+      "greater": "Cadence",
+      "plant": "Terraspawn Fungus",
+      "overlord": "Hidden Thunder Tacet Core",
+      "calamity": "Unending Destruction"
     }
   }
 ]

@@ -89,9 +89,9 @@ export async function pushCharacters(category: string) {
       quickSummary: char.quickSummary,
       pros: char.pros,
       cons: char.cons,
-      bestWeapons: char.bestWeapons,
       synergies: char.synergies,
       damageProfiles: char.damageProfiles,
+      materials: char.materials
     }));
 
     await db.insert(characters).values(payload as typeof characters.$inferInsert[]);

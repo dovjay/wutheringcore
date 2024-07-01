@@ -92,6 +92,14 @@ type CharacterSkill = {
   concertoSkill: CharacterSkillDetail[],
 };
 
+type CharacterMaterials = {
+  lesser: string,
+  greater: string,
+  plant: string,
+  overlord: string,
+  calamity: string,
+};
+
 export const characters = createTable(
   "character",
   {
@@ -117,9 +125,9 @@ export const characters = createTable(
     quickSummary: text("quick_summary").notNull(),
     pros: text("pros", { mode: "json" }).$type<string[]>().notNull(),
     cons: text("cons", { mode: "json" }).$type<string[]>().notNull(),
-    bestWeapons: text("best_weapons", { mode: "json" }).$type<string[]>().notNull(),
     synergies: text("synergies", { mode: "json" }).$type<string[]>().notNull(),
     damageProfiles: text("damage_profiles", { mode: "json" }).$type<{ stat: string, value: string }[]>().notNull(),
+    materials: text("materials", { mode: "json" }).$type<CharacterMaterials>().notNull(),
   }
 );
 
@@ -128,42 +136,14 @@ export const characterBuild = createTable(
   {
     id: int("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
     buildName: text("build_name", { length: 96 }).notNull(),
+    abilityPriority: text("ability_priority", { mode: "json" }).$type<{ name: string, equalNext: boolean }[]>().notNull(),
+    suggestedSequence: text("suggested_sequence", { mode: "json" }).$type<{ name: string, summary: string }[]>(),
+    sonataCombination: text("sonata_combination", { mode: "json" }).$type<string[]>().notNull(),
+    mainStats: text("main_stats", { mode: "json" }).$type<{ cost: number, stats: string[] }[]>().notNull(),
+    subStats: text("sub_stats").notNull(),
+    mainEchoes: text("main_echoes", { mode: "json" }).$type<string[]>().notNull(),
+    subEchoes: text("sub_echoes", { mode: "json" }).$type<string[]>().notNull(),
+    bestWeapons: text("best_weapons", { mode: "json" }).$type<string[]>().notNull(),
     characterId: int("character_id").references(() => characters.id),
   }
 );
-
-export const characterAbilityPriority = createTable(
-  "character_ability_priority",
-  {
-    id: int("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
-    abilityPriority: text("ability_priority", { mode: "json" }).$type<{ name: string, equalNext: boolean }[]>().notNull(),
-    characterBuildId: int("character_build_id").references(() => characterBuild.id),
-  }
-)
-
-export const characterEchoes = createTable(
-  "character_echo",
-  {
-    id: int("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
-    sonataCombination: text("sonata_combination", { mode: "json" }).$type<string[]>().notNull(),
-    mainStats: text("main_stats", { mode: "json" }).$type<{ cost: string, stats: string[] }[]>().notNull(),
-    subStats: text("sub_stats").notNull(),
-    characterBuildId: int("character_build_id").references(() => characterBuild.id),
-  }
-)
-
-export const characterMaterials = createTable(
-  "character_material",
-  {
-    id: int("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
-    boss: text("boss").notNull(),
-    plant: text("plant").notNull(),
-    lesser: text("lesser",
-      { enum: ["Whisperin Core", "Howler Core", "Ring"] }
-    ).notNull(),
-    greater: text("greater",
-      { enum: ["Waveworn Residue", "Metallic Drip", "Phlogiston", "Cadence", "Helix"] }
-    ).notNull(),
-    characterId: int("character_id").references(() => characters.id),
-  }
-)

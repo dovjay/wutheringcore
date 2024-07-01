@@ -1,52 +1,52 @@
 export const CharacterSkillMaterials = [
   {
-    type: "Lesser",
-    tier: 2,
+    type: "lesser",
+    rarity: 2,
     value: 25
   },
   {
-    type: "Lesser",
-    tier: 3,
+    type: "lesser",
+    rarity: 3,
     value: 28
   },
   {
-    type: "Lesser",
-    tier: 4,
+    type: "lesser",
+    rarity: 4,
     value: 40
   },
   {
-    type: "Lesser",
-    tier: 5,
+    type: "lesser",
+    rarity: 5,
     value: 57
   },
   {
-    type: "Greater",
-    tier: 2,
+    type: "greater",
+    rarity: 2,
     value: 25
   },
   {
-    type: "Greater",
-    tier: 3,
+    type: "greater",
+    rarity: 3,
     value: 28
   },
   {
-    type: "Greater",
-    tier: 4,
+    type: "greater",
+    rarity: 4,
     value: 55
   },
   {
-    type: "Greater",
-    tier: 5,
+    type: "greater",
+    rarity: 5,
     value: 67
   },
   {
-    type: "Weekly Boss",
-    tier: 5,
+    type: "calamity",
+    rarity: 4,
     value: 26
   },
   {
-    type: "Credits",
-    tier: 1,
+    type: "credit",
+    rarity: 3,
     value: 2030000
   }
-]
+];
