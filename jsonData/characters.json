@@ -388,29 +388,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>The cooldown of Resonance Skill Shift Trick is reduced by <b>4s</b>. </p>",
+        "name": "",
+        "description": "<p>The cooldown of Resonance Skill Shift Trick is reduced by <b>4s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>\"Mist Avatar\" inherits <b>100%</b> more HP from Aalto. When Aalto attacks targets taunted by the \"Mist Avatar(s)\", his ATK is increased by <b>15%</b>. </p>",
+        "name": "",
+        "description": "<p>\"Mist Avatar\" inherits <b>100%</b> more HP from Aalto. When Aalto attacks targets taunted by the \"Mist Avatar(s)\", his ATK is increased by <b>15%</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>When Aalto's Basic Attack or Mid-Air Attack passes through the \"Gate of Quandary\", <b>2</b> more bullets will be generated, dealing <b>50%</b> of the DMG of Basic Attack or Mid-Air Attack. </p>",
+        "name": "",
+        "description": "<p>When Aalto's Basic Attack or Mid-Air Attack passes through the \"Gate of Quandary\", <b>2</b> more bullets will be generated, dealing <b>50%</b> of the DMG of Basic Attack or Mid-Air Attack. </p>",
         "icon": ""
       },
       {
-        "value": "<p>The damage of Resonance Skill Mist Bullets is increased by <b>30%</b>; Aalto receives <b>30%</b> less damage in his Forte Circuit Mistcloak Dash state. </p>",
+        "name": "",
+        "description": "<p>The damage of Resonance Skill Mist Bullets is increased by <b>30%</b>; Aalto receives <b>30%</b> less damage in his Forte Circuit Mistcloak Dash state. </p>",
         "icon": ""
       },
       {
-        "value": "<p>In the Forte Circuit Mistcloak Dash state, Aalto's <u>Aero DMG</u> Bonus is increased by <b>25%</b> for <b>6s</b>. </p>",
+        "name": "",
+        "description": "<p>In the Forte Circuit Mistcloak Dash state, Aalto's <u>Aero DMG</u> Bonus is increased by <b>25%</b> for <b>6s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Liberation Flower in the Mist now additionally increases Crit. Rate by <b>8%</b>. When Aalto's Heavy Attack passes through the \"Gate of Quandary\", the damage dealt is additionally increased by <b>50%</b>. </p>",
+        "name": "",
+        "description": "<p>Resonance Liberation Flower in the Mist now additionally increases Crit. Rate by <b>8%</b>. When Aalto's Heavy Attack passes through the \"Gate of Quandary\", the damage dealt is additionally increased by <b>50%</b>. </p>",
         "icon": ""
       }
     ],
@@ -1226,29 +1232,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>Resonance Skill Emergency Plan additionally restores <b>2.5 </b>Resonance Energy for every <b>1 </b>\"Concentration\" consumed. </p>",
+        "name": "",
+        "description": "<p>Resonance Skill Emergency Plan additionally restores <b>2.5 </b>Resonance Energy for every <b>1 </b>\"Concentration\" consumed. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Skill Emergency Plan increases Baizhi's <u>Glacio DMG</u> Bonus by 15% and her Healing by <b>15% </b>if she has <b>4 </b>\"Concentration\". These effects last for <b>12s</b>. </p>",
+        "name": "",
+        "description": "<p>Resonance Skill Emergency Plan increases Baizhi's <u>Glacio DMG</u> Bonus by 15% and her Healing by <b>15% </b>if she has <b>4 </b>\"Concentration\". These effects last for <b>12s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Intro Skill Overflowing Frost increases Baizhi's Max HP by <b>12%</b> for <b>10s</b>. </p>",
+        "name": "",
+        "description": "<p>Intro Skill Overflowing Frost increases Baizhi's Max HP by <b>12%</b> for <b>10s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Upon casting Resonance Liberation Momentary Union, Resonance Liberation Remnant Entities gains the following enhancements</p><ul><li><p>Remnant Entities can be performed <b>2 </b>more time(s)</p></li><li><p>Healing multiplier of Remnant Entities is increased by <b>20%</b></p></li><li><p>Remnant Entities deals additional <u>Glacio DMG</u> equal to <b>1.20%</b> of Baizhi's Max HP. </p></li></ul><p></p>",
+        "name": "",
+        "description": "<p>Upon casting Resonance Liberation Momentary Union, Resonance Liberation Remnant Entities gains the following enhancements</p><ul><li><p>Remnant Entities can be performed <b>2 </b>more time(s)</p></li><li><p>Healing multiplier of Remnant Entities is increased by <b>20%</b></p></li><li><p>Remnant Entities deals additional <u>Glacio DMG</u> equal to <b>1.20%</b> of Baizhi's Max HP. </p></li></ul><p></p>",
         "icon": ""
       },
       {
-        "value": "<p>If a team member is downed when Baizhi is alive on the team, immediately revive them and restore their HP to <b>100%</b> of their Max HP. This effect can be triggered once every <b>10 </b>minute(s). </p>",
+        "name": "",
+        "description": "<p>If a team member is downed when Baizhi is alive on the team, immediately revive them and restore their HP to <b>100%</b> of their Max HP. This effect can be triggered once every <b>10 </b>minute(s). </p>",
         "icon": ""
       },
       {
-        "value": "<p>When Euphonia is picked up, increase the <u>Glacio DMG</u> Bonus of all characters nearby by <b>12%</b> for <b>20s</b>. </p>",
+        "name": "",
+        "description": "<p>When Euphonia is picked up, increase the <u>Glacio DMG</u> Bonus of all characters nearby by <b>12%</b> for <b>20s</b>. </p>",
         "icon": ""
       }
     ],
@@ -2154,29 +2166,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>When Resonance Skill Extermination Order hits a target, it additionally recovers <b>10 </b>Resonance Energy. This can be triggered once every <b>20 </b>seconds. </p>",
+        "name": "",
+        "description": "<p>When Resonance Skill Extermination Order hits a target, it additionally recovers <b>10 </b>Resonance Energy. This can be triggered once every <b>20 </b>seconds. </p>",
         "icon": ""
       },
       {
-        "value": "<p>After Calcharo casts Intro Skill Wanted Criminal or Intro Skill \"Necessary Means\", his Resonance Skill DMG Bonus is increased by <b>30%</b> for <b>15s</b>. </p>",
+        "name": "",
+        "description": "<p>After Calcharo casts Intro Skill Wanted Criminal or Intro Skill \"Necessary Means\", his Resonance Skill DMG Bonus is increased by <b>30%</b> for <b>15s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>During the Resonance Liberation Deathblade Gear state, Calcharo's <u>Electro DMG</u> Bonus is increased by <b>25%. </b></p>",
+        "name": "",
+        "description": "<p>During the Resonance Liberation Deathblade Gear state, Calcharo's <u>Electro DMG</u> Bonus is increased by <b>25%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>After casting Outro Skill Shadowy Raid, <u>Electro DMG</u> Bonus of all team members is increased by <b>20%</b> for <b>30s</b>. </p>",
+        "name": "",
+        "description": "<p>After casting Outro Skill Shadowy Raid, <u>Electro DMG</u> Bonus of all team members is increased by <b>20%</b> for <b>30s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Intro Skill Wanted Criminal and Intro Skill \"Necessary Means: deal <b>50% </b>more damage. </p>",
+        "name": "",
+        "description": "<p>Intro Skill Wanted Criminal and Intro Skill \"Necessary Means: deal <b>50% </b>more damage. </p>",
         "icon": ""
       },
       {
-        "value": "<p>When casting Resonance Liberation \"Death Messenger\", Calcharo will summon <b>2 </b>Phantoms to perform Coordinated Attacks. Each Phantom deals <u>Electro DMG</u> equal to <b>100.00%</b> of Calcharo's ATK, which is considered Resonance Liberation damage. </p>",
+        "name": "",
+        "description": "<p>When casting Resonance Liberation \"Death Messenger\", Calcharo will summon <b>2 </b>Phantoms to perform Coordinated Attacks. Each Phantom deals <u>Electro DMG</u> equal to <b>100.00%</b> of Calcharo's ATK, which is considered Resonance Liberation damage. </p>",
         "icon": ""
       }
     ],
@@ -2938,29 +2956,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>Resonance Skill Boom Boom hits will always be Critical Hits. </p>",
+        "name": "",
+        "description": "<p>Resonance Skill Boom Boom hits will always be Critical Hits. </p>",
         "icon": ""
       },
       {
-        "value": "<p>During Resonance Liberation Blazing Flames, for every <b>1</b> target defeated, Chixia recovers <b>5 </b>Resonance Energy, up to <b>20 </b>each time. </p>",
+        "name": "",
+        "description": "<p>During Resonance Liberation Blazing Flames, for every <b>1</b> target defeated, Chixia recovers <b>5 </b>Resonance Energy, up to <b>20 </b>each time. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Liberation Blazing Flames deals <b>40% </b>more damage to targets whose HP is below <b>50%. </b></p>",
+        "name": "",
+        "description": "<p>Resonance Liberation Blazing Flames deals <b>40% </b>more damage to targets whose HP is below <b>50%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Liberation Blazing Flames grants <b>60 </b>“Thermobaric Bullets” and immediately resets the Cooldown of Resonance Skill Whizzing Fight Spirit. </p>",
+        "name": "",
+        "description": "<p>Resonance Liberation Blazing Flames grants <b>60 </b>“Thermobaric Bullets” and immediately resets the Cooldown of Resonance Skill Whizzing Fight Spirit. </p>",
         "icon": ""
       },
       {
-        "value": "<p>When the Inherent Skill Numbingly Spicy! reaches max stacks, ATK is additionally increased by <b>30%. </b></p>",
+        "name": "",
+        "description": "<p>When the Inherent Skill Numbingly Spicy! reaches max stacks, ATK is additionally increased by <b>30%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Skill Boom Boom increases the Basic Attack DMG Bonus of all team members by <b>25%</b> for <b>15s</b>. </p>",
+        "name": "",
+        "description": "<p>Resonance Skill Boom Boom increases the Basic Attack DMG Bonus of all team members by <b>25%</b> for <b>15s</b>. </p>",
         "icon": ""
       }
     ],
@@ -3814,29 +3838,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>When Danjin attacks a target with Resonance Skill's Incinerating Will, her ATK is increased by <b>5%</b> for <b>6s</b>, stacking up to <b>6 </b>times. Danjin loses <b>1</b> stacks of this effect each time she takes damage. </p>",
+        "name": "",
+        "description": "<p>When Danjin attacks a target with Resonance Skill's Incinerating Will, her ATK is increased by <b>5%</b> for <b>6s</b>, stacking up to <b>6 </b>times. Danjin loses <b>1</b> stacks of this effect each time she takes damage. </p>",
         "icon": ""
       },
       {
-        "value": "<p>When Danjin attacks a target with Resonance Skill's Incinerating Will, her damage dealt is increased by<b> 20%. </b></p>",
+        "name": "",
+        "description": "<p>When Danjin attacks a target with Resonance Skill's Incinerating Will, her damage dealt is increased by<b> 20%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Liberation DMG Bonus is increased by<b> 30%. </b></p>",
+        "name": "",
+        "description": "<p>Resonance Liberation DMG Bonus is increased by<b> 30%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>When Danjin has more than <b>60 </b>Ruby Blossom, her Crit. Rate is increased by <b>15%. </b>This effect lasts until the end of Heavy Attack: Scatterbloom even after all \"Ruby Blossom\" is consumed when casting Heavy Attack: Chaoscleave. </p>",
+        "name": "",
+        "description": "<p>When Danjin has more than <b>60 </b>Ruby Blossom, her Crit. Rate is increased by <b>15%. </b>This effect lasts until the end of Heavy Attack: Scatterbloom even after all \"Ruby Blossom\" is consumed when casting Heavy Attack: Chaoscleave. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Danjin's <u>Havoc DMG</u> Bonus is increased by <b>15%</b>, and further increased by another <b>15%</b> when her HP is lower than <b>60%. </b></p>",
+        "name": "",
+        "description": "<p>Danjin's <u>Havoc DMG</u> Bonus is increased by <b>15%</b>, and further increased by another <b>15%</b> when her HP is lower than <b>60%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>Heavy Attack Chaoscleave increases the ATK of all team members by<b> 20%</b> for <b>20s. </b></p>",
+        "name": "",
+        "description": "<p>Heavy Attack Chaoscleave increases the ATK of all team members by<b> 20%</b> for <b>20s. </b></p>",
         "icon": ""
       }
     ],
@@ -4753,29 +4783,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>When Basic Attack hits a target, Encore's <u>Fusion DMG</u> Bonus is increased by <b>3%</b>, stacking up to 4 times for <b>6s</b>. </p>",
+        "name": "",
+        "description": "<p>When Basic Attack hits a target, Encore's <u>Fusion DMG</u> Bonus is increased by <b>3%</b>, stacking up to 4 times for <b>6s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Encore additionally restores <b>10 </b>Resonance Energy when casting Basic Attack Woolies Attack or Resonance Skill Energetic Welcome. This can be triggered once every <b>10s</b>. </p>",
+        "name": "",
+        "description": "<p>Encore additionally restores <b>10 </b>Resonance Energy when casting Basic Attack Woolies Attack or Resonance Skill Energetic Welcome. This can be triggered once every <b>10s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>The DMG multiplier of Resonance Liberation Cloudy: Frenzy and Resonance Liberation Cosmos: Rupture is increased by <b>40%</b>. </p>",
+        "name": "",
+        "description": "<p>The DMG multiplier of Resonance Liberation Cloudy: Frenzy and Resonance Liberation Cosmos: Rupture is increased by <b>40%</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Liberation Cosmos: Rupture increases the <u>Fusion DMG</u> Bonus of all team members by<b> 20%</b> for <b>30s</b>. </p>",
+        "name": "",
+        "description": "<p>Resonance Liberation Cosmos: Rupture increases the <u>Fusion DMG</u> Bonus of all team members by<b> 20%</b> for <b>30s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Skill DMG Bonus is increased by <b>35%. </b></p>",
+        "name": "",
+        "description": "<p>Resonance Skill DMG Bonus is increased by <b>35%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>During Resonance Liberation Cosmos: Rave, Encore gains <b>1 </b>stack(s) of \"Lost Lamb\" every time she deals damage, each stack increasing her ATK by <b>5%</b> for <b>10s</b>, stacking up to <b>6</b> time(s). </p>",
+        "name": "",
+        "description": "<p>During Resonance Liberation Cosmos: Rave, Encore gains <b>1 </b>stack(s) of \"Lost Lamb\" every time she deals damage, each stack increasing her ATK by <b>5%</b> for <b>10s</b>, stacking up to <b>6</b> time(s). </p>",
         "icon": ""
       }
     ],
@@ -5790,29 +5826,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>After casting Intro Skill Essence of Tao, Jianxin gains <b>100%</b> extra \"Chi\" from Basic Attacks for <b>10s</b>. </p>",
+        "name": "",
+        "description": "<p>After casting Intro Skill Essence of Tao, Jianxin gains <b>100%</b> extra \"Chi\" from Basic Attacks for <b>10s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Skill Calming Air can be used <b>1 </b>more time. </p>",
+        "name": "",
+        "description": "<p>Resonance Skill Calming Air can be used <b>1 </b>more time. </p>",
         "icon": ""
       },
       {
-        "value": "<p>After staying in the Parry Stance of Resonance Skill Calming Air for <b>2.5s</b>, Resonance Skill Chi Counter becomes immediately available. </p>",
+        "name": "",
+        "description": "<p>After staying in the Parry Stance of Resonance Skill Calming Air for <b>2.5s</b>, Resonance Skill Chi Counter becomes immediately available. </p>",
         "icon": ""
       },
       {
-        "value": "<p>When performing Forte Circuit Heavy Attack: Primordial Chi Spiral, Jianxin's Resonance Liberation Purification Force Field damage is increased by <b>80% </b>for <b>14s</b>. </p>",
+        "name": "",
+        "description": "<p>When performing Forte Circuit Heavy Attack: Primordial Chi Spiral, Jianxin's Resonance Liberation Purification Force Field damage is increased by <b>80% </b>for <b>14s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>The range of Resonance Liberation Purification Force Field is increased by <b>33%.</b> </p>",
+        "name": "",
+        "description": "<p>The range of Resonance Liberation Purification Force Field is increased by <b>33%.</b> </p>",
         "icon": ""
       },
       {
-        "value": "<p>During Forte Circuit Heavy Attack: Primordial Qi Spiral, if Jianxin performs Pushing Punch, enhanced Resonance Skill Special Chi Counter can be used <b>1</b> time(s) in <b>5s</b>. Special Chi Counter: Inflicts Aero DMG equal to <b>556.67%</b> of Jianxin's ATK. The damage is regarded as Heavy Attack DMG. Obtain a Zhoutian Progress <b>4</b> Shield (Influnced by Inherent Skill Reflection's bonus effect.) </p>",
+        "name": "",
+        "description": "<p>During Forte Circuit Heavy Attack: Primordial Qi Spiral, if Jianxin performs Pushing Punch, enhanced Resonance Skill Special Chi Counter can be used <b>1</b> time(s) in <b>5s</b>. Special Chi Counter: Inflicts Aero DMG equal to <b>556.67%</b> of Jianxin's ATK. The damage is regarded as Heavy Attack DMG. Obtain a Zhoutian Progress <b>4</b> Shield (Influnced by Inherent Skill Reflection's bonus effect.) </p>",
         "icon": ""
       }
     ],
@@ -6659,29 +6701,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>Resonance Skill Windqueller can be used <b>1</b> more time. When casting Resonance Skill Windqueller, the \"Resolve\" cost is decreased by <b>15</b>. </p>",
+        "name": "",
+        "description": "<p>Resonance Skill Windqueller can be used <b>1</b> more time. When casting Resonance Skill Windqueller, the \"Resolve\" cost is decreased by <b>15</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>After casting Intro Skill Tactical Strike, Jiyan gains <b>30 </b>\"Resolve\" and his ATK is increased by<b> 28%</b> for <b>15s</b>. This can be triggered once every <b>15 </b>seconds. </p>",
+        "name": "",
+        "description": "<p>After casting Intro Skill Tactical Strike, Jiyan gains <b>30 </b>\"Resolve\" and his ATK is increased by<b> 28%</b> for <b>15s</b>. This can be triggered once every <b>15 </b>seconds. </p>",
         "icon": ""
       },
       {
-        "value": "<p>When casting Resonance Skill Windqueller, Resonance Liberation Emerald Storm: Prelude, Resonance Skill Emerald Storm: Finale or Intro Skill Tactical Strike, Jiyan's Crit. Rate is increased by <b>16%</b> and Crit. DMG is increased by <b>32%</b> for <b>8s</b>. </p>",
+        "name": "",
+        "description": "<p>When casting Resonance Skill Windqueller, Resonance Liberation Emerald Storm: Prelude, Resonance Skill Emerald Storm: Finale or Intro Skill Tactical Strike, Jiyan's Crit. Rate is increased by <b>16%</b> and Crit. DMG is increased by <b>32%</b> for <b>8s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>When casting Resonance Liberation Emerald Storm: Prelude or Resonance Liberation Emerald Storm: Finale, the Heavy Attack DMG Bonus of all team members is increased by <b>25%</b> for <b>30s</b>. </p>",
+        "name": "",
+        "description": "<p>When casting Resonance Liberation Emerald Storm: Prelude or Resonance Liberation Emerald Storm: Finale, the Heavy Attack DMG Bonus of all team members is increased by <b>25%</b> for <b>30s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>The DMG multiplier of Outro Skill Discipline is increased by <b>120%.</b> When Jiyan's attacks hit a target, his ATK is increased by <b>3%</b> for <b>8s</b>, stacking up to <b>15 </b>times; this effect is immediately maxed after he casts Intro Skill Tactical Strike. </p>",
+        "name": "",
+        "description": "<p>The DMG multiplier of Outro Skill Discipline is increased by <b>120%.</b> When Jiyan's attacks hit a target, his ATK is increased by <b>3%</b> for <b>8s</b>, stacking up to <b>15 </b>times; this effect is immediately maxed after he casts Intro Skill Tactical Strike. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Every time Heavy Attack, Intro Skill Tactical Strike or Resonance Skill Windqueller is used, Jiyan gains <b>1 </b>stack(s) of \"Momentum\", stacking up to <b>2</b> times.</p><p>Resonance Liberation Emerald Storm: Finale will consume all \"Momentum\", and each stack consumed increases the DMG multiplier of Resonance Liberation Emerald Storm: Finale by <b>120%. </b></p>",
+        "name": "",
+        "description": "<p>Every time Heavy Attack, Intro Skill Tactical Strike or Resonance Skill Windqueller is used, Jiyan gains <b>1 </b>stack(s) of \"Momentum\", stacking up to <b>2</b> times.</p><p>Resonance Liberation Emerald Storm: Finale will consume all \"Momentum\", and each stack consumed increases the DMG multiplier of Resonance Liberation Emerald Storm: Finale by <b>120%. </b></p>",
         "icon": ""
       }
     ],
@@ -7523,29 +7571,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>During Resonance Liberation Lion's Vigor, Lingyang's Anti-Interruption is enhanced. </p>",
+        "name": "",
+        "description": "<p>During Resonance Liberation Lion's Vigor, Lingyang's Anti-Interruption is enhanced. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Intro Skill Lion Awakens additionally recovers <b>10 </b>Resonance Energy for Lingyang, triggered once every <b>20s</b>. </p>",
+        "name": "",
+        "description": "<p>Intro Skill Lion Awakens additionally recovers <b>10 </b>Resonance Energy for Lingyang, triggered once every <b>20s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>During Resonance Liberation Lion's Vigor, Lingyang's Basic Attack DMG Bonus is increased by <b>20%</b>, and Resonance Skill DMG Bonus increased by <b>10%. </b></p>",
+        "name": "",
+        "description": "<p>During Resonance Liberation Lion's Vigor, Lingyang's Basic Attack DMG Bonus is increased by <b>20%</b>, and Resonance Skill DMG Bonus increased by <b>10%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>Outro Skill Frosty Marks increases the <u>Glacio DMG</u> Bonus of all team members by<b> 20% </b>for <b>30s</b>. </p>",
+        "name": "",
+        "description": "<p>Outro Skill Frosty Marks increases the <u>Glacio DMG</u> Bonus of all team members by<b> 20% </b>for <b>30s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Liberation Strive: Lion's Vigor additionally deals <u>Glacio DMG</u> equal to<b> 200%</b> of Lingyang's ATK. </p>",
+        "name": "",
+        "description": "<p>Resonance Liberation Strive: Lion's Vigor additionally deals <u>Glacio DMG</u> equal to<b> 200%</b> of Lingyang's ATK. </p>",
         "icon": ""
       },
       {
-        "value": "<p>In the Forte Circuit Striding Lion state, during the first <b>3s </b>after every Resonance Skill Mountain Roamer, the Basic Attack DMG Bonus for Lingyang's next Basic Attack is increased by <b>100%</b>. </p>",
+        "name": "",
+        "description": "<p>In the Forte Circuit Striding Lion state, during the first <b>3s </b>after every Resonance Skill Mountain Roamer, the Basic Attack DMG Bonus for Lingyang's next Basic Attack is increased by <b>100%</b>. </p>",
         "icon": ""
       }
     ],
@@ -8321,29 +8375,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>During Resonance Liberation Burning Rhapsody, Mortefi launches Coordinated Attacks when the on-field character performs their Resonance Skills, firing <b>2</b> Resonance Liberation's Marcato hits, dealing <u>Fusion Damage</u>. </p>",
+        "name": "",
+        "description": "<p>During Resonance Liberation Burning Rhapsody, Mortefi launches Coordinated Attacks when the on-field character performs their Resonance Skills, firing <b>2</b> Resonance Liberation's Marcato hits, dealing <u>Fusion Damage</u>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>After using the Echo Skill, Mortefi restores an additional <b>10 </b>Resonance Energy. This can be triggered once every <b>20 </b>second. </p>",
+        "name": "",
+        "description": "<p>After using the Echo Skill, Mortefi restores an additional <b>10 </b>Resonance Energy. This can be triggered once every <b>20 </b>second. </p>",
         "icon": ""
       },
       {
-        "value": "<p>During Resonance Liberation Burning Rhapsody, the Crit. DMG of Resonance Liberation's Marcato is increased by <b>30%.</b> </p>",
+        "name": "",
+        "description": "<p>During Resonance Liberation Burning Rhapsody, the Crit. DMG of Resonance Liberation's Marcato is increased by <b>30%.</b> </p>",
         "icon": ""
       },
       {
-        "value": "<p>The duration of Resonance Liberation Burning Rhapsody is extended by <b>7s</b>. </p>",
+        "name": "",
+        "description": "<p>The duration of Resonance Liberation Burning Rhapsody is extended by <b>7s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>When Resonance Skill Passionate Variation or Resonance Skill Draconic Hellfire hits a target, <b>4 </b>Resonance Liberation's Marcato hits will be fired, dealing <u>Fusion Damage</u>. DMG of Resonance Liberation's Marcato fired in this way is reduced by <b>50%. </b></p>",
+        "name": "",
+        "description": "<p>When Resonance Skill Passionate Variation or Resonance Skill Draconic Hellfire hits a target, <b>4 </b>Resonance Liberation's Marcato hits will be fired, dealing <u>Fusion Damage</u>. DMG of Resonance Liberation's Marcato fired in this way is reduced by <b>50%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>When Resonance Liberation Violent Finale is cast, ATK of all team members is increased by <b>20%</b> for <b>20s</b>. </p>",
+        "name": "",
+        "description": "<p>When Resonance Liberation Violent Finale is cast, ATK of all team members is increased by <b>20%</b> for <b>20s</b>. </p>",
         "icon": ""
       }
     ],
@@ -9266,29 +9326,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>Resonance Skill DMG Bonus is increased by <b>30%</b>. </p>",
+        "name": "",
+        "description": "<p>Resonance Skill DMG Bonus is increased by <b>30%</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Reset Resonance Skill's Cooldown when Rover enters the Dark Surge state by casting Heavy Attack Devastation. </p>",
+        "name": "",
+        "description": "<p>Reset Resonance Skill's Cooldown when Rover enters the Dark Surge state by casting Heavy Attack Devastation. </p>",
         "icon": ""
       },
       {
-        "value": "<p>In the Dark Surge state, Basic Attack V restores HP equal to <b>10%</b> of total HP lost on hit. </p>",
+        "name": "",
+        "description": "<p>In the Dark Surge state, Basic Attack V restores HP equal to <b>10%</b> of total HP lost on hit. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Heavy Attack Devastation and Resonance Liberation Deadening Abyss reduces enemy <u>Havoc RES</u> by <b>10%</b> for <b>20s </b>on hit. </p>",
+        "name": "",
+        "description": "<p>Heavy Attack Devastation and Resonance Liberation Deadening Abyss reduces enemy <u>Havoc RES</u> by <b>10%</b> for <b>20s </b>on hit. </p>",
         "icon": ""
       },
       {
-        "value": "<p>In the Dark Surge state, Basic Attack V deals an additional <u>Havoc DMG</u> equal to<b> 50%</b> of Basic Attack V damage. </p>",
+        "name": "",
+        "description": "<p>In the Dark Surge state, Basic Attack V deals an additional <u>Havoc DMG</u> equal to<b> 50%</b> of Basic Attack V damage. </p>",
         "icon": ""
       },
       {
-        "value": "<p>In the Dark Surge state, Rover's Crit. Rate is increased by <b>25%. </b></p>",
+        "name": "",
+        "description": "<p>In the Dark Surge state, Rover's Crit. Rate is increased by <b>25%. </b></p>",
         "icon": ""
       }
     ],
@@ -10131,29 +10197,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>Rover's Crit. Rate is increased by <b>15%</b> for <b>7s </b>when casting Resonance Skill Resonating Slashes or Resonance Skill Resonating Spin. </p>",
+        "name": "",
+        "description": "<p>Rover's Crit. Rate is increased by <b>15%</b> for <b>7s </b>when casting Resonance Skill Resonating Slashes or Resonance Skill Resonating Spin. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Rover's <u>Spectro DMG</u> Bonus is increased by <b>20%.</b> </p>",
+        "name": "",
+        "description": "<p>Rover's <u>Spectro DMG</u> Bonus is increased by <b>20%.</b> </p>",
         "icon": ""
       },
       {
-        "value": "<p>Rover's Energy Regen is increased by <b>20%. </b></p>",
+        "name": "",
+        "description": "<p>Rover's Energy Regen is increased by <b>20%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>When casting Resonance Liberation Echoing Resonance, Rover continuously restores HP for all team members: HP equal to<b> 20%</b> of Rover's ATK will be restored every second for <b>5s</b>. </p>",
+        "name": "",
+        "description": "<p>When casting Resonance Liberation Echoing Resonance, Rover continuously restores HP for all team members: HP equal to<b> 20%</b> of Rover's ATK will be restored every second for <b>5s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Rover's Resonance Liberation DMG Bonus is increased by <b>40%. </b></p>",
+        "name": "",
+        "description": "<p>Rover's Resonance Liberation DMG Bonus is increased by <b>40%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Skill Resonating Slashes and Resonance Skill Resonating Spin reduces the target's <u>Spectro DMG RES</u> by <b>10%</b> on hit for <b>20s.</b> </p>",
+        "name": "",
+        "description": "<p>Resonance Skill Resonating Slashes and Resonance Skill Resonating Spin reduces the target's <u>Spectro DMG RES</u> by <b>10%</b> on hit for <b>20s.</b> </p>",
         "icon": ""
       }
     ],
@@ -11016,29 +11088,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>Basic Attack V increases Sanhua's Crit. Rate by <b>15%</b> for <b>10s</b>. </p>",
+        "name": "",
+        "description": "<p>Basic Attack V increases Sanhua's Crit. Rate by <b>15%</b> for <b>10s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Stamina cost of Heavy Attack Detonate is reduced by <b>10</b>. When Sanhua casts Resonance Skill Eternal Frost, her Anti-interruption is enhanced for <b>10s. </b></p>",
+        "name": "",
+        "description": "<p>Stamina cost of Heavy Attack Detonate is reduced by <b>10</b>. When Sanhua casts Resonance Skill Eternal Frost, her Anti-interruption is enhanced for <b>10s. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>Sanhua's damage dealt is increased by <b>35%</b> against targets with HP below<b> 70%. </b></p>",
+        "name": "",
+        "description": "<p>Sanhua's damage dealt is increased by <b>35%</b> against targets with HP below<b> 70%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Liberation Glacial Gaze restores <b>10 </b>Resonance Energy. DMG of the next Heavy Attack Detonate within <b>5s </b>is increased by <b>120%. </b></p>",
+        "name": "",
+        "description": "<p>Resonance Liberation Glacial Gaze restores <b>10 </b>Resonance Energy. DMG of the next Heavy Attack Detonate within <b>5s </b>is increased by <b>120%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>Crit. DMG of Forte Circuit Ice Burst is increased by <b>100%</b>. Ice Creations (Ice Thorn, Ice Prism, and Glacier) will explode even if they are not detonated. </p>",
+        "name": "",
+        "description": "<p>Crit. DMG of Forte Circuit Ice Burst is increased by <b>100%</b>. Ice Creations (Ice Thorn, Ice Prism, and Glacier) will explode even if they are not detonated. </p>",
         "icon": ""
       },
       {
-        "value": "<p>After an Ice Prism or a Glacier is detonated, all team members' ATK is increased by <b>10%</b> for <b>20s</b>, stacking up to <b>2</b> times. </p>",
+        "name": "",
+        "description": "<p>After an Ice Prism or a Glacier is detonated, all team members' ATK is increased by <b>10%</b> for <b>20s</b>, stacking up to <b>2</b> times. </p>",
         "icon": ""
       }
     ],
@@ -11893,29 +11971,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>Forte Circuit Power Shift's Shield is increased by<b> 40%. </b></p>",
+        "name": "",
+        "description": "<p>Forte Circuit Power Shift's Shield is increased by<b> 40%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>The Crit. Rate and Crit. DMG of Resonance Liberation Unmovable is increased by <b>20% </b>and <b>20%</b>, respectively. </p>",
+        "name": "",
+        "description": "<p>The Crit. Rate and Crit. DMG of Resonance Liberation Unmovable is increased by <b>20% </b>and <b>20%</b>, respectively. </p>",
         "icon": ""
       },
       {
-        "value": "<p>The duration of Resonance Skill Rocksteady Shield is extended to <b>30s</b>. </p>",
+        "name": "",
+        "description": "<p>The duration of Resonance Skill Rocksteady Shield is extended to <b>30s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>When Taoqi successfully triggers Heavy Attack Strategic Parry, she restores <b>25%</b> HP and increases her DEF by <b>50%</b> for <b>5s</b>. This can be triggered once every <b>15 </b>seconds. </p>",
+        "name": "",
+        "description": "<p>When Taoqi successfully triggers Heavy Attack Strategic Parry, she restores <b>25%</b> HP and increases her DEF by <b>50%</b> for <b>5s</b>. This can be triggered once every <b>15 </b>seconds. </p>",
         "icon": ""
       },
       {
-        "value": "<p>The damage of Forte Circuit Power Shift is increased by<b> 50%</b>. When Forte Circuit Power Shift hits a target, restore <b>20 </b>Resonance Energy. </p>",
+        "name": "",
+        "description": "<p>The damage of Forte Circuit Power Shift is increased by<b> 50%</b>. When Forte Circuit Power Shift hits a target, restore <b>20 </b>Resonance Energy. </p>",
         "icon": ""
       },
       {
-        "value": "<p>The damage of Taoqi's Basic Attack and Heavy Attack is increased by <b>40% </b>while the Shield granted by Resonance Skill Rocksteady Shield holds. </p>",
+        "name": "",
+        "description": "<p>The damage of Taoqi's Basic Attack and Heavy Attack is increased by <b>40% </b>while the Shield granted by Resonance Skill Rocksteady Shield holds. </p>",
         "icon": ""
       }
     ],
@@ -12802,29 +12886,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>Outro Skill Blossom grants the next character a continuous Healing effect, recovering HP equal to <b>20%</b> of Verina's ATK every <b>5 </b>seconds for <b>30s</b>. </p>",
+        "name": "",
+        "description": "<p>Outro Skill Blossom grants the next character a continuous Healing effect, recovering HP equal to <b>20%</b> of Verina's ATK every <b>5 </b>seconds for <b>30s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Skill Botany Experiment additionally grants <b>1</b> [Photosynthetic Energy] and <b>10 </b>Concerto Energy. </p>",
+        "name": "",
+        "description": "<p>Resonance Skill Botany Experiment additionally grants <b>1</b> [Photosynthetic Energy] and <b>10 </b>Concerto Energy. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Healing of Resonance Liberation's Photosynthesis Mark is increased by <b>12%. </b></p>",
+        "name": "",
+        "description": "<p>Healing of Resonance Liberation's Photosynthesis Mark is increased by <b>12%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>Heavy Attack Starflower Blooms, Mid-Air Attack Starflower Blooms, Resonance Liberation Arboreal Flourish and Outro Skill Blossom increases the <u>Spectro DMG</u> Bonus of all team members by <b>15% </b>for <b>24s</b>. </p>",
+        "name": "",
+        "description": "<p>Heavy Attack Starflower Blooms, Mid-Air Attack Starflower Blooms, Resonance Liberation Arboreal Flourish and Outro Skill Blossom increases the <u>Spectro DMG</u> Bonus of all team members by <b>15% </b>for <b>24s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>When Verina heals a team member with HP less than <b>50%</b>, her Healing is increased by <b>20%. </b></p>",
+        "name": "",
+        "description": "<p>When Verina heals a team member with HP less than <b>50%</b>, her Healing is increased by <b>20%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>Heavy Attack Starflower Blooms and Mid-Air Attack Starflower Blooms deal <b>20%</b> more damage. They will trigger Coordinated Attack <b>1 </b>time and heal all characters nearby. The DMG of this Coordinated Attack and the Healing are equal to those of the Resonance Liberation's Photosynthesis Mark. </p>",
+        "name": "",
+        "description": "<p>Heavy Attack Starflower Blooms and Mid-Air Attack Starflower Blooms deal <b>20%</b> more damage. They will trigger Coordinated Attack <b>1 </b>time and heal all characters nearby. The DMG of this Coordinated Attack and the Healing are equal to those of the Resonance Liberation's Photosynthesis Mark. </p>",
         "icon": ""
       }
     ],
@@ -13547,29 +13637,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>Intro Skill Cerulean Song increases Yangyang's <u>Aero DMG</u> Bonus by an additional <b>15%</b> for <b>8s</b>. </p>",
+        "name": "",
+        "description": "<p>Intro Skill Cerulean Song increases Yangyang's <u>Aero DMG</u> Bonus by an additional <b>15%</b> for <b>8s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Heavy Attack recovers an additional <b>10 </b>Resonance Energy for Yangyang when it hits a target, which can be triggered <b>1 </b>time every <b>20 </b>seconds. </p>",
+        "name": "",
+        "description": "<p>Heavy Attack recovers an additional <b>10 </b>Resonance Energy for Yangyang when it hits a target, which can be triggered <b>1 </b>time every <b>20 </b>seconds. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Skill DMG Bonus is increased by<b> 40%</b>. The Wind Field's pulling effect on surrounding targets is enhanced, and the pulling range is expanded by <b>33%</b>. </p>",
+        "name": "",
+        "description": "<p>Resonance Skill DMG Bonus is increased by<b> 40%</b>. The Wind Field's pulling effect on surrounding targets is enhanced, and the pulling range is expanded by <b>33%</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Mid-Air Attack Feather Release's damage is increased by <b>95%. </b></p>",
+        "name": "",
+        "description": "<p>Mid-Air Attack Feather Release's damage is increased by <b>95%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Liberation Wind Spirals's damage is increased by <b>85%. </b></p>",
+        "name": "",
+        "description": "<p>Resonance Liberation Wind Spirals's damage is increased by <b>85%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>After casting Mid-Air Attack Feather Release, the ATK of all team members is increased by <b>20%</b> for <b>20s</b>. </p>",
+        "name": "",
+        "description": "<p>After casting Mid-Air Attack Feather Release, the ATK of all team members is increased by <b>20%</b> for <b>20s</b>. </p>",
         "icon": ""
       }
     ],
@@ -14340,29 +14436,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>Resonance Skill Magnetic Roar and Lightning Execution deal <b>70%</b> more damage. </p>",
+        "name": "",
+        "description": "<p>Resonance Skill Magnetic Roar and Lightning Execution deal <b>70%</b> more damage. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Skill Electromagnetic Blast recovers an additional <b>5 </b>\"Judgement Point(s)\" and <b>5 </b>Resonance Energy on hit. </p>",
+        "name": "",
+        "description": "<p>Resonance Skill Electromagnetic Blast recovers an additional <b>5 </b>\"Judgement Point(s)\" and <b>5 </b>Resonance Energy on hit. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Forte Circuit Judgment Strike's DMG multiplier is increased by <b>55%. </b></p>",
+        "name": "",
+        "description": "<p>Forte Circuit Judgment Strike's DMG multiplier is increased by <b>55%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>When Forte Circuit Judgment Strike hits a target, the ATK of all team members is increased by<b> 20% </b>for <b>12s</b>. </p>",
+        "name": "",
+        "description": "<p>When Forte Circuit Judgment Strike hits a target, the ATK of all team members is increased by<b> 20% </b>for <b>12s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>Resonance Liberation Thundering Wrath deals<b> 100%</b> extra damage to targets with Forte Circuit's Sinner's Mark or Punishment Mark. </p>",
+        "name": "",
+        "description": "<p>Resonance Liberation Thundering Wrath deals<b> 100%</b> extra damage to targets with Forte Circuit's Sinner's Mark or Punishment Mark. </p>",
         "icon": ""
       },
       {
-        "value": "<p>In the first <b>30s </b>after casting Resonance Liberation Thundering Wrath, when Yinlin's Basic Attack hits a target, Furious Thunder will be triggered, dealing <u>Electro DMG</u> equal to <b>419.59%</b> of Yinlin's ATK. Every Basic Attack hit can trigger Furious Thunder <b>1 </b>time, up <b>to 4</b> times. This is considered Resonance Skill DMG. </p>",
+        "name": "",
+        "description": "<p>In the first <b>30s </b>after casting Resonance Liberation Thundering Wrath, when Yinlin's Basic Attack hits a target, Furious Thunder will be triggered, dealing <u>Electro DMG</u> equal to <b>419.59%</b> of Yinlin's ATK. Every Basic Attack hit can trigger Furious Thunder <b>1 </b>time, up <b>to 4</b> times. This is considered Resonance Skill DMG. </p>",
         "icon": ""
       }
     ],
@@ -15295,29 +15397,35 @@
         }
       ]
     },
-    "sequence": [
+    "sequences": [
       {
-        "value": "<p>When Yuanwu is in Forte Circuit's Lightning Infused state, his Basic Attack Speed is increased by <b>20%,</b> and his Heavy Attack Speed is increased by <b>20%. </b></p>",
+        "name": "",
+        "description": "<p>When Yuanwu is in Forte Circuit's Lightning Infused state, his Basic Attack Speed is increased by <b>20%,</b> and his Heavy Attack Speed is increased by <b>20%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>Intro Skill Thunder Bombardment additionally recovers <b>15 </b>Resonance Energy for Yuanwu. </p>",
+        "name": "",
+        "description": "<p>Intro Skill Thunder Bombardment additionally recovers <b>15 </b>Resonance Energy for Yuanwu. </p>",
         "icon": ""
       },
       {
-        "value": "<p>When the Coordinated Attacks of Resonance Skill's Thunder Wedge hits a target, the damage is additionally increased by <b>20%</b> of Yuanwu's DEF. </p>",
+        "name": "",
+        "description": "<p>When the Coordinated Attacks of Resonance Skill's Thunder Wedge hits a target, the damage is additionally increased by <b>20%</b> of Yuanwu's DEF. </p>",
         "icon": ""
       },
       {
-        "value": "<p>When casting Resonance Liberation Blazing Might, the on-field character will gain a Shield equal to<b> 200%</b> of Yuanwu's DEF for <b>10s</b>. </p>",
+        "name": "",
+        "description": "<p>When casting Resonance Liberation Blazing Might, the on-field character will gain a Shield equal to<b> 200%</b> of Yuanwu's DEF for <b>10s</b>. </p>",
         "icon": ""
       },
       {
-        "value": "<p>When Resonance Skill Thunder Wedge is on the field, Yuanwu's Resonance Liberation DMG Bonus is increased by<b> 50%. </b></p>",
+        "name": "",
+        "description": "<p>When Resonance Skill Thunder Wedge is on the field, Yuanwu's Resonance Liberation DMG Bonus is increased by<b> 50%. </b></p>",
         "icon": ""
       },
       {
-        "value": "<p>All team members nearby within the range of Resonance Skill Thunder Wedge will gain a <b>32%</b> DEF increase, lasting <b>3s</b>. </p>",
+        "name": "",
+        "description": "<p>All team members nearby within the range of Resonance Skill Thunder Wedge will gain a <b>32%</b> DEF increase, lasting <b>3s</b>. </p>",
         "icon": ""
       }
     ],

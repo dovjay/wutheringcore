@@ -68,3 +68,8 @@ export const StatIcons = [
     icon: "/icons/stat/HavocBonus.png",
   }
 ];
+
+export function getStatIcon(stat: string) {
+  stat = stat.replaceAll("%", "");
+  return StatIcons.find((statIcon) => statIcon.stat.includes(stat))?.icon || undefined;
+}

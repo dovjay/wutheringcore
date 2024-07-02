@@ -83,7 +83,7 @@ type CharacterSkillDetail = {
   name: string,
   icon: string,
   description: string,
-  multiplier: CharacterMultiplier[]
+  multiplier: CharacterMultiplier[] | null
 };
 
 type CharacterSkill = {
@@ -117,7 +117,7 @@ export const characters = createTable(
     voiceActors: text("voice_actors", { mode: "json" }).$type<{ lang: string, name: string }[]>().notNull(),
     released: int("released", { mode: "boolean" }).notNull(),
     // Stats
-    sequence: text("sequence", { mode: "json" }).$type<{ value: string, icon: string }[]>().notNull(),
+    sequences: text("sequence", { mode: "json" }).$type<{ name: string, description: string, icon: string }[]>().notNull(),
     minorFortes: text("minor_fortes", { mode: "json" }).$type<{ stat: string, value: string }[]>().notNull(),
     baseStats: text("base_stats", { mode: "json" }).$type<{ hp: number[], atk: number[], def: number[], maxEnergy: number }>().notNull(),
     skills: text("skills", { mode: "json" }).$type<CharacterSkill>().notNull(),
