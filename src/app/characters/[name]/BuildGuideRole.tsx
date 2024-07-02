@@ -2,13 +2,12 @@ import { EqualIcon } from "lucide-react";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { useContext, useEffect, useState } from "react";
 import { WeaponCard } from "~/app/weapons/page";
-import { Badge } from "~/components/ui/badge";
 import { Separator } from "~/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
-import { sonataEffects } from "~/constants/sonataEffects";
+import { getSonataEffect } from "~/constants/sonataEffects";
 import { CharacterOverviewContext } from "~/contexts/CharacterOverviewContext";
 import { useGetCharacterSkill } from "~/hooks/useGetCharacterSkill";
-import { characterBuild, characters, echoes, weapons } from "~/server/db/schema";
+import { characterBuild, characters, echoes } from "~/server/db/schema";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "~/components/ui/tooltip";
 import Link from "next/link";
 import { Button } from "~/components/ui/button";
@@ -95,13 +94,13 @@ export default function BuildGuideRole() {
         <Tabs defaultValue={builds[0]?.buildName} onValueChange={setRole}>
           <div className="w-full flex justify-center items-center p-4">
             <TabsList>
-              {builds.map((build) => (
-                <TabsTrigger value={build.buildName}>{build.buildName}</TabsTrigger>
+              {builds.map((build, i) => (
+                <TabsTrigger value={build.buildName} key={i}>{build.buildName}</TabsTrigger>
               ))}
             </TabsList>
           </div>
-          {builds.map((build) => (
-            <TabsContent value={build.buildName} className="flex flex-col gap-4">
+          {builds.map((build, i) => (
+            <TabsContent value={build.buildName} className="flex flex-col gap-4" key={i}>
               <div className="min-w-48 border border-zinc-600 bg-zinc-900 p-5 rounded-xl flex flex-col gap-4">
                 <h2 className="text-xl font-bold">Ability Priority</h2>
                 <div className="flex gap-4 overflow-x-auto pb-2 items-center justify-center flex-wrap">
@@ -144,7 +143,7 @@ export default function BuildGuideRole() {
                       <div className="flex flex-wrap gap-2">
                         {
                           build.mainStats.map((stat, i) => (
-                            <div className="px-3 py-2 border border-zinc-500 rounded-xl min-w-36">
+                            <div className="px-3 py-2 border border-zinc-500 rounded-xl min-w-36" key={i}>
                               <p className="text-sm text-zinc-300">Cost {stat.cost}</p>
                               <p className="font-bold">{stat.stats.join("/")}</p>
                             </div>
@@ -164,11 +163,20 @@ export default function BuildGuideRole() {
                       <h3 className="font-bold">Sonata Effect</h3>
                       <div className="flex flex-wrap gap-2">
                         {build.sonataCombination.map((sonata, i) => (
-                          <img
-                            src={sonataEffects.find((sonataEffect) => sonataEffect.name === sonata)?.icon}
-                            className="w-8 h-8"
-                            key={i}
-                          />
+                          <Tooltip key={i}>
+                            <TooltipTrigger>
+                              <img
+                                src={getSonataEffect(sonata)?.icon}
+                                className="w-8 h-8"
+                              />
+                            </TooltipTrigger>
+                            <TooltipContent className="text-sm max-w-sm gap-2 flex flex-col">
+                              <p className="font-bold text-md">{getSonataEffect(sonata)?.name}</p>
+                              <Separator />
+                              <p>2 set: {getSonataEffect(sonata)?.partial}</p>
+                              <p>5 set: {getSonataEffect(sonata)?.full}</p>
+                            </TooltipContent>
+                          </Tooltip>
                         ))}
                       </div>
                     </div>

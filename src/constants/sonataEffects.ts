@@ -53,5 +53,6 @@ export const sonataEffects = [
     full: "Upon using Basic Attack or Heavy Attack, Havoc DMG increases by 7.5%, stacking up to four times for 15s",
     icon: "/images/sonatas/Havoc-Eclipse.webp",
   },
-
 ];
+
+export const getSonataEffect = (name: string) => sonataEffects.find((sonataEffect) => sonataEffect.name === name);
