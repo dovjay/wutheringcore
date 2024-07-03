@@ -8,12 +8,6 @@ export default function BottomNav() {
   return (
     <nav className="sticky bottom-4 py-3 mx-auto bg-zinc-800/80 backdrop-blur border-2 border-zinc-700 flex w-fit rounded-2xl divide-x divide-zinc-600">
       <div className="flex gap-2 items-center px-6">
-        <p className="font-medium text-zinc-400">Mode</p>
-        <button className="hover:bg-zinc-900 px-3 h-10 min-w-24 font-medium text-sm border border-zinc-700 rounded-lg transition">
-          Noob
-        </button>
-      </div>
-      <div className="flex gap-2 items-center px-6">
         <p className="font-medium text-zinc-400">Tab</p>
         <ToggleGroup type="single" defaultValue={openTab} size="lg" onValueChange={(value: OverviewTab) => setOpenTab(value)}>
           <ToggleGroupItem value={OverviewTab.Build} disabled={openTab === OverviewTab.Build} className="disabled:opacity-100">

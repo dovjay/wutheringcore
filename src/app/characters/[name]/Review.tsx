@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { CharacterOverviewContext } from "~/contexts/CharacterOverviewContext";
+import DamageChart from "./DamageChart";
 
 export default function Review() {
   const { character } = useContext(CharacterOverviewContext);
@@ -15,6 +16,7 @@ export default function Review() {
           className="flex flex-col gap-5"
           dangerouslySetInnerHTML={{ __html: character?.quickSummary! }}
         />
+        <div className="italic">~ Excerp from prydwen.gg</div>
       </div>
 
       <div className="border border-zinc-600 bg-zinc-900 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
@@ -23,7 +25,7 @@ export default function Review() {
         <div className="flex gap-2">
           <div className="p-3 bg-zinc-800 rounded-xl w-full">
             <h3 className="font-bold text-lg">Pros</h3>
-            <ul className="list-disc list-inside">
+            <ul className="list-disc list-outside ml-4">
               {character?.pros.map((pro, i) => (
                 <li key={i}>{pro}</li>
               ))}
@@ -32,7 +34,7 @@ export default function Review() {
 
           <div className="p-3 bg-zinc-800 rounded-xl w-full">
             <h3 className="font-bold text-lg">Cons</h3>
-            <ul className="list-disc list-inside">
+            <ul className="list-disc list-outside ml-4">
               {character?.cons.map((con, i) => (
                 <li key={i}>{con}</li>
               ))}
@@ -44,33 +46,8 @@ export default function Review() {
       <div className="border border-zinc-600 bg-zinc-900 p-5 rounded-xl flex flex-col gap-4 overflow-x-auto">
         <h2 className="text-xl font-bold">Damage Profile</h2>
 
-        <div className="w-64 aspect-square rounded-full bg-zinc-300" />
-
-        <div className="flex flex-wrap gap-6 mx-auto">
-          <div className="flex gap-2 items-center">
-            <div className="w-4 h-4 bg-lime-400 rounded-full" />
-            <div>Basic</div>
-          </div>
-          <div className="flex gap-2 items-center">
-            <div className="w-4 h-4 bg-lime-400 rounded-full" />
-            <div>Skill</div>
-          </div>
-          <div className="flex gap-2 items-center">
-            <div className="w-4 h-4 bg-lime-400 rounded-full" />
-            <div>Liberation</div>
-          </div>
-          <div className="flex gap-2 items-center">
-            <div className="w-4 h-4 bg-lime-400 rounded-full" />
-            <div>Intro</div>
-          </div>
-          <div className="flex gap-2 items-center">
-            <div className="w-4 h-4 bg-lime-400 rounded-full" />
-            <div>Outro</div>
-          </div>
-          <div className="flex gap-2 items-center">
-            <div className="w-4 h-4 bg-lime-400 rounded-full" />
-            <div>Echo</div>
-          </div>
+        <div className="w-96 mx-auto">
+          <DamageChart />
         </div>
       </div>
     </div>
