@@ -15,7 +15,7 @@ export function WeaponCard({
 }) {
   return (
     <Popover>
-      <PopoverTrigger className="rounded-xl w-40 overflow-clip bg-zinc-800 border border-zinc-500 group">
+      <PopoverTrigger className="rounded-xl w-40 overflow-clip bg-zinc-800 border border-zinc-500 group h-fit">
         <div className={cn("w-full aspect-square relative overflow-clip", `rarity-${weapon.rarity}`)}>
           <img src={weapon.image as string} className="absolute w-full group-hover:scale-110 transition-transform" />
           <div className="w-full h-full bg-zinc-900/20 relative group-hover:bg-zinc-900/0 transition" />

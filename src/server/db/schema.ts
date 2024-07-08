@@ -112,15 +112,14 @@ export const characters = createTable(
     element: text("element", { enum: ["Aero", "Fusion", "Electro", "Spectro", "Havoc", "Glacio"] }).notNull(),
     weapon: text("weapon", { enum: ["Broadblade", "Sword", "Pistols", "Gauntlets", "Rectifier"] }).notNull(),
     imageCard: text("image_card"),
-    imageBanner: text("image_banner"),
     imageProfile: text("image_profile"),
     voiceActors: text("voice_actors", { mode: "json" }).$type<{ lang: string, name: string }[]>().notNull(),
     released: int("released", { mode: "boolean" }).notNull(),
     // Stats
+    skills: text("skills", { mode: "json" }).$type<CharacterSkill>().notNull(),
     sequences: text("sequence", { mode: "json" }).$type<{ name: string, description: string, icon: string }[]>().notNull(),
     minorFortes: text("minor_fortes", { mode: "json" }).$type<{ stat: string, value: string }[]>().notNull(),
     baseStats: text("base_stats", { mode: "json" }).$type<{ hp: number[], atk: number[], def: number[], maxEnergy: number }>().notNull(),
-    skills: text("skills", { mode: "json" }).$type<CharacterSkill>().notNull(),
     // Builds
     quickSummary: text("quick_summary").notNull(),
     pros: text("pros", { mode: "json" }).$type<string[]>().notNull(),

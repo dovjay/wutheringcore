@@ -1,0 +1,1444 @@
+[
+  {
+    "build_name": "Sub DPS",
+    "character_id": "Aalto",
+    "ability_priorities": [
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      },
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Liberation",
+        "equalNext": true
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": [
+      {
+        "name": "Trickster's Opening Show",
+        "summary": "Shorten skill's CD"
+      }
+    ],
+    "sonata_combination": [
+      "Moonlit Clouds"
+    ],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT Rate",
+          "CRIT DMG"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Aero DMG Bonus",
+          "Energy Regen"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "CRIT Rate/CRIT DMG > ATK%",
+    "main_echoes": [
+      "Impermanence Heron"
+    ],
+    "sub_echoes": [],
+    "best_weapons": [
+      "Static Mist",
+      "Cadenza"
+    ]
+  },
+  {
+    "build_name": "Healer",
+    "character_id": "Baizhi",
+    "ability_priorities": [
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": [],
+    "sonata_combination": [
+      "Rejuvenating Glow"
+    ],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "Healing Bonus",
+          "HP"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Energy Regen"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "HP"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen > HP% > Flat HP",
+    "main_echoes": [
+      "Bell-Borne Geochelone"
+    ],
+    "sub_echoes": [],
+    "best_weapons": [
+      "Comet Flare",
+      "Variation",
+      "Rectifier of Voyager",
+      "Originite: Type V"
+    ]
+  },
+  {
+    "build_name": "Main DPS",
+    "character_id": "Calcharo",
+    "ability_priorities": [
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": [],
+    "sonata_combination": [
+      "Lingering Tunes",
+      "Void Thunder",
+      "Moonlit Clouds"
+    ],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Electro DMG"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (10%~15%) >= CRIT Rate = CRIT DMG > ATK% > Flat ATK = Liberation DMG%",
+    "main_echoes": [
+      "Tempest Mephis",
+      "Thundering Mephis",
+      "Flautist",
+      "Mech Abomination"
+    ],
+    "sub_echoes": [],
+    "best_weapons": [
+      "Lustrous Razor",
+      "Verdant Summit",
+      "Autumntrace",
+      "Helios Cleaver"
+    ]
+  },
+  {
+    "build_name": "Main DPS",
+    "character_id": "Chixia",
+    "best_weapons": [
+      "Static Mist",
+      "Novaburst",
+      "Pistols#26",
+      "Pistols of Night"
+    ],
+    "sonata_combination": [
+      "Molten Rift",
+      "Lingering Tunes"
+    ],
+    "main_echoes": [
+      "Inferno Rider",
+      "Mech Abomination"
+    ],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Fusion DMG"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (10%~15%) >= CRIT Rate = CRIT DMG > ATK% > Flat ATK > Liberation DMG%",
+    "ability_priorities": [
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Main DPS",
+    "character_id": "Danjin",
+    "best_weapons": [
+      "Emerald of Genesis",
+      "Commando of Conviction",
+      "Lumingloss",
+      "Sword of Night"
+    ],
+    "sonata_combination": [
+      "Sun-sinking Eclipse",
+      "Lingering Tunes"
+    ],
+    "main_echoes": [],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Havoc DMG"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "CRIT Rate = CRIT DMG > ATK% > Flat ATK > Heavy DMG% > Resonance Skill DMG%",
+    "ability_priorities": [
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Quick Swap",
+    "character_id": "Encore",
+    "best_weapons": [
+      "Stringmaster",
+      "Cosmic Ripples",
+      "Augment",
+      "Rectifier of Night"
+    ],
+    "sonata_combination": [
+      "Molten Rift",
+      "Lingering Tunes",
+      "Moonlit Clouds"
+    ],
+    "main_echoes": [],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Fusion DMG"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (0%~20%) >= CRIT Rate = CRIT DMG > ATK% > Flat ATK > Basic DMG%",
+    "ability_priorities": [
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Hyper Carry",
+    "character_id": "Encore",
+    "best_weapons": [
+      "Stringmaster",
+      "Cosmic Ripples",
+      "Augment",
+      "Rectifier of Night"
+    ],
+    "sonata_combination": [
+      "Molten Rift",
+      "Lingering Tunes"
+    ],
+    "main_echoes": [],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Fusion DMG"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (15%~25%) >= CRIT Rate = CRIT DMG > ATK% > Flat ATK > Basic DMG%",
+    "ability_priorities": [
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Support",
+    "character_id": "Jianxin",
+    "best_weapons": [
+      "Originite: Type IV",
+      "Marcato"
+    ],
+    "sonata_combination": [
+      "Rejuvenating Glow"
+    ],
+    "main_echoes": [],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Aero DMG",
+          "Energy Regen"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (30%~40%) >= CRIT Rate = CRIT DMG > ATK% > Flat ATK > Heavy DMG% > Liberation DMG%",
+    "ability_priorities": [
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      },
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Hybrid",
+    "character_id": "Jianxin",
+    "best_weapons": [
+      "Abyss Surges",
+      "Hollow Mirage",
+      "Stonard",
+      "Gauntlets of Night"
+    ],
+    "sonata_combination": [
+      "Moonlit Clouds"
+    ],
+    "main_echoes": [],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Aero DMG",
+          "Energy Regen"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (15%~25%) >= CRIT Rate = CRIT DMG > ATK% > Flat ATK > Heavy DMG% > Liberation DMG%",
+    "ability_priorities": [
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "DPS",
+    "character_id": "Jianxin",
+    "best_weapons": [
+      "Abyss Surges",
+      "Hollow Mirage",
+      "Stonard",
+      "Gauntlets of Night"
+    ],
+    "sonata_combination": [
+      "Sierra Gale",
+      "Lingering Tunes",
+      "Moonlit Clouds"
+    ],
+    "main_echoes": [],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Aero DMG",
+          "Energy Regen"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (15%~25%) >= CRIT Rate = CRIT DMG > ATK% > Flat ATK > Heavy DMG% > Liberation DMG%",
+    "ability_priorities": [
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Main DPS",
+    "character_id": "Jiyan",
+    "best_weapons": [
+      "Verdant Summit",
+      "Lustrous Razor",
+      "Autumntrace",
+      "Guardian Broadblade"
+    ],
+    "sonata_combination": [
+      "Sierra Gale",
+      "Lingering Tunes",
+      "Moonlit Clouds"
+    ],
+    "main_echoes": [
+      "Feilian Beringal",
+      "Mech Abomination"
+    ],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Aero DMG",
+          "Energy Regen"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (15%~25%) >= CRIT Rate = CRIT DMG > ATK% > Flat ATK = Heavy DMG%",
+    "ability_priorities": [
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Forte Circuit",
+        "equalNext": true
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": true
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Main DPS",
+    "character_id": "Lingyang",
+    "best_weapons": [
+      "Abyss Surges",
+      "Stonard",
+      "Hollow Mirage",
+      "Gauntlets of Night"
+    ],
+    "sonata_combination": [
+      "Freezing Frost",
+      "Lingering Tunes",
+      "Moonlit Clouds"
+    ],
+    "main_echoes": [
+      "Lampylumen Myriad",
+      "Glacio Predator",
+      "Mech Abomination"
+    ],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Glacio DMG",
+          "Energy Regen"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (10%~20%) >= CRIT Rate = CRIT DMG > ATK% > Flat ATK",
+    "ability_priorities": [
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": true
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Support",
+    "character_id": "Mortefi",
+    "best_weapons": [
+      "Static Mist",
+      "Novaburst",
+      "Undying Flame",
+      "Pistols of Voyager"
+    ],
+    "sonata_combination": [
+      "Moonlit Clouds"
+    ],
+    "main_echoes": [],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Fusion DMG"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (10%~20%) >= CRIT Rate = CRIT DMG > ATK% > Flat ATK",
+    "ability_priorities": [
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": true
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Quick Swap",
+    "character_id": "Rover (havoc)",
+    "best_weapons": [
+      "Emerald of Genesis",
+      "Commando of Conviction",
+      "Lumingloss",
+      "Lunar Cutter",
+      "Sword of Night"
+    ],
+    "sonata_combination": [
+      "Sun-sinking Eclipse",
+      "Lingering Tunes",
+      "Moonlit Clouds"
+    ],
+    "main_echoes": [
+      "Dreamless"
+    ],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Havoc DMG"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (10%~20%) >= CRIT Rate = CRIT DMG > ATK% = Flat ATK",
+    "ability_priorities": [
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Hyper Carry",
+    "character_id": "Rover (havoc)",
+    "best_weapons": [
+      "Emerald of Genesis",
+      "Commando of Conviction",
+      "Lumingloss",
+      "Lunar Cutter",
+      "Sword of Night"
+    ],
+    "sonata_combination": [
+      "Sun-sinking Eclipse",
+      "Lingering Tunes"
+    ],
+    "main_echoes": [
+      "Dreamless"
+    ],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Havoc DMG"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (0%~10%) >= CRIT Rate = CRIT DMG > ATK% = Flat ATK",
+    "ability_priorities": [
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Sub DPS",
+    "character_id": "Rover (spectro)",
+    "best_weapons": [
+      "Emerald of Genesis",
+      "Commando of Conviction",
+      "Lunar Cutter",
+      "Lumingloss",
+      "Sword of Night"
+    ],
+    "sonata_combination": [
+      "Celestial Light",
+      "Lingering Tunes",
+      "Moonlit Clouds"
+    ],
+    "main_echoes": [],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Spectro DMG"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (10%~20%) >= CRIT Rate = CRIT DMG > ATK% > Flat ATK",
+    "ability_priorities": [
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": true
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Sub DPS",
+    "character_id": "Sanhua",
+    "best_weapons": [
+      "Emerald of Genesis",
+      "Commando of Conviction",
+      "Lunar Cutter",
+      "Lumingloss",
+      "Sword of Voyager"
+    ],
+    "sonata_combination": [
+      "Freezing Frost",
+      "Moonlit Clouds"
+    ],
+    "main_echoes": [],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Glacio DMG"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (10%~20%) >= CRIT Rate = CRIT DMG > ATK% > Flat ATK",
+    "ability_priorities": [
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Support",
+    "character_id": "Taoqi",
+    "best_weapons": [
+      "Discord",
+      "Dauntless Evernight"
+    ],
+    "sonata_combination": [
+      "Rejuvenating Glow"
+    ],
+    "main_echoes": [],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "DEF"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Energy Regen",
+          "DEF"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "DEF"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (60%+) >= CRIT Rate = CRIT DMG > ATK% = Flat ATK",
+    "ability_priorities": [
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": true
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "DPS",
+    "character_id": "Taoqi",
+    "best_weapons": [
+      "Discord",
+      "Dauntless Evernight"
+    ],
+    "sonata_combination": [
+      "Rejuvenating Glow"
+    ],
+    "main_echoes": [],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "DEF"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Energy Regen",
+          "DEF"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "DEF"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (30%~60%) >= DEF% > Flat DEF",
+    "ability_priorities": [
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": true
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Healer",
+    "character_id": "Verina",
+    "best_weapons": [
+      "Variation",
+      "Rectifier#25",
+      "Rectifier of Voyager"
+    ],
+    "sonata_combination": [
+      "Rejuvenating Glow"
+    ],
+    "main_echoes": [],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "Healing Bonus",
+          "ATK"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Energy Regen"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regen (70%~90%+) > ATK% > Flat ATK",
+    "ability_priorities": [
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Hybrid",
+    "character_id": "Yangyang",
+    "best_weapons": [
+      "Emerald of Genesis",
+      "Lunar Cutter",
+      "Commando of Conviction",
+      "Sword of Night"
+    ],
+    "sonata_combination": [
+      "Sierra Gale",
+      "Moonlit Clouds"
+    ],
+    "main_echoes": [],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Aero DMG",
+          "Energy Regen"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regeneration >= CRIT RATE = CRIT DMG > ATK% > Flat ATK > Liberation DMG% > Basic DMG%",
+    "ability_priorities": [
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": true
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Hybrid",
+    "character_id": "Yinlin",
+    "best_weapons": [
+      "Stringmaster",
+      "Cosmic Ripples",
+      "Augment",
+      "Rectifier of Night"
+    ],
+    "sonata_combination": [
+      "Void Thunder",
+      "Lingering Tunes",
+      "Moonlit Clouds"
+    ],
+    "main_echoes": [
+      "Impermanence Heron",
+      "Tempest Mephis",
+      "Thundering Mephis",
+      "Flautist"
+    ],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Electro DMG"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "ATK"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regeneration (20%~30%) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK = Resonance Skill DMG%",
+    "ability_priorities": [
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": true
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  },
+  {
+    "build_name": "Hybrid",
+    "character_id": "Yuanwu",
+    "best_weapons": [
+      "Amity Accord",
+      "Guardian Gauntlets"
+    ],
+    "sonata_combination": [
+      "Void Thunder",
+      "Moonlit Clouds"
+    ],
+    "main_echoes": [
+      "Impermanence Heron",
+      "Tempest Mephis",
+      "Thundering Mephis",
+      "Flautist"
+    ],
+    "sub_echoes": [],
+    "main_stats": [
+      {
+        "cost": 4,
+        "stats": [
+          "CRIT DMG",
+          "CRIT Rate"
+        ]
+      },
+      {
+        "cost": 3,
+        "stats": [
+          "Electro DMG",
+          "DEF"
+        ]
+      },
+      {
+        "cost": 1,
+        "stats": [
+          "DEF"
+        ]
+      }
+    ],
+    "sub_stats": "Energy Regeneration (25%~35%) >= CRIT RATE = CRIT DMG > DEF% > Flat DEF",
+    "ability_priorities": [
+      {
+        "name": "Resonance Liberation",
+        "equalNext": false
+      },
+      {
+        "name": "Resonance Skill",
+        "equalNext": false
+      },
+      {
+        "name": "Forte Circuit",
+        "equalNext": false
+      },
+      {
+        "name": "Intro Skill",
+        "equalNext": true
+      },
+      {
+        "name": "Basic Attack",
+        "equalNext": false
+      }
+    ],
+    "suggested_sequence": []
+  }
+]

@@ -16,7 +16,7 @@ function SkillCard({
       <div className="p-3 flex gap-4 bg-zinc-700 items-center">
         <img
           src={skill?.icon!}
-          className="rounded-full w-10 aspect-square bg-zinc-300"
+          className="rounded-full w-10 aspect-square"
         />
         <div className="flex flex-col">
           <p className="font-bold">{skill?.name}</p>

@@ -16,7 +16,7 @@ export function CharacterCard({
         "flex flex-col justify-end rounded-xl relative w-48 aspect-[3/4] bg-bottom bg-contain bg-no-repeat overflow-clip group",
         `rarity-${character?.rarity}`,
       )}>
-        <img src={character?.imageProfile!} className="w-full absolute top-0 group-hover:scale-110 transition-transform" />
+        <img src={character?.imageCard!} className="w-full absolute top-0 group-hover:scale-110 transition-transform" />
         <div className="w-full h-full absolute top-0 bg-zinc-900/20 hover:bg-zinc-900/10 transition"></div>
 
         <div className="w-7 aspect-square border border-zinc-100 bg-zinc-900 rounded-full absolute top-2 group-hover:top-10 left-2 transition-all">

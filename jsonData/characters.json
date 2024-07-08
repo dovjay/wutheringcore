@@ -12,7 +12,7 @@
         {
           "type": "Basic Attack",
           "name": "Half Truths",
-          "icon": "",
+          "icon": "/images/characters/aalto/Aalto-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Aalto fires up to<b> 5</b> consecutive shots, dealing <u>Aero DMG</u>. Basic Attack 4 will spread the \"Mist\" forward, which lasts for <b>1.5s. </b></p><h5>Heavy Attack</h5><p>Aalto enters the aiming state for a more powerful shot. The aimed shot fired after charging finishes deals <u>Aero DMG. </u></p><h5>Mid-air Attack</h5><p>Aalto consumes Stamina to perform consecutive shots at the target in mid-air, dealing <u>Aero DMG. </u></p><h5>Dodge Counter</h5><p>Use Basic Attack after a successful Dodge to attack the target, dealing <u>Aero DMG.</u> </p>",
           "multiplier": [
             {
@@ -150,7 +150,7 @@
         {
           "type": "Resonance Skill",
           "name": "Shift Trick",
-          "icon": "",
+          "icon": "/images/characters/aalto/Aalto-Resonance-Skill.webp",
           "description": "<h5>Mist Avatar</h5><p>Casts \"Mist\" and <b>1</b> \"Mist Avatar(s)\" to taunt the surrounding targets. The avatars inherit a portion of Aalto's HP and generate <b>6</b> Mist Bullets around them, dealing <u>Aero DMG</u>.</p><h5>Mist Missiles</h5><p>Deals <u>Aero DMG</u>, considered as Resonance Skill damage.</p>",
           "multiplier": [
             {
@@ -223,7 +223,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Flower in the Mist",
-          "icon": "",
+          "icon": "/images/characters/aalto/Aalto-Resonance-Liberation.webp",
           "description": "<p>Generate a \"Gate of Quandary\" in front of you dealing <u>Aero DMG</u>. When bullets pass through the \"Gate of Quandary\", ATK is increased. \"Gate of Quandary\" lasts for <b>10s</b>.</p>",
           "multiplier": [
             {
@@ -298,7 +298,7 @@
         {
           "type": "Forte Circuit",
           "name": "Misty Cover",
-          "icon": "",
+          "icon": "/images/characters/aalto/Aalto-Forte-Circuit.webp",
           "description": "<p>When Aalto passes through \"Mist\" or \"Gate of Quandary\", he enters \"Mistcloak Dash\".</p><h5>Mistcloak Dash</h5><p>Movement speed increased; During this period, \"Mist Drops\" are continuously consumed, and for each <b>1</b> \"Mist Drop\" consumed, <b>1 </b>Resonance Skill Mist Missile is generated.</p><h5>Mist Drops</h5><p>Aalto can hold up to <b>6 </b>Mist Drops. When Basic Attack or Mid-air Attack passes through \"Mist\" and hits the target, <b>1 </b>\"Mist Drop\" is recovered. </p>",
           "multiplier": [
             {
@@ -332,14 +332,14 @@
         {
           "type": "Inherent Skill",
           "name": "Perfect Performance",
-          "icon": "",
+          "icon": "/images/characters/aalto/Aalto-Inherent-Skill-1.webp",
           "description": "<p>Aalto's Heavy Attack will always critically hit, triggered once every <b>30 </b>seconds.</p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Mid-game Break",
-          "icon": "",
+          "icon": "/images/characters/aalto/Aalto-Inherent-Skill-2.webp",
           "description": "<p>Aalto will continuously recover Stamina when he is in the Forte Circuit Miscloak Dash state.</p>",
           "multiplier": null
         }
@@ -348,7 +348,7 @@
         {
           "type": "Intro Skill",
           "name": "Feint Shot",
-          "icon": "",
+          "icon": "/images/characters/aalto/Aalto-Intro-Skill.webp",
           "description": "<p>Aalto suddenly appears and performs rapid continuous shooting, dealing <u>Aero DMG.</u></p>",
           "multiplier": [
             {
@@ -382,7 +382,7 @@
         {
           "type": "Outro Skill",
           "name": "Dissolving Mist",
-          "icon": "",
+          "icon": "/images/characters/aalto/Aalto-Outro-Skill.webp",
           "description": "<p>The next character (or other characters on a nearby team that activates an Outro Skill) gains <b>23%</b> <u>Aero DMG</u> Deepen for <b>14 </b>seconds or until the Character is switched.</p>",
           "multiplier": null
         }
@@ -390,34 +390,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Trickster's Opening Show",
         "description": "<p>The cooldown of Resonance Skill Shift Trick is reduced by <b>4s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/aalto/Aalto-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Mistweaver's Debut",
         "description": "<p>\"Mist Avatar\" inherits <b>100%</b> more HP from Aalto. When Aalto attacks targets taunted by the \"Mist Avatar(s)\", his ATK is increased by <b>15%</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/aalto/Aalto-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Hazey Transition",
         "description": "<p>When Aalto's Basic Attack or Mid-Air Attack passes through the \"Gate of Quandary\", <b>2</b> more bullets will be generated, dealing <b>50%</b> of the DMG of Basic Attack or Mid-Air Attack. </p>",
-        "icon": ""
+        "icon": "/images/characters/aalto/Aalto-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Blake Bloom for Finale",
         "description": "<p>The damage of Resonance Skill Mist Bullets is increased by <b>30%</b>; Aalto receives <b>30%</b> less damage in his Forte Circuit Mistcloak Dash state. </p>",
-        "icon": ""
+        "icon": "/images/characters/aalto/Aalto-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Applause of the Lost",
         "description": "<p>In the Forte Circuit Mistcloak Dash state, Aalto's <u>Aero DMG</u> Bonus is increased by <b>25%</b> for <b>6s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/aalto/Aalto-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Broker's Secrets",
         "description": "<p>Resonance Liberation Flower in the Mist now additionally increases Crit. Rate by <b>8%</b>. When Aalto's Heavy Attack passes through the \"Gate of Quandary\", the damage dealt is additionally increased by <b>50%</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/aalto/Aalto-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -830,7 +830,7 @@
         {
           "type": "Basic Attack",
           "name": "Destined Promise",
-          "icon": "",
+          "icon": "/images/characters/baizhi/Baizhi-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Baizhi instructs You'tan to perform up to<b> 4</b> consecutive attacks, dealing <u>Glacio damage.</u></p><h5>Heavy Attack</h5><p>Baizhi continuously consumes Stamina to command You'tan to attack enemies, dealing <u>Glacio damage</u>. During Heavy Attack, Baizhi can command You'tan to move.</p><h5>Mid-air Attack</h5><p>Baizhi consumes Stamina and summons You’tan in mid-air to perform a Plunging Attack, dealing <u>Glacio damage</u>.</p><h5>Dodge Counter</h5><p>Use Basic Attack after a successful Dodge to attack the target, dealing <u>Glacio damage.</u></p>",
           "multiplier": [
             {
@@ -955,7 +955,7 @@
         {
           "type": "Resonance Skill",
           "name": "Emergency Plan",
-          "icon": "",
+          "icon": "/images/characters/baizhi/Baizhi-Resonance-Skill.webp",
           "description": "<p>Baizhi calls You'tan to attack the target, dealing<u> Glacio damage</u> while restoring HP for the entire team.</p>",
           "multiplier": [
             {
@@ -1015,7 +1015,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Momentary Union",
-          "icon": "",
+          "icon": "/images/characters/baizhi/Baizhi-Resonance-Liberation.webp",
           "description": "<p>Baizhi summons You'tan to restore HP for the entire team, generating <b>4</b> stacks of Remnant Entities.</p><h5>Remnant Entities</h5><p>Remnant Entities follow the active team members and automatically consume <b>1</b> stacks of Remnant Entities to attack the targets every <b>2.5s</b>, dealing <u>Glacio damage </u>on hit while restoring HP to all team members nearby. </p>",
           "multiplier": [
             {
@@ -1103,7 +1103,7 @@
         {
           "type": "Forte Circuit",
           "name": "Cycle of Life",
-          "icon": "",
+          "icon": "/images/characters/baizhi/Baizhi-Forte-Circuit.webp",
           "description": "<h5>You'tan</h5><p>A Remnant Creature that answers to Baizhi’s mind and desires while sharing all her attributes. You’tan goes back to Baizhi when Baizhi dodges.</p><h5>Concentration</h5><p>Baizhi consumes all \"Concentrations\" when casting Heavy Attack or Resonance Skill Emergency Plan to continuously restore HP for Characters nearby. Each<b> 1</b> \"Concentration\" consumed restores HP for <b>1</b> time every <b>2s</b>.</p><p>When Baizhi consumes \"Concentration\" to cast Heavy Attack, Baizhi additionally restores Concerto Energy and Resonance Energy; When Baizhi consumes \"Concentration\" to cast Resonance Skill Emergency Plan, Baizhi additionally restores Concerto Energy.</p><h5>Concentration</h5><p>Baizhi can hold up to <b>4 </b>\"Concentrations\". Baizhi obtains <b>1 </b>\"Concentration\" for every Basic Attack on hit.</p>",
           "multiplier": [
             {
@@ -1163,14 +1163,14 @@
         {
           "type": "Inherent Skill",
           "name": "Harmonic Range",
-          "icon": "",
+          "icon": "/images/characters/baizhi/Baizhi-Inherent-Skill-1.webp",
           "description": "<p>When Baizhi casts Resonance Skill Emergency Plan, You'tan generates a field of Euphonia that lasts for <b>15s</b>.</p><h5>Euphonia</h5><p>ATK of the Resonators who picks up Euphonia is increased by <b>15%</b> for <b>20s</b>. </p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Stimulus Feedback",
-          "icon": "",
+          "icon": "/images/characters/baizhi/Baizhi-Inherent-Skill-2.webp",
           "description": "<p>For every Heavy Attack on hit, Baizhi restores HP to the nearby team member with the least HP equal to<b> 0.25%</b> of Baizhi's max HP.</p>",
           "multiplier": null
         }
@@ -1179,7 +1179,7 @@
         {
           "type": "Intro Skill",
           "name": "Overflowing Frost",
-          "icon": "",
+          "icon": "/images/characters/baizhi/Baizhi-Intro-Skill.webp",
           "description": "<p>Baizhi calls You'tan to perform <b>1</b> plunging attack, dealing <u>Glacio damage</u> while restoring HP to all team members nearby.</p>",
           "multiplier": [
             {
@@ -1226,7 +1226,7 @@
         {
           "type": "Outro Skill",
           "name": "Rejuvinating Flow",
-          "icon": "",
+          "icon": "/images/characters/baizhi/Baizhi-Outro-Skill.webp",
           "description": "<p>Baizhi restores HP equal to <b>1.54%</b> of her max HP to The next character (or other characters on a nearby team that activates an Outro Skill) every <b>3s </b>for <b>30s</b>. Resonators gaining this healing also gain <b>15%</b> all-Type DMG Deepen for 6s. </p>",
           "multiplier": null
         }
@@ -1234,34 +1234,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Complex Simplicity",
         "description": "<p>Resonance Skill Emergency Plan additionally restores <b>2.5 </b>Resonance Energy for every <b>1 </b>\"Concentration\" consumed. </p>",
-        "icon": ""
+        "icon": "/images/characters/baizhi/Baizhi-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Silent Tundra",
         "description": "<p>Resonance Skill Emergency Plan increases Baizhi's <u>Glacio DMG</u> Bonus by 15% and her Healing by <b>15% </b>if she has <b>4 </b>\"Concentration\". These effects last for <b>12s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/baizhi/Baizhi-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Veritas Lux Mea",
         "description": "<p>Intro Skill Overflowing Frost increases Baizhi's Max HP by <b>12%</b> for <b>10s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/baizhi/Baizhi-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Eternal Verity",
         "description": "<p>Upon casting Resonance Liberation Momentary Union, Resonance Liberation Remnant Entities gains the following enhancements</p><ul><li><p>Remnant Entities can be performed <b>2 </b>more time(s)</p></li><li><p>Healing multiplier of Remnant Entities is increased by <b>20%</b></p></li><li><p>Remnant Entities deals additional <u>Glacio DMG</u> equal to <b>1.20%</b> of Baizhi's Max HP. </p></li></ul><p></p>",
-        "icon": ""
+        "icon": "/images/characters/baizhi/Baizhi-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "A Wish Answered",
         "description": "<p>If a team member is downed when Baizhi is alive on the team, immediately revive them and restore their HP to <b>100%</b> of their Max HP. This effect can be triggered once every <b>10 </b>minute(s). </p>",
-        "icon": ""
+        "icon": "/images/characters/baizhi/Baizhi-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Seeker's Devotion",
         "description": "<p>When Euphonia is picked up, increase the <u>Glacio DMG</u> Bonus of all characters nearby by <b>12%</b> for <b>20s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/baizhi/Baizhi-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -1634,7 +1634,7 @@
         {
           "type": "Basic Attack",
           "name": "Gnawing Fangs",
-          "icon": "",
+          "icon": "/images/characters/calcharo/Calcharo-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Perform up to <b>4</b> attacks, dealing Electro DMG.</p><h5>Heavy Attack</h5><p>Consume Stamina to attack the target, dealing <u>Electro DMG.</u></p><h5>Mid-air Attack</h5><p>Consume Stamina to perform a Mid-Air Plunging Attack, dealing <u>Electro DMG.</u></p><h5>Dodge Counter</h5><p>Using Basic Attack after a successful Dodge to attack the target, dealing <u>Electro DMG.</u></p>",
           "multiplier": [
             {
@@ -1759,7 +1759,7 @@
         {
           "type": "Resonance Skill",
           "name": "Extermination Order",
-          "icon": "",
+          "icon": "/images/characters/calcharo/Calcharo-Resonance-Skill.webp",
           "description": "<p>Cast up to<b> 3</b> attacks. Deal <u>Electro DMG.</u></p><p>If this Character is switched or Resonance Skill Extermination Order is not repeated in a while, it will be put on a Cooldown. Resonance Skill Extermination Order does not reset your Basic Attack stage. </p>",
           "multiplier": [
             {
@@ -1832,7 +1832,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Phantom Etching",
-          "icon": "",
+          "icon": "/images/characters/calcharo/Calcharo-Resonance-Liberation.webp",
           "description": "<p>Calcharo attacks the target, dealing <u>Electro DMG</u> and enters Deathblade Gear state. After Resonance Liberation Deathblade Gear state ends, Calcharo's next Intro Skill is replaced with Intro Skill \"Necessary Means\", which deals <u>Electro DMG</u>, considered as Intro Skill damage.</p><h5>Deathblade Gear</h5><p>Basic Attack is replaced with Basic Attack Hounds Roar. Dodge Counter deals increased damage, considered as <u>Resonance Liberation damage</u>.</p><h5>Hounds Roar</h5><p>Perform up to <b>5</b> consecutive attacks, dealing <u>Electro DMG</u>, considered as Basic Attack Damage.</p>",
           "multiplier": [
             {
@@ -2024,7 +2024,7 @@
         {
           "type": "Forte Circuit",
           "name": "Hunting Mission",
-          "icon": "",
+          "icon": "/images/characters/calcharo/Calcharo-Forte-Circuit.webp",
           "description": "<h5>Heavy Attack: \"Mercy\"</h5><p>When Calcharo has <b>3 </b>\"Cruelty\", his Heavy Attack is replaced with Heavy Attack \"Mercy\". When casting Heavy Attack \"Mercy\", Calcharo consumes <b>3 </b>\"Cruelty\" to deal <u>Electro DMG,</u> considered as Heavy Attack damage, and recovers Resonance Energy and Concerto Energy.</p><h5>\"Cruelty\"</h5><p>Calcharo can hold up to <b>3 </b>\"Cruelty\". Under Resonance Liberation Deathblade Gear state, \"Cruelty\" cannot be acquired. When Resonance Skill Extermination Order hits the target, gain <b>1 </b>\"Cruelty\".</p><h5>Heavy Attack: \"Death Messenger\"</h5><p>When Calcharo has 5 \"Killing Intent\", his Basic Attack is replaced with Heavy Attack \"Death Messenger\". When casting Heavy Attack \"Death Messenger\", Calcharo consumes 5 \"Killing Intent\" to deal <u>Electro DMG</u>, considered as Resonance Liberation damage, and recovers Resonance Energy and Concerto Energy.</p><h5>\"Killing Intent\"</h5><p>Under Resonance Liberation Deathblade Gear state, Calcharo's Forte Gauge is replaced with \"Killing Intent\", stacking up to <b>5</b>. When Basic Attack Hounds Roar hits the target, Calcharo gains <b>1 </b>\"Killing Intent\".</p>",
           "multiplier": [
             {
@@ -2110,14 +2110,14 @@
         {
           "type": "Inherent Skill",
           "name": "Bloodshed Awaken",
-          "icon": "",
+          "icon": "/images/characters/calcharo/Calcharo-Inherent-Skill-1.webp",
           "description": "<p>When casting Heavy Attack \"Mercy\", Calcharo's Resonance Liberation DMG Bonus is increased by <b>10%</b> for <b>15s</b>.</p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Revenant Rush",
-          "icon": "",
+          "icon": "/images/characters/calcharo/Calcharo-Inherent-Skill-2.webp",
           "description": "<p>When Heavy Attack \"Death Messenger\" hits the target, the damage taken by Calcharo is reduced by <b>15%</b> for <b>5s</b>.</p>",
           "multiplier": null
         }
@@ -2126,7 +2126,7 @@
         {
           "type": "Intro Skill",
           "name": "Wanted Outlaw",
-          "icon": "",
+          "icon": "/images/characters/calcharo/Calcharo-Intro-Skill.webp",
           "description": "<p>Attack the target, dealing <u>Electro DMG.</u></p>",
           "multiplier": [
             {
@@ -2160,7 +2160,7 @@
         {
           "type": "Outro Skill",
           "name": "Shadowy Raid",
-          "icon": "",
+          "icon": "/images/characters/calcharo/Calcharo-Outro-Skill.webp",
           "description": "<p>Calcharo summons Phantom to support the Resonator, clearing the targets in front with a slash. The Phantom's attack deals <u>Electro DMG</u> equal to <b>195.98%+391.96%</b> of Calcharo's ATK.</p>",
           "multiplier": null
         }
@@ -2168,34 +2168,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Covert Negotiation",
         "description": "<p>When Resonance Skill Extermination Order hits a target, it additionally recovers <b>10 </b>Resonance Energy. This can be triggered once every <b>20 </b>seconds. </p>",
-        "icon": ""
+        "icon": "/images/characters/calcharo/Calcharo-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Zero-Sum Game",
         "description": "<p>After Calcharo casts Intro Skill Wanted Criminal or Intro Skill \"Necessary Means\", his Resonance Skill DMG Bonus is increased by <b>30%</b> for <b>15s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/calcharo/Calcharo-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Iron Fist Diplomacy",
         "description": "<p>During the Resonance Liberation Deathblade Gear state, Calcharo's <u>Electro DMG</u> Bonus is increased by <b>25%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/calcharo/Calcharo-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Dark Alliance",
         "description": "<p>After casting Outro Skill Shadowy Raid, <u>Electro DMG</u> Bonus of all team members is increased by <b>20%</b> for <b>30s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/calcharo/Calcharo-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Unconventional Compact",
         "description": "<p>Intro Skill Wanted Criminal and Intro Skill \"Necessary Means: deal <b>50% </b>more damage. </p>",
-        "icon": ""
+        "icon": "/images/characters/calcharo/Calcharo-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "The Ultimatum",
         "description": "<p>When casting Resonance Liberation \"Death Messenger\", Calcharo will summon <b>2 </b>Phantoms to perform Coordinated Attacks. Each Phantom deals <u>Electro DMG</u> equal to <b>100.00%</b> of Calcharo's ATK, which is considered Resonance Liberation damage. </p>",
-        "icon": ""
+        "icon": "/images/characters/calcharo/Calcharo-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -2606,7 +2606,7 @@
         {
           "type": "Basic Attack",
           "name": "POW POW",
-          "icon": "",
+          "icon": "/images/characters/chixia/Chixia-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Chixia fires up to <b>4 </b>consecutive shots at a single target, dealing <u>Fusion DMG.</u></p><h5>Heavy Attack</h5><p>Chixia enters the aiming state for a more powerful shot. The shot fired deals <u>Fusion DMG.</u></p><h5>Mid-air Attack</h5><p>Chixia consumes Stamina to continuously shoot the target in the air, dealing <u>Fusion DMG.</u></p><h5>Dodge Counter</h5><p>Use a Basic Attack after a successful Dodge to attack the target, dealing <u>Fusion DMG.</u></p>",
           "multiplier": [
             {
@@ -2731,7 +2731,7 @@
         {
           "type": "Resonance Skill",
           "name": "Whizzing Fight Spirit",
-          "icon": "",
+          "icon": "/images/characters/chixia/Chixia-Resonance-Skill.webp",
           "description": "<p>Chixia unleashes a flurry of shots, dealing <u>Fusion DMG</u>. Whizzing Fight Spirit has 2 initial charges. </p>",
           "multiplier": [
             {
@@ -2778,7 +2778,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Blazing Flames",
-          "icon": "",
+          "icon": "/images/characters/chixia/Chixia-Resonance-Liberation.webp",
           "description": "<p>Chixia fires up fast shots at nearby enemies, dealing <u>Fusion DMG.</u></p>",
           "multiplier": [
             {
@@ -2840,7 +2840,7 @@
         {
           "type": "Forte Circuit",
           "name": "Heroic Bullets ",
-          "icon": "",
+          "icon": "/images/characters/chixia/Chixia-Forte-Circuit.webp",
           "description": "<h5>Resonance Skill: DAKA DAKA!</h5><p>Hold Resonance Skill Whizzing Fight Spirit to enter DAKA DAKA!. In this state: </p><ul><li><p>Chixia continuously consumes \"Thermobaric Bullets\" to attack the target, dealing<u> Fusion DMG</u>, considered as Resonance Skill damage.</p></li><li><p>Tap Basic Attack to cast Basic Attack IV, dealing <u>Fusion DMG</u>, considered as Basic Attack damage. Then she terminates \"DAKA DAKA!\".</p></li><li><p>If <b>30 </b>\"Thermobaric Bullets\" have been fired when Basic Attackis activated, Chixia will cast Resonance Skill Boom Boom and terminate \"DAKA DAKA!\" Chixia terminates \"DAKA DAKA!\" when all \"Thermobaric Bullets\" are consumed.</p></li></ul><h5>Resonance Skill: Boom Boom</h5><p>Chixia deals <u>Fusion DMG</u>, considered as Resonance Skill damage.</p><h5>Thermobaric Bullets</h5><p>Chixia can hold up to <b>60 </b>\"Thermobaric Bullets\". Innate Skill Scorching Magazine increases Max \"Thermobaric Bullets\" by <b>10</b>.\nChixia obtains \"Thermobaric Bullets\" for every Normal Attack POW POW on hit. Chixia obtains \"Thermobaric Bullets\" upon casting Intro Skill Grand Entrance and Resonance Skill Whizzing Fight Spirit.</p>",
           "multiplier": [
             {
@@ -2900,14 +2900,14 @@
         {
           "type": "Inherent Skill",
           "name": "Scorching Magazine",
-          "icon": "",
+          "icon": "/images/characters/chixia/Chixia-Inherent-Skill-1.webp",
           "description": "<p>Max \"Thermobaric Bullets\" is increased by <b>10 </b>rounds. The damage for Resonance Skill Boom Boom is increased by <b>50%.</b></p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Numbingly Spicy! ",
-          "icon": "",
+          "icon": "/images/characters/chixia/Chixia-Inherent-Skill-2.webp",
           "description": "<p>Each \"Thermobaric Bullets\" that hits a target during Resonance Skill DAKA DAKA! increases ATK by <b>1%</b> for <b>10s</b>, stacking up to <b>30 </b>times.</p>",
           "multiplier": null
         }
@@ -2916,7 +2916,7 @@
         {
           "type": "Intro Skill",
           "name": "Grand Entrance",
-          "icon": "",
+          "icon": "/images/characters/chixia/Chixia-Intro-Skill.webp",
           "description": "<p>Chixia makes a heroic entrance and fires rapidly with her dual pistols at the target, dealing <u>Fusion DMG.</u></p>",
           "multiplier": [
             {
@@ -2950,7 +2950,7 @@
         {
           "type": "Outro Skill",
           "name": "Leaping Flames",
-          "icon": "",
+          "icon": "/images/characters/chixia/Chixia-Outro-Skill.webp",
           "description": "<p>Chixia releases a shock wave surrounding the target, dealing <u>Fusion DMG</u> equal to <b>530.00%</b> of Chixia's ATK to enemies within the range.</p>",
           "multiplier": null
         }
@@ -2958,34 +2958,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "No.1 Heor Play Fan",
         "description": "<p>Resonance Skill Boom Boom hits will always be Critical Hits. </p>",
-        "icon": ""
+        "icon": "/images/characters/chixia/Chixia-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Leaping Sparkles",
         "description": "<p>During Resonance Liberation Blazing Flames, for every <b>1</b> target defeated, Chixia recovers <b>5 </b>Resonance Energy, up to <b>20 </b>each time. </p>",
-        "icon": ""
+        "icon": "/images/characters/chixia/Chixia-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Eternal Flames",
         "description": "<p>Resonance Liberation Blazing Flames deals <b>40% </b>more damage to targets whose HP is below <b>50%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/chixia/Chixia-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Hero's Ultimate Move",
         "description": "<p>Resonance Liberation Blazing Flames grants <b>60 </b>“Thermobaric Bullets” and immediately resets the Cooldown of Resonance Skill Whizzing Fight Spirit. </p>",
-        "icon": ""
+        "icon": "/images/characters/chixia/Chixia-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Triumphant Explosions",
         "description": "<p>When the Inherent Skill Numbingly Spicy! reaches max stacks, ATK is additionally increased by <b>30%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/chixia/Chixia-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Easter Egg Performance",
         "description": "<p>Resonance Skill Boom Boom increases the Basic Attack DMG Bonus of all team members by <b>25%</b> for <b>15s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/chixia/Chixia-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -3397,7 +3397,7 @@
         {
           "type": "Basic Attack",
           "name": "Execution",
-          "icon": "",
+          "icon": "/images/characters/danjin/Danjin-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Danjin performs up to <b>3</b> consecutive attacks, dealing <u>Havoc DMG.</u></p><h5>Heavy Attack</h5><p>Danjin combines her Forte with the blade in her hand and consumes Stamina to launch consecutive attacks, dealing <u>Havoc DMG</u>.</p><h5>Mid-air Attack</h5><p>Consumes Stamina to perform a mid-air Plunging Attack, dealing <u>Havoc DMG.</u></p><h5>Dodge Counter</h5><p>Use Basic Attack after a successful Dodge to launch an attack, dealing<u> Havoc DMG.</u></p><h5>Dodge Counter: Ruby Shades</h5><p>After a successful Dodge Counter, Danjin can use the Resonance Skill Crimson Fragment to cast the Resonance Skill Crimson Erosion.</p>",
           "multiplier": [
             {
@@ -3509,7 +3509,7 @@
         {
           "type": "Resonance Skill",
           "name": "Crimson Fragment",
-          "icon": "",
+          "icon": "/images/characters/danjin/Danjin-Resonance-Skill.webp",
           "description": "<p>When casting Incinerating Will, each attack consumes <b>3%</b> of Danjin's max HP. When Danjin's HP is less than <b>1%,</b> this no longer consumes HP.</p><h5>Carmine Gleam</h5><p>Danjin attacks the target, dealing <u>Havoc DMG.</u></p><h5>Crimson Erosion</h5><p>After Basic Attack II, Dodge Counter or Intro Skill Vindication, use Resonance Skill to perform up to <b>2 </b>consecutive strikes, dealing <u>Havoc DMG.</u> When Crimson Erosion II hits a target, apply Incinerating Will to it.</p><h5>Incinerating Will</h5><p>Danjin's damage dealt to targets marked with Incinerating Will is increased by 20%.</p><h5>Sanguine Pulse</h5><p>Use Resonance Skill after Basic Attack III to perform up to<b> 3</b> consecutive attacks, dealing <u>Havoc DMG.</u></p>",
           "multiplier": [
             {
@@ -3621,7 +3621,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Crimson Bloom",
-          "icon": "",
+          "icon": "/images/characters/danjin/Danjin-Resonance-Liberation.webp",
           "description": "<p>Danjin's anger intensifies as she frantically swings her dual blades, performing multiple rapid consecutive attacks, and <b>1</b> Scarlet Burst attack(s), dealing <u>Havoc DMG.</u></p>",
           "multiplier": [
             {
@@ -3696,7 +3696,7 @@
         {
           "type": "Forte Circuit",
           "name": "Serene Vigil",
-          "icon": "",
+          "icon": "/images/characters/danjin/Danjin-Fort-Circuit.webp",
           "description": "<h5>Heavy Attack: Chaoscleave</h5><p>After accumulating <b>60 </b>\"Ruby Blossom\", long press Basic Attack to consume all \"Ruby Blossom\" to cast Chaoscleave, dealing <u>Havoc DMG</u>, considered as Heavy Attack damage, and restoring HP to Danjin.</p><p>If current \"Ruby Blossom\" exceeds <b>120</b>, this consumes <b>120 </b>\"Ruby Blossom\" to increase the damage multiplier of Chaoscleave and Scatterbloom performed this time. </p><h5>Heavy Attack: Scatterbloom</h5><p>Use Basic Attack after Heavy Attack Chaoscleave to launch Shatter to attack the target, dealing <u>Havoc DMG,</u> considered as Heavy Attack damage.</p><h5>Ruby Blossom</h5><p>Danjin obtains \"Ruby Blossom\" when using Resonance Skill Crimson Fragment.</p>",
           "multiplier": [
             {
@@ -3782,14 +3782,14 @@
         {
           "type": "Inherent Skill",
           "name": "Crimson Light",
-          "icon": "",
+          "icon": "/images/characters/danjin/Danjin-Inherent-Skill-1.webp",
           "description": "<p>The damage of the Resonance Skill Crimson Erosion triggered by Dodge Counter: Ruby Shades is increased by <b>20%.</b> The HP cost and stacks of \"Ruby Blossom\" recovered are doubled. </p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Overflow",
-          "icon": "",
+          "icon": "/images/characters/danjin/Danjin-Inherent-Skill-2.webp",
           "description": "<p>After casting the Resonance Skill Sanguine Pulse, Danjin's Heavy Attack damage is increased by <b>30% </b>for <b>5s</b>.</p>",
           "multiplier": null
         }
@@ -3798,7 +3798,7 @@
         {
           "type": "Intro Skill",
           "name": "Vindiction",
-          "icon": "",
+          "icon": "/images/characters/danjin/Danjin-Intro-Skill.webp",
           "description": "<p>With unwavering determination, Danjin unleashes a strike, dealing <u>Havoc DMG</u>.</p>",
           "multiplier": [
             {
@@ -3832,7 +3832,7 @@
         {
           "type": "Outro Skill",
           "name": "Duality",
-          "icon": "",
+          "icon": "/images/characters/danjin/Danjin-Outro-Skill.webp",
           "description": "<p>The next character (or other characters on a nearby team that activates an Outro Skill) gains<b> 23%</b> <u>Havoc DMG</u> Deepen for <b>14 </b>seconds or until the Character is switched.</p>",
           "multiplier": null
         }
@@ -3840,34 +3840,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Crimson Heart of Justice",
         "description": "<p>When Danjin attacks a target with Resonance Skill's Incinerating Will, her ATK is increased by <b>5%</b> for <b>6s</b>, stacking up to <b>6 </b>times. Danjin loses <b>1</b> stacks of this effect each time she takes damage. </p>",
-        "icon": ""
+        "icon": "/images/characters/danjin/Danjin-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Dusted Mirror",
         "description": "<p>When Danjin attacks a target with Resonance Skill's Incinerating Will, her damage dealt is increased by<b> 20%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/danjin/Danjin-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Fleeting Blossom",
         "description": "<p>Resonance Liberation DMG Bonus is increased by<b> 30%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/danjin/Danjin-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Solitary Carnation",
         "description": "<p>When Danjin has more than <b>60 </b>Ruby Blossom, her Crit. Rate is increased by <b>15%. </b>This effect lasts until the end of Heavy Attack: Scatterbloom even after all \"Ruby Blossom\" is consumed when casting Heavy Attack: Chaoscleave. </p>",
-        "icon": ""
+        "icon": "/images/characters/danjin/Danjin-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Reigning Blade",
         "description": "<p>Danjin's <u>Havoc DMG</u> Bonus is increased by <b>15%</b>, and further increased by another <b>15%</b> when her HP is lower than <b>60%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/danjin/Danjin-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Bloodied Jade",
         "description": "<p>Heavy Attack Chaoscleave increases the ATK of all team members by<b> 20%</b> for <b>20s. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/danjin/Danjin-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -4277,7 +4277,7 @@
         {
           "type": "Basic Attack",
           "name": "Wooly Attack",
-          "icon": "",
+          "icon": "/images/characters/encore/Encore-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Perform up to<b> 4</b> consecutive attacks, dealing <u>Fusion DMG</u>.</p><h5>Basic Attack: Wooly Strike</h5><p>After the Basic Attack IV, press Basic Attack to attack the target, dealing <u>Fusion DMG</u>.</p><h5>Heavy Attack</h5><p>Encore consumes Stamina to attack the target, dealing <u>Fusion DMG.</u></p><h5>Mid-air Attack</h5><p>Encore consumes Stamina to perform a Plunging Attack, dealing <u>Fusion DMG.</u></p><h5>Dodge Counter</h5><p>Use Basic Attack after a successful Dodge to attack the target, dealing <u>Fusion DMG.</u></p>",
           "multiplier": [
             {
@@ -4415,7 +4415,7 @@
         {
           "type": "Resonance Skill",
           "name": "Flaming Woolies",
-          "icon": "",
+          "icon": "/images/characters/encore/Encore-Resonance-Skill.webp",
           "description": "<p>Flaming Woolies</p><p>Summon Cloudy and Cosmos to attack the target with high-temperature rays, dealing <u>Fusion DMG.</u>\n \nEnergetic Welcome</p><p>After casting Flaming Woolies, use Resonance Skill to launch Energetic Welcome to attack the target, dealing <u>Fusion DMG.</u></p>",
           "multiplier": [
             {
@@ -4488,7 +4488,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Cosmos Rave",
-          "icon": "",
+          "icon": "/images/characters/encore/Encore-Resonance-Liberation.webp",
           "description": "<p>As Encore loses control, Cosmos breaks free and wreaks havoc on its surroundings. </p><h5>Basic Attack: Cosmos: Frolicking</h5><p>During Cosmos Rampage, the Basic Attack is replaced with Cosmos: Frolicking, which performs up to 4 consecutive attacks, dealing <u>Fusion DMG</u>, considered as Basic Attack damage.</p><h5>Cosmos: Heavy Attack</h5><p>During Cosmos Rampage, the Heavy Attack is replaced with Cosmos: Heavy Attack, consuming Stamina to attack the target, dealing <u>Fusion DMG,</u> considered as Heavy Attack damage.</p><h5>Resonance Skill: Cosmos: Rampage</h5><p>During Cosmos Rampage, Flaming Woolies is replaced with Cosmos:Rampage, attacking the target with uncontrollable flames, dealing <u>Fusion DMG</u>, considered as Resonance Skill damage.</p><h5>Cosmos: Dodge Counter</h5><p>During Cosmos Rampage, use Basic Attack after a successful Dodge to attack the target, dealing <u>Fusion DMG</u>, considered as Basic Attack damage.</p>",
           "multiplier": [
             {
@@ -4666,8 +4666,8 @@
       "passiveSkill": [
         {
           "type": "Forte Circuit",
-          "name": "Black &amp; White Woolies",
-          "icon": "",
+          "name": "Black & White Woolies",
+          "icon": "/images/characters/encore/Encore-Forte-Circuit.webp",
           "description": "<h5>Resonance Liberation: Cloudy Frenzy</h5><p>When Encore's \"Dissonance\" is full, after casting a Heavy Attack, Encore will consume all \"Dissonance\" to enter the Dissonance state, reducing damage taken by<b> 70%</b>. Switching Characters does not interrupt \"Dissonance\". </p><p>After the Dissonance state ends, Encore will cast Cloudy Frenzy, dealing <u>Fusion DMG</u>, considered as Resonance Liberation damage.</p><h5>Resonance Liberation: Cosmos Rupture</h5><p>During Cosmos Rampage, when casting Heavy Attack, if \"Dissonance\" is full, Encore will consume all \"Dissonance\" to enter Cosmos' Dissonance state, reducing damage taken by <b>70%</b>. Switching Characters does not interrupt \"Dissonance\".</p><p>After Cosmos' Dissonance state ends, Encore will cast Cosmos Rupture, dealing <u>Fusion DMG</u>, considered as Resonance Liberation damage.</p><h5>Dissonance</h5><p>Encore can hold up to <b>100 </b>\"Dissonance\". </p><p>When Normal Attack Wooly Attack hits the target, Encore restores \"Dissonance\". When Resonance Skill Flaming Woolies hits the target, Encore restores \"Dissonance\". When Resonance Skill Energetic Welcome hits the target, Encore restores \"Dissonance\". When Intro Skill Woolies Helpers hits the target, Encore restores \"Dissonance\". </p><p>During the duration of Resonance Liberation Cosmos Rampage, hitting targets will restore \"Dissonance\" to Encore.</p>",
           "multiplier": [
             {
@@ -4727,14 +4727,14 @@
         {
           "type": "Inherent Skill",
           "name": "Angry Cosmos",
-          "icon": "",
+          "icon": "/images/characters/encore/Encore-Inherent-Skill-1.webp",
           "description": "<p>During the Resonance Liberation Cosmos Rave, when Encore's HP is above <b>70%,</b> DMG dealt is increased by <b>10%.</b></p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Woolies Cheer Dance",
-          "icon": "",
+          "icon": "/images/characters/encore/Encore-Inherent-Skill-2.webp",
           "description": "<p>When Resonance Skill Flaming Woolies or Resonance Skill Cosmos: Rave is cast, Encore's <u>Fusion DMG</u> Bonus is increased by<b> 10%</b> for <b>10 </b>seconds.</p>",
           "multiplier": null
         }
@@ -4743,7 +4743,7 @@
         {
           "type": "Intro Skill",
           "name": "Woolies Can Help!",
-          "icon": "",
+          "icon": "/images/characters/encore/Encore-Intro-Skill.webp",
           "description": "<p>Encore pounces at the enemies with Cosmos, dealing <u>Fusion DMG.</u></p>",
           "multiplier": [
             {
@@ -4777,7 +4777,7 @@
         {
           "type": "Outro Skill",
           "name": "Thermal Field",
-          "icon": "",
+          "icon": "/images/characters/encore/Encore-Outro-Skill.webp",
           "description": "<p>Encore generates a Flame Zone centered around skill target, with a radius of <b>3m</b>. Targets inside the Flame Zone are continuously burned, suffering <u>Fusion DMG</u> equal to <b>176.76%</b> of Encore's ATK every <b>1.5s</b> for <b>6s</b>.</p>",
           "multiplier": null
         }
@@ -4785,34 +4785,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Wooly's Fairy Tale",
         "description": "<p>When Basic Attack hits a target, Encore's <u>Fusion DMG</u> Bonus is increased by <b>3%</b>, stacking up to 4 times for <b>6s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/encore/Encore-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Sheep-counting Lullaby",
         "description": "<p>Encore additionally restores <b>10 </b>Resonance Energy when casting Basic Attack Woolies Attack or Resonance Skill Energetic Welcome. This can be triggered once every <b>10s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/encore/Encore-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Fog? The Black Shores!",
         "description": "<p>The DMG multiplier of Resonance Liberation Cloudy: Frenzy and Resonance Liberation Cosmos: Rupture is increased by <b>40%</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/encore/Encore-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Adventure? Let's go!",
         "description": "<p>Resonance Liberation Cosmos: Rupture increases the <u>Fusion DMG</u> Bonus of all team members by<b> 20%</b> for <b>30s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/encore/Encore-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Hero Takes the Stage!",
         "description": "<p>Resonance Skill DMG Bonus is increased by <b>35%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/encore/Encore-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Woolies Save the World!",
         "description": "<p>During Resonance Liberation Cosmos: Rave, Encore gains <b>1 </b>stack(s) of \"Lost Lamb\" every time she deals damage, each stack increasing her ATK by <b>5%</b> for <b>10s</b>, stacking up to <b>6</b> time(s). </p>",
-        "icon": ""
+        "icon": "/images/characters/encore/Encore-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -5242,7 +5242,7 @@
         {
           "type": "Basic Attack",
           "name": "Fengyiquan",
-          "icon": "",
+          "icon": "/images/characters/jianxin/Jianxin-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Perform up to <b>4 </b>attacks, dealing <u>Aero DMG.</u></p><h5>Heavy Attack</h5><p>Consume Stamina to attack the target, dealing <u>Aero DMG.</u></p><h5>Mid-air Attack</h5><p>Jianxin consumes Stamina to plunge and unleash a powerful kick, dealing <u>Aero DMG. </u></p><h5>Dodge Counter</h5><p>Use Basic Attack after a successful Dodge to attack the target, dealing <u>Aero DMG.</u></p>",
           "multiplier": [
             {
@@ -5367,7 +5367,7 @@
         {
           "type": "Resonance Skill",
           "name": "Calming Air",
-          "icon": "",
+          "icon": "/images/characters/jianxin/Jianxin-Resonance-Skill.webp",
           "description": "<p>Hold Resonance Skill to enter Parry Stance.</p><h5>Chi Counter</h5><p>When Jianxin is attacked in the Parry Stance, she does not take damage and immediately performs Chi Counter, dealing <u>Aero DMG. </u></p><h5>Chi Parry</h5><p>Release the Resonance Skill during Parry Stance to interrupt Parry Stance and cast Chi Parry, dealing <u>Aero DMG.</u></p>",
           "multiplier": [
             {
@@ -5453,7 +5453,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Purification Force Field",
-          "icon": "",
+          "icon": "/images/characters/jianxin/Jianxin-Resonance-Liberation.webp",
           "description": "<p>Creates a strong wind field, continuously pulling targets within the wind field to the center and causing <u>Aero DMG</u>. When the wind field disappears, it will cause <u>Aero DMG</u> to all targets within the range again.</p>",
           "multiplier": [
             {
@@ -5541,7 +5541,7 @@
         {
           "type": "Forte Circuit",
           "name": "Primordial Chi Spiral",
-          "icon": "",
+          "icon": "/images/characters/jianxin/Jianxin-Forte-Circuit.webp",
           "description": "<h5>Heavy Attack: Primordial Chi Spiral</h5><p>When \"Chi\" is stacked to its max, hold Heavy Attack to cast Primordial Chi Spiral and start Zhoutian Progress.</p><h5>Zhoutian Progress</h5><p>Jianxin's anti-interruption is increased, and her the damage taken is reduced by <b>50%</b>.</p><p>Jianxin continuously consumes \"Chi\" and casts Chi Strike to attack targets nearby, dealing <u>Aero DMG.</u> As Zhoutian Progress accumulates, Jianxin reaches different Zhoutian and gain effects accordingly. </p><ul><li><p>Before Minor Zhoutian: Gain Zhoutian Progress<b> 1</b> shield. When Zhoutian Progress is interrupted, cast Pushing Punch to attack the target, dealing<u> Aero DMG.</u></p></li><li><p>Minor Zhoutian: Gain Zhoutian Progress <b>2 </b>shield and cast Shock to attack the target, dealing <u>Aero DMG</u>. When Zhoutian Progress is interrupted, cast Yielding Pull to attack the target, dealing <u>Aero DMG</u>.</p></li><li><p>Major Zhoutian: Inner: Gain Zhoutian Progress <b>3 </b>shield and cast Shock to attack the target, dealing <u>Aero DMG</u>. When Zhoutian Progress is interrupted, cast Yielding Pull to attack the target, dealing <u>Aero DMG.</u></p></li><li><p>Major Zhoutian: Outer: Gain Zhoutian Progress <b>3 </b>shield and cast Shock to attack the target, dealing <u>Aero DMG.</u></p></li><li><p>When you release Basic Attack button, interrupt Zhoutian Progress and lose all \"Chi\". When all \"Chi\" is consumed, end Zhoutian Progress.</p></li></ul><p>When Zhoutian Progress ends, regain a shield according to the Zhoutian Progress you reached; As the shield provided by Heavy Attack: Primordial Chi Spiral persists, restore HP for the on-field character once every <b>6s</b>.</p><h5>Chi</h5><p>Jianxin can hold up to <b>120 </b>Chi. Chi is obtained when a Normal Attack Fengyiquan hits the target. Chi is obtained when the Resonance Skill Calming Air is cast. Chi is obtained when the Resonance Skill Chi Counter or Resonance Skill Chi Parry hits the target. Chi is obtained when the Intro Skill Essence of Tao hits the target.</p>",
           "multiplier": [
             {
@@ -5770,14 +5770,14 @@
         {
           "type": "Inherent Skill",
           "name": "Formless Release",
-          "icon": "",
+          "icon": "/images/characters/jianxin/Jianxin-Inherent-Skill-1.webp",
           "description": "<p>Damage of Resonance Liberation Purification Force Field is increased by <b>20%.</b></p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Reflection",
-          "icon": "",
+          "icon": "/images/characters/jianxin/Jianxin-Inherent-Skill-2.webp",
           "description": "<p>The shield obtained with Heavy Attack Primordial Chi Spiral is increased by <b>20%</b>.</p>",
           "multiplier": null
         }
@@ -5786,7 +5786,7 @@
         {
           "type": "Intro Skill",
           "name": "Essence of Tao",
-          "icon": "",
+          "icon": "/images/characters/jianxin/Jianxin-Intro-Skill.webp",
           "description": "<p>Pull targets within the range, dealing <b>Aero DMG.</b></p>",
           "multiplier": [
             {
@@ -5820,7 +5820,7 @@
         {
           "type": "Outro Skill",
           "name": "Transcendence",
-          "icon": "",
+          "icon": "/images/characters/jianxin/Jianxin-Outro-Skill.webp",
           "description": "<p>The next character (or other characters on a nearby team that activates an Outro Skill) gains<b> 38%</b> Resonance Liberation DMG Deepen for <b>14s </b>or until the Character is switched.</p>",
           "multiplier": null
         }
@@ -5828,34 +5828,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Verdant Branchlet",
         "description": "<p>After casting Intro Skill Essence of Tao, Jianxin gains <b>100%</b> extra \"Chi\" from Basic Attacks for <b>10s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/jianxin/Jianxin-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Tao Seeker's Journey",
         "description": "<p>Resonance Skill Calming Air can be used <b>1 </b>more time. </p>",
-        "icon": ""
+        "icon": "/images/characters/jianxin/Jianxin-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Principles of Wuwei",
         "description": "<p>After staying in the Parry Stance of Resonance Skill Calming Air for <b>2.5s</b>, Resonance Skill Chi Counter becomes immediately available. </p>",
-        "icon": ""
+        "icon": "/images/characters/jianxin/Jianxin-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Multitide Reflection",
         "description": "<p>When performing Forte Circuit Heavy Attack: Primordial Chi Spiral, Jianxin's Resonance Liberation Purification Force Field damage is increased by <b>80% </b>for <b>14s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/jianxin/Jianxin-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Mirroring Introspection",
         "description": "<p>The range of Resonance Liberation Purification Force Field is increased by <b>33%.</b> </p>",
-        "icon": ""
+        "icon": "/images/characters/jianxin/Jianxin-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Truth from Within",
         "description": "<p>During Forte Circuit Heavy Attack: Primordial Qi Spiral, if Jianxin performs Pushing Punch, enhanced Resonance Skill Special Chi Counter can be used <b>1</b> time(s) in <b>5s</b>. Special Chi Counter: Inflicts Aero DMG equal to <b>556.67%</b> of Jianxin's ATK. The damage is regarded as Heavy Attack DMG. Obtain a Zhoutian Progress <b>4</b> Shield (Influnced by Inherent Skill Reflection's bonus effect.) </p>",
-        "icon": ""
+        "icon": "/images/characters/jianxin/Jianxin-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -6286,7 +6286,7 @@
         {
           "type": "Basic Attack",
           "name": "Lone Lance",
-          "icon": "",
+          "icon": "/images/characters/jiyan/Jiyan-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Perform up to <b>5</b> consecutive attacks, dealing <u>Aero DMG.</u></p><h5>Heavy Attack</h5><p>Consume Stamina to perform a thrust attack, dealing <u>Aero DMG.</u></p><h5>Heavy Attack: Windborne Strike</h5><p>Hold the Basic Attack during Heavy Attack to cast Windborne Strike after the Heavy Attack ends, dealing <u>Aero DMG.</u></p><h5>Heavy Attack: Abyssal Slash</h5><p>Release the Basic Attack during the Heavy Attack to cast Abyssal Slash after the Heavy Attack ends, dealing <u>Aero DMG.</u></p><h5>Mid-air Attack</h5><p>Consume Stamina to perform a Mid-Air Plunging Attack, dealing <u>Aero DMG.</u> After the Plunging Attack, use Basic Attack to perform a following attack, dealing <u>Aero DMG.</u></p><h5>Mid-air Attack: Banner of Triumph</h5><p>After casting the Heavy Attack Windborne Strike or the Resonance Skill Windqueller in the air, Jiyan can perform an aerial attack, dealing <u>Aero DMG.</u></p><h5>Dodge Counter</h5><p>Use a Basic Attack after a successful Dodge to attack the target with, dealing <u>Aero DMG.</u></p>",
           "multiplier": [
             {
@@ -6476,7 +6476,7 @@
         {
           "type": "Resonance Skill",
           "name": "Windqueller",
-          "icon": "",
+          "icon": "/images/characters/jiyan/Jiyan-Resonance-Skill.webp",
           "description": "<p>Dash forward a certain distance, dealing <u>Aero DMG</u>. Can be cast in the air. </p>",
           "multiplier": [
             {
@@ -6523,7 +6523,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Emerald Storm: Prelude",
-          "icon": "",
+          "icon": "/images/characters/jiyan/Jiyan-Resonance-Liberation.webp",
           "description": "<p>After releasing Emerald Storm: Prelude, Jiyan enters Qingloong Mode.</p><h5>Qingloong Mode</h5><p>Jiyan has increased Anti-interruption; Basic Attack, Heavy Attack and Dodge Counter are replaced with Heavy Attack Lance of Qingloong.</p><h5>Heavy Attack: Lance of Qingloong</h5><p>Perform up to<b> 3</b> continuous attacks, dealing <u>Aero DMG</u>, considered as Heavy Attack damage.</p>",
           "multiplier": [
             {
@@ -6624,7 +6624,7 @@
         {
           "type": "Forte Circuit",
           "name": "Qingloong at War",
-          "icon": "",
+          "icon": "/images/characters/jiyan/Jiyan-Forte-Circuit.webp",
           "description": "<p>When casting Resonance Skill Windqueller, if Jiyan has <b>30</b> or more \"Resolve\", he consumes <b>30 </b>\"Resolve\" to increase the damage of this Resonance Skill Windqueller by <b>20%.</b> When Jiyan is in Qingloong Mode, DMG of Resonance Skill Windqueller is increased by <b>20%</b> and no longer consumes \"Resolve\".</p><h5>Resonance Liberation: Emerald Storm: Finale</h5><p>When casting Resonance Liberation Emerald Storm: Prelude, if Jiyan has <b>30 </b>\"Resolve\" or more, he will consume <b>30 </b>\"Resolve\" to cast Emerald Storm: Finale, dealing <u>Aero DMG</u>, considered as Heavy Attack damage.\nEmerald Storm: Finale can be cast in mid-air at low altitude.</p><h5>Resolve</h5><p>Jiyan can hold up to <b>60 </b>Resolve. Jiyan gains \"Resolve\" when his Normal Attack Lone Lance hits the target. Jiyan gains \"Resolve\" when the Intro Skill Tactical Strike hits the target. If Jiyan does not hit a target within <b>15 </b>seconds, his \"Resolve\" will gradually decrease.</p>",
           "multiplier": [
             {
@@ -6645,14 +6645,14 @@
         {
           "type": "Inherent Skill",
           "name": "Heavenly Balance",
-          "icon": "",
+          "icon": "/images/characters/jiyan/Jiyan-Inherent-Skill-1.webp",
           "description": "<p>After casting the Intro Skill Tactical Strike, Jiyan's ATK is increased by <b>10%</b> for <b>15s</b>.</p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Tempest Taming",
-          "icon": "",
+          "icon": "/images/characters/jiyan/Jiyan-Inherent-Skill-2.webp",
           "description": "<p>When attacks hit a target, Jiyan's Crit. DMG is increased by <b>12% </b>for <b>8s</b>.</p>",
           "multiplier": null
         }
@@ -6661,7 +6661,7 @@
         {
           "type": "Intro Skill",
           "name": "Tactical Strike",
-          "icon": "",
+          "icon": "/images/characters/jiyan/Jiyan-Intro-Skill.webp",
           "description": "<p>Jiyan stabs the target from the air, dealing <u>Aero DMG</u>.</p>",
           "multiplier": [
             {
@@ -6695,7 +6695,7 @@
         {
           "type": "Outro Skill",
           "name": "Discipline",
-          "icon": "",
+          "icon": "/images/characters/jiyan/Jiyan-Outro-Skill.webp",
           "description": "<p>When the next Character's (or other Characters on a nearby team that activates an Outro Skill) Heavy Attack hits the target, Jiyan will summon Qingloong to launch a Coordinated Attack, dealing <u>Aero DMG</u> equal to <b>313.40%</b> of Jiyan's ATK. This attack lasts for <b>8s</b>, and can be triggered once every <b>1s</b>, up to <b>2 </b>times.</p>",
           "multiplier": null
         }
@@ -6703,34 +6703,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Benevolence",
         "description": "<p>Resonance Skill Windqueller can be used <b>1</b> more time. When casting Resonance Skill Windqueller, the \"Resolve\" cost is decreased by <b>15</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/jiyan/Jiyan-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Versatility",
         "description": "<p>After casting Intro Skill Tactical Strike, Jiyan gains <b>30 </b>\"Resolve\" and his ATK is increased by<b> 28%</b> for <b>15s</b>. This can be triggered once every <b>15 </b>seconds. </p>",
-        "icon": ""
+        "icon": "/images/characters/jiyan/Jiyan-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Spectation",
         "description": "<p>When casting Resonance Skill Windqueller, Resonance Liberation Emerald Storm: Prelude, Resonance Skill Emerald Storm: Finale or Intro Skill Tactical Strike, Jiyan's Crit. Rate is increased by <b>16%</b> and Crit. DMG is increased by <b>32%</b> for <b>8s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/jiyan/Jiyan-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Prudence",
         "description": "<p>When casting Resonance Liberation Emerald Storm: Prelude or Resonance Liberation Emerald Storm: Finale, the Heavy Attack DMG Bonus of all team members is increased by <b>25%</b> for <b>30s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/jiyan/Jiyan-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Resolution",
         "description": "<p>The DMG multiplier of Outro Skill Discipline is increased by <b>120%.</b> When Jiyan's attacks hit a target, his ATK is increased by <b>3%</b> for <b>8s</b>, stacking up to <b>15 </b>times; this effect is immediately maxed after he casts Intro Skill Tactical Strike. </p>",
-        "icon": ""
+        "icon": "/images/characters/jiyan/Jiyan-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Fortitude",
         "description": "<p>Every time Heavy Attack, Intro Skill Tactical Strike or Resonance Skill Windqueller is used, Jiyan gains <b>1 </b>stack(s) of \"Momentum\", stacking up to <b>2</b> times.</p><p>Resonance Liberation Emerald Storm: Finale will consume all \"Momentum\", and each stack consumed increases the DMG multiplier of Resonance Liberation Emerald Storm: Finale by <b>120%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/jiyan/Jiyan-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -7143,7 +7143,7 @@
         {
           "type": "Basic Attack",
           "name": "Majestic Fists",
-          "icon": "",
+          "icon": "/images/characters/lingyang/Lingyang-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Perform up to <b>5 </b>attacks, dealing <u>Glacio damage.</u></p><h5>Basic Attack: Feral Roars</h5><p>After Resonance Skill Furious Punches is cast, Basic Attack V is replaced with Feral Roars, dealing <u>Glacio damage.</u></p><h5>Heavy Attack</h5><p>Consume Stamina to attack the target, dealing <u>Glacio damage.</u></p><h5>Mid-air Attack</h5><p>Consume Stamina to perform a Mid-air Plunging Attack, dealing <u>Glacio damage.</u></p><h5>Dodge Counter</h5><p>Use a Basic Attack after a successful Dodge to attack the target, dealing <u>Glacio damage.</u></p>",
           "multiplier": [
             {
@@ -7294,7 +7294,7 @@
         {
           "type": "Resonance Skill",
           "name": "Ancient Arts",
-          "icon": "",
+          "icon": "/images/characters/lingyang/Lingyang-Resonance-Skill.webp",
           "description": "<h5>Ancient Arts</h5><p>Attack the target, dealing <u>Glacio damage.</u></p><h5>Furious Punches</h5><p>When Basic Attacks III, IV, or V or Basic Attack Feral Roars hits the target, Resonance Skill Ancient Arts is replaced with Resonance Skill Swift Punches. If Lingyang uses Basic Attack after casting Basic Attack Feral Roars and Resonance Skill Swift Punches, he will start from Basic Attack III. </p><p>Lingyang's Resonance Skill will not reset his Basic Attack stage.</p>",
           "multiplier": [
             {
@@ -7341,7 +7341,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Strive: Lion's Vigor",
-          "icon": "",
+          "icon": "/images/characters/lingyang/Lingyang-Resonance-Liberation.webp",
           "description": "<p>Attack the target, dealing <u>Glacio damage</u>, and receive the blessing of Lion's Vigor, which lasts for <b>14 </b>seconds.</p><h5>Lion's Vigor</h5><p>Lingyang's <u>Glacio DMG</u> Bonus is increased by <b>50%</b>;</p>",
           "multiplier": [
             {
@@ -7416,7 +7416,7 @@
         {
           "type": "Forte Circuit",
           "name": "Unification of Spirits",
-          "icon": "",
+          "icon": "/images/characters/lingyang/Lingyang-Forte-Circuit.webp",
           "description": "<h5>Heavy Attack: Glorious Plunge</h5><p>When Lion's Spirit is full, use Heavy Attack to perform Glorious Plunge, dealing <u>Glacio damage.</u></p><h5>Mid-air Attack: Tail Strike</h5><p>When Lion's Spirit is not full, use Basic Attack after Heavy Attack to perform Tail Strike, dealing <u>Glacio damage.</u></p><h5>Striding Lion</h5><p>After casting Heavy Attack Glorious Plunge, enter Striding Lion state; After casting Intro Skill Lion Awakens or Resonance Liberation Strive: Lion's Vigor, if Lion's Spirit is full, use Basic Attack to enter Striding Lion state.\nIn the Striding Lion state: Attacks can be launched in mid-air. If you are back on the ground, use Heavy Attack Glorious Plunge to get back in the air.</p><p>Lion's Spirit is continuously consumed, and the Striding Lion state ends in <b>5s </b>after Lion's Spirit runs out; If Lingyang is in the Resonance Liberation Lion's Vigor state, the consumption speed of Lion's Spirit is reduced by <b>50%</b>, extending Striding Lion state by up to <b>10s</b>.</p><p>Lingyang's Basic Attack is replaced with Basic Attack Feral Gyrate, which performs up to <b>2 </b>consecutive attacks, dealing <u>Glacio damage.</u> Lingyang's Resonance Skill is replaced with Mountain Roamer, dealing <u>Glacio damage.</u>\nWhen Lion's Spirit is less than <b>10</b>, use Basic Attack to perform Stormy Kicks, dealing <u>Glacio damage</u>; after performing Basic Attack Stormy Kicks, the Mid-air Attack Radiant Plunge becomes available. Concerto Energy is restored when Lion's Spirit is consumed.</p><h5>Lion's Spirit</h5><p>Lingyang can hold up to <b>100 </b>Lion's Spirit. When casting Resonance Skill Furious Punches, Lion's Spirit is restored.\nWhen casting Intro Skill Lion Awakens, Lion's Spirit is restored. When casting Resonance Liberation Strive: Lion's Vigor, Lion's Spirit is restored.</p>",
           "multiplier": [
             {
@@ -7515,14 +7515,14 @@
         {
           "type": "Inherent Skill",
           "name": "Lion's Pride",
-          "icon": "",
+          "icon": "/images/characters/lingyang/Lingyang-Inherent-Skill-1.webp",
           "description": "<p>The damage of the Intro Skill Lion Awakens is increased by <b>50%.</b></p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Diligent Practice",
-          "icon": "",
+          "icon": "/images/characters/lingyang/Lingyang-Inherent-Skill-2.webp",
           "description": "<p>Under the Striding Lion state, within <b>3s </b>after each Basic Attack, the next Mountain Roamer will deal an additional <u>Glacio damage</u>, equal to <b>150% </b>of Mountain Roamer damage, considered as Resonance Skill damage.</p>",
           "multiplier": null
         }
@@ -7531,7 +7531,7 @@
         {
           "type": "Intro Skill",
           "name": "Lion Awakens",
-          "icon": "",
+          "icon": "/images/characters/lingyang/Lingyang-Intro-Skill.webp",
           "description": "<p>Lingyang appears and deals <u>Glacio damage.</u></p>",
           "multiplier": [
             {
@@ -7565,7 +7565,7 @@
         {
           "type": "Outro Skill",
           "name": "Frosty Marks",
-          "icon": "",
+          "icon": "/images/characters/lingyang/Lingyang-Outro-Skill.webp",
           "description": "<p>Lingyang releases a shock wave centered on the skill target, dealing <u>Glacio DMG</u> equal to <b>587.94%</b> of Lingyang's ATK to targets within the range.</p>",
           "multiplier": null
         }
@@ -7573,34 +7573,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Lion of Light, Blessings Abound",
         "description": "<p>During Resonance Liberation Lion's Vigor, Lingyang's Anti-Interruption is enhanced. </p>",
-        "icon": ""
+        "icon": "/images/characters/lingyang/Lingyang-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Dominant and Fierce, Power Unbound",
         "description": "<p>Intro Skill Lion Awakens additionally recovers <b>10 </b>Resonance Energy for Lingyang, triggered once every <b>20s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/lingyang/Lingyang-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Jaw-Dropping Feats, Loud and Wide",
         "description": "<p>During Resonance Liberation Lion's Vigor, Lingyang's Basic Attack DMG Bonus is increased by <b>20%</b>, and Resonance Skill DMG Bonus increased by <b>10%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/lingyang/Lingyang-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Immortals Bow, in Reverence Flawed",
         "description": "<p>Outro Skill Frosty Marks increases the <u>Glacio DMG</u> Bonus of all team members by<b> 20% </b>for <b>30s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/lingyang/Lingyang-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Seven Stars Shine, Stepped upon High",
         "description": "<p>Resonance Liberation Strive: Lion's Vigor additionally deals <u>Glacio DMG</u> equal to<b> 200%</b> of Lingyang's ATK. </p>",
-        "icon": ""
+        "icon": "/images/characters/lingyang/Lingyang-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Demons Tremble, Divine Power Nigh",
         "description": "<p>In the Forte Circuit Striding Lion state, during the first <b>3s </b>after every Resonance Skill Mountain Roamer, the Basic Attack DMG Bonus for Lingyang's next Basic Attack is increased by <b>100%</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/lingyang/Lingyang-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -8012,7 +8012,7 @@
         {
           "type": "Basic Attack",
           "name": "Impromptu Show",
-          "icon": "",
+          "icon": "/images/characters/mortefi/Mortefi-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Mortefi uses his dual guns and fire to perform up to <b>4</b> continuous attacks dealing <u>Fusion DMG.</u></p><h5>Heavy Attack</h5><p>Mortefi enters the aiming state for a more powerful shot.\nThe aimed shot fired after charging finishes deals <u>Fusion DMG.</u></p><h5>Mid-air Attack</h5><p>Mortefi consumes Stamina to perform consecutive shots at the target in mid-air, dealing <u>Fusion DMG. </u></p><h5>Dodge Counter</h5><p>Use Basic Attack after successful Dodge to attack the target, dealing <u>Fusion DMG.</u></p>",
           "multiplier": [
             {
@@ -8150,7 +8150,7 @@
         {
           "type": "Resonance Skill",
           "name": "Passionate Variation",
-          "icon": "",
+          "icon": "/images/characters/mortefi/Mortefi-Resonance-Skill.webp",
           "description": "<p>Launch high-speed flame lightning forward, dealing <u>Fusion DMG.</u></p>",
           "multiplier": [
             {
@@ -8197,7 +8197,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Violent Finale",
-          "icon": "",
+          "icon": "/images/characters/mortefi/Mortefi-Resonance-Liberation.webp",
           "description": "<p>Deal <u>Fusion DMG</u>, and apply Burning Rhapsody to all characters in the team.</p><h5>Burning Rhapsody</h5><p>When the on-field character's Basic Attack hits the target, Mortefi launches a Coordinated Attack, firing <b>1</b> Marcato. When the on-field character's Heavy Attack hits the target, Mortefi launches a Coordinated Attack, firing <b>2 </b>Marcato. Mortefi can launch one Coordinated Attack every <b>0.35s</b>.</p><h5>Marcato</h5><p>Deals <u>Fusion DMG.</u></p>",
           "multiplier": [
             {
@@ -8285,7 +8285,7 @@
         {
           "type": "Forte Circuit",
           "name": "Fury Fugue",
-          "icon": "",
+          "icon": "/images/characters/mortefi/Mortefi-Forte-Circuit.webp",
           "description": "<h5>Resonance Skill: Fury Fugue</h5><p>When Mortefi's \"Annoyance\" reaches <b>100</b>, his Resonance Skill is replaced with Fury Fudge. When casting Fury Fudge, Mortefi consumes all \"Annoyance\" to unleash high-speed flame lightning, dealing <u>Fusion DMG</u>, considered as Resonance Skill damage.</p><h5>Annoyance</h5><p>Mortefi can hold up to <b>100 </b>Annoyance. When Normal Attack Impromptu Show hits the target, “Annoyance” is restored. When Intro Skill Dissonance hits the target, “Annoyance” is restored.\nWhen Resonance Skill Passionate Variation hits the target, “Annoyance” is restored. Within <b>5</b> seconds after casting Passionate Variation, Basic Attack Impromptu that hits the target additionally restores “Annoyance”.</p>",
           "multiplier": [
             {
@@ -8319,14 +8319,14 @@
         {
           "type": "Inherent Skill",
           "name": "Harmonic Control",
-          "icon": "",
+          "icon": "/images/characters/mortefi/Mortefi-Inherent-Skill-1.webp",
           "description": "<p>After casting Resonance Skill Passionate Variation, the damage of Resonance Skill Draconic Hellfire is increased by<b> 25%</b> for <b>8s</b>.</p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Rhythmic Vibrato",
-          "icon": "",
+          "icon": "/images/characters/mortefi/Mortefi-Inherent-Skill-2.webp",
           "description": "<p>During Resonance Liberation Burning Rhapsody, each hit of Resonance Liberation Marcato will increase the damage of the next Resonance Liberation Marcato by<b> 1.5%</b>, which can be triggered once every <b>0.35s, </b>stacking up to <b>50 </b>times. The effect will be reset after Resonance Liberation Burning Rhapsody ends. </p>",
           "multiplier": null
         }
@@ -8335,7 +8335,7 @@
         {
           "type": "Intro Skill",
           "name": "Dissonance",
-          "icon": "",
+          "icon": "/images/characters/mortefi/Mortefi-Intro-Skill.webp",
           "description": "<p>Attack the target, dealing <u>Fusion DMG.</u></p>",
           "multiplier": [
             {
@@ -8369,7 +8369,7 @@
         {
           "type": "Outro Skill",
           "name": "Rage Transposition",
-          "icon": "",
+          "icon": "/images/characters/mortefi/Mortefi-Outro-Skill.webp",
           "description": "<p>The next character (or other characters on a nearby team that activates an Outro Skill) gains <b>38%</b> Heavy Attack DMG Deepen for <b>14 </b>seconds or until the Character is switched.</p>",
           "multiplier": null
         }
@@ -8377,34 +8377,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Solitary Etude",
         "description": "<p>During Resonance Liberation Burning Rhapsody, Mortefi launches Coordinated Attacks when the on-field character performs their Resonance Skills, firing <b>2</b> Resonance Liberation's Marcato hits, dealing <u>Fusion Damage</u>. </p>",
-        "icon": ""
+        "icon": "/images/characters/mortefi/Mortefi-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Hypocritical Hymn",
         "description": "<p>After using the Echo Skill, Mortefi restores an additional <b>10 </b>Resonance Energy. This can be triggered once every <b>20 </b>second. </p>",
-        "icon": ""
+        "icon": "/images/characters/mortefi/Mortefi-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Flaming Recitativo",
         "description": "<p>During Resonance Liberation Burning Rhapsody, the Crit. DMG of Resonance Liberation's Marcato is increased by <b>30%.</b> </p>",
-        "icon": ""
+        "icon": "/images/characters/mortefi/Mortefi-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Cathartic Waltz",
         "description": "<p>The duration of Resonance Liberation Burning Rhapsody is extended by <b>7s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/mortefi/Mortefi-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Funerary Quartet",
         "description": "<p>When Resonance Skill Passionate Variation or Resonance Skill Draconic Hellfire hits a target, <b>4 </b>Resonance Liberation's Marcato hits will be fired, dealing <u>Fusion Damage</u>. DMG of Resonance Liberation's Marcato fired in this way is reduced by <b>50%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/mortefi/Mortefi-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Apoplectic Instrumental",
         "description": "<p>When Resonance Liberation Violent Finale is cast, ATK of all team members is increased by <b>20%</b> for <b>20s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/mortefi/Mortefi-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -8820,7 +8820,7 @@
         {
           "type": "Basic Attack",
           "name": "Tuneslayer",
-          "icon": "",
+          "icon": "/images/characters/rover-havoc/Rover-Havoc-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Rover-Havoc performs up to <b>5</b> consecutive attacks, dealing <u>Havoc DMG.</u></p><h5>Heavy Attack</h5><p>Rover-Havoc consumes Stamina to attack, dealing <u>Havoc DMG.</u> Use Basic Attack after casting Heavy Attack to cast Basic Attack IV.</p><h5>Mid-air Attack</h5><p>Rover-Havoc consumes Stamina to cast a Mid-Air Plunging Attack, dealing <u>Havoc DMG.</u></p><h5>Dodge Counter</h5><p>Use Basic Attack after a successful Dodge to attack the target, dealing <u>Havoc DMG.</u></p>",
           "multiplier": [
             {
@@ -8958,7 +8958,7 @@
         {
           "type": "Resonance Skill",
           "name": "Wingblade",
-          "icon": "",
+          "icon": "/images/characters/rover-havoc/Rover-Havoc-Resonance-Skill.webp",
           "description": "<p>Transforms sound into feathers, dealing <u>Havoc DMG</u>.</p>",
           "multiplier": [
             {
@@ -9005,7 +9005,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Deadening Abyss",
-          "icon": "",
+          "icon": "/images/characters/rover-havoc/Rover-Havoc-Resonance-Liberation.webp",
           "description": "<p>Gather the echoes between Rover's palms to attack a target, dealing <u>Havoc DMG.</u></p>",
           "multiplier": [
             {
@@ -9067,7 +9067,7 @@
         {
           "type": "Forte Circuit",
           "name": "Umbra Eclipse",
-          "icon": "",
+          "icon": "/images/characters/rover-havoc/Rover-Havoc-Forte-Circuit.webp",
           "description": "<h5>Devastation</h5><p>When \"Umbra\" is full, hold Basic Attack to cast Devastation to attack the target, dealing <u>Havoc DMG</u>, considered as Heavy Attack damage.</p><h5>Dark Surge</h5><p>After casting Devastation, Rover enters the Dark Surge state. In this state:\nBasic Attack is replaced with Enhanced Basic Attack, which performs up to <b>5</b> consecutive attacks, dealing <u>Havoc DMG</u>.</p><ul><li><p>Heavy Attack is replaced with Enhanced Heavy Attack.</p></li><li><p>Use Basic Attack after casting Enhanced Heavy Attack to cast Heavy Attack Thwackblade to attack the target, dealing <u>Havoc DMG</u>, considered as Heavy Attack damage.</p></li><li><p>Use Basic Attack after casting Heavy Attack Thwackblade to cast Enhanced Basic Attack <b>3</b> to attack the target, dealing <u>Havoc DMG</u>.</p></li><li><p>Resonance Skill Wingblade is replaced with Resonance Skill Lifetaker, transforming sounds into blades to attack the target, dealing <u>Havoc DMG</u>.</p></li></ul><h5>Umbra</h5><p>Rover can hold up to <b>100 </b>points of Umbra.</p><p>Normal Attack Tuneslayer recovers Umbra on hit. Resonance Skill Wingblade recovers Umbra when cast. Resonance Skill Lifetaker recovers Umbra when cast. Intro Skill Instant of Annihilation recovers Umbra when cast.</p>",
           "multiplier": [
             {
@@ -9270,14 +9270,14 @@
         {
           "type": "Inherent Skill",
           "name": "Metamorph",
-          "icon": "",
+          "icon": "/images/characters/rover-havoc/Rover-Havoc-Inherent-Skill-1.webp",
           "description": "<p>In the Dark Surge state, <u>Havoc DMG</u> Bonus is increased by <b>20%</b>.</p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Bleak Crescendo",
-          "icon": "",
+          "icon": "/images/characters/rover-havoc/Rover-Havoc-Inherent-Skill-2.webp",
           "description": "<p>While in the Dark Surge state, Basic Attack recovers <b>1</b> Resonance Energy when it hits a target, and this effect can be triggered once per second.</p>",
           "multiplier": null
         }
@@ -9286,7 +9286,7 @@
         {
           "type": "Intro Skill",
           "name": "Instant of Annihilation",
-          "icon": "",
+          "icon": "/images/characters/rover-havoc/Rover-Havoc-Intro-Skill.webp",
           "description": "<p>Attack the target, dealing <u>Havoc DMG.</u></p>",
           "multiplier": [
             {
@@ -9320,7 +9320,7 @@
         {
           "type": "Outro Skill",
           "name": "Soundweaver",
-          "icon": "",
+          "icon": "/images/characters/rover-havoc/Rover-Havoc-Outro-Skill.webp",
           "description": "<p>Summons a Havoc Field to attack a target, dealing <b>143.3%</b> <u>Havoc DMG</u> to targets within range every <b>2s </b>for <b>6s</b>.</p>",
           "multiplier": null
         }
@@ -9328,34 +9328,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Cryptic Insight",
         "description": "<p>Resonance Skill DMG Bonus is increased by <b>30%</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/rover-havoc/Rover-Havoc-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Waning Crescent",
         "description": "<p>Reset Resonance Skill's Cooldown when Rover enters the Dark Surge state by casting Heavy Attack Devastation. </p>",
-        "icon": ""
+        "icon": "/images/characters/rover-havoc/Rover-Havoc-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Surging Resonance",
         "description": "<p>In the Dark Surge state, Basic Attack V restores HP equal to <b>10%</b> of total HP lost on hit. </p>",
-        "icon": ""
+        "icon": "/images/characters/rover-havoc/Rover-Havoc-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Annihilated Silence",
         "description": "<p>Heavy Attack Devastation and Resonance Liberation Deadening Abyss reduces enemy <u>Havoc RES</u> by <b>10%</b> for <b>20s </b>on hit. </p>",
-        "icon": ""
+        "icon": "/images/characters/rover-havoc/Rover-Havoc-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Aeon Symphony",
         "description": "<p>In the Dark Surge state, Basic Attack V deals an additional <u>Havoc DMG</u> equal to<b> 50%</b> of Basic Attack V damage. </p>",
-        "icon": ""
+        "icon": "/images/characters/rover-havoc/Rover-Havoc-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Ebbing Undercurrent",
         "description": "<p>In the Dark Surge state, Rover's Crit. Rate is increased by <b>25%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/rover-havoc/Rover-Havoc-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -9497,280 +9497,280 @@
     ],
     "baseStats": {
       "hp": [
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825,
-        10825
+        912,
+        989,
+        1066,
+        1143,
+        1219,
+        1296,
+        1373,
+        1450,
+        1527,
+        1604,
+        1680,
+        1757,
+        1834,
+        1911,
+        1988,
+        2065,
+        2142,
+        2218,
+        2295,
+        2372,
+        3057,
+        3134,
+        3211,
+        3288,
+        3364,
+        3441,
+        3518,
+        3595,
+        3672,
+        3749,
+        3826,
+        3902,
+        3979,
+        4056,
+        4133,
+        4210,
+        4287,
+        4364,
+        4440,
+        4517,
+        5202,
+        5279,
+        5356,
+        5433,
+        5509,
+        5586,
+        5663,
+        5740,
+        5817,
+        5894,
+        6579,
+        6656,
+        6732,
+        6809,
+        6886,
+        6963,
+        7040,
+        7117,
+        7193,
+        7270,
+        7955,
+        8032,
+        8109,
+        8186,
+        8263,
+        8339,
+        8416,
+        8493,
+        8570,
+        8647,
+        9332,
+        9409,
+        9485,
+        9562,
+        9639,
+        9716,
+        9793,
+        9793,
+        9947,
+        10023,
+        10708,
+        10708,
+        10785,
+        10862,
+        11016,
+        11016,
+        11093,
+        11169,
+        11246,
+        11400
       ],
       "atk": [
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413,
-        413
+        30,
+        33,
+        35,
+        38,
+        40,
+        43,
+        45,
+        48,
+        50,
+        53,
+        55,
+        58,
+        60,
+        63,
+        65,
+        68,
+        70,
+        73,
+        76,
+        78,
+        103,
+        106,
+        108,
+        111,
+        113,
+        116,
+        118,
+        121,
+        123,
+        126,
+        128,
+        131,
+        133,
+        136,
+        138,
+        141,
+        144,
+        146,
+        149,
+        151,
+        176,
+        179,
+        181,
+        184,
+        186,
+        189,
+        191,
+        194,
+        196,
+        199,
+        224,
+        226,
+        229,
+        231,
+        234,
+        237,
+        239,
+        242,
+        244,
+        247,
+        272,
+        274,
+        277,
+        279,
+        282,
+        284,
+        287,
+        289,
+        292,
+        294,
+        312,
+        314,
+        317,
+        320,
+        322,
+        325,
+        327,
+        327,
+        332,
+        335,
+        352,
+        352,
+        355,
+        357,
+        362,
+        362,
+        365,
+        367,
+        370,
+        375
       ],
       "def": [
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259,
-        1259
+        112,
+        121,
+        130,
+        140,
+        149,
+        158,
+        167,
+        177,
+        186,
+        195,
+        204,
+        214,
+        223,
+        232,
+        241,
+        250,
+        260,
+        269,
+        278,
+        287,
+        369,
+        378,
+        388,
+        397,
+        406,
+        415,
+        425,
+        434,
+        443,
+        452,
+        461,
+        471,
+        480,
+        489,
+        498,
+        508,
+        517,
+        526,
+        535,
+        544,
+        626,
+        636,
+        645,
+        654,
+        663,
+        672,
+        682,
+        691,
+        700,
+        709,
+        791,
+        800,
+        810,
+        819,
+        828,
+        837,
+        847,
+        856,
+        865,
+        874,
+        956,
+        965,
+        975,
+        984,
+        993,
+        1002,
+        1011,
+        1021,
+        1030,
+        1039,
+        1121,
+        1130,
+        1139,
+        1149,
+        1158,
+        1167,
+        1176,
+        1176,
+        1195,
+        1204,
+        1286,
+        1286,
+        1295,
+        1304,
+        1323,
+        1323,
+        1332,
+        1341,
+        1350,
+        1369
       ],
       "maxEnergy": 125
     },
@@ -9795,7 +9795,7 @@
         {
           "type": "Basic Attack",
           "name": "Vibration Manifestation",
-          "icon": "",
+          "icon": "/images/characters/rover-spectro/Rover-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Rover casts up to <b>4</b> consecutive attacks, dealing <u>Spectro DMG.</u></p><h5>Heavy Attack</h5><p>Rover consumes Stamina, dealing <u>Spectro DMG.</u></p><h5>Heavy Attack: Resonance</h5><p>After Basic Attack III or Heavy Attack, press the Basic Attack button at the right time to perform Heavy Attack Resonance, dealing <u>Spectro DMG. </u></p><h5>Heavy Attack: Aftertune</h5><p>After Heavy Attack Resonance or Dodge Counter hits a target, press the Basic Attack button to perform Heavy Attack Aftertune, dealing <u>Spectro DMG. </u></p><h5>Mid-air Attack</h5><p>Rover consumes Stamina to perform a Mid-Air Plunging Attack, dealing <u>Spectro DMG.</u></p><h5>Dodge Counter</h5><p>Use Basic Attack after a successful Dodge to attack the target, dealing <u>Spectro DMG.</u></p>",
           "multiplier": [
             {
@@ -9946,7 +9946,7 @@
         {
           "type": "Resonance Skill",
           "name": "Resonating Slashes",
-          "icon": "",
+          "icon": "/images/characters/rover-spectro/Rover-Resonance-Skill.webp",
           "description": "<p>Rover launches an attack forward, dealing <u>Spectro DMG.</u></p>",
           "multiplier": [
             {
@@ -9993,7 +9993,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Echoing Orchestra",
-          "icon": "",
+          "icon": "/images/characters/rover-spectro/Rover-Resonance-Liberation.webp",
           "description": "<p>Rover converges Spectro energy to assail the target area, detonating it after a short interval and dealing <u>Spectro DMG.</u></p>",
           "multiplier": [
             {
@@ -10055,7 +10055,7 @@
         {
           "type": "Forte Circuit",
           "name": "World in a Grain of Sand",
-          "icon": "",
+          "icon": "/images/characters/rover-spectro/Rover-Forte-Circuit.webp",
           "description": "<h5>Resonance Skill: Resonating Spin</h5><p>If \"Diminutive Sound\" exceeds 50 when Resonance Skill is used, Rover consumes 50 \"Diminutive Sound\" to cast Resonating Spin, dealing <u>Spectro DMG,</u> considered as Resonance Skill damage.</p><h5>Resonance Skill: Resonating Echoes</h5><p>After Resonance Skill Resonating Spin ends, Rover performs Resonance Skill Resonating Echoes upon pressing the Basic Attack button. Rover performs attacks forward, dealing <u>Spectro DMG</u> considered as Resonance Skill DMG.</p><h5>Diminutive Sound</h5><p>Rover can hold up to 100 \"Diminutive Sounds\". Rover obtains \"Diminutive Sound\" for every Normal Attack Vibration Manifestation on hit. Rover obtains \"Diminutive Sound\" for every Heavy Attack aftertune on hit. Rover obtains \"Diminutive Sound\" upon casting Intro Skill Waveshock.</p>",
           "multiplier": [
             {
@@ -10141,14 +10141,14 @@
         {
           "type": "Inherent Skill",
           "name": "Reticence",
-          "icon": "",
+          "icon": "/images/characters/rover-spectro/Rover-Inherent-Skill-1.webp",
           "description": "<p>Damage dealt by Rover's Resonance Skill Resonating Echoes is increased by <b>60%.</b></p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Silent Listener",
-          "icon": "",
+          "icon": "/images/characters/rover-spectro/Rover-Inherent-Skill-2.webp",
           "description": "<p>Rover's ATK is increased by <b>15% </b>for <b>5s </b>upon casting Heavy Attack Resonance.</p>",
           "multiplier": null
         }
@@ -10157,7 +10157,7 @@
         {
           "type": "Intro Skill",
           "name": "Waveshock",
-          "icon": "",
+          "icon": "/images/characters/rover-spectro/Rover-Intro-Skill.webp",
           "description": "<p>Rover attacks the target, dealing <u>Spectro DMG.</u></p>",
           "multiplier": [
             {
@@ -10191,7 +10191,7 @@
         {
           "type": "Outro Skill",
           "name": "Instant",
-          "icon": "",
+          "icon": "/images/characters/rover-spectro/Rover-Outro-Skill.webp",
           "description": "<p>Rover generates an area of stasis surrounding the next character (or other characters on a nearby team that activates an Outro Skill) over <b>3s</b>.</p>",
           "multiplier": null
         }
@@ -10199,34 +10199,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Odyssey of Beginnings",
         "description": "<p>Rover's Crit. Rate is increased by <b>15%</b> for <b>7s </b>when casting Resonance Skill Resonating Slashes or Resonance Skill Resonating Spin. </p>",
-        "icon": ""
+        "icon": "/images/characters/rover-spectro/Rover-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Microcosmic Murmurs",
         "description": "<p>Rover's <u>Spectro DMG</u> Bonus is increased by <b>20%.</b> </p>",
-        "icon": ""
+        "icon": "/images/characters/rover-spectro/Rover-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Visages of Dust",
         "description": "<p>Rover's Energy Regen is increased by <b>20%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/rover-spectro/Rover-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Resonating Lamella",
         "description": "<p>When casting Resonance Liberation Echoing Resonance, Rover continuously restores HP for all team members: HP equal to<b> 20%</b> of Rover's ATK will be restored every second for <b>5s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/rover-spectro/Rover-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Temporal Virtuoso",
         "description": "<p>Rover's Resonance Liberation DMG Bonus is increased by <b>40%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/rover-spectro/Rover-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Echoes of Wanderlust",
         "description": "<p>Resonance Skill Resonating Slashes and Resonance Skill Resonating Spin reduces the target's <u>Spectro DMG RES</u> by <b>10%</b> on hit for <b>20s.</b> </p>",
-        "icon": ""
+        "icon": "/images/characters/rover-spectro/Rover-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -10634,7 +10634,7 @@
         {
           "type": "Basic Attack",
           "name": "Frigid Light",
-          "icon": "",
+          "icon": "/images/characters/sanhua/Sanhua-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Sanhua performs up to <b>5</b> consecutive attacks, dealing <u>Glacio damage.</u></p><h5>Heavy Attack</h5><p>Sanhua consumes Stamina to launch attacks, dealing <u>Glacio damage.</u></p><h5>Mid-air Attack</h5><p>Sanhua consumes Stamina to perform a Mid-Air Plunging Attack, dealing <u>Glacio damage.</u></p><h5>Dodge Counter</h5><p>Use Basic Attack after a successful Dodge to attack the target, dealing <u>Glacio damage.</u></p>",
           "multiplier": [
             {
@@ -10772,7 +10772,7 @@
         {
           "type": "Resonance Skill",
           "name": "Eternal Frost",
-          "icon": "",
+          "icon": "/images/characters/sanhua/Sanhua-Resonance-Skill.webp",
           "description": "<p>Sanhua sends an air blade to create <b>1</b> \"Ice Prism\" cross the ground, dealing <u>Glacio damage.</u></p>",
           "multiplier": [
             {
@@ -10819,7 +10819,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Glacial Gaze",
-          "icon": "",
+          "icon": "/images/characters/sanhua/Sanhua-Resonance-Liberation.webp",
           "description": "<p>Sanhua deals <u>Glacio damage</u> and creates <b>1</b> \"Glacier\".</p>",
           "multiplier": [
             {
@@ -10881,7 +10881,7 @@
         {
           "type": "Forte Circuit",
           "name": "Clarity of Mind ",
-          "icon": "",
+          "icon": "/images/characters/sanhua/Sanhua-Forte-Circuit.webp",
           "description": "<h5>Heavy Attack: Detonate</h5><p>When holding Basic Attack, your cursor can move. If Basic Attack is released when cursor falls in the \"Frostbite\" area, Sanhua will cast a Heavy Attack Detonate to attack the target, dealing <u>Glacio damage</u>, considered as Heavy Attack damage.</p><h5>Ice Burst</h5><p>Sanhua’s Heavy Attack Detonate detonates all \"Ice Thorns\", \"Ice Prisms\" and \"Glaciers\" within her attack range, dealing <u>Glacio damage</u>. DMG done by Ice Burst is considered as Resonance Skill damage.</p><h5>Frostbite Area</h5><p>The \"Frostbite\" area expands with every <b>1</b> stack of \"Clarity\". \"Clarity\" stacks up to <b>2 </b>times.</p><ul><li><p>Sanhua obtains <b>1 </b>stack of \"Clarity\" upon performing Basic Attack V.</p></li><li><p>Sanhua obtains <b>1 </b>stack of \"Clarity\" upon casting Intro Skill Freezing Thorns.</p></li><li><p>Sanhua obtains <b>1 </b>stack of \"Clarity\" upon casting Resonance Skill Eternal Frost.</p></li><li><p>Sanhua obtains <b>2 </b>stack(s) of \"Clarity\" upon casting Resonance Liberation Glacial Gaze.</p></li><li><p>Upon casting Heavy Attack Detonate, all \"Clarity\" is removed.</p></li></ul><p></p>",
           "multiplier": [
             {
@@ -11032,14 +11032,14 @@
         {
           "type": "Inherent Skill",
           "name": "Condensation",
-          "icon": "",
+          "icon": "/images/characters/sanhua/Sanhua-Inherent-Skill-1.webp",
           "description": "<p>Damage dealt by Sanhua's Resonance Skill increased by <b>20% </b>for <b>8s </b>after casting her Intro Skill.</p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Avalanche",
-          "icon": "",
+          "icon": "/images/characters/sanhua/Sanhua-Inherent-Skill-2.webp",
           "description": "<p>Damage dealt by Sanhua's Forte Circuit Ice Burst is increased by <b>20%</b> for <b>8s </b>after casting Basic Attack V.</p>",
           "multiplier": null
         }
@@ -11048,7 +11048,7 @@
         {
           "type": "Intro Skill",
           "name": "Freezing Thorns",
-          "icon": "",
+          "icon": "/images/characters/sanhua/Sanhua-Intro-Skill.webp",
           "description": "<p>Sanhua swings her blade downward and creates <b>1</b> \"Ice Thorn\", dealing <u>Glacio damage.</u></p>",
           "multiplier": [
             {
@@ -11082,7 +11082,7 @@
         {
           "type": "Outro Skill",
           "name": "Silversnow",
-          "icon": "",
+          "icon": "/images/characters/sanhua/Sanhua-Outro-Skill.webp",
           "description": "<p>The next character (or other characters on a nearby team that activates an Outro Skill) gains <b>38%</b> Basic Attack DMG Deepen for <b>14s</b>, or until the character is switched off field.</p>",
           "multiplier": null
         }
@@ -11090,34 +11090,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Solitude's Embrace",
         "description": "<p>Basic Attack V increases Sanhua's Crit. Rate by <b>15%</b> for <b>10s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/sanhua/Sanhua-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Snowy Clarity",
         "description": "<p>Stamina cost of Heavy Attack Detonate is reduced by <b>10</b>. When Sanhua casts Resonance Skill Eternal Frost, her Anti-interruption is enhanced for <b>10s. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/sanhua/Sanhua-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Anomalous Vision",
         "description": "<p>Sanhua's damage dealt is increased by <b>35%</b> against targets with HP below<b> 70%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/sanhua/Sanhua-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Blade Mastery",
         "description": "<p>Resonance Liberation Glacial Gaze restores <b>10 </b>Resonance Energy. DMG of the next Heavy Attack Detonate within <b>5s </b>is increased by <b>120%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/sanhua/Sanhua-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Unraveling Fate",
         "description": "<p>Crit. DMG of Forte Circuit Ice Burst is increased by <b>100%</b>. Ice Creations (Ice Thorn, Ice Prism, and Glacier) will explode even if they are not detonated. </p>",
-        "icon": ""
+        "icon": "/images/characters/sanhua/Sanhua-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Daybreak Radiance",
         "description": "<p>After an Ice Prism or a Glacier is detonated, all team members' ATK is increased by <b>10%</b> for <b>20s</b>, stacking up to <b>2</b> times. </p>",
-        "icon": ""
+        "icon": "/images/characters/sanhua/Sanhua-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -11530,7 +11530,7 @@
         {
           "type": "Basic Attack",
           "name": "Concealed Edge",
-          "icon": "",
+          "icon": "/images/characters/taoqi/Taoqi-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Taoqi performs up to 4 continuous attacks, dealing <u>Havoc DMG.</u></p><h5>Heavy Attack</h5><p>Taoqi consumes Stamina and enters Rocksteady Defense state.</p><h5>Rocksteady Defense</h5><p>Taoqi's damage taken is reduced by <b>35%.</b></p><ul><li><p>When Taoqi is attacked during Rocksteady Defense, she will cast Strategic Parry</p></li><li><p>Strategic Parry is automatically cast after Rocksteady Defense lasts for <b>3s</b></p></li><li><p>If Taoqi is attacked when casting Resonance Skill Rocksteady Shield, Strategic Parry is automatically cast. </p></li></ul><h5>Strategic Parry</h5><p>Attack the target, dealing <u>Havoc DMG.</u></p><h5>Mid-air Attack</h5><p>Consumes Stamina to perform a Mid-Air Plunging Attack, dealing <u>Havoc DMG.</u></p><h5>Dodge Counter</h5><p>Use Basic Attack after a successful Dodge to attack the target, dealing <u>Havoc DMG.</u></p>",
           "multiplier": [
             {
@@ -11681,7 +11681,7 @@
         {
           "type": "Resonance Skill",
           "name": "Fortified Defense",
-          "icon": "",
+          "icon": "/images/characters/taoqi/Taoqi-Resonance-Skill.webp",
           "description": "<p>Taoqi deals <u>Havoc DMG</u> to surrounding targets, generating <b>3 </b>Rocksteady Shield and restoring HP to Taoqi. If attacked when casting Fortified Defense, Strategic Parry will be automatically cast.</p><h5>Rocksteady Shield</h5><p>When the on-field character is attacked, <b>1 </b>Rocksteady Shield is consumed to reduce the damage taken.</p>",
           "multiplier": [
             {
@@ -11754,7 +11754,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Unmovable",
-          "icon": "",
+          "icon": "/images/characters/taoqi/Taoqi-Resonance-Liberation.webp",
           "description": "<p>Launch an attack based on Taoqi's DEF on the target, dealing <u>Havoc DMG.</u></p>",
           "multiplier": [
             {
@@ -11816,7 +11816,7 @@
         {
           "type": "Forte Circuit",
           "name": "Power Shift",
-          "icon": "",
+          "icon": "/images/characters/taoqi/Taoqi-Forte-Circuit.webp",
           "description": "<h5>Timed Counters</h5><p>When carrying \"Resolving Caliber\", use Basic Attack after Heavy Attack: Strategic Parry or Intro Skill: Defense Formation to cast Timed Counters, performing up to <b>3 </b>consecutive attacks, dealing <u>Havoc DMG,</u> considered as Basic Attack damage.</p><p>Timed Counters consume <b>1 </b>\"Resolving Caliber\" upon hitting an enemy to grant a shield. After casting the Intro Skill Defense Formation, using Basic Attack can directly cast Timed Counters.</p><h5>Resolving Caliber</h5><p>Taoqi can hold up to <b>3 </b>Resolving Caliber. Basic Attack IV will consume all of Taoqi's Rocksteady Shields to obtain that many \"Resolving Caliber\".\nWhile Rocksteady Shield exists, when the on-field character is attacked, <b>1 </b>Rocksteady Shield will be consumed, and \"Resolving Caliber\" is recovered. After Rocksteady Shield ends, all remaining Rocksteady Shield will be consumed to grant that many \"Resolving Caliber\".</p>",
           "multiplier": [
             {
@@ -11915,14 +11915,14 @@
         {
           "type": "Inherent Skill",
           "name": "Steadfast Protection ",
-          "icon": "",
+          "icon": "/images/characters/taoqi/Taoqi-Inherent-Skill-1.webp",
           "description": "<p>During the duration of the Resonance Skill Rocksteady Shield, the Character's DEF is increased by <b>15%.</b></p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Unyielding",
-          "icon": "",
+          "icon": "/images/characters/taoqi/Taoqi-Inherent-Skill-2.webp",
           "description": "<p>After Heavy Attack: Strategic Parry is successfully triggered, <b>25 </b>Stamina is recovered.</p>",
           "multiplier": null
         }
@@ -11931,7 +11931,7 @@
         {
           "type": "Intro Skill",
           "name": "Defense Formation",
-          "icon": "",
+          "icon": "/images/characters/taoqi/Taoqi-Intro-Skill.webp",
           "description": "<p>Attack the target, dealing <u>Havoc DMG.</u></p>",
           "multiplier": [
             {
@@ -11965,7 +11965,7 @@
         {
           "type": "Outro Skill",
           "name": "Iron Will",
-          "icon": "",
+          "icon": "/images/characters/taoqi/Taoqi-Outro-Skill.webp",
           "description": "<p>The next character (or other characters on a nearby team that activates an Outro Skill) gains<b> 38%</b> Resonance Skill DMG Deepen for <b>14 </b>seconds or until the character is switched.</p>",
           "multiplier": null
         }
@@ -11973,34 +11973,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Essense of Tranquility",
         "description": "<p>Forte Circuit Power Shift's Shield is increased by<b> 40%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/taoqi/Taoqi-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Silent Strength",
         "description": "<p>The Crit. Rate and Crit. DMG of Resonance Liberation Unmovable is increased by <b>20% </b>and <b>20%</b>, respectively. </p>",
-        "icon": ""
+        "icon": "/images/characters/taoqi/Taoqi-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Keen-eyed Observer",
         "description": "<p>The duration of Resonance Skill Rocksteady Shield is extended to <b>30s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/taoqi/Taoqi-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Heavylifting Duty",
         "description": "<p>When Taoqi successfully triggers Heavy Attack Strategic Parry, she restores <b>25%</b> HP and increases her DEF by <b>50%</b> for <b>5s</b>. This can be triggered once every <b>15 </b>seconds. </p>",
-        "icon": ""
+        "icon": "/images/characters/taoqi/Taoqi-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Benevolent Guardian",
         "description": "<p>The damage of Forte Circuit Power Shift is increased by<b> 50%</b>. When Forte Circuit Power Shift hits a target, restore <b>20 </b>Resonance Energy. </p>",
-        "icon": ""
+        "icon": "/images/characters/taoqi/Taoqi-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Defender of Peace",
         "description": "<p>The damage of Taoqi's Basic Attack and Heavy Attack is increased by <b>40% </b>while the Shield granted by Resonance Skill Rocksteady Shield holds. </p>",
-        "icon": ""
+        "icon": "/images/characters/taoqi/Taoqi-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -12393,7 +12393,7 @@
         {
           "type": "Basic Attack",
           "name": "Cultivation",
-          "icon": "",
+          "icon": "/images/characters/verina/Verina-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Verina performs up to 5 consecutive attacks with vines, dealing <u>Spectro DMG</u>. </p><h5>Heavy Attack</h5><p>Verina consumes Stamina to charge forward, dealing <u>Spectro DMG.</u></p><h5>Mid-air Attack</h5><p>Verina consumes Stamina to perform up to 3 consecutive attacks in mid-air, dealing <u>Spectro DMG.</u></p><h5>Mid-air Heavy Attack</h5><p>Hold Basic Attack to consume Stamina and perform mid-air Plunging Attack, dealing <u>Spectro DMG.</u>.</p><h5>Dodge Counter</h5><p>Use Basic Attack after a successful Dodge, to attack the target, dealing <u>Spectro DMG.</u></p>",
           "multiplier": [
             {
@@ -12583,7 +12583,7 @@
         {
           "type": "Resonance Skill",
           "name": "Botany Experiment",
-          "icon": "",
+          "icon": "/images/characters/verina/Verina-Resonance-Skill.webp",
           "description": "<p>Verina converges an energy field in front to grow foliage, dealing <u>Spectro DMG</u> within the range.</p>",
           "multiplier": [
             {
@@ -12630,7 +12630,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Arboreal Flourish",
-          "icon": "",
+          "icon": "/images/characters/verina/Verina-Resonance-Liberation.webp",
           "description": "<p>Verina nourishes nearby foliage at rapid speed, dealing <u>Spectro DMG</u> while restoring HP to all team members nearby. A Photosynthesis Mark is applied to the target on hit.</p><h5>Photosynthesis Mark</h5><p>Whenever a team member nearby performs an attack on targets with a Photosynthesis Mark, Verina performs a Coordinated Attack, dealing <u>Spectro DMG</u> while restoring HP to the party members dealing damage, triggered once per second.</p>",
           "multiplier": [
             {
@@ -12744,7 +12744,7 @@
         {
           "type": "Forte Circuit",
           "name": "Starflower Blooms",
-          "icon": "",
+          "icon": "/images/characters/verina/Verina-Forte-Circuit.webp",
           "description": "<h5>Heavy Attack: Starflower Blooms</h5><p>When casting Heavy Attack, if Verina carries \"Photosynthesis Energy\", Verina consumes <b>1 </b>stack of \"Photosynthesis Energy\" to recover Concerto Energy and restore HP for all party members nearby;\nHeavy Attack: Starflower Blooms deals <u>Spectro DMG</u>, considered as Heavy Attack damage.</p><h5>Mid-air Attack: Starflower Blooms</h5><p>When casting Mid-air Attack, if Verina carries \"Photosynthesis Energy\", Verina consumes <b>1</b> stack of \"Photosynthesis Energy\" to recover Concerto Energy and restore HP for all party members nearby;\nMid-air Attack: Starflower Blooms deals <u>Spectro DMG</u>, considered as Basic Attack damage. Verina can cast Mid-air Attack: Starflower Blooms by using Basic Attack after casting Heavy Attack: Starflower Blooms.</p><h5>Photosynthesis Energy</h5><p>Verina can hold up to <b>4 </b>\"Photosynthesis Energy\".\nVerina obtains <b>1 </b>stack of \"Photosynthesis Energy\" for every Basic Attack V on hit; Verina obtains <b>1 </b>stack of \"Photosynthesis Energy\" for every Resonance Skill Botany Experiment on hit; Verina obtains <b>1 </b>stack of \"Photosynthesis Energy\" for every Intro Skill Verdant Growth on hit.</p>",
           "multiplier": [
             {
@@ -12830,14 +12830,14 @@
         {
           "type": "Inherent Skill",
           "name": "Grace of Life",
-          "icon": "",
+          "icon": "/images/characters/verina/Verina-Inherent-Skill-1.webp",
           "description": "<p>Verina protects a party member from fatal damage and grants a shield with strength equal to <b>120%</b> of Verina's ATK, lasting for <b>10s</b>. This can be triggered once every <b>10 </b>minutes.</p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Gift of Nature",
-          "icon": "",
+          "icon": "/images/characters/verina/Verina-Inherent-Skill-2.webp",
           "description": "<p>When Verina casts Heavy Attack Starflower Blooms, Mid-air Attack Starflower Blooms, Resonance Liberation Arboreal Flourish or Outro Skill Blossom, ATK for all party members is increased by <b>20%</b> for <b>20s</b>.</p>",
           "multiplier": null
         }
@@ -12846,7 +12846,7 @@
         {
           "type": "Intro Skill",
           "name": "Verdant Growth",
-          "icon": "",
+          "icon": "/images/characters/verina/Verina-Intro-Skill.webp",
           "description": "<p>Verina attacks the target, dealing <u>Spectro DMG.</u></p>",
           "multiplier": [
             {
@@ -12880,7 +12880,7 @@
         {
           "type": "Outro Skill",
           "name": "Blossom",
-          "icon": "",
+          "icon": "/images/characters/verina/Verina-Outro-Skill.webp",
           "description": "<p>Verina recovers HP to The next character (or other characters on a nearby team that activates an Outro Skill) equal to <b>19%</b> of her ATK per second for <b>6s</b>. All Characters on nearby teams gain <b>15%</b> all-Type DMG Deepen for <b>30s</b>.</p>",
           "multiplier": null
         }
@@ -12888,34 +12888,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Moment of Emergence",
         "description": "<p>Outro Skill Blossom grants the next character a continuous Healing effect, recovering HP equal to <b>20%</b> of Verina's ATK every <b>5 </b>seconds for <b>30s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/verina/Verina-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Sprouting Reflections",
         "description": "<p>Resonance Skill Botany Experiment additionally grants <b>1</b> [Photosynthetic Energy] and <b>10 </b>Concerto Energy. </p>",
-        "icon": ""
+        "icon": "/images/characters/verina/Verina-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "The Choice to Flourish",
         "description": "<p>Healing of Resonance Liberation's Photosynthesis Mark is increased by <b>12%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/verina/Verina-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Blossoming Embrace",
         "description": "<p>Heavy Attack Starflower Blooms, Mid-Air Attack Starflower Blooms, Resonance Liberation Arboreal Flourish and Outro Skill Blossom increases the <u>Spectro DMG</u> Bonus of all team members by <b>15% </b>for <b>24s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/verina/Verina-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Miraculous Blooms",
         "description": "<p>When Verina heals a team member with HP less than <b>50%</b>, her Healing is increased by <b>20%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/verina/Verina-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Joyous Harvest",
         "description": "<p>Heavy Attack Starflower Blooms and Mid-Air Attack Starflower Blooms deal <b>20%</b> more damage. They will trigger Coordinated Attack <b>1 </b>time and heal all characters nearby. The DMG of this Coordinated Attack and the Healing are equal to those of the Resonance Liberation's Photosynthesis Mark. </p>",
-        "icon": ""
+        "icon": "/images/characters/verina/Verina-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -13287,7 +13287,7 @@
         {
           "type": "Basic Attack",
           "name": "Feather as Blade ",
-          "icon": "",
+          "icon": "/images/characters/yangyang/Yangyang-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Yangayang performs up to <b>4 </b>consecutive attacks, dealing <u>Aero DMG.</u></p><h5>Heavy Attack</h5><p>Yangyang consumes Stamina to lunge forward, dealing <u>Aero DMG.</u></p><h5>Heavy Attack: Zephyr Song</h5><p>Use a Basic Attack after Heavy Attack or Dodge Counter to cast Heave Attack Monsoon to attack the target, dealing <u>Aero DMG.</u></p><h5>Mid-air Attack</h5><p>Yangyang consumes Stamina to perform a Plunging Attack from mid-air, dealing <u>Aero DMG.</u></p><h5>Dodge Counter</h5><p>Use Basic Attack after a successful Dodge to thrust forward, dealing <u>Aero DMG.</u></p>",
           "multiplier": [
             {
@@ -13425,7 +13425,7 @@
         {
           "type": "Resonance Skill",
           "name": "Zephyr Domain",
-          "icon": "",
+          "icon": "/images/characters/yangyang/Yangyang-Resonance-Skill.webp",
           "description": "<p>Yangyang wields her sword to create a whirling vortex of winds that gathers nearby enemies to the center, dealing <u>Aero DMG.</u></p>",
           "multiplier": [
             {
@@ -13472,7 +13472,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Wind Spirals",
-          "icon": "",
+          "icon": "/images/characters/yangyang/Yangyang-Resonance-Liberation.webp",
           "description": "<p>Yangyang conjures a mighty Cyclone that gathers nearby enemies, dealing <u>Aero DMG.</u></p>",
           "multiplier": [
             {
@@ -13534,7 +13534,7 @@
         {
           "type": "Forte Circuit",
           "name": "Echoing Feathers",
-          "icon": "",
+          "icon": "/images/characters/yangyang/Yangyang-Forte-Circuit.webp",
           "description": "<h5>Heavy Attack: Stormy Strike</h5><p>When Yangyang has <b>3 </b>Melodies, she can cast Stormy Strike after Heavy Attack, dealing <u>Aero DMG.</u></p><h5>Mid-air Attack: Feather Release</h5><p>When Yangyang has <b>3 </b>Melodies, casting Basic Attacks in mid-air will cause her to consume all Melodies, perform consecutive strikes, and dive from mid-air, dealing <u>Aero DMG.</u> As Yangyang lands, she sheathes her sword with an attack, dealing <u>Aero DMG</u>. This attack is considered as Basic Attack.</p><h5>Melody</h5><p>Yangyang can hold up to <b>3 </b>Melodies\nYangyang obtains <b>1 </b>Melody with every Basic Attack IV on hit. Yangyang obtains <b>1 </b>Melody for every Zephyr Song on hit. Yangyang obtains <b>1 </b>Melody for every Resonance Skill Zephyr Domain on hit. Yangyang obtains <b>1 </b>Melody upon casting Intro Skill Cerulean Song.</p>",
           "multiplier": [
             {
@@ -13581,14 +13581,14 @@
         {
           "type": "Inherent Skill",
           "name": "Compassion",
-          "icon": "",
+          "icon": "/images/characters/yangyang/Yangyang-Inherent-Skill-1.webp",
           "description": "<p>Yangyang recovers <b>30 </b>Stamina after she casts a Mid-air Attack Feather Release.</p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Lazuline Mercy",
-          "icon": "",
+          "icon": "/images/characters/yangyang/Yangyang-Inherent-Skill-2.webp",
           "description": "<p>Yangyang's <u>Aero DMG</u> Bonus is increased by<b> 8%</b> for <b>8s </b>after casting Intro Skill Cerulean Song.</p>",
           "multiplier": null
         }
@@ -13597,7 +13597,7 @@
         {
           "type": "Intro Skill",
           "name": "Cerulean Song",
-          "icon": "",
+          "icon": "/images/characters/yangyang/Yangyang-Intro-Skill.webp",
           "description": "<p>Yangyang sends the target into the air, dealing <u>Aero DMG.</u></p>",
           "multiplier": [
             {
@@ -13631,7 +13631,7 @@
         {
           "type": "Outro Skill",
           "name": "Whispering Breeze",
-          "icon": "",
+          "icon": "/images/characters/yangyang/Yangyang-Outro-Skill.webp",
           "description": "<p>Recovers <b>4</b> Resonance Energy per second in <b>5s </b>for the next character (or other characters on a nearby team that activates an Outro Skill).</p>",
           "multiplier": null
         }
@@ -13639,34 +13639,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Sapphire Skies, Soaring Sparrows",
         "description": "<p>Intro Skill Cerulean Song increases Yangyang's <u>Aero DMG</u> Bonus by an additional <b>15%</b> for <b>8s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/yangyang/Yangyang-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Nesting  Twigs, in Beaks They Harrow",
         "description": "<p>Heavy Attack recovers an additional <b>10 </b>Resonance Energy for Yangyang when it hits a target, which can be triggered <b>1 </b>time every <b>20 </b>seconds. </p>",
-        "icon": ""
+        "icon": "/images/characters/yangyang/Yangyang-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Nature Sings in Symphony",
         "description": "<p>Resonance Skill DMG Bonus is increased by<b> 40%</b>. The Wind Field's pulling effect on surrounding targets is enhanced, and the pulling range is expanded by <b>33%</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/yangyang/Yangyang-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Close Your Eyes and Listen in",
         "description": "<p>Mid-Air Attack Feather Release's damage is increased by <b>95%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/yangyang/Yangyang-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Winds Whissper in Harmony",
         "description": "<p>Resonance Liberation Wind Spirals's damage is increased by <b>85%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/yangyang/Yangyang-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "A Tribute to Life's Sweet Hymn",
         "description": "<p>After casting Mid-Air Attack Feather Release, the ATK of all team members is increased by <b>20%</b> for <b>20s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/yangyang/Yangyang-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -14047,7 +14047,7 @@
         {
           "type": "Basic Attack",
           "name": "Zapstring's Dance",
-          "icon": "",
+          "icon": "/images/characters/yinlin/Yinlin-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Yinlin controls the puppet \"Zapstring\" to perform up to <b>4</b> attacks, dealing <u>Electro DMG.</u></p><h5>Heavy Attack</h5><p>Consumes Stamina to control puppet \"Zapstring\" to attack, dealing <u>Electro DMG.</u></p><h5>Mid-air Attack</h5><p>Consumes Stamina to control the puppet \"Zapstring\" to perform a Plunging Attack, dealing <u>Electro DMG.</u></p><h5>Dodge Counter</h5><p>Use Basic Attack after a successful Dodge to attack the target, dealing <u>Electro DMG.</u></p>",
           "multiplier": [
             {
@@ -14172,7 +14172,7 @@
         {
           "type": "Resonance Skill",
           "name": "Magnetic Roar",
-          "icon": "",
+          "icon": "/images/characters/yinlin/Yinlin-Resonance-Skill.webp",
           "description": "<h5>Magnetic Roar</h5><p>The puppet \"Zapstring\" deals <u>Electro DMG</u> to the target, and puts Yinlin into the Execution Mode.</p><h5>Execution Mode</h5><p>Basic Attack and Dodge Counter will trigger <b>1 </b>Electromagnetic Blast when hitting a target.  Each stage of Basic Attack or Dodge Counter can only trigger <b>1 </b>Electromagnetic Blast, up to <b>4 </b>times.</p><h5>Electromagnetic Blast</h5><p>Attack all targets marked with Resonance Circuit Sinner's Mark, dealing <u>Electro DMG.</u></p><h5>Lightning Execution</h5><p>Use Resonance Skill after casting Resonance Skill Magnetic Roar to cast Lightning Execution to attack the target, dealing <u>Electro DMG.</u> If Resonance Skill Lightning Execution is not activated in a while or this Character is switched, this Skill will be put on Cooldown.</p>",
           "multiplier": [
             {
@@ -14284,7 +14284,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Thundering Wrath",
-          "icon": "",
+          "icon": "/images/characters/yinlin/Yinlin-Resonance-Liberation.webp",
           "description": "<p>Command \"Zapstring\" to call for thunder to fall upon a large range, dealing <u>Electro DMG.</u></p>",
           "multiplier": [
             {
@@ -14346,7 +14346,7 @@
         {
           "type": "Forte Circuit",
           "name": "Chameleon Cipher",
-          "icon": "",
+          "icon": "/images/characters/yinlin/Yinlin-Forte-Circuit.webp",
           "description": "<h5>Chameleon Cipher</h5><p>When Yinlin's \"Judgment Points\" is full, her Heavy Attack is replaced with Chameleon Cipher, which consumes all \"Judgment Points\" to attack the target, dealing<u> Electro DMG</u>. When it hits a target marked with Sinner's Mark, the Sinner's Mark is replaced with Punishment Mark, lasting for <b>18 </b>seconds.</p><h5>Sinner's Mark</h5><p>Normal Attack Zapstring's Dance, Resonance Liberation Thundering Wrath, and Intro Skill Roaring Strorm will apply Sinner's Mark on hit.\nSinner's Mark is removed when Yinlin exits.</p><h5>\"Punishment Mark\"</h5><p>When a target marked with Punishment Mark is damaged, Judgement Strike will fall, dealing <u>Electro DMG</u> to all targets marked with Punishment Mark. This can be triggered up to once per second.</p><h5>Judgment Points</h5><ul><li><p>Yinlin can hold up to 100 Judgement Points.</p></li><li><p>When Normal Attack Zapstring's Dance hits a target, restores \"Judgment Points\".</p></li><li><p>Upon casting Resonance Skill Magnetic Roar, restores \"Judgment Points\".</p></li><li><p>When Resonance Skill Electromagnetic Blast hits a target, restores \"Judgment Points\".</p></li></ul><p></p>",
           "multiplier": [
             {
@@ -14380,14 +14380,14 @@
         {
           "type": "Inherent Skill",
           "name": "Pain Immersion",
-          "icon": "",
+          "icon": "/images/characters/yinlin/Yinlin-Inherent-Skill-1.webp",
           "description": "<p>After using Resonance Skill Magnetic Roar, Yinlin's Crit. Rate is increased by <b>15% </b>for <b>5s</b>.</p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Deadly Focus",
-          "icon": "",
+          "icon": "/images/characters/yinlin/Yinlin-Inherent-Skill-2.webp",
           "description": "<p>The damage of Resonance Skill Lightning Execution is increased by <b>10%</b> when hitting targets marked with \"Sinner's Mark\", and Yinlin's ATK is increased by <b>10%</b> for <b>4s </b>when this is triggered.</p>",
           "multiplier": null
         }
@@ -14396,7 +14396,7 @@
         {
           "type": "Intro Skill",
           "name": "Raging Storm",
-          "icon": "",
+          "icon": "/images/characters/yinlin/Yinlin-Intro-Skill.webp",
           "description": "<p>Command puppet \"Zapstring\" to attack, dealing <u>Electro DMG</u> in a large range.</p>",
           "multiplier": [
             {
@@ -14430,7 +14430,7 @@
         {
           "type": "Outro Skill",
           "name": "Strategist",
-          "icon": "",
+          "icon": "/images/characters/yinlin/Yinlin-Outro-Skill.webp",
           "description": "<p>The next character (or other characters on a nearby team that activates an Outro Skill) gains <b>20%</b> <u>Electro DMG</u> Deepen, and <b>25%</b> Resonance Liberation DMG Deepen for <b>14 </b>seconds or until the Character is switched.</p>",
           "multiplier": null
         }
@@ -14438,34 +14438,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Morality's Crossroads",
         "description": "<p>Resonance Skill Magnetic Roar and Lightning Execution deal <b>70%</b> more damage. </p>",
-        "icon": ""
+        "icon": "/images/characters/yinlin/Yinlin-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Ensnarled by Rapport",
         "description": "<p>Resonance Skill Electromagnetic Blast recovers an additional <b>5 </b>\"Judgement Point(s)\" and <b>5 </b>Resonance Energy on hit. </p>",
-        "icon": ""
+        "icon": "/images/characters/yinlin/Yinlin-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Unyielding Verdict",
         "description": "<p>Forte Circuit Judgment Strike's DMG multiplier is increased by <b>55%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/yinlin/Yinlin-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Steadfast Conviction",
         "description": "<p>When Forte Circuit Judgment Strike hits a target, the ATK of all team members is increased by<b> 20% </b>for <b>12s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/yinlin/Yinlin-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Resounding Will",
         "description": "<p>Resonance Liberation Thundering Wrath deals<b> 100%</b> extra damage to targets with Forte Circuit's Sinner's Mark or Punishment Mark. </p>",
-        "icon": ""
+        "icon": "/images/characters/yinlin/Yinlin-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Pursuit of Justice",
         "description": "<p>In the first <b>30s </b>after casting Resonance Liberation Thundering Wrath, when Yinlin's Basic Attack hits a target, Furious Thunder will be triggered, dealing <u>Electro DMG</u> equal to <b>419.59%</b> of Yinlin's ATK. Every Basic Attack hit can trigger Furious Thunder <b>1 </b>time, up <b>to 4</b> times. This is considered Resonance Skill DMG. </p>",
-        "icon": ""
+        "icon": "/images/characters/yinlin/Yinlin-RC-6.webp"
       }
     ],
     "minorFortes": [
@@ -14878,7 +14878,7 @@
         {
           "type": "Basic Attack",
           "name": "Leihuangquan",
-          "icon": "",
+          "icon": "/images/characters/yuanwu/Yuanwu-Basic-Attack.webp",
           "description": "<h5>Basic Attack</h5><p>Perform up to <b>5 </b>continuous attacks, dealing <u>Electro DMG.</u></p><h5>Heavy Attack</h5><p>Consume Stamina to attack the target, dealing <u>Electro DMG.</u></p><h5>Mid-air Attack</h5><p>Consume Stamina to launch a Plunging Attack, dealing <u>Electro DMG.</u></p><h5>Dodge Counter</h5><p>Use Basic Attack after a successful Dodge to attack the target, dealing <u>Electro DMG.</u></p>",
           "multiplier": [
             {
@@ -15016,7 +15016,7 @@
         {
           "type": "Resonance Skill",
           "name": "Leihuang Master",
-          "icon": "",
+          "icon": "/images/characters/yuanwu/Yuanwu-Resonance-Skill.webp",
           "description": "<h5>Thunder Wedge</h5><p>Yuanwu summons Thunder Wedge, dealing Electro DMG, and forms a Thunder Field centered on the Thunder Wedge. Thunder Wedge lasts for <b>12s</b>. </p><p>Forte Circuit Rumbling Spark and Resonance Liberation Blazing Might will immediately detonate Resonance Skill Thunder Wedge on the field, dealing <u>Electro DMG</u>, considered as Resonance Skill Damage.</p><h5>Thunder Field</h5><p>The on-field character gains the effects below when in the Thunder Field: a Coordinated Attack from Resonance Skill Thunder Wedge is triggered when attacks hit a target, dealing <u>Electro DMG.</u> This can be triggered once every <b>1.2s</b>. The effect lasts for <b>1.5s.</b></p>",
           "multiplier": [
             {
@@ -15128,7 +15128,7 @@
         {
           "type": "Resonance Liberation",
           "name": "Blazing Might",
-          "icon": "",
+          "icon": "/images/characters/yuanwu/Yuanwu-Resonance-Liberation.webp",
           "description": "<p>Awaken the power of thunder and provide Forte Circuit Lightning Infused status for all nearby characters for <b>10s</b>, granting them increased Anti-interruption, then perform a powerful blow that deals <u>Electro DMG. </u></p>",
           "multiplier": [
             {
@@ -15190,7 +15190,7 @@
         {
           "type": "Forte Circuit",
           "name": "Unassuming Blade",
-          "icon": "",
+          "icon": "/images/characters/yuanwu/Yuanwu-Forte-Circuit.webp",
           "description": "<h5>Rumbling Spark</h5><p>When \"Readiness\" is full, long press Resonance Skill to consume all \"Readiness\" and cast Rumbling Spark, dealing <u>Electro DMG</u> and entering the Lightning Infused state.</p><h5>Thunder Uprising</h5><p>When you have full \"Readiness\", Resonance Skill Thunder Wedge will cast Thunder Uprising, dealing <u>Electro DMG</u>.</p><h5>Lightning Infused</h5><p>The character in Lightning Infused state has a greatly increased anti-interruption. When Yuanwu is in this state:</p><ul><li><p>Basic Attacks: Hits targets in a larger range, depletes enemy Vibration Strength faster.</p></li><li><p>Heavy Attacks: Attack speed is increased, deplete enemy Vibration Strength faster</p></li><li><p>Dodge Counters: Attack speed is increased, deplete enemy Vibration Strength faster. </p></li><li><p>Use Basic Attack within <b>3s </b>after casting a Heavy Attack or a successful Counterattack to cast Thunderweaver, dealing <u>Electro DMG</u>, considered as Basic Attack damage; </p></li></ul><h5>Edge</h5><p>Yuanwu can hold up to <b>100 </b>\"Readiness\". </p><p>When Resonance Skill Thunder Wedge is on the field, Yuanwu gains <b>6 </b>\"Readiness\" every second, even when he is not the on-field character; When Resonance Skill Thunder Wedge hits a target with a Coordinated Attack, Yuanwu gains <b>5 </b>\"Readiness\".</p>",
           "multiplier": [
             {
@@ -15341,14 +15341,14 @@
         {
           "type": "Inherent Skill",
           "name": "Thunderweaver",
-          "icon": "",
+          "icon": "/images/characters/yuanwu/Yuanwu-Inherent-Skill-1.webp",
           "description": "<p>The damage multiplier of Resonance Skill Thunder Uprising is increased by <b>40%</b>, and its depletion of enemy Vibration Strength is enhanced.</p>",
           "multiplier": null
         },
         {
           "type": "Inherent Skill",
           "name": "Reserved Confidence",
-          "icon": "",
+          "icon": "/images/characters/yuanwu/Yuanwu-Skill-2.webp",
           "description": "<p>The ranges of the Resonance Skill Thunder Field and Thunder Uprising are greatly expanded. When exiting during combat, if Readiness is not full, Yuanwu will automatically leave <b>1</b> Resonance Skill Thunder Wedge in place.</p>",
           "multiplier": null
         }
@@ -15357,7 +15357,7 @@
         {
           "type": "Intro Skill",
           "name": "Thunder Bombardment",
-          "icon": "",
+          "icon": "/images/characters/yuanwu/Yuanwu-Intro-Skill.webp",
           "description": "<p>Attack the target, dealing <u>Electro DMG.</u></p>",
           "multiplier": [
             {
@@ -15391,7 +15391,7 @@
         {
           "type": "Outro Skill",
           "name": "Lightning Manipulation",
-          "icon": "",
+          "icon": "/images/characters/yuanwu/Yuanwu-Outro-Skill.webp",
           "description": "<p>Yuanwu summons thunderbolts on a field centered on the skill target, dealing significant Vibration Strength depletion to the enemies hit.</p>",
           "multiplier": null
         }
@@ -15399,34 +15399,34 @@
     },
     "sequences": [
       {
-        "name": "",
+        "name": "Steaming Cup of Justice",
         "description": "<p>When Yuanwu is in Forte Circuit's Lightning Infused state, his Basic Attack Speed is increased by <b>20%,</b> and his Heavy Attack Speed is increased by <b>20%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/yuanwu/Yuanwu-RC-1.webp"
       },
       {
-        "name": "",
+        "name": "Fierce Heart, Serene Mind",
         "description": "<p>Intro Skill Thunder Bombardment additionally recovers <b>15 </b>Resonance Energy for Yuanwu. </p>",
-        "icon": ""
+        "icon": "/images/characters/yuanwu/Yuanwu-RC-2.webp"
       },
       {
-        "name": "",
+        "name": "Upholder of Integrity",
         "description": "<p>When the Coordinated Attacks of Resonance Skill's Thunder Wedge hits a target, the damage is additionally increased by <b>20%</b> of Yuanwu's DEF. </p>",
-        "icon": ""
+        "icon": "/images/characters/yuanwu/Yuanwu-RC-3.webp"
       },
       {
-        "name": "",
+        "name": "Retributive Knuckles",
         "description": "<p>When casting Resonance Liberation Blazing Might, the on-field character will gain a Shield equal to<b> 200%</b> of Yuanwu's DEF for <b>10s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/yuanwu/Yuanwu-RC-4.webp"
       },
       {
-        "name": "",
+        "name": "Neighborhood Protector",
         "description": "<p>When Resonance Skill Thunder Wedge is on the field, Yuanwu's Resonance Liberation DMG Bonus is increased by<b> 50%. </b></p>",
-        "icon": ""
+        "icon": "/images/characters/yuanwu/Yuanwu-RC-5.webp"
       },
       {
-        "name": "",
+        "name": "Defender of All Realms",
         "description": "<p>All team members nearby within the range of Resonance Skill Thunder Wedge will gain a <b>32%</b> DEF increase, lasting <b>3s</b>. </p>",
-        "icon": ""
+        "icon": "/images/characters/yuanwu/Yuanwu-RC-6.webp"
       }
     ],
     "minorFortes": [

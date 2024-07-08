@@ -20,13 +20,13 @@ export async function GET(request: Request) {
     });
 
     const mainEchoesResult = await db.query.echoes.findMany({
-      where: isTuple(mainEchoes) ? inArray(echoes.name, mainEchoes) : sql`(${sql.join(querySonatas, sql.raw(` `))})`,
+      where: isTuple(mainEchoes) ? inArray(echoes.name, mainEchoes) : sql`(${sql.join(querySonatas, sql.raw(` `))}) and echoes.cost = 4`,
       limit: 10,
       orderBy: desc(echoes.cost),
     })
     const subEchoesResult = await db.query.echoes.findMany({
       where: isTuple(subEchoes) ? inArray(echoes.name, subEchoes) : sql`(${sql.join(querySonatas, sql.raw(` `))})`,
-      limit: 16,
+      limit: 12 + mainEchoesResult.length,
       orderBy: desc(echoes.cost),
     })
 

@@ -86,7 +86,7 @@ export default function Overview() {
 
         <div className="basis-1/3 relative">
           <img
-            src={character?.imageProfile!}
+            src={character?.imageCard!}
             className="scale-[110%] absolute right-[5%] bottom-[5%] select-none disable-drag"
           />
         </div>

@@ -33,7 +33,7 @@ export default function CharacterOverviewMain({
         <main className="relative">
           <div
             className="bg-cover w-full h-screen bg-center absolute bg-blend-luminosity opacity-20 gradient-mask-b-20"
-            style={{ backgroundImage: `url('${character?.imageProfile}')` }}
+            style={{ backgroundImage: `url('${character?.imageCard}')` }}
           />
 
           <section className="max-xl:container px-48 py-32 relative">

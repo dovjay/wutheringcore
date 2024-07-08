@@ -25,7 +25,7 @@ export function AbilityCard({
     <div className="flex flex-col items-center w-32">
       <img
         src={skill?.icon}
-        className="rounded-full w-20 aspect-square bg-zinc-600"
+        className="rounded-full w-20 aspect-square bg-zinc-800 p-2"
       />
       <div className="py-2 px-3 flex flex-col text-center">
         <div className="font-bold text-sm text-nowrap">{skill?.name}</div>
@@ -72,7 +72,7 @@ export default function BuildGuideRole() {
   useEffect(() => {
     const buildIndex = builds.findIndex((build) => build.buildName === role);
 
-    const bestWeaponsUrl = encodeURI(`/api/build-weapons?best-weapons=${builds[buildIndex]?.bestWeapons.join(",")}`);
+    const bestWeaponsUrl = encodeURI(`/api/build-weapons?best-weapons=${encodeURIComponent(builds[buildIndex]?.bestWeapons.join(",")!)}`);
     fetch(bestWeaponsUrl)
       .then((res) => res.json())
       .then(({ data }) => setBestWeapons(data));
@@ -82,7 +82,7 @@ export default function BuildGuideRole() {
     if (mainEchoes.length > 0) params.set("main-echoes", mainEchoes.join(","));
     if (subEchoes.length > 0) params.set("sub-echoes", subEchoes.join(","));
     if (sonataCombination.length > 0) params.set("sonatas", sonataCombination.join(","));
-    const bestEchoesUrl = encodeURI(`/api/build-echoes?${params.toString()}`);
+    const bestEchoesUrl = `/api/build-echoes?${params.toString()}`;
     fetch(bestEchoesUrl)
       .then((res) => res.json())
       .then(({ data }) => setBestEchoes(data));
@@ -203,11 +203,14 @@ export default function BuildGuideRole() {
                           ))
                         }
                       </div>
-                      <Button asChild variant="link">
-                        <Link href={`/echoes?sonatas=${build.sonataCombination.join(",")}`}>
-                          See More
-                        </Link>
-                      </Button>
+                      {
+                        bestEchoes.subEchoes.length > 0 &&
+                        <Button asChild variant="link">
+                          <Link href={`/echoes?sonatas=${build.sonataCombination.join(",")}`}>
+                            See More
+                          </Link>
+                        </Button>
+                      }
                     </div>
                   </div>
 
