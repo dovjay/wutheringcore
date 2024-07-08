@@ -15348,7 +15348,7 @@
         {
           "type": "Inherent Skill",
           "name": "Reserved Confidence",
-          "icon": "/images/characters/yuanwu/Yuanwu-Skill-2.webp",
+          "icon": "/images/characters/yuanwu/Yuanwu-Inherent-Skill-2.webp",
           "description": "<p>The ranges of the Resonance Skill Thunder Field and Thunder Uprising are greatly expanded. When exiting during combat, if Readiness is not full, Yuanwu will automatically leave <b>1</b> Resonance Skill Thunder Wedge in place.</p>",
           "multiplier": null
         }

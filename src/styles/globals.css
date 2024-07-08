@@ -4,7 +4,47 @@
 
 @layer components {
   .weapon-skill>span {
-    @apply font-bold text-yellow-600
+    @apply font-bold text-yellow-500
+  }
+
+  .character-skill b {
+    @apply font-bold text-yellow-500
+  }
+
+  .character-skill h5 {
+    @apply font-bold
+  }
+  
+  .character-skill p {
+    @apply mb-3
+  }
+
+  .character-skill u {
+    @apply font-bold text-yellow-200 no-underline
+  }
+
+  .Electro u {
+    @apply font-bold text-purple-400 no-underline
+  }
+
+  .Fusion u {
+    @apply font-bold text-red-400 no-underline
+  }
+
+  .Glacio u {
+    @apply font-bold text-sky-200 no-underline
+  }
+
+  .Aero u {
+    @apply font-bold text-green-300 no-underline
+  }
+
+  .Havoc u {
+    @apply font-bold text-pink-500 no-underline
+  }
+
+  .Spectro u {
+    @apply font-bold text-yellow-200 no-underline
   }
 }
 

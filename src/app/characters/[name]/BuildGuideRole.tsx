@@ -137,13 +137,13 @@ export default function BuildGuideRole() {
 
                 <div className="grid grid-cols-2 gap-4 max-md:grid-cols-1">
                   {/* Stats */}
-                  <div className="flex flex-col gap-4 bg-zinc-600/50 p-3 rounded-xl h-fit min-w-80">
+                  <div className="flex flex-col gap-4 bg-zinc-800 p-3 rounded-xl h-fit min-w-80">
                     <div className="flex flex-col gap-2">
                       <h3 className="font-bold">Main Stats</h3>
-                      <div className="flex flex-wrap gap-2">
+                      <div className="flex flex-wrap gap-3">
                         {
                           build.mainStats.map((stat, i) => (
-                            <div className="px-3 py-2 border border-zinc-500 rounded-xl min-w-36" key={i}>
+                            <div className="px-3 py-2 bg-zinc-700 rounded-xl min-w-36" key={i}>
                               <p className="text-sm text-zinc-300">Cost {stat.cost}</p>
                               <p className="font-bold">{stat.stats.join("/")}</p>
                             </div>
@@ -183,7 +183,7 @@ export default function BuildGuideRole() {
                   </div>
 
                   <div className="flex flex-col gap-4">
-                    <div className="bg-zinc-600/50 rounded-xl p-3 flex flex-col gap-3 w-full">
+                    <div className="bg-zinc-800 rounded-xl p-3 flex flex-col gap-3 w-full">
                       <h3 className="font-bold">Main Echoes</h3>
                       <div className="flex gap-2 flex-wrap pb-2">
                         {
@@ -194,7 +194,7 @@ export default function BuildGuideRole() {
                       </div>
                     </div>
 
-                    <div className="bg-zinc-600/50 rounded-xl p-3 flex flex-col gap-3 w-full">
+                    <div className="bg-zinc-800 rounded-xl p-3 flex flex-col gap-3 w-full">
                       <h3 className="font-bold">Sub Echoes</h3>
                       <div className="flex gap-2 flex-wrap pb-2">
                         {
