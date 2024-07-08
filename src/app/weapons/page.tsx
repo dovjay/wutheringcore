@@ -21,7 +21,7 @@ export function WeaponCard({
           <div className="w-full h-full bg-zinc-900/20 relative group-hover:bg-zinc-900/0 transition" />
         </div>
         <div className="p-2 flex flex-col gap-1 text-left">
-          <p className="font-bold text-md">{weapon.name}</p>
+          <p className="font-bold text-md text-nowrap text-ellipsis overflow-hidden">{weapon.name}</p>
           <div className="flex gap-1.5 items-center">
             <img
               src={WeaponTypes.find((type) => type.name === weapon.type)?.icon}

@@ -11,6 +11,8 @@ import { characterBuild, characters, echoes } from "~/server/db/schema";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "~/components/ui/tooltip";
 import Link from "next/link";
 import { Button } from "~/components/ui/button";
+import { useQuery } from "@tanstack/react-query";
+import { Skeleton } from "~/components/ui/skeleton";
 
 export function AbilityCard({
   skills,
@@ -60,33 +62,50 @@ export function EchoCard({
 export default function BuildGuideRole() {
   const { character, builds } = useContext(CharacterOverviewContext);
   const [role, setRole] = useState(builds[0]?.buildName ?? "");
-  const [bestWeapons, setBestWeapons] = useState([]);
-  const [bestEchoes, setBestEchoes] = useState<{
+
+  const {
+    data: bestWeapons,
+    isLoading: isLoadingBestWeapons,
+    isSuccess: isSuccessBestWeapons,
+  } = useQuery<[], Error>({
+    queryKey: ["build-weapons", role],
+    queryFn: async () => {
+      const buildIndex = builds.findIndex((build) => build.buildName === role);
+
+      const bestWeaponsUrl = encodeURI(`/api/build-weapons?best-weapons=${encodeURIComponent(builds[buildIndex]?.bestWeapons.join(",")!)}`);
+      const res = await fetch(bestWeaponsUrl);
+      const { data } = await res.json();
+      return data;
+    },
+    initialData: []
+  })
+
+  const {
+    data: bestEchoes,
+    isLoading: isLoadingBestEchoes,
+    isSuccess: isSuccessBestEchoes,
+  } = useQuery<{
     mainEchoes: typeof echoes.$inferSelect[];
     subEchoes: typeof echoes.$inferSelect[];
-  }>({
-    mainEchoes: [],
-    subEchoes: []
-  });
-
-  useEffect(() => {
-    const buildIndex = builds.findIndex((build) => build.buildName === role);
-
-    const bestWeaponsUrl = encodeURI(`/api/build-weapons?best-weapons=${encodeURIComponent(builds[buildIndex]?.bestWeapons.join(",")!)}`);
-    fetch(bestWeaponsUrl)
-      .then((res) => res.json())
-      .then(({ data }) => setBestWeapons(data));
-
-    const { mainEchoes, subEchoes, sonataCombination } = builds[buildIndex]!;
-    const params = new URLSearchParams();
-    if (mainEchoes.length > 0) params.set("main-echoes", mainEchoes.join(","));
-    if (subEchoes.length > 0) params.set("sub-echoes", subEchoes.join(","));
-    if (sonataCombination.length > 0) params.set("sonatas", sonataCombination.join(","));
-    const bestEchoesUrl = `/api/build-echoes?${params.toString()}`;
-    fetch(bestEchoesUrl)
-      .then((res) => res.json())
-      .then(({ data }) => setBestEchoes(data));
-  }, [role])
+  }, Error>({
+    queryKey: ["build-echoes", role],
+    queryFn: async () => {
+      const buildIndex = builds.findIndex((build) => build.buildName === role);
+      const { mainEchoes, subEchoes, sonataCombination } = builds[buildIndex]!;
+      const params = new URLSearchParams();
+      if (mainEchoes.length > 0) params.set("main-echoes", mainEchoes.join(","));
+      if (subEchoes.length > 0) params.set("sub-echoes", subEchoes.join(","));
+      if (sonataCombination.length > 0) params.set("sonatas", sonataCombination.join(","));
+      const bestEchoesUrl = `/api/build-echoes?${params.toString()}`;
+      const res = await fetch(bestEchoesUrl);
+      const { data } = await res.json();
+      return data;
+    },
+    initialData: {
+      mainEchoes: [],
+      subEchoes: []
+    }
+  })
 
   return (
     <TooltipProvider>
@@ -125,9 +144,17 @@ export default function BuildGuideRole() {
                 <h2 className="text-xl font-bold">Best Weapon</h2>
                 <div className="flex gap-4 overflow-x-auto pb-2">
                   {
-                    bestWeapons.map((weapon, i) => (
-                      <WeaponCard weapon={weapon} key={i} />
-                    ))
+                    isLoadingBestWeapons && <>
+                      <Skeleton className="w-40 h-56" />
+                      <Skeleton className="w-40 h-56" />
+                    </>
+                  }
+                  {
+                    isSuccessBestWeapons && (
+                      bestWeapons.map((weapon, i) => (
+                        <WeaponCard weapon={weapon} key={i} />
+                      ))
+                    )
                   }
                 </div>
               </div>
@@ -187,9 +214,17 @@ export default function BuildGuideRole() {
                       <h3 className="font-bold">Main Echoes</h3>
                       <div className="flex gap-2 flex-wrap pb-2">
                         {
-                          bestEchoes.mainEchoes.map((echo, i) => (
-                            <EchoCard echo={echo} key={i} />
-                          ))
+                          isLoadingBestEchoes && <>
+                            <Skeleton className="w-16 aspect-square" />
+                            <Skeleton className="w-16 aspect-square" />
+                          </>
+                        }
+                        {
+                          isSuccessBestEchoes && (
+                            bestEchoes?.mainEchoes.map((echo, i) => (
+                              <EchoCard echo={echo} key={i} />
+                            ))
+                          )
                         }
                       </div>
                     </div>
@@ -198,18 +233,30 @@ export default function BuildGuideRole() {
                       <h3 className="font-bold">Sub Echoes</h3>
                       <div className="flex gap-2 flex-wrap pb-2">
                         {
-                          bestEchoes.subEchoes.map((echo, i) => (
-                            <EchoCard echo={echo} key={i} />
-                          ))
+                          isLoadingBestEchoes && <>
+                            <Skeleton className="w-16 aspect-square" />
+                            <Skeleton className="w-96 h-16" />
+                            <Skeleton className="w-16 aspect-square" />
+                            <Skeleton className="w-16 aspect-square" />
+                          </>
+                        }
+                        {
+                          isSuccessBestEchoes && (
+                            bestEchoes?.subEchoes.map((echo, i) => (
+                              <EchoCard echo={echo} key={i} />
+                            ))
+                          )
                         }
                       </div>
                       {
-                        bestEchoes.subEchoes.length > 0 &&
-                        <Button asChild variant="link">
-                          <Link href={`/echoes?sonatas=${build.sonataCombination.join(",")}`}>
-                            See More
-                          </Link>
-                        </Button>
+                        isSuccessBestEchoes && (
+                          bestEchoes?.subEchoes.length! > 0 &&
+                          <Button asChild variant="link">
+                            <Link href={`/echoes?sonatas=${build.sonataCombination.join(",")}`}>
+                              See More
+                            </Link>
+                          </Button>
+                        )
                       }
                     </div>
                   </div>
