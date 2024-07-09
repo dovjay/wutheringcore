@@ -25,20 +25,41 @@ export default function TopNav() {
             <Logo />
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/characters" passHref>
+            <Link href="/characters" legacyBehavior passHref>
               <NavigationMenuLink>
                 Characters
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/tierlist" passHref>
+            <Link href="/weapons" legacyBehavior passHref>
               <NavigationMenuLink>
-                Tierlist
+                Weapons
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
+            <Link href="/echoes" legacyBehavior passHref>
+              <NavigationMenuLink>
+                Echoes
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <Link href="/items" legacyBehavior passHref>
+              <NavigationMenuLink>
+                Items
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          {/* <NavigationMenuItem>
+            <Link href="/tierlist" legacyBehavior passHref>
+              <NavigationMenuLink>
+                Tierlist
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem> */}
+          {/* <NavigationMenuItem>
             <NavigationMenuTrigger>Databases</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-96 gap-3 p-4">
@@ -53,7 +74,7 @@ export default function TopNav() {
                 </ListItem>
               </ul>
             </NavigationMenuContent>
-          </NavigationMenuItem>
+          </NavigationMenuItem> */}
         </NavigationMenuList>
       </NavigationMenu>
     </nav>

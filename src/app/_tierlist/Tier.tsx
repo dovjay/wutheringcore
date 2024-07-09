@@ -3,7 +3,7 @@ import { cn } from "~/lib/utils";
 
 function TierCard() {
   return (
-    <div className="h-fit border border-zinc-600 rounded-xl p-4">
+    <div className="h-fit bg-zinc-800 rounded-xl p-4">
       <div className="flex gap-4">
         <div className="w-20 h-20 bg-slate-400 rounded-lg" />
         <div className="flex flex-col gap-2">
