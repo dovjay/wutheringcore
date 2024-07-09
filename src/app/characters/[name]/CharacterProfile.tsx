@@ -1,7 +1,6 @@
 import { Mic2Icon } from "lucide-react";
 import { useContext, useEffect, useState } from "react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "~/components/ui/accordion";
-import { Button } from "~/components/ui/button";
 import { Slider } from "~/components/ui/slider";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import { getStatIcon } from "~/constants/statIcons";
@@ -40,7 +39,7 @@ function SkillCard({
               <AccordionTrigger className="hover:no-underline">See More</AccordionTrigger>
               <AccordionContent className="flex flex-col gap-5 my-2">
                 <div className="flex gap-3">
-                  <p className="text-nowrap font-bold">Lv. {level[0]}</p>
+                  <p className="text-nowrap font-bold min-w-10">Lv. {level[0]}</p>
                   <Slider
                     min={1}
                     max={10}
