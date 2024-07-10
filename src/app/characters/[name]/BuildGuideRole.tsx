@@ -1,7 +1,6 @@
 import { EqualIcon } from "lucide-react";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { useContext, useEffect, useState } from "react";
-import { WeaponCard } from "~/app/weapons/page";
 import { Separator } from "~/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import { getSonataEffect } from "~/constants/sonataEffects";
@@ -13,6 +12,7 @@ import Link from "next/link";
 import { Button } from "~/components/ui/button";
 import { useQuery } from "@tanstack/react-query";
 import { Skeleton } from "~/components/ui/skeleton";
+import WeaponCard from "~/app/weapons/WeaponCard";
 
 export function AbilityCard({
   skills,

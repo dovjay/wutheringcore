@@ -1,13 +1,7 @@
 import { MaterialCard } from "~/app/characters/[name]/BuildGuide";
 import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow } from "~/components/ui/table";
 import { getWeaponMaterials } from "~/constants/weaponMaterials";
-import { weapons } from "~/server/db/schema";
-
-type WeaponMaterialType = {
-  name: string,
-  image: string,
-  rarity: number
-};
+import { items, weapons } from "~/server/db/schema";
 
 export default function WeaponMaterials({
   weapon,
@@ -15,9 +9,9 @@ export default function WeaponMaterials({
 }: {
   weapon: typeof weapons.$inferSelect;
   weaponMaterials: {
-    lesser: WeaponMaterialType[];
-    greater: WeaponMaterialType[];
-    credits: WeaponMaterialType[];
+    lesser: typeof items.$inferSelect[];
+    greater: typeof items.$inferSelect[];
+    credits: typeof items.$inferSelect[];
   };
 }) {
   const { materialsBreakdown, totalMaterials } = getWeaponMaterials(weapon.rarity);
