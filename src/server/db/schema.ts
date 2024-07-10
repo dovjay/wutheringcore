@@ -115,6 +115,7 @@ export const characters = createTable(
     imageProfile: text("image_profile"),
     voiceActors: text("voice_actors", { mode: "json" }).$type<{ lang: string, name: string }[]>().notNull(),
     released: int("released", { mode: "boolean" }).notNull(),
+    version: text("version").notNull(),
     // Stats
     skills: text("skills", { mode: "json" }).$type<CharacterSkill>().notNull(),
     sequences: text("sequence", { mode: "json" }).$type<{ name: string, description: string, icon: string }[]>().notNull(),
